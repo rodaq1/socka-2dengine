@@ -1,0 +1,110 @@
+[
+{
+  "directory": "/home/rodaqqq/Documents/socka-2dengine/build",
+  "command": "/usr/sbin/g++ -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt -g -std=gnu++20 -o CMakeFiles/imgui.dir/vendor/imgui/imgui.cpp.o -c /home/rodaqqq/Documents/socka-2dengine/vendor/imgui/imgui.cpp",
+  "file": "/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/imgui.cpp",
+  "output": "/home/rodaqqq/Documents/socka-2dengine/build/CMakeFiles/imgui.dir/vendor/imgui/imgui.cpp.o"
+},
+{
+  "directory": "/home/rodaqqq/Documents/socka-2dengine/build",
+  "command": "/usr/sbin/g++ -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt -g -std=gnu++20 -o CMakeFiles/imgui.dir/vendor/imgui/imgui_draw.cpp.o -c /home/rodaqqq/Documents/socka-2dengine/vendor/imgui/imgui_draw.cpp",
+  "file": "/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/imgui_draw.cpp",
+  "output": "/home/rodaqqq/Documents/socka-2dengine/build/CMakeFiles/imgui.dir/vendor/imgui/imgui_draw.cpp.o"
+},
+{
+  "directory": "/home/rodaqqq/Documents/socka-2dengine/build",
+  "command": "/usr/sbin/g++ -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt -g -std=gnu++20 -o CMakeFiles/imgui.dir/vendor/imgui/imgui_widgets.cpp.o -c /home/rodaqqq/Documents/socka-2dengine/vendor/imgui/imgui_widgets.cpp",
+  "file": "/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/imgui_widgets.cpp",
+  "output": "/home/rodaqqq/Documents/socka-2dengine/build/CMakeFiles/imgui.dir/vendor/imgui/imgui_widgets.cpp.o"
+},
+{
+  "directory": "/home/rodaqqq/Documents/socka-2dengine/build",
+  "command": "/usr/sbin/g++ -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt -g -std=gnu++20 -o CMakeFiles/imgui.dir/vendor/imgui/imgui_tables.cpp.o -c /home/rodaqqq/Documents/socka-2dengine/vendor/imgui/imgui_tables.cpp",
+  "file": "/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/imgui_tables.cpp",
+  "output": "/home/rodaqqq/Documents/socka-2dengine/build/CMakeFiles/imgui.dir/vendor/imgui/imgui_tables.cpp.o"
+},
+{
+  "directory": "/home/rodaqqq/Documents/socka-2dengine/build",
+  "command": "/usr/sbin/g++ -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt -g -std=gnu++20 -o CMakeFiles/imgui.dir/vendor/imgui/imgui_demo.cpp.o -c /home/rodaqqq/Documents/socka-2dengine/vendor/imgui/imgui_demo.cpp",
+  "file": "/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/imgui_demo.cpp",
+  "output": "/home/rodaqqq/Documents/socka-2dengine/build/CMakeFiles/imgui.dir/vendor/imgui/imgui_demo.cpp.o"
+},
+{
+  "directory": "/home/rodaqqq/Documents/socka-2dengine/build",
+  "command": "/usr/sbin/g++ -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -g -std=gnu++20 -o engine/CMakeFiles/engine.dir/src/core/Application.cpp.o -c /home/rodaqqq/Documents/socka-2dengine/engine/src/core/Application.cpp",
+  "file": "/home/rodaqqq/Documents/socka-2dengine/engine/src/core/Application.cpp",
+  "output": "/home/rodaqqq/Documents/socka-2dengine/build/engine/CMakeFiles/engine.dir/src/core/Application.cpp.o"
+},
+{
+  "directory": "/home/rodaqqq/Documents/socka-2dengine/build",
+  "command": "/usr/sbin/g++ -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -g -std=gnu++20 -o engine/CMakeFiles/engine.dir/src/core/Log.cpp.o -c /home/rodaqqq/Documents/socka-2dengine/engine/src/core/Log.cpp",
+  "file": "/home/rodaqqq/Documents/socka-2dengine/engine/src/core/Log.cpp",
+  "output": "/home/rodaqqq/Documents/socka-2dengine/build/engine/CMakeFiles/engine.dir/src/core/Log.cpp.o"
+},
+{
+  "directory": "/home/rodaqqq/Documents/socka-2dengine/build",
+  "command": "/usr/sbin/g++ -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -g -std=gnu++20 -o engine/CMakeFiles/engine.dir/src/core/Time.cpp.o -c /home/rodaqqq/Documents/socka-2dengine/engine/src/core/Time.cpp",
+  "file": "/home/rodaqqq/Documents/socka-2dengine/engine/src/core/Time.cpp",
+  "output": "/home/rodaqqq/Documents/socka-2dengine/build/engine/CMakeFiles/engine.dir/src/core/Time.cpp.o"
+},
+{
+  "directory": "/home/rodaqqq/Documents/socka-2dengine/build",
+  "command": "/usr/sbin/g++ -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -g -std=gnu++20 -o engine/CMakeFiles/engine.dir/src/core/Input.cpp.o -c /home/rodaqqq/Documents/socka-2dengine/engine/src/core/Input.cpp",
+  "file": "/home/rodaqqq/Documents/socka-2dengine/engine/src/core/Input.cpp",
+  "output": "/home/rodaqqq/Documents/socka-2dengine/build/engine/CMakeFiles/engine.dir/src/core/Input.cpp.o"
+},
+{
+  "directory": "/home/rodaqqq/Documents/socka-2dengine/build",
+  "command": "/usr/sbin/g++ -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -g -std=gnu++20 -o engine/CMakeFiles/engine.dir/src/ecs/Entity.cpp.o -c /home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/Entity.cpp",
+  "file": "/home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/Entity.cpp",
+  "output": "/home/rodaqqq/Documents/socka-2dengine/build/engine/CMakeFiles/engine.dir/src/ecs/Entity.cpp.o"
+},
+{
+  "directory": "/home/rodaqqq/Documents/socka-2dengine/build",
+  "command": "/usr/sbin/g++ -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -g -std=gnu++20 -o engine/CMakeFiles/engine.dir/src/scene/Scene.cpp.o -c /home/rodaqqq/Documents/socka-2dengine/engine/src/scene/Scene.cpp",
+  "file": "/home/rodaqqq/Documents/socka-2dengine/engine/src/scene/Scene.cpp",
+  "output": "/home/rodaqqq/Documents/socka-2dengine/build/engine/CMakeFiles/engine.dir/src/scene/Scene.cpp.o"
+},
+{
+  "directory": "/home/rodaqqq/Documents/socka-2dengine/build",
+  "command": "/usr/sbin/g++ -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -g -std=gnu++20 -o engine/CMakeFiles/engine.dir/src/core/AssetManager.cpp.o -c /home/rodaqqq/Documents/socka-2dengine/engine/src/core/AssetManager.cpp",
+  "file": "/home/rodaqqq/Documents/socka-2dengine/engine/src/core/AssetManager.cpp",
+  "output": "/home/rodaqqq/Documents/socka-2dengine/build/engine/CMakeFiles/engine.dir/src/core/AssetManager.cpp.o"
+},
+{
+  "directory": "/home/rodaqqq/Documents/socka-2dengine/build",
+  "command": "/usr/sbin/g++ -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -g -std=gnu++20 -o engine/CMakeFiles/engine.dir/src/ecs/systems/RendererSystem.cpp.o -c /home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/systems/RendererSystem.cpp",
+  "file": "/home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/systems/RendererSystem.cpp",
+  "output": "/home/rodaqqq/Documents/socka-2dengine/build/engine/CMakeFiles/engine.dir/src/ecs/systems/RendererSystem.cpp.o"
+},
+{
+  "directory": "/home/rodaqqq/Documents/socka-2dengine/build",
+  "command": "/usr/sbin/g++ -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -g -std=gnu++20 -o engine/CMakeFiles/engine.dir/src/ecs/System.cpp.o -c /home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/System.cpp",
+  "file": "/home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/System.cpp",
+  "output": "/home/rodaqqq/Documents/socka-2dengine/build/engine/CMakeFiles/engine.dir/src/ecs/System.cpp.o"
+},
+{
+  "directory": "/home/rodaqqq/Documents/socka-2dengine/build",
+  "command": "/usr/sbin/g++ -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt -g -std=gnu++20 -o editor/CMakeFiles/editor.dir/src/EditorApp.cpp.o -c /home/rodaqqq/Documents/socka-2dengine/editor/src/EditorApp.cpp",
+  "file": "/home/rodaqqq/Documents/socka-2dengine/editor/src/EditorApp.cpp",
+  "output": "/home/rodaqqq/Documents/socka-2dengine/build/editor/CMakeFiles/editor.dir/src/EditorApp.cpp.o"
+},
+{
+  "directory": "/home/rodaqqq/Documents/socka-2dengine/build",
+  "command": "/usr/sbin/g++ -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt -g -std=gnu++20 -o editor/CMakeFiles/editor.dir/src/main.cpp.o -c /home/rodaqqq/Documents/socka-2dengine/editor/src/main.cpp",
+  "file": "/home/rodaqqq/Documents/socka-2dengine/editor/src/main.cpp",
+  "output": "/home/rodaqqq/Documents/socka-2dengine/build/editor/CMakeFiles/editor.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/rodaqqq/Documents/socka-2dengine/build",
+  "command": "/usr/sbin/g++ -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt -g -std=gnu++20 -o editor/CMakeFiles/editor.dir/__/vendor/imgui/backends/imgui_impl_sdl2.cpp.o -c /home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends/imgui_impl_sdl2.cpp",
+  "file": "/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends/imgui_impl_sdl2.cpp",
+  "output": "/home/rodaqqq/Documents/socka-2dengine/build/editor/CMakeFiles/editor.dir/__/vendor/imgui/backends/imgui_impl_sdl2.cpp.o"
+},
+{
+  "directory": "/home/rodaqqq/Documents/socka-2dengine/build",
+  "command": "/usr/sbin/g++ -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt -g -std=gnu++20 -o editor/CMakeFiles/editor.dir/__/vendor/imgui/backends/imgui_impl_sdlrenderer2.cpp.o -c /home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends/imgui_impl_sdlrenderer2.cpp",
+  "file": "/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends/imgui_impl_sdlrenderer2.cpp",
+  "output": "/home/rodaqqq/Documents/socka-2dengine/build/editor/CMakeFiles/editor.dir/__/vendor/imgui/backends/imgui_impl_sdlrenderer2.cpp.o"
+}
+]

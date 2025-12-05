@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "typeindex": "cpp",
+        "unordered_map": "cpp"
+    }
+}
