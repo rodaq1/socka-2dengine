@@ -11,6 +11,7 @@ add_library(engine STATIC
     src/core/AssetManager.cpp
     src/ecs/systems/RendererSystem.cpp
     src/ecs/System.cpp
+    src/ecs/systems/MovementSystem.cpp
 )
 
 target_include_directories(engine PUBLIC

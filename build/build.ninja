@@ -231,6 +231,15 @@ build engine/CMakeFiles/engine.dir/src/ecs/System.cpp.o: CXX_COMPILER__engine_un
   OBJECT_FILE_DIR = engine/CMakeFiles/engine.dir/src/ecs
   TARGET_SUPPORT_DIR = engine/CMakeFiles/engine.dir
 
+build engine/CMakeFiles/engine.dir/src/ecs/systems/MovementSystem.cpp.o: CXX_COMPILER__engine_unscanned_Debug /home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/systems/MovementSystem.cpp || cmake_object_order_depends_target_engine
+  CONFIG = Debug
+  DEP_FILE = engine/CMakeFiles/engine.dir/src/ecs/systems/MovementSystem.cpp.o.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src
+  OBJECT_DIR = engine/CMakeFiles/engine.dir
+  OBJECT_FILE_DIR = engine/CMakeFiles/engine.dir/src/ecs/systems
+  TARGET_SUPPORT_DIR = engine/CMakeFiles/engine.dir
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target engine
@@ -239,7 +248,7 @@ build engine/CMakeFiles/engine.dir/src/ecs/System.cpp.o: CXX_COMPILER__engine_un
 #############################################
 # Link the static library engine/libengine.a
 
-build engine/libengine.a: CXX_STATIC_LIBRARY_LINKER__engine_Debug engine/CMakeFiles/engine.dir/src/core/Application.cpp.o engine/CMakeFiles/engine.dir/src/core/Log.cpp.o engine/CMakeFiles/engine.dir/src/core/Time.cpp.o engine/CMakeFiles/engine.dir/src/core/Input.cpp.o engine/CMakeFiles/engine.dir/src/ecs/Entity.cpp.o engine/CMakeFiles/engine.dir/src/scene/Scene.cpp.o engine/CMakeFiles/engine.dir/src/core/AssetManager.cpp.o engine/CMakeFiles/engine.dir/src/ecs/systems/RendererSystem.cpp.o engine/CMakeFiles/engine.dir/src/ecs/System.cpp.o
+build engine/libengine.a: CXX_STATIC_LIBRARY_LINKER__engine_Debug engine/CMakeFiles/engine.dir/src/core/Application.cpp.o engine/CMakeFiles/engine.dir/src/core/Log.cpp.o engine/CMakeFiles/engine.dir/src/core/Time.cpp.o engine/CMakeFiles/engine.dir/src/core/Input.cpp.o engine/CMakeFiles/engine.dir/src/ecs/Entity.cpp.o engine/CMakeFiles/engine.dir/src/scene/Scene.cpp.o engine/CMakeFiles/engine.dir/src/core/AssetManager.cpp.o engine/CMakeFiles/engine.dir/src/ecs/systems/RendererSystem.cpp.o engine/CMakeFiles/engine.dir/src/ecs/System.cpp.o engine/CMakeFiles/engine.dir/src/ecs/systems/MovementSystem.cpp.o
   CONFIG = Debug
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = engine/CMakeFiles/engine.dir

@@ -4,7 +4,9 @@
 #include "SDL_pixels.h"
 #include "SDL_rect.h"
 #include "SDL_render.h"
+#include "core/Log.h"
 #include <SDL2/SDL.h>
+#include <cmath>
 #include <string>
 
 namespace Engine {

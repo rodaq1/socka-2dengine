@@ -1,7 +1,9 @@
 #include "EditorApp.h"
+#include "SDL_render.h"
 #include "core/Log.h"
 #include "core/Time.h"
 #include "core/Input.h"
+#include "ecs/components/VelocityComponent.h"
 #include "glm/ext/vector_float2.hpp"
 #include "scene/Scene.h"
 #include "ecs/Component.h"
@@ -24,45 +26,13 @@ using Engine::Log;
 using Engine::Time;
 using Engine::Input;
 using Engine::Scene;
-using Engine::Component;
 using Engine::Entity;
 using Engine::TransformComponent;
 using Engine::AssetManager;
 using Engine::SpriteComponent;
+using Engine::VelocityComponent;
 
-class PlayerMovementComponent : public Component {
-public:
-    void onInit() override {
-        m_Transform = owner->getComponent<TransformComponent>();
-        if (!m_Transform) {
-            Log::error("PlayerMovementComponent requires a TransformComponent!");
-        } else {
-            Log::info("PlayerMovementComponent initialized. Initial position: (" 
-                + std::to_string(m_Transform->position.x) + ", " 
-                + std::to_string(m_Transform->position.y) + ")");
-        }
-    }
 
-    void onUpdate(float dt) override {
-        if (!m_Transform) return;
-
-        if (Input::isKeyDown(SDL_SCANCODE_RIGHT)) {
-            m_Transform->position.x += 100.0f * dt; 
-            Log::info("PlayerMovementComponent position: ("
-                + std::to_string(m_Transform->position.x) + ", "
-                + std::to_string(m_Transform->position.y) + ") ");
-        }
-        if (Input::isKeyDown(SDL_SCANCODE_LEFT)) {
-            m_Transform->position.x -= 100.0f * dt;
-            Log::info("PlayerMovementComponent position: ("
-                + std::to_string(m_Transform->position.x) + ", "
-                + std::to_string(m_Transform->position.y) + ") ");
-        }
-    }
-
-private:
-    TransformComponent* m_Transform = nullptr; 
-};
 
 EditorApp::EditorApp()
     : m_isRunning(true), m_Window(nullptr), m_Renderer(nullptr), m_GLContext(nullptr), m_AssetManager(std::make_unique<AssetManager>()) {
@@ -117,7 +87,7 @@ void EditorApp::initialize() {
 
     if (!testTex) {
          Log::warn("Failed to load 'assets/arrow.png'. Creating placeholder texture.");
-         SDL_Surface* tempSurface = SDL_CreateRGBSurface(0, 32, 32, 32, 0xFF000000, 0x00FF0000, 0x0000FF00, 0x000000FF);
+         SDL_Surface* tempSurface = SDL_CreateRGBSurface(0, 128, 32, 32, 0xFF000000, 0x00FF0000, 0x0000FF00, 0x000000FF);
          if (tempSurface) {
              SDL_FillRect(tempSurface, NULL, SDL_MapRGB(tempSurface->format, 255, 100, 100));
              testTex = SDL_CreateTextureFromSurface(m_Renderer, tempSurface);
@@ -132,8 +102,10 @@ void EditorApp::initialize() {
 
     Entity* player = currentScene->createEntity("testikmestik");
     player->addComponent<TransformComponent>(glm::vec2(100.0f, 100.0f), 0.0f, glm::vec2(2.0f, 2.0f));
-    player->addComponent<PlayerMovementComponent>();
-    player->addComponent<SpriteComponent>("testasset", testTex, 0, 0, 32, 32);
+    player->addComponent<SpriteComponent>("testasset", testTex, 0, 0, 128, 32);
+    player->addComponent<VelocityComponent>(glm::vec2(50.0f, 0.0f));
+
+    currentScene->setRenderer(m_Renderer);
 
     currentScene->init();
 
@@ -221,7 +193,7 @@ void EditorApp::update() {
 void EditorApp::render() {
     ImGui::Render();
 
-    SDL_SetRenderDrawColor(m_Renderer, 45, 45, 45, 255); // Dark Grey
+    SDL_SetRenderDrawColor(m_Renderer, 45, 45, 45, 255); 
     SDL_RenderClear(m_Renderer);
 
     if (currentScene) {
@@ -229,7 +201,6 @@ void EditorApp::render() {
     }
 
     ImGui_ImplSDLRenderer2_RenderDrawData(ImGui::GetDrawData(), m_Renderer);
-
     SDL_RenderPresent(m_Renderer);
 }
 

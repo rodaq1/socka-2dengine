@@ -53,11 +53,8 @@ namespace Engine {
             } else {
                 if (!isEntityVisible(worldRect, camera)) {
                     continue; 
-                }
+                } 
             }
-
-            SDL_SetTextureColorMod(sprite->texture, sprite->color.r, sprite->color.g, sprite->color.b);
-            SDL_SetTextureAlphaMod(sprite->texture, sprite->color.a);
             
             SDL_RenderCopyEx(
                 renderer, 
@@ -69,7 +66,7 @@ namespace Engine {
                 SDL_FLIP_NONE       
             );
             
-           // Log::info("RendererSystem drew entity: " + entity->getName() + " to position (" + std::to_string(destRect.x) + ", " + std::to_string(destRect.y) + ")");
+           //Log::info("RendererSystem drew entity: " + entity->getName() + " to position (" + std::to_string(destRect.x) + ", " + std::to_string(destRect.y) + ")");
         }
     }
 }

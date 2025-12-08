@@ -85,6 +85,12 @@
 },
 {
   "directory": "/home/rodaqqq/Documents/socka-2dengine/build",
+  "command": "/usr/sbin/g++ -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -g -std=gnu++20 -o engine/CMakeFiles/engine.dir/src/ecs/systems/MovementSystem.cpp.o -c /home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/systems/MovementSystem.cpp",
+  "file": "/home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/systems/MovementSystem.cpp",
+  "output": "/home/rodaqqq/Documents/socka-2dengine/build/engine/CMakeFiles/engine.dir/src/ecs/systems/MovementSystem.cpp.o"
+},
+{
+  "directory": "/home/rodaqqq/Documents/socka-2dengine/build",
   "command": "/usr/sbin/g++ -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt -g -std=gnu++20 -o editor/CMakeFiles/editor.dir/src/EditorApp.cpp.o -c /home/rodaqqq/Documents/socka-2dengine/editor/src/EditorApp.cpp",
   "file": "/home/rodaqqq/Documents/socka-2dengine/editor/src/EditorApp.cpp",
   "output": "/home/rodaqqq/Documents/socka-2dengine/build/editor/CMakeFiles/editor.dir/src/EditorApp.cpp.o"

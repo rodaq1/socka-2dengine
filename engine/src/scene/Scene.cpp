@@ -9,6 +9,7 @@
 #include <string>
 
 #include "SDL_render.h"
+#include "ecs/systems/MovementSystem.h"
 #include "entt/entity/fwd.hpp"
 #include "entt/entt.hpp"
 
@@ -21,6 +22,7 @@ namespace Engine {
         Log::info("Scene created: " + name);
 
         addSystem<RendererSystem>();
+        addSystem<MovementSystem>();
 
         m_Camera.x = 0;
         m_Camera.y = 0;
