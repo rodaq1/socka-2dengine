@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends/imgui_impl_sdlrenderer2.cpp" "editor/CMakeFiles/editor.dir/__/vendor/imgui/backends/imgui_impl_sdlrenderer2.cpp.o" "gcc" "editor/CMakeFiles/editor.dir/__/vendor/imgui/backends/imgui_impl_sdlrenderer2.cpp.o.d"
   "/home/rodaqqq/Documents/socka-2dengine/editor/src/EditorApp.cpp" "editor/CMakeFiles/editor.dir/src/EditorApp.cpp.o" "gcc" "editor/CMakeFiles/editor.dir/src/EditorApp.cpp.o.d"
   "/home/rodaqqq/Documents/socka-2dengine/editor/src/main.cpp" "editor/CMakeFiles/editor.dir/src/main.cpp.o" "gcc" "editor/CMakeFiles/editor.dir/src/main.cpp.o.d"
+  "/home/rodaqqq/Documents/socka-2dengine/editor/src/ui/Console.cpp" "editor/CMakeFiles/editor.dir/src/ui/Console.cpp.o" "gcc" "editor/CMakeFiles/editor.dir/src/ui/Console.cpp.o.d"
   "" "editor/editor" "gcc" "editor/CMakeFiles/editor.dir/link.d"
   )
 

@@ -2,5 +2,8 @@
     "files.associations": {
         "typeindex": "cpp",
         "unordered_map": "cpp"
-    }
+    },
+    "Lua.diagnostics.globals": [
+        "Log"
+    ]
 }

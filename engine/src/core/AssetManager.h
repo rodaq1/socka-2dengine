@@ -3,46 +3,44 @@
 #include <SDL2/SDL.h>
 #include <string>
 #include <map>
-#include "SDL_render.h"
 
 namespace Engine {
+
     /**
-     * @brief Centralny service na loadovanie, managovanie a retrievovanie hernych assetov.
-     * Vyuziva SDL_Texture.
+     * @brief Manages the loading, storage, and retrieval of textures.
+     * Integrates with the FileSystem to resolve project-relative paths.
      */
     class AssetManager {
     private:
         SDL_Renderer* m_Renderer = nullptr;
-        // Mapa na storovanie pointrov na textury, identifikovane stringovymi klucmi
-    public:
-        std::map<std::string, SDL_Texture*> m_Textures;
 
-        AssetManager();
+    public:
+        // Static map to allow global access to textures (Shared across scenes)
+        static std::map<std::string, SDL_Texture*> m_Textures;
+
+        AssetManager() = default;
         ~AssetManager();
 
         /**
-         * @brief initializer AssetManageru so SDL rendererom.
-         * @param renderer Globalna SDL_Renderer instancia na vytvaranie textur.
+         * @brief Attaches the SDL renderer for texture creation.
          */
         void init(SDL_Renderer* renderer);
 
         /**
-         * @brief Loadne texturu zo suboru, zassociuje ju s IDckom a ulozi.
-         * @param assetId unikatny identifikator assetu 
-         * @param filePath pathka ku image filu.
+         * @brief Loads a texture from a path relative to the project root.
+         * @param assetId Unique identifier for the texture (e.g., "player_idle")
+         * @param relativePath Path relative to project folder (e.g., "assets/player.png")
          */
-        void loadTexture(const std::string& assetId, const std::string& filePath);
+        void loadTexture(const std::string& assetId, const std::string& relativePath);
+        void loadTextureIfMissing(const std::string& assetId, const std::string& relativePath);
+        SDL_Texture* getTextureInstance(const std::string& assetId) const;
+        static SDL_Texture* getTexture(const std::string& assetId);
 
-        /**
-         * @brief ziska uz nacitanu texturu podla ID.
-         * @param assetId unikatny identifikator nacitanej textury
-         * @return SDL_Texture* pointer na requestovanu texturu. Nullptr ak sa nenajde.
-         */
-        SDL_Texture* getTexture(const std::string& assetId) const;
+        void clearInstanceAssets();
+        static void clearAssets();
 
-        /**
-         * @brief Znici a clearne vsetky loadnute assety z pamate.
-         */
-        void clearAssets();
-    };
+        void renameTexture(const std::string& oldId, const std::string& newId);
+        void removeTexture(const std::string& assetId);
+    }; 
+
 }

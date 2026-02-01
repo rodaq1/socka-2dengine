@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: SolidarityEngine
+# Project: socka-2dengine
 # Configurations: Debug
 # =============================================================================
 
@@ -53,7 +53,7 @@ build CMakeFiles/imgui.dir/vendor/imgui/imgui.cpp.o: CXX_COMPILER__imgui_unscann
   CONFIG = Debug
   DEP_FILE = CMakeFiles/imgui.dir/vendor/imgui/imgui.cpp.o.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui
   OBJECT_DIR = CMakeFiles/imgui.dir
   OBJECT_FILE_DIR = CMakeFiles/imgui.dir/vendor/imgui
   TARGET_SUPPORT_DIR = CMakeFiles/imgui.dir
@@ -62,7 +62,7 @@ build CMakeFiles/imgui.dir/vendor/imgui/imgui_draw.cpp.o: CXX_COMPILER__imgui_un
   CONFIG = Debug
   DEP_FILE = CMakeFiles/imgui.dir/vendor/imgui/imgui_draw.cpp.o.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui
   OBJECT_DIR = CMakeFiles/imgui.dir
   OBJECT_FILE_DIR = CMakeFiles/imgui.dir/vendor/imgui
   TARGET_SUPPORT_DIR = CMakeFiles/imgui.dir
@@ -71,7 +71,7 @@ build CMakeFiles/imgui.dir/vendor/imgui/imgui_widgets.cpp.o: CXX_COMPILER__imgui
   CONFIG = Debug
   DEP_FILE = CMakeFiles/imgui.dir/vendor/imgui/imgui_widgets.cpp.o.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui
   OBJECT_DIR = CMakeFiles/imgui.dir
   OBJECT_FILE_DIR = CMakeFiles/imgui.dir/vendor/imgui
   TARGET_SUPPORT_DIR = CMakeFiles/imgui.dir
@@ -80,7 +80,7 @@ build CMakeFiles/imgui.dir/vendor/imgui/imgui_tables.cpp.o: CXX_COMPILER__imgui_
   CONFIG = Debug
   DEP_FILE = CMakeFiles/imgui.dir/vendor/imgui/imgui_tables.cpp.o.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui
   OBJECT_DIR = CMakeFiles/imgui.dir
   OBJECT_FILE_DIR = CMakeFiles/imgui.dir/vendor/imgui
   TARGET_SUPPORT_DIR = CMakeFiles/imgui.dir
@@ -89,7 +89,7 @@ build CMakeFiles/imgui.dir/vendor/imgui/imgui_demo.cpp.o: CXX_COMPILER__imgui_un
   CONFIG = Debug
   DEP_FILE = CMakeFiles/imgui.dir/vendor/imgui/imgui_demo.cpp.o.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui
   OBJECT_DIR = CMakeFiles/imgui.dir
   OBJECT_FILE_DIR = CMakeFiles/imgui.dir/vendor/imgui
   TARGET_SUPPORT_DIR = CMakeFiles/imgui.dir
@@ -148,13 +148,13 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Order-only phony target for engine
 
-build cmake_object_order_depends_target_engine: phony || .
+build cmake_object_order_depends_target_engine: phony || cmake_object_order_depends_target_imgui
 
 build engine/CMakeFiles/engine.dir/src/core/Application.cpp.o: CXX_COMPILER__engine_unscanned_Debug /home/rodaqqq/Documents/socka-2dengine/engine/src/core/Application.cpp || cmake_object_order_depends_target_engine
   CONFIG = Debug
   DEP_FILE = engine/CMakeFiles/engine.dir/src/core/Application.cpp.o.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends
   OBJECT_DIR = engine/CMakeFiles/engine.dir
   OBJECT_FILE_DIR = engine/CMakeFiles/engine.dir/src/core
   TARGET_SUPPORT_DIR = engine/CMakeFiles/engine.dir
@@ -163,7 +163,7 @@ build engine/CMakeFiles/engine.dir/src/core/Log.cpp.o: CXX_COMPILER__engine_unsc
   CONFIG = Debug
   DEP_FILE = engine/CMakeFiles/engine.dir/src/core/Log.cpp.o.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends
   OBJECT_DIR = engine/CMakeFiles/engine.dir
   OBJECT_FILE_DIR = engine/CMakeFiles/engine.dir/src/core
   TARGET_SUPPORT_DIR = engine/CMakeFiles/engine.dir
@@ -172,7 +172,7 @@ build engine/CMakeFiles/engine.dir/src/core/Time.cpp.o: CXX_COMPILER__engine_uns
   CONFIG = Debug
   DEP_FILE = engine/CMakeFiles/engine.dir/src/core/Time.cpp.o.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends
   OBJECT_DIR = engine/CMakeFiles/engine.dir
   OBJECT_FILE_DIR = engine/CMakeFiles/engine.dir/src/core
   TARGET_SUPPORT_DIR = engine/CMakeFiles/engine.dir
@@ -181,7 +181,7 @@ build engine/CMakeFiles/engine.dir/src/core/Input.cpp.o: CXX_COMPILER__engine_un
   CONFIG = Debug
   DEP_FILE = engine/CMakeFiles/engine.dir/src/core/Input.cpp.o.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends
   OBJECT_DIR = engine/CMakeFiles/engine.dir
   OBJECT_FILE_DIR = engine/CMakeFiles/engine.dir/src/core
   TARGET_SUPPORT_DIR = engine/CMakeFiles/engine.dir
@@ -190,7 +190,7 @@ build engine/CMakeFiles/engine.dir/src/ecs/Entity.cpp.o: CXX_COMPILER__engine_un
   CONFIG = Debug
   DEP_FILE = engine/CMakeFiles/engine.dir/src/ecs/Entity.cpp.o.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends
   OBJECT_DIR = engine/CMakeFiles/engine.dir
   OBJECT_FILE_DIR = engine/CMakeFiles/engine.dir/src/ecs
   TARGET_SUPPORT_DIR = engine/CMakeFiles/engine.dir
@@ -199,7 +199,7 @@ build engine/CMakeFiles/engine.dir/src/scene/Scene.cpp.o: CXX_COMPILER__engine_u
   CONFIG = Debug
   DEP_FILE = engine/CMakeFiles/engine.dir/src/scene/Scene.cpp.o.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends
   OBJECT_DIR = engine/CMakeFiles/engine.dir
   OBJECT_FILE_DIR = engine/CMakeFiles/engine.dir/src/scene
   TARGET_SUPPORT_DIR = engine/CMakeFiles/engine.dir
@@ -208,7 +208,7 @@ build engine/CMakeFiles/engine.dir/src/core/AssetManager.cpp.o: CXX_COMPILER__en
   CONFIG = Debug
   DEP_FILE = engine/CMakeFiles/engine.dir/src/core/AssetManager.cpp.o.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends
   OBJECT_DIR = engine/CMakeFiles/engine.dir
   OBJECT_FILE_DIR = engine/CMakeFiles/engine.dir/src/core
   TARGET_SUPPORT_DIR = engine/CMakeFiles/engine.dir
@@ -217,7 +217,7 @@ build engine/CMakeFiles/engine.dir/src/ecs/systems/RendererSystem.cpp.o: CXX_COM
   CONFIG = Debug
   DEP_FILE = engine/CMakeFiles/engine.dir/src/ecs/systems/RendererSystem.cpp.o.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends
   OBJECT_DIR = engine/CMakeFiles/engine.dir
   OBJECT_FILE_DIR = engine/CMakeFiles/engine.dir/src/ecs/systems
   TARGET_SUPPORT_DIR = engine/CMakeFiles/engine.dir
@@ -226,7 +226,7 @@ build engine/CMakeFiles/engine.dir/src/ecs/System.cpp.o: CXX_COMPILER__engine_un
   CONFIG = Debug
   DEP_FILE = engine/CMakeFiles/engine.dir/src/ecs/System.cpp.o.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends
   OBJECT_DIR = engine/CMakeFiles/engine.dir
   OBJECT_FILE_DIR = engine/CMakeFiles/engine.dir/src/ecs
   TARGET_SUPPORT_DIR = engine/CMakeFiles/engine.dir
@@ -235,9 +235,99 @@ build engine/CMakeFiles/engine.dir/src/ecs/systems/MovementSystem.cpp.o: CXX_COM
   CONFIG = Debug
   DEP_FILE = engine/CMakeFiles/engine.dir/src/ecs/systems/MovementSystem.cpp.o.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends
   OBJECT_DIR = engine/CMakeFiles/engine.dir
   OBJECT_FILE_DIR = engine/CMakeFiles/engine.dir/src/ecs/systems
+  TARGET_SUPPORT_DIR = engine/CMakeFiles/engine.dir
+
+build engine/CMakeFiles/engine.dir/src/ecs/systems/InputSystem.cpp.o: CXX_COMPILER__engine_unscanned_Debug /home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/systems/InputSystem.cpp || cmake_object_order_depends_target_engine
+  CONFIG = Debug
+  DEP_FILE = engine/CMakeFiles/engine.dir/src/ecs/systems/InputSystem.cpp.o.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends
+  OBJECT_DIR = engine/CMakeFiles/engine.dir
+  OBJECT_FILE_DIR = engine/CMakeFiles/engine.dir/src/ecs/systems
+  TARGET_SUPPORT_DIR = engine/CMakeFiles/engine.dir
+
+build engine/CMakeFiles/engine.dir/src/ecs/systems/CollisionSystem.cpp.o: CXX_COMPILER__engine_unscanned_Debug /home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/systems/CollisionSystem.cpp || cmake_object_order_depends_target_engine
+  CONFIG = Debug
+  DEP_FILE = engine/CMakeFiles/engine.dir/src/ecs/systems/CollisionSystem.cpp.o.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends
+  OBJECT_DIR = engine/CMakeFiles/engine.dir
+  OBJECT_FILE_DIR = engine/CMakeFiles/engine.dir/src/ecs/systems
+  TARGET_SUPPORT_DIR = engine/CMakeFiles/engine.dir
+
+build engine/CMakeFiles/engine.dir/src/ecs/systems/PhysicsSystem.cpp.o: CXX_COMPILER__engine_unscanned_Debug /home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/systems/PhysicsSystem.cpp || cmake_object_order_depends_target_engine
+  CONFIG = Debug
+  DEP_FILE = engine/CMakeFiles/engine.dir/src/ecs/systems/PhysicsSystem.cpp.o.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends
+  OBJECT_DIR = engine/CMakeFiles/engine.dir
+  OBJECT_FILE_DIR = engine/CMakeFiles/engine.dir/src/ecs/systems
+  TARGET_SUPPORT_DIR = engine/CMakeFiles/engine.dir
+
+build engine/CMakeFiles/engine.dir/src/ecs/systems/CameraSystem.cpp.o: CXX_COMPILER__engine_unscanned_Debug /home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/systems/CameraSystem.cpp || cmake_object_order_depends_target_engine
+  CONFIG = Debug
+  DEP_FILE = engine/CMakeFiles/engine.dir/src/ecs/systems/CameraSystem.cpp.o.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends
+  OBJECT_DIR = engine/CMakeFiles/engine.dir
+  OBJECT_FILE_DIR = engine/CMakeFiles/engine.dir/src/ecs/systems
+  TARGET_SUPPORT_DIR = engine/CMakeFiles/engine.dir
+
+build engine/CMakeFiles/engine.dir/src/ecs/systems/ScriptSystem.cpp.o: CXX_COMPILER__engine_unscanned_Debug /home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/systems/ScriptSystem.cpp || cmake_object_order_depends_target_engine
+  CONFIG = Debug
+  DEP_FILE = engine/CMakeFiles/engine.dir/src/ecs/systems/ScriptSystem.cpp.o.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends
+  OBJECT_DIR = engine/CMakeFiles/engine.dir
+  OBJECT_FILE_DIR = engine/CMakeFiles/engine.dir/src/ecs/systems
+  TARGET_SUPPORT_DIR = engine/CMakeFiles/engine.dir
+
+build engine/CMakeFiles/engine.dir/src/core/FileWatcher.cpp.o: CXX_COMPILER__engine_unscanned_Debug /home/rodaqqq/Documents/socka-2dengine/engine/src/core/FileWatcher.cpp || cmake_object_order_depends_target_engine
+  CONFIG = Debug
+  DEP_FILE = engine/CMakeFiles/engine.dir/src/core/FileWatcher.cpp.o.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends
+  OBJECT_DIR = engine/CMakeFiles/engine.dir
+  OBJECT_FILE_DIR = engine/CMakeFiles/engine.dir/src/core
+  TARGET_SUPPORT_DIR = engine/CMakeFiles/engine.dir
+
+build engine/CMakeFiles/engine.dir/src/core/ProjectSerializer.cpp.o: CXX_COMPILER__engine_unscanned_Debug /home/rodaqqq/Documents/socka-2dengine/engine/src/core/ProjectSerializer.cpp || cmake_object_order_depends_target_engine
+  CONFIG = Debug
+  DEP_FILE = engine/CMakeFiles/engine.dir/src/core/ProjectSerializer.cpp.o.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends
+  OBJECT_DIR = engine/CMakeFiles/engine.dir
+  OBJECT_FILE_DIR = engine/CMakeFiles/engine.dir/src/core
+  TARGET_SUPPORT_DIR = engine/CMakeFiles/engine.dir
+
+build engine/CMakeFiles/engine.dir/src/ecs/components/InheritanceComponent.cpp.o: CXX_COMPILER__engine_unscanned_Debug /home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/components/InheritanceComponent.cpp || cmake_object_order_depends_target_engine
+  CONFIG = Debug
+  DEP_FILE = engine/CMakeFiles/engine.dir/src/ecs/components/InheritanceComponent.cpp.o.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends
+  OBJECT_DIR = engine/CMakeFiles/engine.dir
+  OBJECT_FILE_DIR = engine/CMakeFiles/engine.dir/src/ecs/components
+  TARGET_SUPPORT_DIR = engine/CMakeFiles/engine.dir
+
+build engine/CMakeFiles/engine.dir/src/ecs/systems/SoundSystem.cpp.o: CXX_COMPILER__engine_unscanned_Debug /home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/systems/SoundSystem.cpp || cmake_object_order_depends_target_engine
+  CONFIG = Debug
+  DEP_FILE = engine/CMakeFiles/engine.dir/src/ecs/systems/SoundSystem.cpp.o.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends
+  OBJECT_DIR = engine/CMakeFiles/engine.dir
+  OBJECT_FILE_DIR = engine/CMakeFiles/engine.dir/src/ecs/systems
+  TARGET_SUPPORT_DIR = engine/CMakeFiles/engine.dir
+
+build engine/CMakeFiles/engine.dir/src/core/Camera.cpp.o: CXX_COMPILER__engine_unscanned_Debug /home/rodaqqq/Documents/socka-2dengine/engine/src/core/Camera.cpp || cmake_object_order_depends_target_engine
+  CONFIG = Debug
+  DEP_FILE = engine/CMakeFiles/engine.dir/src/core/Camera.cpp.o.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends
+  OBJECT_DIR = engine/CMakeFiles/engine.dir
+  OBJECT_FILE_DIR = engine/CMakeFiles/engine.dir/src/core
   TARGET_SUPPORT_DIR = engine/CMakeFiles/engine.dir
 
 
@@ -248,7 +338,7 @@ build engine/CMakeFiles/engine.dir/src/ecs/systems/MovementSystem.cpp.o: CXX_COM
 #############################################
 # Link the static library engine/libengine.a
 
-build engine/libengine.a: CXX_STATIC_LIBRARY_LINKER__engine_Debug engine/CMakeFiles/engine.dir/src/core/Application.cpp.o engine/CMakeFiles/engine.dir/src/core/Log.cpp.o engine/CMakeFiles/engine.dir/src/core/Time.cpp.o engine/CMakeFiles/engine.dir/src/core/Input.cpp.o engine/CMakeFiles/engine.dir/src/ecs/Entity.cpp.o engine/CMakeFiles/engine.dir/src/scene/Scene.cpp.o engine/CMakeFiles/engine.dir/src/core/AssetManager.cpp.o engine/CMakeFiles/engine.dir/src/ecs/systems/RendererSystem.cpp.o engine/CMakeFiles/engine.dir/src/ecs/System.cpp.o engine/CMakeFiles/engine.dir/src/ecs/systems/MovementSystem.cpp.o
+build engine/libengine.a: CXX_STATIC_LIBRARY_LINKER__engine_Debug engine/CMakeFiles/engine.dir/src/core/Application.cpp.o engine/CMakeFiles/engine.dir/src/core/Log.cpp.o engine/CMakeFiles/engine.dir/src/core/Time.cpp.o engine/CMakeFiles/engine.dir/src/core/Input.cpp.o engine/CMakeFiles/engine.dir/src/ecs/Entity.cpp.o engine/CMakeFiles/engine.dir/src/scene/Scene.cpp.o engine/CMakeFiles/engine.dir/src/core/AssetManager.cpp.o engine/CMakeFiles/engine.dir/src/ecs/systems/RendererSystem.cpp.o engine/CMakeFiles/engine.dir/src/ecs/System.cpp.o engine/CMakeFiles/engine.dir/src/ecs/systems/MovementSystem.cpp.o engine/CMakeFiles/engine.dir/src/ecs/systems/InputSystem.cpp.o engine/CMakeFiles/engine.dir/src/ecs/systems/CollisionSystem.cpp.o engine/CMakeFiles/engine.dir/src/ecs/systems/PhysicsSystem.cpp.o engine/CMakeFiles/engine.dir/src/ecs/systems/CameraSystem.cpp.o engine/CMakeFiles/engine.dir/src/ecs/systems/ScriptSystem.cpp.o engine/CMakeFiles/engine.dir/src/core/FileWatcher.cpp.o engine/CMakeFiles/engine.dir/src/core/ProjectSerializer.cpp.o engine/CMakeFiles/engine.dir/src/ecs/components/InheritanceComponent.cpp.o engine/CMakeFiles/engine.dir/src/ecs/systems/SoundSystem.cpp.o engine/CMakeFiles/engine.dir/src/core/Camera.cpp.o || libimgui.a
   CONFIG = Debug
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = engine/CMakeFiles/engine.dir
@@ -300,7 +390,7 @@ build editor/CMakeFiles/editor.dir/src/EditorApp.cpp.o: CXX_COMPILER__editor_uns
   CONFIG = Debug
   DEP_FILE = editor/CMakeFiles/editor.dir/src/EditorApp.cpp.o.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends
   OBJECT_DIR = editor/CMakeFiles/editor.dir
   OBJECT_FILE_DIR = editor/CMakeFiles/editor.dir/src
   TARGET_SUPPORT_DIR = editor/CMakeFiles/editor.dir
@@ -309,16 +399,88 @@ build editor/CMakeFiles/editor.dir/src/main.cpp.o: CXX_COMPILER__editor_unscanne
   CONFIG = Debug
   DEP_FILE = editor/CMakeFiles/editor.dir/src/main.cpp.o.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends
   OBJECT_DIR = editor/CMakeFiles/editor.dir
   OBJECT_FILE_DIR = editor/CMakeFiles/editor.dir/src
+  TARGET_SUPPORT_DIR = editor/CMakeFiles/editor.dir
+
+build editor/CMakeFiles/editor.dir/src/ui/Console.cpp.o: CXX_COMPILER__editor_unscanned_Debug /home/rodaqqq/Documents/socka-2dengine/editor/src/ui/Console.cpp || cmake_object_order_depends_target_editor
+  CONFIG = Debug
+  DEP_FILE = editor/CMakeFiles/editor.dir/src/ui/Console.cpp.o.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends
+  OBJECT_DIR = editor/CMakeFiles/editor.dir
+  OBJECT_FILE_DIR = editor/CMakeFiles/editor.dir/src/ui
+  TARGET_SUPPORT_DIR = editor/CMakeFiles/editor.dir
+
+build editor/CMakeFiles/editor.dir/src/ui/Inspector.cpp.o: CXX_COMPILER__editor_unscanned_Debug /home/rodaqqq/Documents/socka-2dengine/editor/src/ui/Inspector.cpp || cmake_object_order_depends_target_editor
+  CONFIG = Debug
+  DEP_FILE = editor/CMakeFiles/editor.dir/src/ui/Inspector.cpp.o.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends
+  OBJECT_DIR = editor/CMakeFiles/editor.dir
+  OBJECT_FILE_DIR = editor/CMakeFiles/editor.dir/src/ui
+  TARGET_SUPPORT_DIR = editor/CMakeFiles/editor.dir
+
+build editor/CMakeFiles/editor.dir/src/ui/AssetManager.cpp.o: CXX_COMPILER__editor_unscanned_Debug /home/rodaqqq/Documents/socka-2dengine/editor/src/ui/AssetManager.cpp || cmake_object_order_depends_target_editor
+  CONFIG = Debug
+  DEP_FILE = editor/CMakeFiles/editor.dir/src/ui/AssetManager.cpp.o.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends
+  OBJECT_DIR = editor/CMakeFiles/editor.dir
+  OBJECT_FILE_DIR = editor/CMakeFiles/editor.dir/src/ui
+  TARGET_SUPPORT_DIR = editor/CMakeFiles/editor.dir
+
+build editor/CMakeFiles/editor.dir/src/ui/Hierarchy.cpp.o: CXX_COMPILER__editor_unscanned_Debug /home/rodaqqq/Documents/socka-2dengine/editor/src/ui/Hierarchy.cpp || cmake_object_order_depends_target_editor
+  CONFIG = Debug
+  DEP_FILE = editor/CMakeFiles/editor.dir/src/ui/Hierarchy.cpp.o.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends
+  OBJECT_DIR = editor/CMakeFiles/editor.dir
+  OBJECT_FILE_DIR = editor/CMakeFiles/editor.dir/src/ui
+  TARGET_SUPPORT_DIR = editor/CMakeFiles/editor.dir
+
+build editor/CMakeFiles/editor.dir/src/ui/MainMenu.cpp.o: CXX_COMPILER__editor_unscanned_Debug /home/rodaqqq/Documents/socka-2dengine/editor/src/ui/MainMenu.cpp || cmake_object_order_depends_target_editor
+  CONFIG = Debug
+  DEP_FILE = editor/CMakeFiles/editor.dir/src/ui/MainMenu.cpp.o.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends
+  OBJECT_DIR = editor/CMakeFiles/editor.dir
+  OBJECT_FILE_DIR = editor/CMakeFiles/editor.dir/src/ui
+  TARGET_SUPPORT_DIR = editor/CMakeFiles/editor.dir
+
+build editor/CMakeFiles/editor.dir/src/ui/Viewport.cpp.o: CXX_COMPILER__editor_unscanned_Debug /home/rodaqqq/Documents/socka-2dengine/editor/src/ui/Viewport.cpp || cmake_object_order_depends_target_editor
+  CONFIG = Debug
+  DEP_FILE = editor/CMakeFiles/editor.dir/src/ui/Viewport.cpp.o.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends
+  OBJECT_DIR = editor/CMakeFiles/editor.dir
+  OBJECT_FILE_DIR = editor/CMakeFiles/editor.dir/src/ui
+  TARGET_SUPPORT_DIR = editor/CMakeFiles/editor.dir
+
+build editor/CMakeFiles/editor.dir/src/ui/ProjectBrowser.cpp.o: CXX_COMPILER__editor_unscanned_Debug /home/rodaqqq/Documents/socka-2dengine/editor/src/ui/ProjectBrowser.cpp || cmake_object_order_depends_target_editor
+  CONFIG = Debug
+  DEP_FILE = editor/CMakeFiles/editor.dir/src/ui/ProjectBrowser.cpp.o.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends
+  OBJECT_DIR = editor/CMakeFiles/editor.dir
+  OBJECT_FILE_DIR = editor/CMakeFiles/editor.dir/src/ui
+  TARGET_SUPPORT_DIR = editor/CMakeFiles/editor.dir
+
+build editor/CMakeFiles/editor.dir/src/ui/Gizmos.cpp.o: CXX_COMPILER__editor_unscanned_Debug /home/rodaqqq/Documents/socka-2dengine/editor/src/ui/Gizmos.cpp || cmake_object_order_depends_target_editor
+  CONFIG = Debug
+  DEP_FILE = editor/CMakeFiles/editor.dir/src/ui/Gizmos.cpp.o.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends
+  OBJECT_DIR = editor/CMakeFiles/editor.dir
+  OBJECT_FILE_DIR = editor/CMakeFiles/editor.dir/src/ui
   TARGET_SUPPORT_DIR = editor/CMakeFiles/editor.dir
 
 build editor/CMakeFiles/editor.dir/__/vendor/imgui/backends/imgui_impl_sdl2.cpp.o: CXX_COMPILER__editor_unscanned_Debug /home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends/imgui_impl_sdl2.cpp || cmake_object_order_depends_target_editor
   CONFIG = Debug
   DEP_FILE = editor/CMakeFiles/editor.dir/__/vendor/imgui/backends/imgui_impl_sdl2.cpp.o.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends
   OBJECT_DIR = editor/CMakeFiles/editor.dir
   OBJECT_FILE_DIR = editor/CMakeFiles/editor.dir/__/vendor/imgui/backends
   TARGET_SUPPORT_DIR = editor/CMakeFiles/editor.dir
@@ -327,9 +489,18 @@ build editor/CMakeFiles/editor.dir/__/vendor/imgui/backends/imgui_impl_sdlrender
   CONFIG = Debug
   DEP_FILE = editor/CMakeFiles/editor.dir/__/vendor/imgui/backends/imgui_impl_sdlrenderer2.cpp.o.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends
   OBJECT_DIR = editor/CMakeFiles/editor.dir
   OBJECT_FILE_DIR = editor/CMakeFiles/editor.dir/__/vendor/imgui/backends
+  TARGET_SUPPORT_DIR = editor/CMakeFiles/editor.dir
+
+build editor/CMakeFiles/editor.dir/__/vendor/ImGuizmo/ImGuizmo.cpp.o: CXX_COMPILER__editor_unscanned_Debug /home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo/ImGuizmo.cpp || cmake_object_order_depends_target_editor
+  CONFIG = Debug
+  DEP_FILE = editor/CMakeFiles/editor.dir/__/vendor/ImGuizmo/ImGuizmo.cpp.o.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends
+  OBJECT_DIR = editor/CMakeFiles/editor.dir
+  OBJECT_FILE_DIR = editor/CMakeFiles/editor.dir/__/vendor/ImGuizmo
   TARGET_SUPPORT_DIR = editor/CMakeFiles/editor.dir
 
 
@@ -340,18 +511,84 @@ build editor/CMakeFiles/editor.dir/__/vendor/imgui/backends/imgui_impl_sdlrender
 #############################################
 # Link the executable editor/editor
 
-build editor/editor: CXX_EXECUTABLE_LINKER__editor_Debug editor/CMakeFiles/editor.dir/src/EditorApp.cpp.o editor/CMakeFiles/editor.dir/src/main.cpp.o editor/CMakeFiles/editor.dir/__/vendor/imgui/backends/imgui_impl_sdl2.cpp.o editor/CMakeFiles/editor.dir/__/vendor/imgui/backends/imgui_impl_sdlrenderer2.cpp.o | engine/libengine.a libimgui.a || engine/libengine.a libimgui.a
+build editor/editor: CXX_EXECUTABLE_LINKER__editor_Debug editor/CMakeFiles/editor.dir/src/EditorApp.cpp.o editor/CMakeFiles/editor.dir/src/main.cpp.o editor/CMakeFiles/editor.dir/src/ui/Console.cpp.o editor/CMakeFiles/editor.dir/src/ui/Inspector.cpp.o editor/CMakeFiles/editor.dir/src/ui/AssetManager.cpp.o editor/CMakeFiles/editor.dir/src/ui/Hierarchy.cpp.o editor/CMakeFiles/editor.dir/src/ui/MainMenu.cpp.o editor/CMakeFiles/editor.dir/src/ui/Viewport.cpp.o editor/CMakeFiles/editor.dir/src/ui/ProjectBrowser.cpp.o editor/CMakeFiles/editor.dir/src/ui/Gizmos.cpp.o editor/CMakeFiles/editor.dir/__/vendor/imgui/backends/imgui_impl_sdl2.cpp.o editor/CMakeFiles/editor.dir/__/vendor/imgui/backends/imgui_impl_sdlrenderer2.cpp.o editor/CMakeFiles/editor.dir/__/vendor/ImGuizmo/ImGuizmo.cpp.o | engine/libengine.a libimgui.a /usr/lib/liblua5.4.so /usr/lib/libm.so || engine/libengine.a libimgui.a
   CONFIG = Debug
   DEP_FILE = editor/CMakeFiles/editor.dir/link.d
   FLAGS = -g
   LINK_FLAGS = -Wl,--dependency-file=editor/CMakeFiles/editor.dir/link.d
-  LINK_LIBRARIES = engine/libengine.a  libimgui.a  -lSDL2  -lSDL2_image  -lSDL2  -lSDL2_mixer  -lSDL2  -lSDL2_image  -lSDL2_mixer
+  LINK_LIBRARIES = engine/libengine.a  libimgui.a  -lSDL2  -lSDL2_image  -lSDL2  -lSDL2_mixer  -lSDL2  -lSDL2_image  -lSDL2_mixer  /usr/lib/liblua5.4.so  -lm
   OBJECT_DIR = editor/CMakeFiles/editor.dir
   POST_BUILD = :
   PRE_LINK = :
   TARGET_FILE = editor/editor
   TARGET_PDB = editor.dbg
   TARGET_SUPPORT_DIR = editor/CMakeFiles/editor.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Runtime
+
+
+#############################################
+# Order-only phony target for Runtime
+
+build cmake_object_order_depends_target_Runtime: phony || cmake_object_order_depends_target_engine cmake_object_order_depends_target_imgui
+
+build editor/CMakeFiles/Runtime.dir/src/runtime.cpp.o: CXX_COMPILER__Runtime_unscanned_Debug /home/rodaqqq/Documents/socka-2dengine/editor/src/runtime.cpp || cmake_object_order_depends_target_Runtime
+  CONFIG = Debug
+  DEP_FILE = editor/CMakeFiles/Runtime.dir/src/runtime.cpp.o.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends
+  OBJECT_DIR = editor/CMakeFiles/Runtime.dir
+  OBJECT_FILE_DIR = editor/CMakeFiles/Runtime.dir/src
+  TARGET_SUPPORT_DIR = editor/CMakeFiles/Runtime.dir
+
+build editor/CMakeFiles/Runtime.dir/__/vendor/imgui/backends/imgui_impl_sdl2.cpp.o: CXX_COMPILER__Runtime_unscanned_Debug /home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends/imgui_impl_sdl2.cpp || cmake_object_order_depends_target_Runtime
+  CONFIG = Debug
+  DEP_FILE = editor/CMakeFiles/Runtime.dir/__/vendor/imgui/backends/imgui_impl_sdl2.cpp.o.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends
+  OBJECT_DIR = editor/CMakeFiles/Runtime.dir
+  OBJECT_FILE_DIR = editor/CMakeFiles/Runtime.dir/__/vendor/imgui/backends
+  TARGET_SUPPORT_DIR = editor/CMakeFiles/Runtime.dir
+
+build editor/CMakeFiles/Runtime.dir/__/vendor/imgui/backends/imgui_impl_sdlrenderer2.cpp.o: CXX_COMPILER__Runtime_unscanned_Debug /home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends/imgui_impl_sdlrenderer2.cpp || cmake_object_order_depends_target_Runtime
+  CONFIG = Debug
+  DEP_FILE = editor/CMakeFiles/Runtime.dir/__/vendor/imgui/backends/imgui_impl_sdlrenderer2.cpp.o.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends
+  OBJECT_DIR = editor/CMakeFiles/Runtime.dir
+  OBJECT_FILE_DIR = editor/CMakeFiles/Runtime.dir/__/vendor/imgui/backends
+  TARGET_SUPPORT_DIR = editor/CMakeFiles/Runtime.dir
+
+build editor/CMakeFiles/Runtime.dir/__/vendor/ImGuizmo/ImGuizmo.cpp.o: CXX_COMPILER__Runtime_unscanned_Debug /home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo/ImGuizmo.cpp || cmake_object_order_depends_target_Runtime
+  CONFIG = Debug
+  DEP_FILE = editor/CMakeFiles/Runtime.dir/__/vendor/ImGuizmo/ImGuizmo.cpp.o.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends
+  OBJECT_DIR = editor/CMakeFiles/Runtime.dir
+  OBJECT_FILE_DIR = editor/CMakeFiles/Runtime.dir/__/vendor/ImGuizmo
+  TARGET_SUPPORT_DIR = editor/CMakeFiles/Runtime.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Runtime
+
+
+#############################################
+# Link the executable editor/Runtime
+
+build editor/Runtime: CXX_EXECUTABLE_LINKER__Runtime_Debug editor/CMakeFiles/Runtime.dir/src/runtime.cpp.o editor/CMakeFiles/Runtime.dir/__/vendor/imgui/backends/imgui_impl_sdl2.cpp.o editor/CMakeFiles/Runtime.dir/__/vendor/imgui/backends/imgui_impl_sdlrenderer2.cpp.o editor/CMakeFiles/Runtime.dir/__/vendor/ImGuizmo/ImGuizmo.cpp.o | engine/libengine.a libimgui.a /usr/lib/liblua5.4.so /usr/lib/libm.so || engine/libengine.a libimgui.a
+  CONFIG = Debug
+  DEP_FILE = editor/CMakeFiles/Runtime.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=editor/CMakeFiles/Runtime.dir/link.d
+  LINK_LIBRARIES = engine/libengine.a  libimgui.a  -lSDL2  -lSDL2_image  -lSDL2  -lSDL2_mixer  -lSDL2  -lSDL2_image  -lSDL2_mixer  /usr/lib/liblua5.4.so  -lm
+  OBJECT_DIR = editor/CMakeFiles/Runtime.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = editor/Runtime
+  TARGET_PDB = Runtime.dbg
+  TARGET_SUPPORT_DIR = editor/CMakeFiles/Runtime.dir
 
 
 #############################################
@@ -380,6 +617,8 @@ build editor/rebuild_cache: phony editor/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build Runtime: phony editor/Runtime
+
 build editor: phony editor/editor
 
 build engine: phony engine/libengine.a
@@ -403,7 +642,7 @@ build all: phony libimgui.a engine/all editor/all
 #############################################
 # Folder: /home/rodaqqq/Documents/socka-2dengine/build/editor
 
-build editor/all: phony editor/editor
+build editor/all: phony editor/editor editor/Runtime
 
 # =============================================================================
 
@@ -419,14 +658,14 @@ build engine/all: phony engine/libengine.a
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja /home/rodaqqq/Documents/socka-2dengine/build/cmake_install.cmake /home/rodaqqq/Documents/socka-2dengine/build/engine/cmake_install.cmake /home/rodaqqq/Documents/socka-2dengine/build/editor/cmake_install.cmake: RERUN_CMAKE | /home/rodaqqq/Documents/socka-2dengine/CMakeLists.txt /home/rodaqqq/Documents/socka-2dengine/editor/CMakeLists.txt /home/rodaqqq/Documents/socka-2dengine/engine/CMakeLists.txt /usr/share/cmake/Modules/CMakeCInformation.cmake /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/GNU-C.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindPkgConfig.cmake /usr/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake /usr/share/cmake/Modules/Linker/GNU-C.cmake /usr/share/cmake/Modules/Linker/GNU-CXX.cmake /usr/share/cmake/Modules/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/4.2.0/CMakeCCompiler.cmake CMakeFiles/4.2.0/CMakeCXXCompiler.cmake CMakeFiles/4.2.0/CMakeSystem.cmake
+build build.ninja /home/rodaqqq/Documents/socka-2dengine/build/cmake_install.cmake /home/rodaqqq/Documents/socka-2dengine/build/engine/cmake_install.cmake /home/rodaqqq/Documents/socka-2dengine/build/editor/cmake_install.cmake: RERUN_CMAKE | /home/rodaqqq/Documents/socka-2dengine/CMakeLists.txt /home/rodaqqq/Documents/socka-2dengine/editor/CMakeLists.txt /home/rodaqqq/Documents/socka-2dengine/engine/CMakeLists.txt /usr/share/cmake/Modules/CMakeCInformation.cmake /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/GNU-C.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/FindLua.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindPkgConfig.cmake /usr/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake /usr/share/cmake/Modules/Linker/GNU-C.cmake /usr/share/cmake/Modules/Linker/GNU-CXX.cmake /usr/share/cmake/Modules/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/4.2.0/CMakeCCompiler.cmake CMakeFiles/4.2.0/CMakeCXXCompiler.cmake CMakeFiles/4.2.0/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/rodaqqq/Documents/socka-2dengine/CMakeLists.txt /home/rodaqqq/Documents/socka-2dengine/editor/CMakeLists.txt /home/rodaqqq/Documents/socka-2dengine/engine/CMakeLists.txt /usr/share/cmake/Modules/CMakeCInformation.cmake /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/GNU-C.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindPkgConfig.cmake /usr/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake /usr/share/cmake/Modules/Linker/GNU-C.cmake /usr/share/cmake/Modules/Linker/GNU-CXX.cmake /usr/share/cmake/Modules/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/4.2.0/CMakeCCompiler.cmake CMakeFiles/4.2.0/CMakeCXXCompiler.cmake CMakeFiles/4.2.0/CMakeSystem.cmake: phony
+build /home/rodaqqq/Documents/socka-2dengine/CMakeLists.txt /home/rodaqqq/Documents/socka-2dengine/editor/CMakeLists.txt /home/rodaqqq/Documents/socka-2dengine/engine/CMakeLists.txt /usr/share/cmake/Modules/CMakeCInformation.cmake /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/GNU-C.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/FindLua.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindPkgConfig.cmake /usr/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake /usr/share/cmake/Modules/Linker/GNU-C.cmake /usr/share/cmake/Modules/Linker/GNU-CXX.cmake /usr/share/cmake/Modules/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/4.2.0/CMakeCCompiler.cmake CMakeFiles/4.2.0/CMakeCXXCompiler.cmake CMakeFiles/4.2.0/CMakeSystem.cmake: phony
 
 
 #############################################

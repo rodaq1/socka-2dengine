@@ -5,5 +5,6 @@
 /home/rodaqqq/Documents/socka-2dengine/build/engine/CMakeFiles/edit_cache.dir
 /home/rodaqqq/Documents/socka-2dengine/build/engine/CMakeFiles/rebuild_cache.dir
 /home/rodaqqq/Documents/socka-2dengine/build/editor/CMakeFiles/editor.dir
+/home/rodaqqq/Documents/socka-2dengine/build/editor/CMakeFiles/Runtime.dir
 /home/rodaqqq/Documents/socka-2dengine/build/editor/CMakeFiles/edit_cache.dir
 /home/rodaqqq/Documents/socka-2dengine/build/editor/CMakeFiles/rebuild_cache.dir

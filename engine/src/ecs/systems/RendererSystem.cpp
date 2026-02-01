@@ -1,72 +1,115 @@
 #include "RendererSystem.h"
-#include "../components/TransformComponent.h"
-#include "../components/SpriteComponent.h"
 #include "../Entity.h"
-#include "SDL_rect.h"
-#include "SDL_render.h"
-#include "../../core/Log.h"
+#include "../components/SpriteComponent.h"
+#include "../components/TransformComponent.h"
+#include "core/Camera.h"
+#include <algorithm>
+#include <cmath>
+#include <glm/gtc/matrix_transform.hpp>
+#include "glm/gtc/type_ptr.hpp"
+#include "imgui.h"
+#include "ImGuizmo.h"
 
 namespace Engine {
 
-    /**
-     * @brief Check ci sa entita nachadza vo viewporte kamery
-     */
-    static bool isEntityVisible(const SDL_Rect& entityRect, const SDL_Rect& camera) {
-        return (entityRect.x + entityRect.w > camera.x &&
-                entityRect.y + entityRect.h > camera.y &&
-                entityRect.x < camera.x + camera.w &&
-                entityRect.y < camera.y + camera.h);
-    }
+static glm::mat4 GetWorldMatrix(Entity *e) {
+  if (!e) return glm::mat4(1.0f);
+  auto tr = e->getComponent<TransformComponent>();
+  if (!tr) return glm::mat4(1.0f);
 
-    RendererSystem::RendererSystem() {
-        requireComponent<TransformComponent>();
-        requireComponent<SpriteComponent>();
-    }
+  glm::mat4 local = glm::translate(glm::mat4(1.0f), glm::vec3(tr->position.x, tr->position.y, 0.0f));
+  local = glm::rotate(local, glm::radians(tr->rotation), glm::vec3(0, 0, 1));
+  local = glm::scale(local, glm::vec3(tr->scale.x, tr->scale.y, 1.0f));
 
-    void RendererSystem::update(SDL_Renderer* renderer, const SDL_Rect& camera) {
-        for (auto entity : getSystemEntities()) {
-            auto transform = entity->getComponent<TransformComponent>();
-            auto sprite = entity->getComponent<SpriteComponent>();
-
-            if (!sprite->texture) {
-                Log::warn("Entity " + entity->getName() + " has null texture.");
-                continue;
-            }
-
-            SDL_Rect destRect = {
-              static_cast<int>(transform->position.x - camera.x),
-              static_cast<int>(transform->position.y - camera.y),
-              static_cast<int>(sprite->sourceRect.w * transform->scale.x),
-              static_cast<int>(sprite->sourceRect.h * transform->scale.y)   
-            };
-
-            SDL_Rect worldRect = {
-              static_cast<int>(transform->position.x),
-              static_cast<int>(transform->position.y),
-              destRect.w,
-              destRect.h
-            };
-            
-            if (sprite->isFixed) {
-                destRect.x = static_cast<int>(transform->position.x);
-                destRect.y = static_cast<int>(transform->position.y);
-            } else {
-                if (!isEntityVisible(worldRect, camera)) {
-                    continue; 
-                } 
-            }
-            
-            SDL_RenderCopyEx(
-                renderer, 
-                sprite->texture, 
-                &sprite->sourceRect, 
-                &destRect,
-                transform->rotation, 
-                NULL,               
-                SDL_FLIP_NONE       
-            );
-            
-           //Log::info("RendererSystem drew entity: " + entity->getName() + " to position (" + std::to_string(destRect.x) + ", " + std::to_string(destRect.y) + ")");
-        }
-    }
+  if (e->getParent()) {
+    return GetWorldMatrix(e->getParent()) * local;
+  }
+  return local;
 }
+
+RendererSystem::RendererSystem() {
+  requireComponent<TransformComponent>();
+  requireComponent<SpriteComponent>();
+  Log::info("renderer system initialized");
+}
+
+void RendererSystem::update(SDL_Renderer *renderer, const Camera &camera, float targetWidth, float targetHeight) {
+  if (!renderer || targetWidth <= 0 || targetHeight <= 0) return;
+
+  auto entities = getSystemEntities();
+  if (entities.empty()) {
+        static bool loggedOnce = false;
+        if (!loggedOnce) {
+            Log::warn("RendererSystem: No entities found matching components! check if components are added to entities.");
+            loggedOnce = true;
+        }
+        return;
+    }
+
+  std::sort(entities.begin(), entities.end(), [](Entity *a, Entity *b) {
+    auto sA = a->getComponent<SpriteComponent>();
+    auto sB = b->getComponent<SpriteComponent>();
+    return sA->zIndex < sB->zIndex;
+  });
+
+  glm::mat4 viewProjection = camera.getViewProjectionMatrix();
+
+  glm::mat4 viewportMatrix = glm::mat4(1.0f);
+    viewportMatrix = glm::translate(viewportMatrix, glm::vec3(targetWidth * 0.5f, targetHeight * 0.5f, 0.0f));
+    viewportMatrix = glm::scale(viewportMatrix, glm::vec3(targetWidth * 0.5f, -targetHeight * 0.5f, 1.0f));
+
+  for (auto entity : entities) {
+    
+
+    auto sprite = entity->getComponent<SpriteComponent>();
+    if (!sprite) {
+        Log::warn("Entity " + entity->getName() + " has no SpriteComponent");
+        continue;
+    }
+
+    
+    if (sprite->isFixed) {
+      auto transform = entity->getComponent<TransformComponent>();
+      SDL_FRect destRect;
+      destRect.x = transform->position.x;
+      destRect.y = transform->position.y;
+      destRect.w = sprite->sourceRect.w * transform->scale.x;
+      destRect.h = sprite->sourceRect.h * transform->scale.y;
+      float rotation = -transform->rotation; 
+      SDL_RenderCopyExF(renderer, sprite->texture, &sprite->sourceRect, &destRect, rotation, nullptr, SDL_FLIP_NONE);
+      continue;
+    }
+
+    glm::mat4 modelMatrix = GetWorldMatrix(entity);
+
+    float pos[3], rot[3], scale[3];
+    ImGuizmo::DecomposeMatrixToComponents(glm::value_ptr(modelMatrix), pos, rot, scale);
+
+    glm::vec4 clipPos = viewProjection * glm::vec4(pos[0], pos[1], pos[2], 1.0f);
+    if (std::abs(clipPos.w) < 0.0001f) continue; 
+
+    glm::vec3 ndcPos = glm::vec3(clipPos) / clipPos.w;
+    glm::vec4 screenPos = viewportMatrix * glm::vec4(ndcPos, 1.0f);
+
+    float pixelsPerUnitX = std::abs(camera.getProjectionMatrix()[0][0]) * (targetWidth * 0.5f);
+    float pixelsPerUnitY = std::abs(camera.getProjectionMatrix()[1][1]) * (targetHeight * 0.5f);
+
+    SDL_FRect destRect;
+    destRect.w = std::abs(sprite->sourceRect.w * scale[0] * pixelsPerUnitX);
+    destRect.h = std::abs(sprite->sourceRect.h * scale[1] * pixelsPerUnitY);
+    
+    destRect.x = screenPos.x - (destRect.w * 0.5f);
+    destRect.y = screenPos.y - (destRect.h * 0.5f);
+
+    SDL_SetTextureColorMod(sprite->texture, sprite->color.r, sprite->color.g, sprite->color.b);
+    SDL_SetTextureAlphaMod(sprite->texture, sprite->color.a);
+
+    SDL_RendererFlip flip = SDL_FLIP_NONE;
+    if (sprite->flipV) flip = (SDL_RendererFlip)(flip | SDL_FLIP_VERTICAL);
+    if (sprite->flipH) flip = (SDL_RendererFlip)(flip | SDL_FLIP_HORIZONTAL);
+
+    SDL_FPoint center = {destRect.w * 0.5f, destRect.h * 0.5f};
+    SDL_RenderCopyExF(renderer, sprite->texture, &sprite->sourceRect, &destRect, -rot[2], &center, flip);
+  }
+}
+} // namespace Engine

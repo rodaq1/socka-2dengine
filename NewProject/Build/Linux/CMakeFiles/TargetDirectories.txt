@@ -1,0 +1,3 @@
+/home/rodaqqq/Documents/socka-2dengine/NewProject/Build/Linux/CMakeFiles/NewProject.dir
+/home/rodaqqq/Documents/socka-2dengine/NewProject/Build/Linux/CMakeFiles/edit_cache.dir
+/home/rodaqqq/Documents/socka-2dengine/NewProject/Build/Linux/CMakeFiles/rebuild_cache.dir

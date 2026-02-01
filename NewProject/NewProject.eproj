@@ -1,0 +1,12 @@
+{
+    "Project": {
+        "AssetDirectory": "assets",
+        "Height": 720,
+        "LastModified": 2161,
+        "LastSceneOpened": "scenes/main.json",
+        "Name": "NewProject",
+        "StartScene": "scenes/main.json",
+        "Version": "1.0.0",
+        "Width": 1280
+    }
+}

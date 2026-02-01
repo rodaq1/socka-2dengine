@@ -1,85 +1,110 @@
-#pragma once 
+#pragma once
 
-#include "../ecs/System.h"
-#include "SDL_render.h"
-#include "entt/entity/fwd.hpp"
-#include <memory>
-#include <typeindex>
-#include <unordered_map>
+#include <string>
 #include <vector>
-#include <entt/entt.hpp>
-
+#include <memory>
+#include <unordered_map>
+#include <typeindex>
+#include "SDL_render.h"
+#include "entt/entt.hpp"
+#include "core/Camera.h"
 
 namespace Engine {
 
-    class Entity;
-
-    class Scene {
-    private:
-
-        std::string name;
-        std::vector<std::unique_ptr<Entity>> entities;
+class Entity;
+class System;
 
 
-        std::unique_ptr<entt::registry> m_Registry;
+enum class BackgroundType {
+    Solid, Gradient, Image
+};
 
-        std::unordered_map<std::type_index, std::unique_ptr<System>> m_Systems;
-
-        SDL_Rect m_Camera;
-
-        static SDL_Renderer* m_Renderer;
-
-        std::unordered_map<entt::entity, std::unique_ptr<Entity>> m_EntityWrappers;
-
-    public:
-        Scene(const std::string& name = "Untitled scene");
-        ~Scene();
+struct BackgroundSettings{
+    BackgroundType type = BackgroundType::Solid;
     
-        void checkEntitySubscriptions(Entity* entity);
-        void checkAllEntitySubscriptions(System* system);
+    glm::vec4 color1 = {30/255.0f, 30/255.0f, 30/255.0f, 1.0f};
+    glm::vec4 color2 = {10/255.0f, 10/255.0f, 10/255.0f, 1.0f};
 
-        void init();
-        void update(float dt);
-        void render();
-        void shutdown();
+    std::string assetId = "";
+    bool stretch = true;
+};
 
-        Entity* createEntity(const std::string& name = "New entity");
-        void destroyEntity(Entity* entity);
+class Scene {
 
-        template <typename TSystem>
-        TSystem* addSystem() {
-            if (hasSystem<TSystem>()) {
-                return getSystem<TSystem>();
-            }
-            
-            TSystem* newSystem = new TSystem();
-            m_Systems[std::type_index(typeid(TSystem))] = std::unique_ptr<TSystem>(newSystem);
-            
-            checkAllEntitySubscriptions(newSystem);
+private:
+    std::string name;
+    std::unordered_map<entt::entity, std::unique_ptr<Entity>> m_EntityWrappers;
+    
+    std::unique_ptr<entt::registry> m_Registry;
+    std::unordered_map<std::type_index, std::unique_ptr<System>> m_Systems;
+    
+    Camera m_SceneCamera;
+    
+    static SDL_Renderer* m_Renderer;
 
-            return newSystem;
+    BackgroundSettings m_Background;
+public:
+    Scene(const std::string& name = "Untitled scene");
+    ~Scene();
+
+    void init();
+    void update(float dt);
+    void render(SDL_Renderer* renderer, Camera& camera, float renderW, float renderH);
+    void shutdown();
+
+    Entity* createEntity(const std::string& name = "New entity");
+    void destroyEntity(Entity* entity);
+
+    void checkEntitySubscriptions(Entity* entity);
+    void checkAllEntitySubscriptions(System* system);
+
+    // Getters
+    const std::string& getName() const { return name; }
+    static void setRenderer(SDL_Renderer* renderer);
+    static SDL_Renderer* getRenderer() { return m_Renderer; }
+    
+    Camera* getSceneCamera() { return &m_SceneCamera; }
+    
+    entt::registry& getRegistry() { return *m_Registry; }
+
+    BackgroundSettings& getBackground() { return m_Background; }
+    void setBackground(const BackgroundSettings& settings) { m_Background = settings; }
+
+
+    std::vector<Entity*> getEntityRawPointers() {
+        std::vector<Entity*> ptrs;
+        ptrs.reserve(m_EntityWrappers.size());
+        for (auto const& [handle, entityPtr] : m_EntityWrappers) {
+            ptrs.push_back(entityPtr.get());
         }
+        return ptrs;
+    }
 
-        template <typename TSystem>
-        TSystem* getSystem() const {
-            auto it = m_Systems.find(std::type_index(typeid(TSystem)));
-            if (it != m_Systems.end()) {
-                return static_cast<TSystem*>(it->second.get());
-            }
-            return nullptr;
+    template <typename TSystem> 
+    TSystem* addSystem() {
+        if (hasSystem<TSystem>()) {
+            return getSystem<TSystem>();
         }
+        auto newSystem = std::make_unique<TSystem>();
+        TSystem* rawPtr = newSystem.get();
+        m_Systems[std::type_index(typeid(TSystem))] = std::move(newSystem);
+        checkAllEntitySubscriptions(rawPtr);
+        return rawPtr;
+    }
 
-        template <typename TSystem>
-        bool hasSystem() const {
-            return m_Systems.count(std::type_index(typeid(TSystem)));
+    template <typename TSystem> 
+    TSystem* getSystem() const {
+        auto it = m_Systems.find(std::type_index(typeid(TSystem)));
+        if (it != m_Systems.end()) {
+            return static_cast<TSystem*>(it->second.get());
         }
+        return nullptr;
+    }
 
-        template <typename TComponent>
-        void onComponentAdded(Entity* entity) {
-            checkEntitySubscriptions(entity);
-        }
+    template <typename TSystem> 
+    bool hasSystem() const {
+        return m_Systems.count(std::type_index(typeid(TSystem)));
+    }
+};
 
-        const std::string& getName() const { return name; }
-        static void setRenderer(SDL_Renderer* renderer);
-    };
-}
+} // namespace Engine

@@ -1,0 +1,187 @@
+Engine Scripting Guide (Lua)
+
+Welcome to the scripting guide for the Engine. This document explains how to interact with the C++ engine core using Lua.
+
+1. Core Utilities
+
+Logging
+
+You can print messages to the engine console using the Log table.
+
+Log.info("Script initialized successfully!")
+Log.warn("This is a warning message.")
+Log.error("Something went wrong!")
+
+
+Math (Vectors)
+
+The engine uses vec2 for positions, scales, and velocities.
+
+local pos = vec2.new(100.5, 200.0)
+local speed = vec2.new(5.0, 5.0)
+
+-- Math operations are supported
+local moved = pos + (speed * 2.0)
+Log.info("New X: " .. moved.x)
+
+
+2. Input Handling
+
+Keyboard
+
+You can check for key states using Input and pre-defined KEY_ constants.
+
+if Input.isKeyDown(KEY_W) then
+    Log.info("W is being held down")
+end
+
+if Input.isKeyPressed(KEY_SPACE) then
+    Log.info("Space was pressed this frame")
+end
+
+
+Mouse
+
+local mousePos = Input.getMousePosition()
+if Input.isMouseButtonPressed(0) then -- 0 is usually Left Click
+    Log.info("Clicked at: " .. mousePos.x .. ", " .. mousePos.y)
+end
+
+
+3. Working with Entities and Components
+
+Entities are containers for Components. You can access components via getter methods.
+
+Transform & Movement
+
+The Transform component controls where the entity is, while Velocity stores its movement intent.
+
+-- Inside a script update loop
+local transform = entity:getTransform()
+local velocityComp = entity:getVelocity()
+
+if Input.isKeyDown(KEY_RIGHT) then
+    velocityComp.velocity.x = 200.0
+else
+    velocityComp.velocity.x = 0
+end
+
+-- Applying velocity to position manually (if not using Physics)
+transform.position.x = transform.position.x + (velocityComp.velocity.x * dt)
+
+
+Physics (RigidBody)
+
+If the entity has a RigidBody, you can manipulate forces and physical velocity.
+
+local rb = entity:getRigidbody()
+if rb then
+    rb:addForce(vec2.new(0, -10.0)) -- Jump/Upward force
+    rb.gravityScale = 1.5
+end
+
+
+Visuals & Sound
+
+-- Sprite manipulation
+local sprite = entity:getSprite()
+sprite.visible = true
+sprite.zIndex = 10
+
+-- Sound triggers
+local sfx = entity:getSound()
+sfx.volume = 0.5
+sfx:play()
+
+
+4. Collision Detection
+
+The engine supports three types of colliders. You can access their properties to adjust hitboxes dynamically:
+
+BoxCollider: entity:getBoxCollider() (size, offset)
+
+CircleCollider: entity:getCircleCollider() (radius, offset)
+
+PolygonCollider: entity:getPolygonCollider() (vertices)
+
+Example of modifying a Circle Collider:
+
+local circle = entity:getCircleCollider()
+if circle then
+    circle.radius = 50.0
+    circle.isTrigger = true -- Make it a sensor
+end
+
+
+5. Script Example: Simple Top-Down Movement
+
+function Update(entity, dt)
+    local vel = entity:getVelocity().velocity
+    local speed = 300.0
+
+    if Input.isKeyDown(KEY_W) then vel.y = -speed
+    elseif Input.isKeyDown(KEY_S) then vel.y = speed
+    else vel.y = 0 end
+
+    if Input.isKeyDown(KEY_A) then vel.x = -speed
+    elseif Input.isKeyDown(KEY_D) then vel.x = speed
+    else vel.x = 0 end
+    
+    -- Update position based on velocity
+    local transform = entity:getTransform()
+    transform.position = transform.position + (vel * dt)
+end
+
+
+6. Trigger Events & Callbacks
+
+When a collider has isTrigger set to true, it won't physically block other objects. Instead, it will fire a callback whenever an overlap occurs.
+
+Setting up a Trigger
+
+You can assign a Lua function to the onTrigger property of any collider. This function receives the Entity that entered the trigger.
+
+function Init(entity)
+    local box = entity:getBoxCollider()
+    
+    if box then
+        box.isTrigger = true
+        
+        -- Define what happens on overlap
+        box.onTrigger = function(other)
+            Log.info("I was hit by: " .. other:getName())
+            
+            -- Example: Damage the player if 'other' is an enemy
+            if other:getName() == "Enemy" then
+                Log.warn("Player took damage!")
+            end
+        end
+    end
+end
+
+
+Practical Example: Health Pickup
+
+function Update(entity, dt)
+    local box = entity:getBoxCollider()
+    
+    box.onTrigger = function(other)
+        if other:getName() == "Player" then
+            local sfx = entity:getSound()
+            sfx:play()
+            
+            Log.info("Healed player!")
+            -- Logic to destroy pickup or move it away
+            entity:getTransform().position = vec2.new(-1000, -1000)
+        end
+    end
+end
+
+
+7. Physics vs. Manual Movement
+
+Manual: Update transform.position directly.
+
+Physics: Use entity:getRigidbody() and call rb:addForce(vec2) or modify rb.velocity.
+
+Note: If you are using RigidBody, it is better to let the physics engine handle the position. Only use the onTrigger for logic like picking up items, opening doors, or environmental hazards.

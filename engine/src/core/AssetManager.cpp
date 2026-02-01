@@ -1,70 +1,128 @@
 #include "AssetManager.h"
-#include "SDL_error.h"
-#include "SDL_render.h"
-#include "SDL_surface.h"
+#include "SDL_image.h"
 #include "core/Log.h"
-#include <SDL2/SDL_image.h>
-#include <string>
+#include "FileSystem.h"
 
-namespace Engine { 
-    AssetManager::AssetManager() {
-        Log::info("AssetManager initializovany.");
+namespace Engine {
+
+std::map<std::string, SDL_Texture*> AssetManager::m_Textures;
+
+AssetManager::~AssetManager() {
+    clearInstanceAssets();
+}
+
+void AssetManager::init(SDL_Renderer* renderer) {
+    if (!renderer) {
+        Log::error("SDL_Renderer null. AssetManager init failed.");
+        return;
+    }
+    m_Renderer = renderer;
+    Log::info("AssetManager initialized.");
+}
+
+void AssetManager::loadTextureIfMissing(const std::string& assetId, const std::string& relativePath) {
+    if (m_Textures.find(assetId) != m_Textures.end()) {
+        return; // Already loaded, skip to save performance
+    }
+    
+    // If the assetId is the same as the path, we use it for both
+    std::string path = relativePath.empty() ? assetId : relativePath;
+    loadTexture(assetId, path);
+}
+
+void AssetManager::loadTexture(const std::string& assetId, const std::string& relativePath) {
+    if (!m_Renderer) {
+        Log::error("AssetManager: Cannot load '" + assetId + "' because m_Renderer is NULL. Did you call init()?");
+        return;
     }
 
-    AssetManager::~AssetManager() {
-        clearAssets();
-        Log::info("AssetManager zniceny.");
+    // Resolve the project-relative path
+    std::filesystem::path resolvedPath = FileSystem::getAbsolutePath(relativePath);
+    std::string fullPath = resolvedPath.string();
+
+    // DIAGNOSTIC: Check if file physically exists before SDL touches it
+    if (!std::filesystem::exists(resolvedPath)) {
+        Log::error("AssetManager: PHYSICAL FILE MISSING at: " + fullPath);
+        return;
     }
 
-    void AssetManager::init(SDL_Renderer* renderer) {
-        if (!renderer) {
-            Log::error("SDL_Renderer null. Neda sa initnut AssetManager.");
-            return;
-        }
-        m_Renderer = renderer;
+    SDL_Surface* surface = IMG_Load(fullPath.c_str());
+    if (!surface) {
+        Log::error("AssetManager: IMG_Load failed for: " + fullPath + " | Error: " + IMG_GetError());
+        return;
     }
 
-    void AssetManager::loadTexture(const std::string& assetId, const std::string& filePath) {
-        if (!m_Renderer) {
-            Log::error("Textura sa neda loadnut. AssetManager nebol initializovany s rendererom.");
-        }
+    SDL_Texture* texture = SDL_CreateTextureFromSurface(m_Renderer, surface);
+    SDL_FreeSurface(surface);
 
-        SDL_Surface* surface = IMG_Load(filePath.c_str());
-        if (!surface) {
-            Log::error("Zlyhalo nacitanie imagu: " + filePath + ". SDL_image error: " + IMG_GetError());
-            return;
-        }
-
-        SDL_Texture* texture = SDL_CreateTextureFromSurface(m_Renderer, surface);
-        SDL_FreeSurface(surface);
-
-        if (!texture) {
-            Log::error("Nepodarilo sa vytvorit texturu: " + std::string(SDL_GetError()));
-            return;
-        }
-
-        if (m_Textures.count(assetId)) {
-            Log::warn("Asset ID '" + assetId + "' uz existuje. Prepisujem.");
-            SDL_DestroyTexture(m_Textures[assetId]);
-        }
-
-        m_Textures[assetId] = texture;
-        Log::info("Nacitana textura: " + assetId + " z " + filePath);
+    if (!texture) {
+        Log::error("AssetManager: SDL_CreateTextureFromSurface failed for: " + assetId + " | Error: " + SDL_GetError());
+        return;
     }
 
-    SDL_Texture* AssetManager::getTexture(const std::string& assetId) const {
-        if (m_Textures.count(assetId)) {
-            return m_Textures.at(assetId);
-        }
-        Log::warn("Textura s id '" + assetId + "' nebola najdena.");
+    if (m_Textures.count(assetId)) {
+        SDL_DestroyTexture(m_Textures[assetId]);
+        Log::warn("AssetManager: Overwriting existing texture asset: " + assetId);
+    }
+
+    m_Textures[assetId] = texture;
+    Log::info("AssetManager: Successfully loaded [" + assetId + "] from " + fullPath);
+}
+
+SDL_Texture* AssetManager::getTextureInstance(const std::string& assetId) const {
+    auto it = m_Textures.find(assetId);
+    if (it == m_Textures.end()) {
+        // Silent fail here is okay as the RendererSystem logs the warning
         return nullptr;
     }
+    return it->second;
+}
 
-    void AssetManager::clearAssets() {
-        for (auto const& [key, val] : m_Textures) {
-            SDL_DestroyTexture(val);
+SDL_Texture* AssetManager::getTexture(const std::string& assetId) {
+    auto it = m_Textures.find(assetId);
+    return it != m_Textures.end() ? it->second : nullptr;
+}
+
+void AssetManager::clearInstanceAssets() {
+    clearAssets();
+}
+
+void AssetManager::clearAssets() {
+    for (auto& [id, tex] : m_Textures) {
+        if (tex) SDL_DestroyTexture(tex);
+    }
+    m_Textures.clear();
+    Log::info("AssetManager: All textures cleared.");
+}
+
+void AssetManager::removeTexture(const std::string& assetId) {
+    auto it = m_Textures.find(assetId);
+    if (it != m_Textures.end()) {
+        if (it->second) {
+            SDL_DestroyTexture(it->second);
         }
-        m_Textures.clear();
-        Log::info("Vsetky assety odstranene z pamate.");
+        m_Textures.erase(it);
+        Log::info("Removed texture: " + assetId);
+    } else {
+        Log::warn("Cannot remove texture. Not found: " + assetId);
     }
 }
+
+void AssetManager::renameTexture(const std::string& oldId, const std::string& newId) {
+    if (oldId == newId) return;
+
+    auto it = m_Textures.find(oldId);
+    if (it != m_Textures.end()) {
+        if (m_Textures.count(newId)) {
+            Log::warn("Rename target ID already exists, overwriting: " + newId);
+            SDL_DestroyTexture(m_Textures[newId]);
+        }
+        m_Textures[newId] = it->second;
+        m_Textures.erase(it);
+        Log::info("Renamed texture '" + oldId + "' -> '" + newId + "'");
+    } else {
+        Log::warn("Cannot rename texture. Old ID not found: " + oldId);
+    }
+}
+
+} // namespace Engine

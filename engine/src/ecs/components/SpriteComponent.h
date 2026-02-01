@@ -22,16 +22,21 @@ namespace Engine {
         SDL_Rect sourceRect;
         bool isFixed = false; // sprite position relativna ku obrazovke ak true
 
+        bool visible = true;
+        bool flipH = false;
+        bool flipV = false;
+        int zIndex = 0;
+
         SDL_Color color = {255, 255, 255, 255};
 
         SpriteComponent(const std::string& id = "", SDL_Texture* tex = nullptr,
-                        int srcX = 0, int srcY = 0, int srcW = 0, int srcH = 0)
-            : assetId(id), texture(tex) {
+                        int srcX = 0, int srcY = 0, int srcW = 0, int srcH = 0, int z = 0)
+            : assetId(id), texture(tex), zIndex(z) {
             
-            sourceRect.x = srcX;
-            sourceRect.y = srcY;
-            sourceRect.w = srcW;
-            sourceRect.h = srcH;
+            this->sourceRect.x = srcX;
+            this->sourceRect.y = srcY;
+            this->sourceRect.w = srcW;
+            this->sourceRect.h = srcH;
 
             if (tex && srcW == 0 && srcH == 0) {
                 Uint32 format;
@@ -39,7 +44,10 @@ namespace Engine {
                 SDL_QueryTexture(tex, &format, &access, &w, &h);
                 sourceRect.w = w;
                 sourceRect.h = h;
+                
             }
+            std::string debugMsg = "Sprite Created - ID: " + id + " zIndex: " + std::to_string(z);
+            Log::info(debugMsg);
         }
     };
 }

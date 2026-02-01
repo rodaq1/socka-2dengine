@@ -1,0 +1,47 @@
+{
+    "Entities": [
+        {
+            "Components": {
+                "Sprite": {
+                    "AssetId": "IDLE.png",
+                    "Color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "FlipH": false,
+                    "FlipV": false,
+                    "IsFixed": false,
+                    "SourceRect": [
+                        0,
+                        0,
+                        96,
+                        96
+                    ],
+                    "Visible": true,
+                    "ZIndex": 0
+                },
+                "Transform": {
+                    "Position": [
+                        -0.05667527765035629,
+                        -0.011289115063846111
+                    ],
+                    "Rotation": 0.0,
+                    "Scale": [
+                        1.0,
+                        1.0
+                    ]
+                }
+            },
+            "Name": "New Entity"
+        }
+    ],
+    "SceneCamera": {
+        "AspectRatio": 1.777999997138977,
+        "FarClip": 1.0,
+        "NearClip": -1.0,
+        "OrthographicSize": 10.0
+    },
+    "SceneName": "main"
+}

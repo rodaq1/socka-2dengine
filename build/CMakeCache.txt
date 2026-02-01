@@ -150,7 +150,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=SolidarityEngine
+CMAKE_PROJECT_NAME:STATIC=socka-2dengine
 
 //Value Computed by CMake
 CMAKE_PROJECT_SPDX_LICENSE:STATIC=
@@ -220,20 +220,20 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Path to a file.
+LUA_INCLUDE_DIR:PATH=/usr/include
+
+//Path to a library.
+LUA_LIBRARY:FILEPATH=/usr/lib/liblua5.4.so
+
+//Path to a library.
+LUA_MATH_LIBRARY:FILEPATH=/usr/lib/libm.so
+
 //Arguments to supply to pkg-config
 PKG_CONFIG_ARGN:STRING=
 
 //pkg-config executable
 PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/sbin/pkg-config
-
-//Value Computed by CMake
-SolidarityEngine_BINARY_DIR:STATIC=/home/rodaqqq/Documents/socka-2dengine/build
-
-//Value Computed by CMake
-SolidarityEngine_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-SolidarityEngine_SOURCE_DIR:STATIC=/home/rodaqqq/Documents/socka-2dengine
 
 //Path to a library.
 pkgcfg_lib_SDL2_IMAGE_SDL2:FILEPATH=/usr/lib/libSDL2.so
@@ -249,6 +249,15 @@ pkgcfg_lib_SDL2_MIXER_SDL2_mixer:FILEPATH=/usr/lib/libSDL2_mixer.so
 
 //Path to a library.
 pkgcfg_lib_SDL2_SDL2:FILEPATH=/usr/lib/libSDL2.so
+
+//Value Computed by CMake
+socka-2dengine_BINARY_DIR:STATIC=/home/rodaqqq/Documents/socka-2dengine/build
+
+//Value Computed by CMake
+socka-2dengine_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+socka-2dengine_SOURCE_DIR:STATIC=/home/rodaqqq/Documents/socka-2dengine
 
 
 ########################
@@ -402,8 +411,16 @@ CMAKE_TAPI-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/sbin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding Lua
+FIND_PACKAGE_MESSAGE_DETAILS_Lua:INTERNAL=[/usr/lib/liblua5.4.so;/usr/lib/libm.so][/usr/include][v5.4.8()]
 //Details about finding PkgConfig
 FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/sbin/pkg-config][v2.5.1()]
+//ADVANCED property for variable: LUA_INCLUDE_DIR
+LUA_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: LUA_LIBRARY
+LUA_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: LUA_MATH_LIBRARY
+LUA_MATH_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PKG_CONFIG_ARGN
 PKG_CONFIG_ARGN-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PKG_CONFIG_EXECUTABLE

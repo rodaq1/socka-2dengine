@@ -2,9 +2,8 @@
 
 #include "../System.h" // Includes the base System class
 #include "SDL_render.h"
+#include "core/Camera.h"
 #include <SDL2/SDL.h>
-#include "../components/SpriteComponent.h"
-#include "../components/TransformComponent.h"
 
 
 namespace Engine {
@@ -26,7 +25,7 @@ namespace Engine {
         RendererSystem();
         ~RendererSystem() override = default;
 
-        void update(SDL_Renderer* renderer, const SDL_Rect& camera);
+        void update(SDL_Renderer* renderer, const Camera& camera, float targetWidth, float targetHeight);
 
 
     private:
