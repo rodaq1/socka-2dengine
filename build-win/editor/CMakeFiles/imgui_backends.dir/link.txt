@@ -1,0 +1,2 @@
+/usr/sbin/x86_64-w64-mingw32-ar qc libimgui_backends.a CMakeFiles/imgui_backends.dir/__/vendor/imgui/backends/imgui_impl_sdl2.cpp.obj CMakeFiles/imgui_backends.dir/__/vendor/imgui/backends/imgui_impl_sdlrenderer2.cpp.obj CMakeFiles/imgui_backends.dir/__/vendor/ImGuizmo/ImGuizmo.cpp.obj
+/usr/sbin/x86_64-w64-mingw32-ranlib libimgui_backends.a

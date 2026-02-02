@@ -233,12 +233,15 @@ private:
      * Box collider
      */
     lua.new_usertype<BoxColliderComponent>(
-        "BoxCollider", "size", &BoxColliderComponent::size, "offset",
-        &BoxColliderComponent::offset, "layer", &BoxColliderComponent::layer,
-        "mask", &BoxColliderComponent::mask, "isTrigger",
-        &BoxColliderComponent::isTrigger, "isStatic",
-        "onTriggerEnter", &BoxColliderComponent::onTriggerEnter,
-        &BoxColliderComponent::isStatic);
+        "BoxCollider", 
+        
+      "size", &BoxColliderComponent::size,
+        "offset", &BoxColliderComponent::offset, 
+        "layer", &BoxColliderComponent::layer,
+        "mask", &BoxColliderComponent::mask, 
+        "isTrigger", &BoxColliderComponent::isTrigger, 
+        "isStatic", &BoxColliderComponent::isStatic,
+        "onTriggerEnter", &BoxColliderComponent::onTriggerEnter);
 
     //polygon collider
     lua.new_usertype<PolygonColliderComponent>(

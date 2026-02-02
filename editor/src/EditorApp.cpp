@@ -172,7 +172,7 @@ void EditorApp::initialize() {
       config.lastActiveScene = fullScenePath.filename().string();
       m_currentProject->setConfig(config);
 
-      setActiveScene(fullScenePath);
+      setActiveScene(fullScenePath.string());
     }
   } else {
     Engine::Log::warn(
@@ -188,7 +188,7 @@ void EditorApp::initialize() {
     config.lastActiveScene = defaultPath.filename().string();
     m_currentProject->setConfig(config);
 
-    setActiveScene(defaultPath);
+    setActiveScene(defaultPath.string());
   }
 
   Engine::Log::info("Project systems and scene initialized successfully.");

@@ -1,7 +1,7 @@
 #pragma once
 
 #include "imgui.h"
-#include "ImGuizmo.h"
+#include <ImGuizmo.h>
 #include "core/AssetManager.h"
 #include "core/Project.h"
 #include "ecs/Entity.h"

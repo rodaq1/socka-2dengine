@@ -181,7 +181,7 @@ Engine::Project *ProjectBrowser::render() {
       if (ImGui::BeginPopupContextItem("ProjectContextMenu")) {
         projectToModifyIndex = i;
         if (ImGui::MenuItem("Open in Explorer")) {
-          pfd::open_file("Open Folder", m_FoundProjects[i].getPath());
+          pfd::open_file("Open Folder", m_FoundProjects[i].getPath().string());
         }
         ImGui::Separator();
         ImGui::EndPopup();

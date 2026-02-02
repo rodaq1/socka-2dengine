@@ -1,0 +1,1 @@
+/usr/sbin/c++ -Wl,--dependency-file=CMakeFiles/Runtime.dir/link.d CMakeFiles/Runtime.dir/src/runtime.cpp.o -o Runtime  ../engine/libengine.a libimgui_backends.a ../libimgui.a -lSDL2 -lSDL2_image -lSDL2 -lSDL2_mixer -lSDL2 -llua -lm
