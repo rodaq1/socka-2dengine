@@ -4,7 +4,7 @@
 # compile CXX with /usr/sbin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/single_include -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp
+CXX_INCLUDES = -I/home/rodaqqq/Documents/socka-2dengine/engine/src -I/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo -I/home/rodaqqq/Documents/socka-2dengine/vendor/glm -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui -I/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends -I/home/rodaqqq/Documents/socka-2dengine/vendor/entt/single_include -I/home/rodaqqq/Documents/socka-2dengine/vendor/json/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include -I/home/rodaqqq/Documents/socka-2dengine/vendor/pfd -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp
 
 CXX_FLAGS = -std=gnu++20
 

@@ -21,139 +21,7 @@ editor/CMakeFiles/editor.dir/src/EditorApp.cpp.o: /home/rodaqqq/Documents/socka-
   /home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/components/TransformComponent.h \
   /home/rodaqqq/Documents/socka-2dengine/engine/src/scene/Scene.h \
   /home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo/ImGuizmo.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/macro.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/version.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/memory.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_set.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/attribute.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/algorithm.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/any.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/attribute.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/enum.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/family.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/hashed_string.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/ident.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/memory.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/monostate.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/tuple.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_info.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/algorithm.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/any.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/memory.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_info.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_set.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/adjacency_matrix.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/flow.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/delegate.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/sigh.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/component.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/entity.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/group.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/handle.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/helper.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/observer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/organizer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/registry.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/runtime_view.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/snapshot.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/sparse_set.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/storage.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/storage_mixin.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/view.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entt.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/adjacency_matrix.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/dot.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/flow.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/locator/locator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_set.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/any.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/attribute.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/enum.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_info.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/locator/locator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/adl_pointer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/container.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/context.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/factory.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/meta.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/node.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/pointer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/policy.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/range.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/resolve.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/template.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/platform/android-ndk-r17.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/any.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_info.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/poly/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/poly/poly.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/process/process.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/process/scheduler.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/resource/cache.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/resource/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/resource/loader.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/resource/resource.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_info.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/delegate.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/dispatcher.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/emitter.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/sigh.hpp \
+  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/single_include/entt/entt.hpp \
   /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/common.hpp \
   /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_exponential.inl \
   /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_vector_relational.inl \
@@ -912,139 +780,7 @@ editor/CMakeFiles/editor.dir/src/main.cpp.o: /home/rodaqqq/Documents/socka-2deng
   /home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/Component.h \
   /home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/Entity.h \
   /home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo/ImGuizmo.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/macro.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/version.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/memory.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_set.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/attribute.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/algorithm.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/any.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/attribute.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/enum.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/family.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/hashed_string.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/ident.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/memory.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/monostate.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/tuple.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_info.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/algorithm.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/any.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/memory.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_info.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_set.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/adjacency_matrix.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/flow.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/delegate.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/sigh.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/component.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/entity.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/group.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/handle.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/helper.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/observer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/organizer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/registry.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/runtime_view.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/snapshot.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/sparse_set.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/storage.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/storage_mixin.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/view.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entt.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/adjacency_matrix.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/dot.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/flow.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/locator/locator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_set.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/any.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/attribute.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/enum.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_info.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/locator/locator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/adl_pointer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/container.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/context.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/factory.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/meta.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/node.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/pointer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/policy.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/range.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/resolve.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/template.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/platform/android-ndk-r17.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/any.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_info.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/poly/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/poly/poly.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/process/process.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/process/scheduler.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/resource/cache.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/resource/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/resource/loader.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/resource/resource.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_info.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/delegate.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/dispatcher.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/emitter.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/sigh.hpp \
+  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/single_include/entt/entt.hpp \
   /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/common.hpp \
   /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_exponential.inl \
   /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_vector_relational.inl \
@@ -1582,889 +1318,6 @@ editor/CMakeFiles/editor.dir/src/main.cpp.o: /home/rodaqqq/Documents/socka-2deng
   /usr/include/sys/single_threaded.h \
   /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
-  /usr/include/syscall.h \
-  /usr/include/time.h \
-  /usr/include/unistd.h \
-  /usr/include/wchar.h \
-  /usr/include/wctype.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/adxintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxavx512intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxbf16intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxcomplexintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxfp16intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxfp8intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxint8intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxmovrsintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxtf32intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxtileintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxtransposeintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2-512bf16intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2-512convertintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2-512mediaintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2-512minmaxintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2-512satcvtintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2bf16intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2convertintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2copyintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2mediaintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2minmaxintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2satcvtintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx2intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bf16intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bf16vlintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bitalgintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bitalgvlintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bwintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512cdintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512dqintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512fintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512fp16intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512fp16vlintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512ifmaintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512ifmavlintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vbmi2intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vbmi2vlintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vbmiintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vbmivlintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vlbwintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vldqintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vlintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vnniintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vnnivlintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vp2intersectintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vp2intersectvlintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vpopcntdqintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vpopcntdqvlintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxifmaintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxneconvertintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxvnniint16intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxvnniint8intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxvnniintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/bmi2intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/bmiintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/cetintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/cldemoteintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/clflushoptintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/clwbintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/clzerointrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/cmpccxaddintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/emmintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/enqcmdintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/f16cintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/float.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/fmaintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/fxsrintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/gfniintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/hresetintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/ia32intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/immintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/keylockerintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/lwpintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/lzcntintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mm_malloc.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mmintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/movdirintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/movrsintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mwaitintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mwaitxintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/pconfigintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/pkuintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/pmmintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/popcntintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/prfchiintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/prfchwintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/raointintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/rdseedintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/rtmintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/serializeintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/sgxintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/sha512intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/shaintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/sm3intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/sm4intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/smmintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/tbmintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/tmmintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/tsxldtrkintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/uintrintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/usermsrintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/vaesintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/vpclmulqdqintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/waitpkgintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/wbnoinvdintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/wmmintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/x86gprintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xmmintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xsavecintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xsaveintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xsaveoptintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xsavesintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xtestintrin.h
-
-editor/CMakeFiles/editor.dir/src/ui/AssetManager.cpp.o: /home/rodaqqq/Documents/socka-2dengine/editor/src/ui/AssetManager.cpp \
-  /home/rodaqqq/Documents/socka-2dengine/editor/src/EditorApp.h \
-  /home/rodaqqq/Documents/socka-2dengine/engine/src/core/AssetManager.h \
-  /home/rodaqqq/Documents/socka-2dengine/engine/src/core/Camera.h \
-  /home/rodaqqq/Documents/socka-2dengine/engine/src/core/Log.h \
-  /home/rodaqqq/Documents/socka-2dengine/engine/src/core/Project.h \
-  /home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/Entity.h \
-  /home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/Component.h \
-  /home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/components/SpriteComponent.h \
-  /home/rodaqqq/Documents/socka-2dengine/engine/src/scene/Scene.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo/ImGuizmo.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/macro.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/version.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/memory.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_set.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/attribute.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/algorithm.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/any.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/attribute.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/enum.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/family.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/hashed_string.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/ident.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/memory.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/monostate.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/tuple.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_info.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/algorithm.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/any.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/memory.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_info.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_set.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/adjacency_matrix.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/flow.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/delegate.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/sigh.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/component.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/entity.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/group.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/handle.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/helper.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/observer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/organizer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/registry.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/runtime_view.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/snapshot.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/sparse_set.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/storage.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/storage_mixin.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/view.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entt.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/adjacency_matrix.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/dot.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/flow.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/locator/locator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_set.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/any.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/attribute.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/enum.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_info.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/locator/locator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/adl_pointer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/container.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/context.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/factory.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/meta.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/node.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/pointer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/policy.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/range.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/resolve.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/template.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/platform/android-ndk-r17.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/any.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_info.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/poly/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/poly/poly.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/process/process.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/process/scheduler.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/resource/cache.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/resource/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/resource/loader.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/resource/resource.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_info.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/delegate.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/dispatcher.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/emitter.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/sigh.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/common.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_exponential.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_vector_relational.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/exponential.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/vector_relational.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/_fixes.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/compute_common.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_common.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_geometric.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec1.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec1.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/geometric.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x3.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x4.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x2.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x3.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x4.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x2.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x3.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x4.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_matrix.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat2x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat2x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat3x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat3x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat3x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat4x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat4x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat4x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/matrix.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/compute_vector_relational.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/_vectorize.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/compute_vector_decl.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x2.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec2.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec3.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec4.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/scalar_int_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/scalar_uint_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int2_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int3_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int4_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint2_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint3_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint4_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/simd/platform.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/_fixes.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_integer.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_packing.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_trigonometric.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/qualifier.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_half.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_half.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/glm.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/integer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat2x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/packing.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/trigonometric.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/vec2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/vec3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/vec4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/imgui/imconfig.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/imgui/imgui.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/pfd/portable-file-dialogs.h \
-  /usr/include/SDL2/SDL.h \
-  /usr/include/SDL2/SDL_assert.h \
-  /usr/include/SDL2/SDL_atomic.h \
-  /usr/include/SDL2/SDL_audio.h \
-  /usr/include/SDL2/SDL_blendmode.h \
-  /usr/include/SDL2/SDL_clipboard.h \
-  /usr/include/SDL2/SDL_config.h \
-  /usr/include/SDL2/SDL_config_unix.h \
-  /usr/include/SDL2/SDL_cpuinfo.h \
-  /usr/include/SDL2/SDL_endian.h \
-  /usr/include/SDL2/SDL_error.h \
-  /usr/include/SDL2/SDL_events.h \
-  /usr/include/SDL2/SDL_filesystem.h \
-  /usr/include/SDL2/SDL_gamecontroller.h \
-  /usr/include/SDL2/SDL_gesture.h \
-  /usr/include/SDL2/SDL_guid.h \
-  /usr/include/SDL2/SDL_haptic.h \
-  /usr/include/SDL2/SDL_hidapi.h \
-  /usr/include/SDL2/SDL_hints.h \
-  /usr/include/SDL2/SDL_joystick.h \
-  /usr/include/SDL2/SDL_keyboard.h \
-  /usr/include/SDL2/SDL_keycode.h \
-  /usr/include/SDL2/SDL_loadso.h \
-  /usr/include/SDL2/SDL_locale.h \
-  /usr/include/SDL2/SDL_log.h \
-  /usr/include/SDL2/SDL_main.h \
-  /usr/include/SDL2/SDL_messagebox.h \
-  /usr/include/SDL2/SDL_metal.h \
-  /usr/include/SDL2/SDL_misc.h \
-  /usr/include/SDL2/SDL_mouse.h \
-  /usr/include/SDL2/SDL_mutex.h \
-  /usr/include/SDL2/SDL_pixels.h \
-  /usr/include/SDL2/SDL_platform.h \
-  /usr/include/SDL2/SDL_power.h \
-  /usr/include/SDL2/SDL_quit.h \
-  /usr/include/SDL2/SDL_rect.h \
-  /usr/include/SDL2/SDL_render.h \
-  /usr/include/SDL2/SDL_rwops.h \
-  /usr/include/SDL2/SDL_scancode.h \
-  /usr/include/SDL2/SDL_sensor.h \
-  /usr/include/SDL2/SDL_shape.h \
-  /usr/include/SDL2/SDL_stdinc.h \
-  /usr/include/SDL2/SDL_surface.h \
-  /usr/include/SDL2/SDL_system.h \
-  /usr/include/SDL2/SDL_thread.h \
-  /usr/include/SDL2/SDL_timer.h \
-  /usr/include/SDL2/SDL_touch.h \
-  /usr/include/SDL2/SDL_version.h \
-  /usr/include/SDL2/SDL_video.h \
-  /usr/include/SDL2/begin_code.h \
-  /usr/include/SDL2/close_code.h \
-  /usr/include/alloca.h \
-  /usr/include/asm-generic/bitsperlong.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/int-ll64.h \
-  /usr/include/asm-generic/posix_types.h \
-  /usr/include/asm-generic/types.h \
-  /usr/include/asm/bitsperlong.h \
-  /usr/include/asm/errno.h \
-  /usr/include/asm/posix_types.h \
-  /usr/include/asm/posix_types_64.h \
-  /usr/include/asm/types.h \
-  /usr/include/asm/unistd.h \
-  /usr/include/asm/unistd_64.h \
-  /usr/include/assert.h \
-  /usr/include/bits/atomic_wide_counter.h \
-  /usr/include/bits/byteswap.h \
-  /usr/include/bits/confname.h \
-  /usr/include/bits/cpu-set.h \
-  /usr/include/bits/endian.h \
-  /usr/include/bits/endianness.h \
-  /usr/include/bits/environments.h \
-  /usr/include/bits/errno.h \
-  /usr/include/bits/fcntl-linux.h \
-  /usr/include/bits/fcntl.h \
-  /usr/include/bits/floatn-common.h \
-  /usr/include/bits/floatn.h \
-  /usr/include/bits/flt-eval-method.h \
-  /usr/include/bits/fp-fast.h \
-  /usr/include/bits/fp-logb.h \
-  /usr/include/bits/getopt_core.h \
-  /usr/include/bits/getopt_posix.h \
-  /usr/include/bits/iscanonical.h \
-  /usr/include/bits/libc-header-start.h \
-  /usr/include/bits/libm-simd-decl-stubs.h \
-  /usr/include/bits/local_lim.h \
-  /usr/include/bits/locale.h \
-  /usr/include/bits/long-double.h \
-  /usr/include/bits/math-vector.h \
-  /usr/include/bits/mathcalls-helper-functions.h \
-  /usr/include/bits/mathcalls-macros.h \
-  /usr/include/bits/mathcalls-narrow.h \
-  /usr/include/bits/mathcalls.h \
-  /usr/include/bits/posix1_lim.h \
-  /usr/include/bits/posix2_lim.h \
-  /usr/include/bits/posix_opt.h \
-  /usr/include/bits/pthread_stack_min-dynamic.h \
-  /usr/include/bits/pthreadtypes-arch.h \
-  /usr/include/bits/pthreadtypes.h \
-  /usr/include/bits/sched.h \
-  /usr/include/bits/select.h \
-  /usr/include/bits/semaphore.h \
-  /usr/include/bits/setjmp.h \
-  /usr/include/bits/sigaction.h \
-  /usr/include/bits/sigcontext.h \
-  /usr/include/bits/sigevent-consts.h \
-  /usr/include/bits/siginfo-arch.h \
-  /usr/include/bits/siginfo-consts-arch.h \
-  /usr/include/bits/siginfo-consts.h \
-  /usr/include/bits/signal_ext.h \
-  /usr/include/bits/signum-arch.h \
-  /usr/include/bits/signum-generic.h \
-  /usr/include/bits/sigstack.h \
-  /usr/include/bits/sigstksz.h \
-  /usr/include/bits/sigthread.h \
-  /usr/include/bits/ss_flags.h \
-  /usr/include/bits/stat.h \
-  /usr/include/bits/statx-generic.h \
-  /usr/include/bits/statx.h \
-  /usr/include/bits/stdint-intn.h \
-  /usr/include/bits/stdint-least.h \
-  /usr/include/bits/stdint-uintn.h \
-  /usr/include/bits/stdio_lim.h \
-  /usr/include/bits/stdlib-float.h \
-  /usr/include/bits/struct_mutex.h \
-  /usr/include/bits/struct_rwlock.h \
-  /usr/include/bits/struct_stat.h \
-  /usr/include/bits/syscall.h \
-  /usr/include/bits/thread-shared-types.h \
-  /usr/include/bits/time.h \
-  /usr/include/bits/time64.h \
-  /usr/include/bits/timesize.h \
-  /usr/include/bits/timex.h \
-  /usr/include/bits/types.h \
-  /usr/include/bits/types/FILE.h \
-  /usr/include/bits/types/__FILE.h \
-  /usr/include/bits/types/__fpos64_t.h \
-  /usr/include/bits/types/__fpos_t.h \
-  /usr/include/bits/types/__locale_t.h \
-  /usr/include/bits/types/__mbstate_t.h \
-  /usr/include/bits/types/__sigset_t.h \
-  /usr/include/bits/types/__sigval_t.h \
-  /usr/include/bits/types/clock_t.h \
-  /usr/include/bits/types/clockid_t.h \
-  /usr/include/bits/types/cookie_io_functions_t.h \
-  /usr/include/bits/types/error_t.h \
-  /usr/include/bits/types/idtype_t.h \
-  /usr/include/bits/types/locale_t.h \
-  /usr/include/bits/types/mbstate_t.h \
-  /usr/include/bits/types/sig_atomic_t.h \
-  /usr/include/bits/types/sigevent_t.h \
-  /usr/include/bits/types/siginfo_t.h \
-  /usr/include/bits/types/sigset_t.h \
-  /usr/include/bits/types/sigval_t.h \
-  /usr/include/bits/types/stack_t.h \
-  /usr/include/bits/types/struct_FILE.h \
-  /usr/include/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/bits/types/struct_iovec.h \
-  /usr/include/bits/types/struct_itimerspec.h \
-  /usr/include/bits/types/struct_sched_param.h \
-  /usr/include/bits/types/struct_sigstack.h \
-  /usr/include/bits/types/struct_statx.h \
-  /usr/include/bits/types/struct_statx_timestamp.h \
-  /usr/include/bits/types/struct_timespec.h \
-  /usr/include/bits/types/struct_timeval.h \
-  /usr/include/bits/types/struct_tm.h \
-  /usr/include/bits/types/time_t.h \
-  /usr/include/bits/types/timer_t.h \
-  /usr/include/bits/types/wint_t.h \
-  /usr/include/bits/typesizes.h \
-  /usr/include/bits/uintn-identity.h \
-  /usr/include/bits/uio_lim.h \
-  /usr/include/bits/unistd_ext.h \
-  /usr/include/bits/waitflags.h \
-  /usr/include/bits/waitstatus.h \
-  /usr/include/bits/wchar.h \
-  /usr/include/bits/wctype-wchar.h \
-  /usr/include/bits/wordsize.h \
-  /usr/include/bits/xopen_lim.h \
-  /usr/include/c++/15.2.1/algorithm \
-  /usr/include/c++/15.2.1/array \
-  /usr/include/c++/15.2.1/atomic \
-  /usr/include/c++/15.2.1/backward/auto_ptr.h \
-  /usr/include/c++/15.2.1/backward/binders.h \
-  /usr/include/c++/15.2.1/bit \
-  /usr/include/c++/15.2.1/bits/algorithmfwd.h \
-  /usr/include/c++/15.2.1/bits/align.h \
-  /usr/include/c++/15.2.1/bits/alloc_traits.h \
-  /usr/include/c++/15.2.1/bits/allocated_ptr.h \
-  /usr/include/c++/15.2.1/bits/allocator.h \
-  /usr/include/c++/15.2.1/bits/atomic_base.h \
-  /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
-  /usr/include/c++/15.2.1/bits/atomic_timed_wait.h \
-  /usr/include/c++/15.2.1/bits/atomic_wait.h \
-  /usr/include/c++/15.2.1/bits/basic_ios.h \
-  /usr/include/c++/15.2.1/bits/basic_ios.tcc \
-  /usr/include/c++/15.2.1/bits/basic_string.h \
-  /usr/include/c++/15.2.1/bits/basic_string.tcc \
-  /usr/include/c++/15.2.1/bits/char_traits.h \
-  /usr/include/c++/15.2.1/bits/charconv.h \
-  /usr/include/c++/15.2.1/bits/chrono.h \
-  /usr/include/c++/15.2.1/bits/chrono_io.h \
-  /usr/include/c++/15.2.1/bits/codecvt.h \
-  /usr/include/c++/15.2.1/bits/concept_check.h \
-  /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
-  /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
-  /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
-  /usr/include/c++/15.2.1/bits/deque.tcc \
-  /usr/include/c++/15.2.1/bits/enable_special_members.h \
-  /usr/include/c++/15.2.1/bits/erase_if.h \
-  /usr/include/c++/15.2.1/bits/exception.h \
-  /usr/include/c++/15.2.1/bits/exception_defines.h \
-  /usr/include/c++/15.2.1/bits/exception_ptr.h \
-  /usr/include/c++/15.2.1/bits/formatfwd.h \
-  /usr/include/c++/15.2.1/bits/fs_dir.h \
-  /usr/include/c++/15.2.1/bits/fs_fwd.h \
-  /usr/include/c++/15.2.1/bits/fs_ops.h \
-  /usr/include/c++/15.2.1/bits/fs_path.h \
-  /usr/include/c++/15.2.1/bits/functexcept.h \
-  /usr/include/c++/15.2.1/bits/functional_hash.h \
-  /usr/include/c++/15.2.1/bits/hash_bytes.h \
-  /usr/include/c++/15.2.1/bits/hashtable.h \
-  /usr/include/c++/15.2.1/bits/hashtable_policy.h \
-  /usr/include/c++/15.2.1/bits/invoke.h \
-  /usr/include/c++/15.2.1/bits/ios_base.h \
-  /usr/include/c++/15.2.1/bits/istream.tcc \
-  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
-  /usr/include/c++/15.2.1/bits/list.tcc \
-  /usr/include/c++/15.2.1/bits/locale_classes.h \
-  /usr/include/c++/15.2.1/bits/locale_classes.tcc \
-  /usr/include/c++/15.2.1/bits/locale_conv.h \
-  /usr/include/c++/15.2.1/bits/locale_facets.h \
-  /usr/include/c++/15.2.1/bits/locale_facets.tcc \
-  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
-  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
-  /usr/include/c++/15.2.1/bits/localefwd.h \
-  /usr/include/c++/15.2.1/bits/max_size_type.h \
-  /usr/include/c++/15.2.1/bits/memory_resource.h \
-  /usr/include/c++/15.2.1/bits/memoryfwd.h \
-  /usr/include/c++/15.2.1/bits/monostate.h \
-  /usr/include/c++/15.2.1/bits/move.h \
-  /usr/include/c++/15.2.1/bits/nested_exception.h \
-  /usr/include/c++/15.2.1/bits/new_allocator.h \
-  /usr/include/c++/15.2.1/bits/node_handle.h \
-  /usr/include/c++/15.2.1/bits/ostream.h \
-  /usr/include/c++/15.2.1/bits/ostream.tcc \
-  /usr/include/c++/15.2.1/bits/ostream_insert.h \
-  /usr/include/c++/15.2.1/bits/parse_numbers.h \
-  /usr/include/c++/15.2.1/bits/postypes.h \
-  /usr/include/c++/15.2.1/bits/predefined_ops.h \
-  /usr/include/c++/15.2.1/bits/ptr_traits.h \
-  /usr/include/c++/15.2.1/bits/quoted_string.h \
-  /usr/include/c++/15.2.1/bits/range_access.h \
-  /usr/include/c++/15.2.1/bits/ranges_algo.h \
-  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
-  /usr/include/c++/15.2.1/bits/ranges_base.h \
-  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
-  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
-  /usr/include/c++/15.2.1/bits/ranges_util.h \
-  /usr/include/c++/15.2.1/bits/refwrap.h \
-  /usr/include/c++/15.2.1/bits/regex.h \
-  /usr/include/c++/15.2.1/bits/regex.tcc \
-  /usr/include/c++/15.2.1/bits/regex_automaton.h \
-  /usr/include/c++/15.2.1/bits/regex_automaton.tcc \
-  /usr/include/c++/15.2.1/bits/regex_compiler.h \
-  /usr/include/c++/15.2.1/bits/regex_compiler.tcc \
-  /usr/include/c++/15.2.1/bits/regex_constants.h \
-  /usr/include/c++/15.2.1/bits/regex_error.h \
-  /usr/include/c++/15.2.1/bits/regex_executor.h \
-  /usr/include/c++/15.2.1/bits/regex_executor.tcc \
-  /usr/include/c++/15.2.1/bits/regex_scanner.h \
-  /usr/include/c++/15.2.1/bits/regex_scanner.tcc \
-  /usr/include/c++/15.2.1/bits/requires_hosted.h \
-  /usr/include/c++/15.2.1/bits/semaphore_base.h \
-  /usr/include/c++/15.2.1/bits/shared_ptr.h \
-  /usr/include/c++/15.2.1/bits/shared_ptr_atomic.h \
-  /usr/include/c++/15.2.1/bits/shared_ptr_base.h \
-  /usr/include/c++/15.2.1/bits/specfun.h \
-  /usr/include/c++/15.2.1/bits/sstream.tcc \
-  /usr/include/c++/15.2.1/bits/std_abs.h \
-  /usr/include/c++/15.2.1/bits/std_function.h \
-  /usr/include/c++/15.2.1/bits/std_mutex.h \
-  /usr/include/c++/15.2.1/bits/std_thread.h \
-  /usr/include/c++/15.2.1/bits/stl_algo.h \
-  /usr/include/c++/15.2.1/bits/stl_algobase.h \
-  /usr/include/c++/15.2.1/bits/stl_bvector.h \
-  /usr/include/c++/15.2.1/bits/stl_construct.h \
-  /usr/include/c++/15.2.1/bits/stl_deque.h \
-  /usr/include/c++/15.2.1/bits/stl_function.h \
-  /usr/include/c++/15.2.1/bits/stl_heap.h \
-  /usr/include/c++/15.2.1/bits/stl_iterator.h \
-  /usr/include/c++/15.2.1/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/15.2.1/bits/stl_iterator_base_types.h \
-  /usr/include/c++/15.2.1/bits/stl_list.h \
-  /usr/include/c++/15.2.1/bits/stl_map.h \
-  /usr/include/c++/15.2.1/bits/stl_multimap.h \
-  /usr/include/c++/15.2.1/bits/stl_multiset.h \
-  /usr/include/c++/15.2.1/bits/stl_pair.h \
-  /usr/include/c++/15.2.1/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/15.2.1/bits/stl_relops.h \
-  /usr/include/c++/15.2.1/bits/stl_set.h \
-  /usr/include/c++/15.2.1/bits/stl_stack.h \
-  /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
-  /usr/include/c++/15.2.1/bits/stl_tree.h \
-  /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
-  /usr/include/c++/15.2.1/bits/stl_vector.h \
-  /usr/include/c++/15.2.1/bits/stream_iterator.h \
-  /usr/include/c++/15.2.1/bits/streambuf.tcc \
-  /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
-  /usr/include/c++/15.2.1/bits/string_view.tcc \
-  /usr/include/c++/15.2.1/bits/stringfwd.h \
-  /usr/include/c++/15.2.1/bits/this_thread_sleep.h \
-  /usr/include/c++/15.2.1/bits/unicode-data.h \
-  /usr/include/c++/15.2.1/bits/unicode.h \
-  /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
-  /usr/include/c++/15.2.1/bits/unique_ptr.h \
-  /usr/include/c++/15.2.1/bits/unordered_map.h \
-  /usr/include/c++/15.2.1/bits/unordered_set.h \
-  /usr/include/c++/15.2.1/bits/uses_allocator.h \
-  /usr/include/c++/15.2.1/bits/uses_allocator_args.h \
-  /usr/include/c++/15.2.1/bits/utility.h \
-  /usr/include/c++/15.2.1/bits/vector.tcc \
-  /usr/include/c++/15.2.1/bits/version.h \
-  /usr/include/c++/15.2.1/bitset \
-  /usr/include/c++/15.2.1/cassert \
-  /usr/include/c++/15.2.1/cctype \
-  /usr/include/c++/15.2.1/cerrno \
-  /usr/include/c++/15.2.1/cfloat \
-  /usr/include/c++/15.2.1/charconv \
-  /usr/include/c++/15.2.1/chrono \
-  /usr/include/c++/15.2.1/climits \
-  /usr/include/c++/15.2.1/clocale \
-  /usr/include/c++/15.2.1/cmath \
-  /usr/include/c++/15.2.1/codecvt \
-  /usr/include/c++/15.2.1/compare \
-  /usr/include/c++/15.2.1/concepts \
-  /usr/include/c++/15.2.1/csignal \
-  /usr/include/c++/15.2.1/cstddef \
-  /usr/include/c++/15.2.1/cstdint \
-  /usr/include/c++/15.2.1/cstdio \
-  /usr/include/c++/15.2.1/cstdlib \
-  /usr/include/c++/15.2.1/ctime \
-  /usr/include/c++/15.2.1/cwchar \
-  /usr/include/c++/15.2.1/cwctype \
-  /usr/include/c++/15.2.1/debug/assertions.h \
-  /usr/include/c++/15.2.1/debug/debug.h \
-  /usr/include/c++/15.2.1/deque \
-  /usr/include/c++/15.2.1/exception \
-  /usr/include/c++/15.2.1/ext/aligned_buffer.h \
-  /usr/include/c++/15.2.1/ext/alloc_traits.h \
-  /usr/include/c++/15.2.1/ext/atomicity.h \
-  /usr/include/c++/15.2.1/ext/concurrence.h \
-  /usr/include/c++/15.2.1/ext/numeric_traits.h \
-  /usr/include/c++/15.2.1/ext/string_conversions.h \
-  /usr/include/c++/15.2.1/ext/type_traits.h \
-  /usr/include/c++/15.2.1/filesystem \
-  /usr/include/c++/15.2.1/format \
-  /usr/include/c++/15.2.1/functional \
-  /usr/include/c++/15.2.1/initializer_list \
-  /usr/include/c++/15.2.1/iomanip \
-  /usr/include/c++/15.2.1/ios \
-  /usr/include/c++/15.2.1/iosfwd \
-  /usr/include/c++/15.2.1/iostream \
-  /usr/include/c++/15.2.1/istream \
-  /usr/include/c++/15.2.1/iterator \
-  /usr/include/c++/15.2.1/limits \
-  /usr/include/c++/15.2.1/list \
-  /usr/include/c++/15.2.1/locale \
-  /usr/include/c++/15.2.1/map \
-  /usr/include/c++/15.2.1/math.h \
-  /usr/include/c++/15.2.1/memory \
-  /usr/include/c++/15.2.1/new \
-  /usr/include/c++/15.2.1/numbers \
-  /usr/include/c++/15.2.1/optional \
-  /usr/include/c++/15.2.1/ostream \
-  /usr/include/c++/15.2.1/pstl/execution_defs.h \
-  /usr/include/c++/15.2.1/pstl/glue_algorithm_defs.h \
-  /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
-  /usr/include/c++/15.2.1/pstl/pstl_config.h \
-  /usr/include/c++/15.2.1/ratio \
-  /usr/include/c++/15.2.1/regex \
-  /usr/include/c++/15.2.1/semaphore \
-  /usr/include/c++/15.2.1/set \
-  /usr/include/c++/15.2.1/span \
-  /usr/include/c++/15.2.1/sstream \
-  /usr/include/c++/15.2.1/stack \
-  /usr/include/c++/15.2.1/stdexcept \
-  /usr/include/c++/15.2.1/stdlib.h \
-  /usr/include/c++/15.2.1/stop_token \
-  /usr/include/c++/15.2.1/streambuf \
-  /usr/include/c++/15.2.1/string \
-  /usr/include/c++/15.2.1/string_view \
-  /usr/include/c++/15.2.1/system_error \
-  /usr/include/c++/15.2.1/thread \
-  /usr/include/c++/15.2.1/tr1/bessel_function.tcc \
-  /usr/include/c++/15.2.1/tr1/beta_function.tcc \
-  /usr/include/c++/15.2.1/tr1/ell_integral.tcc \
-  /usr/include/c++/15.2.1/tr1/exp_integral.tcc \
-  /usr/include/c++/15.2.1/tr1/gamma.tcc \
-  /usr/include/c++/15.2.1/tr1/hypergeometric.tcc \
-  /usr/include/c++/15.2.1/tr1/legendre_function.tcc \
-  /usr/include/c++/15.2.1/tr1/modified_bessel_func.tcc \
-  /usr/include/c++/15.2.1/tr1/poly_hermite.tcc \
-  /usr/include/c++/15.2.1/tr1/poly_laguerre.tcc \
-  /usr/include/c++/15.2.1/tr1/riemann_zeta.tcc \
-  /usr/include/c++/15.2.1/tr1/special_function_util.h \
-  /usr/include/c++/15.2.1/tuple \
-  /usr/include/c++/15.2.1/type_traits \
-  /usr/include/c++/15.2.1/typeindex \
-  /usr/include/c++/15.2.1/typeinfo \
-  /usr/include/c++/15.2.1/unordered_map \
-  /usr/include/c++/15.2.1/unordered_set \
-  /usr/include/c++/15.2.1/utility \
-  /usr/include/c++/15.2.1/vector \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
-  /usr/include/ctype.h \
-  /usr/include/endian.h \
-  /usr/include/errno.h \
-  /usr/include/fcntl.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/gnu/stubs-64.h \
-  /usr/include/gnu/stubs.h \
-  /usr/include/inttypes.h \
-  /usr/include/libintl.h \
-  /usr/include/limits.h \
-  /usr/include/linux/close_range.h \
-  /usr/include/linux/errno.h \
-  /usr/include/linux/falloc.h \
-  /usr/include/linux/limits.h \
-  /usr/include/linux/posix_types.h \
-  /usr/include/linux/sched/types.h \
-  /usr/include/linux/stat.h \
-  /usr/include/linux/stddef.h \
-  /usr/include/linux/types.h \
-  /usr/include/locale.h \
-  /usr/include/math.h \
-  /usr/include/pthread.h \
-  /usr/include/pwd.h \
-  /usr/include/sched.h \
-  /usr/include/semaphore.h \
-  /usr/include/signal.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdio.h \
-  /usr/include/stdlib.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/sys/cdefs.h \
-  /usr/include/sys/select.h \
-  /usr/include/sys/single_threaded.h \
-  /usr/include/sys/stat.h \
-  /usr/include/sys/syscall.h \
-  /usr/include/sys/time.h \
-  /usr/include/sys/types.h \
-  /usr/include/sys/ucontext.h \
-  /usr/include/sys/wait.h \
   /usr/include/syscall.h \
   /usr/include/time.h \
   /usr/include/unistd.h \
@@ -2795,1251 +1648,6 @@ editor/CMakeFiles/editor.dir/src/ui/Console.cpp.o: /home/rodaqqq/Documents/socka
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
 
-editor/CMakeFiles/editor.dir/src/ui/Gizmos.cpp.o: /home/rodaqqq/Documents/socka-2dengine/editor/src/ui/Gizmos.cpp \
-  /home/rodaqqq/Documents/socka-2dengine/editor/src/ui/Gizmos.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo/ImGuizmo.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/common.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_exponential.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_vector_relational.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/exponential.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/vector_relational.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/_fixes.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/compute_common.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_common.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_geometric.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec1.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec1.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/geometric.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x3.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x4.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x2.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x3.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x4.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x2.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x3.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x4.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_matrix.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat2x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat2x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat3x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat3x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat3x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat4x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat4x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat4x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/matrix.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/compute_vector_relational.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/_vectorize.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/compute_vector_decl.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x2.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec2.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec3.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec4.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/scalar_int_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/scalar_uint_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int2_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int3_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int4_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint2_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint3_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint4_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/simd/platform.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/_fixes.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_integer.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_packing.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_trigonometric.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/qualifier.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_half.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_half.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/glm.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_relational.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_relational.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_float.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_quat.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_quat.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_geometric.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_geometric.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_common.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_common.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_double.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_double_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_float.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_float_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_transform.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_transform.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_trigonometric.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_trigonometric.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool1.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool1_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double1.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double1_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float1.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float1_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int1.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int1_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_relational.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_relational.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint1.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint1_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_clip_space.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_clip_space.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_projection.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_projection.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_transform.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_transform.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/scalar_constants.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/scalar_constants.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/constants.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/constants.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/matrix_transform.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/matrix_transform.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/epsilon.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/epsilon.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/quaternion.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/quaternion.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/vec1.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/type_ptr.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/type_ptr.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/integer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat2x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/packing.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/trigonometric.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/vec2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/vec3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/vec4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/imgui/imconfig.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/imgui/imgui.h \
-  /usr/include/alloca.h \
-  /usr/include/assert.h \
-  /usr/include/bits/atomic_wide_counter.h \
-  /usr/include/bits/byteswap.h \
-  /usr/include/bits/endian.h \
-  /usr/include/bits/endianness.h \
-  /usr/include/bits/floatn-common.h \
-  /usr/include/bits/floatn.h \
-  /usr/include/bits/flt-eval-method.h \
-  /usr/include/bits/fp-fast.h \
-  /usr/include/bits/fp-logb.h \
-  /usr/include/bits/iscanonical.h \
-  /usr/include/bits/libc-header-start.h \
-  /usr/include/bits/libm-simd-decl-stubs.h \
-  /usr/include/bits/local_lim.h \
-  /usr/include/bits/long-double.h \
-  /usr/include/bits/math-vector.h \
-  /usr/include/bits/mathcalls-helper-functions.h \
-  /usr/include/bits/mathcalls-macros.h \
-  /usr/include/bits/mathcalls-narrow.h \
-  /usr/include/bits/mathcalls.h \
-  /usr/include/bits/posix1_lim.h \
-  /usr/include/bits/posix2_lim.h \
-  /usr/include/bits/pthread_stack_min-dynamic.h \
-  /usr/include/bits/pthreadtypes-arch.h \
-  /usr/include/bits/pthreadtypes.h \
-  /usr/include/bits/select.h \
-  /usr/include/bits/stdint-intn.h \
-  /usr/include/bits/stdint-least.h \
-  /usr/include/bits/stdint-uintn.h \
-  /usr/include/bits/stdlib-float.h \
-  /usr/include/bits/struct_mutex.h \
-  /usr/include/bits/struct_rwlock.h \
-  /usr/include/bits/thread-shared-types.h \
-  /usr/include/bits/time64.h \
-  /usr/include/bits/timesize.h \
-  /usr/include/bits/types.h \
-  /usr/include/bits/types/__locale_t.h \
-  /usr/include/bits/types/__sigset_t.h \
-  /usr/include/bits/types/clock_t.h \
-  /usr/include/bits/types/clockid_t.h \
-  /usr/include/bits/types/locale_t.h \
-  /usr/include/bits/types/sigset_t.h \
-  /usr/include/bits/types/struct_timespec.h \
-  /usr/include/bits/types/struct_timeval.h \
-  /usr/include/bits/types/time_t.h \
-  /usr/include/bits/types/timer_t.h \
-  /usr/include/bits/typesizes.h \
-  /usr/include/bits/uintn-identity.h \
-  /usr/include/bits/uio_lim.h \
-  /usr/include/bits/waitflags.h \
-  /usr/include/bits/waitstatus.h \
-  /usr/include/bits/wchar.h \
-  /usr/include/bits/wordsize.h \
-  /usr/include/bits/xopen_lim.h \
-  /usr/include/c++/15.2.1/array \
-  /usr/include/c++/15.2.1/backward/binders.h \
-  /usr/include/c++/15.2.1/bit \
-  /usr/include/c++/15.2.1/bits/alloc_traits.h \
-  /usr/include/c++/15.2.1/bits/allocator.h \
-  /usr/include/c++/15.2.1/bits/concept_check.h \
-  /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
-  /usr/include/c++/15.2.1/bits/enable_special_members.h \
-  /usr/include/c++/15.2.1/bits/erase_if.h \
-  /usr/include/c++/15.2.1/bits/exception.h \
-  /usr/include/c++/15.2.1/bits/exception_defines.h \
-  /usr/include/c++/15.2.1/bits/functexcept.h \
-  /usr/include/c++/15.2.1/bits/functional_hash.h \
-  /usr/include/c++/15.2.1/bits/hash_bytes.h \
-  /usr/include/c++/15.2.1/bits/hashtable.h \
-  /usr/include/c++/15.2.1/bits/hashtable_policy.h \
-  /usr/include/c++/15.2.1/bits/invoke.h \
-  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
-  /usr/include/c++/15.2.1/bits/max_size_type.h \
-  /usr/include/c++/15.2.1/bits/memory_resource.h \
-  /usr/include/c++/15.2.1/bits/memoryfwd.h \
-  /usr/include/c++/15.2.1/bits/move.h \
-  /usr/include/c++/15.2.1/bits/new_allocator.h \
-  /usr/include/c++/15.2.1/bits/node_handle.h \
-  /usr/include/c++/15.2.1/bits/predefined_ops.h \
-  /usr/include/c++/15.2.1/bits/ptr_traits.h \
-  /usr/include/c++/15.2.1/bits/range_access.h \
-  /usr/include/c++/15.2.1/bits/ranges_base.h \
-  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
-  /usr/include/c++/15.2.1/bits/ranges_util.h \
-  /usr/include/c++/15.2.1/bits/refwrap.h \
-  /usr/include/c++/15.2.1/bits/requires_hosted.h \
-  /usr/include/c++/15.2.1/bits/specfun.h \
-  /usr/include/c++/15.2.1/bits/std_abs.h \
-  /usr/include/c++/15.2.1/bits/std_function.h \
-  /usr/include/c++/15.2.1/bits/stl_algobase.h \
-  /usr/include/c++/15.2.1/bits/stl_bvector.h \
-  /usr/include/c++/15.2.1/bits/stl_construct.h \
-  /usr/include/c++/15.2.1/bits/stl_function.h \
-  /usr/include/c++/15.2.1/bits/stl_iterator.h \
-  /usr/include/c++/15.2.1/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/15.2.1/bits/stl_iterator_base_types.h \
-  /usr/include/c++/15.2.1/bits/stl_pair.h \
-  /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
-  /usr/include/c++/15.2.1/bits/stl_vector.h \
-  /usr/include/c++/15.2.1/bits/unordered_map.h \
-  /usr/include/c++/15.2.1/bits/uses_allocator.h \
-  /usr/include/c++/15.2.1/bits/uses_allocator_args.h \
-  /usr/include/c++/15.2.1/bits/utility.h \
-  /usr/include/c++/15.2.1/bits/vector.tcc \
-  /usr/include/c++/15.2.1/bits/version.h \
-  /usr/include/c++/15.2.1/cassert \
-  /usr/include/c++/15.2.1/cfloat \
-  /usr/include/c++/15.2.1/climits \
-  /usr/include/c++/15.2.1/cmath \
-  /usr/include/c++/15.2.1/compare \
-  /usr/include/c++/15.2.1/concepts \
-  /usr/include/c++/15.2.1/cstddef \
-  /usr/include/c++/15.2.1/cstdint \
-  /usr/include/c++/15.2.1/cstring \
-  /usr/include/c++/15.2.1/debug/assertions.h \
-  /usr/include/c++/15.2.1/debug/debug.h \
-  /usr/include/c++/15.2.1/ext/aligned_buffer.h \
-  /usr/include/c++/15.2.1/ext/alloc_traits.h \
-  /usr/include/c++/15.2.1/ext/numeric_traits.h \
-  /usr/include/c++/15.2.1/ext/type_traits.h \
-  /usr/include/c++/15.2.1/functional \
-  /usr/include/c++/15.2.1/initializer_list \
-  /usr/include/c++/15.2.1/limits \
-  /usr/include/c++/15.2.1/new \
-  /usr/include/c++/15.2.1/numbers \
-  /usr/include/c++/15.2.1/pstl/pstl_config.h \
-  /usr/include/c++/15.2.1/tr1/bessel_function.tcc \
-  /usr/include/c++/15.2.1/tr1/beta_function.tcc \
-  /usr/include/c++/15.2.1/tr1/ell_integral.tcc \
-  /usr/include/c++/15.2.1/tr1/exp_integral.tcc \
-  /usr/include/c++/15.2.1/tr1/gamma.tcc \
-  /usr/include/c++/15.2.1/tr1/hypergeometric.tcc \
-  /usr/include/c++/15.2.1/tr1/legendre_function.tcc \
-  /usr/include/c++/15.2.1/tr1/modified_bessel_func.tcc \
-  /usr/include/c++/15.2.1/tr1/poly_hermite.tcc \
-  /usr/include/c++/15.2.1/tr1/poly_laguerre.tcc \
-  /usr/include/c++/15.2.1/tr1/riemann_zeta.tcc \
-  /usr/include/c++/15.2.1/tr1/special_function_util.h \
-  /usr/include/c++/15.2.1/tuple \
-  /usr/include/c++/15.2.1/type_traits \
-  /usr/include/c++/15.2.1/typeinfo \
-  /usr/include/c++/15.2.1/unordered_map \
-  /usr/include/c++/15.2.1/vector \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
-  /usr/include/endian.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/gnu/stubs-64.h \
-  /usr/include/gnu/stubs.h \
-  /usr/include/limits.h \
-  /usr/include/linux/limits.h \
-  /usr/include/math.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdlib.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/sys/cdefs.h \
-  /usr/include/sys/select.h \
-  /usr/include/sys/types.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/float.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
-
-editor/CMakeFiles/editor.dir/src/ui/Hierarchy.cpp.o: /home/rodaqqq/Documents/socka-2dengine/editor/src/ui/Hierarchy.cpp \
-  /home/rodaqqq/Documents/socka-2dengine/editor/src/EditorApp.h \
-  /home/rodaqqq/Documents/socka-2dengine/engine/src/core/AssetManager.h \
-  /home/rodaqqq/Documents/socka-2dengine/engine/src/core/Camera.h \
-  /home/rodaqqq/Documents/socka-2dengine/engine/src/core/Project.h \
-  /home/rodaqqq/Documents/socka-2dengine/engine/src/core/ProjectSerializer.h \
-  /home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/Component.h \
-  /home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/Entity.h \
-  /home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/components/InheritanceComponent.h \
-  /home/rodaqqq/Documents/socka-2dengine/engine/src/scene/Scene.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo/ImGuizmo.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/macro.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/version.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/memory.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_set.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/attribute.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/algorithm.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/any.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/attribute.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/enum.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/family.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/hashed_string.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/ident.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/memory.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/monostate.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/tuple.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_info.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/algorithm.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/any.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/memory.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_info.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_set.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/adjacency_matrix.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/flow.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/delegate.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/sigh.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/component.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/entity.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/group.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/handle.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/helper.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/observer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/organizer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/registry.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/runtime_view.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/snapshot.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/sparse_set.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/storage.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/storage_mixin.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/view.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entt.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/adjacency_matrix.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/dot.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/flow.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/locator/locator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_set.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/any.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/attribute.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/enum.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_info.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/locator/locator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/adl_pointer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/container.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/context.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/factory.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/meta.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/node.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/pointer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/policy.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/range.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/resolve.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/template.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/platform/android-ndk-r17.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/any.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_info.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/poly/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/poly/poly.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/process/process.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/process/scheduler.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/resource/cache.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/resource/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/resource/loader.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/resource/resource.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_info.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/delegate.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/dispatcher.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/emitter.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/sigh.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/common.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_exponential.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_vector_relational.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/exponential.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/vector_relational.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/_fixes.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/compute_common.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_common.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_geometric.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec1.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec1.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/geometric.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x3.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x4.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x2.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x3.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x4.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x2.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x3.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x4.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_matrix.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat2x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat2x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat3x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat3x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat3x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat4x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat4x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat4x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/matrix.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/compute_vector_relational.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/_vectorize.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/compute_vector_decl.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x2.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec2.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec3.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec4.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/scalar_int_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/scalar_uint_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int2_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int3_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int4_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint2_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint3_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint4_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/simd/platform.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/_fixes.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_integer.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_packing.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_trigonometric.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/qualifier.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_half.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_half.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/glm.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/integer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat2x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/packing.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/trigonometric.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/vec2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/vec3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/vec4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/imgui/imconfig.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/imgui/imgui.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/adl_serializer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/byte_container_with_subtype.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/abi_macros.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/conversions/from_json.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/conversions/to_chars.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/conversions/to_json.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/exceptions.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/hash.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/input/binary_reader.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/input/input_adapters.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/input/json_sax.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/input/lexer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/input/parser.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/input/position_t.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/iterators/internal_iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/iterators/iter_impl.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/iterators/iteration_proxy.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/iterators/iterator_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/iterators/primitive_iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/json_custom_base_class.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/json_pointer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/json_ref.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/macro_scope.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/macro_unscope.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/meta/call_std/begin.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/meta/call_std/end.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/meta/cpp_future.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/meta/detected.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/meta/identity_tag.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/meta/is_sax.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/meta/std_fs.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/meta/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/meta/void_t.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/output/binary_writer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/output/output_adapters.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/output/serializer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/string_concat.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/string_escape.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/string_utils.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/value_t.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/json.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/json_fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/ordered_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/thirdparty/hedley/hedley.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
-  /usr/include/SDL2/SDL.h \
-  /usr/include/SDL2/SDL_assert.h \
-  /usr/include/SDL2/SDL_atomic.h \
-  /usr/include/SDL2/SDL_audio.h \
-  /usr/include/SDL2/SDL_blendmode.h \
-  /usr/include/SDL2/SDL_clipboard.h \
-  /usr/include/SDL2/SDL_config.h \
-  /usr/include/SDL2/SDL_config_unix.h \
-  /usr/include/SDL2/SDL_cpuinfo.h \
-  /usr/include/SDL2/SDL_endian.h \
-  /usr/include/SDL2/SDL_error.h \
-  /usr/include/SDL2/SDL_events.h \
-  /usr/include/SDL2/SDL_filesystem.h \
-  /usr/include/SDL2/SDL_gamecontroller.h \
-  /usr/include/SDL2/SDL_gesture.h \
-  /usr/include/SDL2/SDL_guid.h \
-  /usr/include/SDL2/SDL_haptic.h \
-  /usr/include/SDL2/SDL_hidapi.h \
-  /usr/include/SDL2/SDL_hints.h \
-  /usr/include/SDL2/SDL_joystick.h \
-  /usr/include/SDL2/SDL_keyboard.h \
-  /usr/include/SDL2/SDL_keycode.h \
-  /usr/include/SDL2/SDL_loadso.h \
-  /usr/include/SDL2/SDL_locale.h \
-  /usr/include/SDL2/SDL_log.h \
-  /usr/include/SDL2/SDL_main.h \
-  /usr/include/SDL2/SDL_messagebox.h \
-  /usr/include/SDL2/SDL_metal.h \
-  /usr/include/SDL2/SDL_misc.h \
-  /usr/include/SDL2/SDL_mouse.h \
-  /usr/include/SDL2/SDL_mutex.h \
-  /usr/include/SDL2/SDL_pixels.h \
-  /usr/include/SDL2/SDL_platform.h \
-  /usr/include/SDL2/SDL_power.h \
-  /usr/include/SDL2/SDL_quit.h \
-  /usr/include/SDL2/SDL_rect.h \
-  /usr/include/SDL2/SDL_render.h \
-  /usr/include/SDL2/SDL_rwops.h \
-  /usr/include/SDL2/SDL_scancode.h \
-  /usr/include/SDL2/SDL_sensor.h \
-  /usr/include/SDL2/SDL_shape.h \
-  /usr/include/SDL2/SDL_stdinc.h \
-  /usr/include/SDL2/SDL_surface.h \
-  /usr/include/SDL2/SDL_system.h \
-  /usr/include/SDL2/SDL_thread.h \
-  /usr/include/SDL2/SDL_timer.h \
-  /usr/include/SDL2/SDL_touch.h \
-  /usr/include/SDL2/SDL_version.h \
-  /usr/include/SDL2/SDL_video.h \
-  /usr/include/SDL2/begin_code.h \
-  /usr/include/SDL2/close_code.h \
-  /usr/include/alloca.h \
-  /usr/include/asm-generic/bitsperlong.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/int-ll64.h \
-  /usr/include/asm-generic/posix_types.h \
-  /usr/include/asm-generic/types.h \
-  /usr/include/asm/bitsperlong.h \
-  /usr/include/asm/errno.h \
-  /usr/include/asm/posix_types.h \
-  /usr/include/asm/posix_types_64.h \
-  /usr/include/asm/types.h \
-  /usr/include/asm/unistd.h \
-  /usr/include/asm/unistd_64.h \
-  /usr/include/assert.h \
-  /usr/include/bits/atomic_wide_counter.h \
-  /usr/include/bits/byteswap.h \
-  /usr/include/bits/confname.h \
-  /usr/include/bits/cpu-set.h \
-  /usr/include/bits/endian.h \
-  /usr/include/bits/endianness.h \
-  /usr/include/bits/environments.h \
-  /usr/include/bits/errno.h \
-  /usr/include/bits/floatn-common.h \
-  /usr/include/bits/floatn.h \
-  /usr/include/bits/flt-eval-method.h \
-  /usr/include/bits/fp-fast.h \
-  /usr/include/bits/fp-logb.h \
-  /usr/include/bits/getopt_core.h \
-  /usr/include/bits/getopt_posix.h \
-  /usr/include/bits/iscanonical.h \
-  /usr/include/bits/libc-header-start.h \
-  /usr/include/bits/libm-simd-decl-stubs.h \
-  /usr/include/bits/local_lim.h \
-  /usr/include/bits/locale.h \
-  /usr/include/bits/long-double.h \
-  /usr/include/bits/math-vector.h \
-  /usr/include/bits/mathcalls-helper-functions.h \
-  /usr/include/bits/mathcalls-macros.h \
-  /usr/include/bits/mathcalls-narrow.h \
-  /usr/include/bits/mathcalls.h \
-  /usr/include/bits/posix1_lim.h \
-  /usr/include/bits/posix2_lim.h \
-  /usr/include/bits/posix_opt.h \
-  /usr/include/bits/pthread_stack_min-dynamic.h \
-  /usr/include/bits/pthreadtypes-arch.h \
-  /usr/include/bits/pthreadtypes.h \
-  /usr/include/bits/sched.h \
-  /usr/include/bits/select.h \
-  /usr/include/bits/setjmp.h \
-  /usr/include/bits/stdint-intn.h \
-  /usr/include/bits/stdint-least.h \
-  /usr/include/bits/stdint-uintn.h \
-  /usr/include/bits/stdio_lim.h \
-  /usr/include/bits/stdlib-float.h \
-  /usr/include/bits/struct_mutex.h \
-  /usr/include/bits/struct_rwlock.h \
-  /usr/include/bits/syscall.h \
-  /usr/include/bits/thread-shared-types.h \
-  /usr/include/bits/time.h \
-  /usr/include/bits/time64.h \
-  /usr/include/bits/timesize.h \
-  /usr/include/bits/timex.h \
-  /usr/include/bits/types.h \
-  /usr/include/bits/types/FILE.h \
-  /usr/include/bits/types/__FILE.h \
-  /usr/include/bits/types/__fpos64_t.h \
-  /usr/include/bits/types/__fpos_t.h \
-  /usr/include/bits/types/__locale_t.h \
-  /usr/include/bits/types/__mbstate_t.h \
-  /usr/include/bits/types/__sigset_t.h \
-  /usr/include/bits/types/clock_t.h \
-  /usr/include/bits/types/clockid_t.h \
-  /usr/include/bits/types/cookie_io_functions_t.h \
-  /usr/include/bits/types/error_t.h \
-  /usr/include/bits/types/locale_t.h \
-  /usr/include/bits/types/mbstate_t.h \
-  /usr/include/bits/types/sigset_t.h \
-  /usr/include/bits/types/struct_FILE.h \
-  /usr/include/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/bits/types/struct_itimerspec.h \
-  /usr/include/bits/types/struct_sched_param.h \
-  /usr/include/bits/types/struct_timespec.h \
-  /usr/include/bits/types/struct_timeval.h \
-  /usr/include/bits/types/struct_tm.h \
-  /usr/include/bits/types/time_t.h \
-  /usr/include/bits/types/timer_t.h \
-  /usr/include/bits/types/wint_t.h \
-  /usr/include/bits/typesizes.h \
-  /usr/include/bits/uintn-identity.h \
-  /usr/include/bits/uio_lim.h \
-  /usr/include/bits/unistd_ext.h \
-  /usr/include/bits/waitflags.h \
-  /usr/include/bits/waitstatus.h \
-  /usr/include/bits/wchar.h \
-  /usr/include/bits/wctype-wchar.h \
-  /usr/include/bits/wordsize.h \
-  /usr/include/bits/xopen_lim.h \
-  /usr/include/c++/15.2.1/algorithm \
-  /usr/include/c++/15.2.1/any \
-  /usr/include/c++/15.2.1/array \
-  /usr/include/c++/15.2.1/backward/auto_ptr.h \
-  /usr/include/c++/15.2.1/backward/binders.h \
-  /usr/include/c++/15.2.1/bit \
-  /usr/include/c++/15.2.1/bits/algorithmfwd.h \
-  /usr/include/c++/15.2.1/bits/align.h \
-  /usr/include/c++/15.2.1/bits/alloc_traits.h \
-  /usr/include/c++/15.2.1/bits/allocated_ptr.h \
-  /usr/include/c++/15.2.1/bits/allocator.h \
-  /usr/include/c++/15.2.1/bits/atomic_base.h \
-  /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
-  /usr/include/c++/15.2.1/bits/atomic_wait.h \
-  /usr/include/c++/15.2.1/bits/basic_ios.h \
-  /usr/include/c++/15.2.1/bits/basic_ios.tcc \
-  /usr/include/c++/15.2.1/bits/basic_string.h \
-  /usr/include/c++/15.2.1/bits/basic_string.tcc \
-  /usr/include/c++/15.2.1/bits/char_traits.h \
-  /usr/include/c++/15.2.1/bits/charconv.h \
-  /usr/include/c++/15.2.1/bits/chrono.h \
-  /usr/include/c++/15.2.1/bits/codecvt.h \
-  /usr/include/c++/15.2.1/bits/concept_check.h \
-  /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
-  /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
-  /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
-  /usr/include/c++/15.2.1/bits/deque.tcc \
-  /usr/include/c++/15.2.1/bits/enable_special_members.h \
-  /usr/include/c++/15.2.1/bits/erase_if.h \
-  /usr/include/c++/15.2.1/bits/exception.h \
-  /usr/include/c++/15.2.1/bits/exception_defines.h \
-  /usr/include/c++/15.2.1/bits/exception_ptr.h \
-  /usr/include/c++/15.2.1/bits/forward_list.h \
-  /usr/include/c++/15.2.1/bits/forward_list.tcc \
-  /usr/include/c++/15.2.1/bits/fs_dir.h \
-  /usr/include/c++/15.2.1/bits/fs_fwd.h \
-  /usr/include/c++/15.2.1/bits/fs_ops.h \
-  /usr/include/c++/15.2.1/bits/fs_path.h \
-  /usr/include/c++/15.2.1/bits/fstream.tcc \
-  /usr/include/c++/15.2.1/bits/functexcept.h \
-  /usr/include/c++/15.2.1/bits/functional_hash.h \
-  /usr/include/c++/15.2.1/bits/gslice.h \
-  /usr/include/c++/15.2.1/bits/gslice_array.h \
-  /usr/include/c++/15.2.1/bits/hash_bytes.h \
-  /usr/include/c++/15.2.1/bits/hashtable.h \
-  /usr/include/c++/15.2.1/bits/hashtable_policy.h \
-  /usr/include/c++/15.2.1/bits/indirect_array.h \
-  /usr/include/c++/15.2.1/bits/invoke.h \
-  /usr/include/c++/15.2.1/bits/ios_base.h \
-  /usr/include/c++/15.2.1/bits/istream.tcc \
-  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
-  /usr/include/c++/15.2.1/bits/list.tcc \
-  /usr/include/c++/15.2.1/bits/locale_classes.h \
-  /usr/include/c++/15.2.1/bits/locale_classes.tcc \
-  /usr/include/c++/15.2.1/bits/locale_conv.h \
-  /usr/include/c++/15.2.1/bits/locale_facets.h \
-  /usr/include/c++/15.2.1/bits/locale_facets.tcc \
-  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
-  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
-  /usr/include/c++/15.2.1/bits/localefwd.h \
-  /usr/include/c++/15.2.1/bits/mask_array.h \
-  /usr/include/c++/15.2.1/bits/max_size_type.h \
-  /usr/include/c++/15.2.1/bits/memory_resource.h \
-  /usr/include/c++/15.2.1/bits/memoryfwd.h \
-  /usr/include/c++/15.2.1/bits/move.h \
-  /usr/include/c++/15.2.1/bits/nested_exception.h \
-  /usr/include/c++/15.2.1/bits/new_allocator.h \
-  /usr/include/c++/15.2.1/bits/node_handle.h \
-  /usr/include/c++/15.2.1/bits/ostream.h \
-  /usr/include/c++/15.2.1/bits/ostream.tcc \
-  /usr/include/c++/15.2.1/bits/ostream_insert.h \
-  /usr/include/c++/15.2.1/bits/parse_numbers.h \
-  /usr/include/c++/15.2.1/bits/postypes.h \
-  /usr/include/c++/15.2.1/bits/predefined_ops.h \
-  /usr/include/c++/15.2.1/bits/ptr_traits.h \
-  /usr/include/c++/15.2.1/bits/quoted_string.h \
-  /usr/include/c++/15.2.1/bits/range_access.h \
-  /usr/include/c++/15.2.1/bits/ranges_algo.h \
-  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
-  /usr/include/c++/15.2.1/bits/ranges_base.h \
-  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
-  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
-  /usr/include/c++/15.2.1/bits/ranges_util.h \
-  /usr/include/c++/15.2.1/bits/refwrap.h \
-  /usr/include/c++/15.2.1/bits/requires_hosted.h \
-  /usr/include/c++/15.2.1/bits/shared_ptr.h \
-  /usr/include/c++/15.2.1/bits/shared_ptr_atomic.h \
-  /usr/include/c++/15.2.1/bits/shared_ptr_base.h \
-  /usr/include/c++/15.2.1/bits/slice_array.h \
-  /usr/include/c++/15.2.1/bits/specfun.h \
-  /usr/include/c++/15.2.1/bits/sstream.tcc \
-  /usr/include/c++/15.2.1/bits/std_abs.h \
-  /usr/include/c++/15.2.1/bits/std_function.h \
-  /usr/include/c++/15.2.1/bits/std_mutex.h \
-  /usr/include/c++/15.2.1/bits/stl_algo.h \
-  /usr/include/c++/15.2.1/bits/stl_algobase.h \
-  /usr/include/c++/15.2.1/bits/stl_bvector.h \
-  /usr/include/c++/15.2.1/bits/stl_construct.h \
-  /usr/include/c++/15.2.1/bits/stl_deque.h \
-  /usr/include/c++/15.2.1/bits/stl_function.h \
-  /usr/include/c++/15.2.1/bits/stl_heap.h \
-  /usr/include/c++/15.2.1/bits/stl_iterator.h \
-  /usr/include/c++/15.2.1/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/15.2.1/bits/stl_iterator_base_types.h \
-  /usr/include/c++/15.2.1/bits/stl_list.h \
-  /usr/include/c++/15.2.1/bits/stl_map.h \
-  /usr/include/c++/15.2.1/bits/stl_multimap.h \
-  /usr/include/c++/15.2.1/bits/stl_multiset.h \
-  /usr/include/c++/15.2.1/bits/stl_numeric.h \
-  /usr/include/c++/15.2.1/bits/stl_pair.h \
-  /usr/include/c++/15.2.1/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/15.2.1/bits/stl_relops.h \
-  /usr/include/c++/15.2.1/bits/stl_set.h \
-  /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
-  /usr/include/c++/15.2.1/bits/stl_tree.h \
-  /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
-  /usr/include/c++/15.2.1/bits/stl_vector.h \
-  /usr/include/c++/15.2.1/bits/stream_iterator.h \
-  /usr/include/c++/15.2.1/bits/streambuf.tcc \
-  /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
-  /usr/include/c++/15.2.1/bits/string_view.tcc \
-  /usr/include/c++/15.2.1/bits/stringfwd.h \
-  /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
-  /usr/include/c++/15.2.1/bits/unique_ptr.h \
-  /usr/include/c++/15.2.1/bits/unordered_map.h \
-  /usr/include/c++/15.2.1/bits/unordered_set.h \
-  /usr/include/c++/15.2.1/bits/uses_allocator.h \
-  /usr/include/c++/15.2.1/bits/uses_allocator_args.h \
-  /usr/include/c++/15.2.1/bits/utility.h \
-  /usr/include/c++/15.2.1/bits/valarray_after.h \
-  /usr/include/c++/15.2.1/bits/valarray_array.h \
-  /usr/include/c++/15.2.1/bits/valarray_array.tcc \
-  /usr/include/c++/15.2.1/bits/valarray_before.h \
-  /usr/include/c++/15.2.1/bits/vector.tcc \
-  /usr/include/c++/15.2.1/bits/version.h \
-  /usr/include/c++/15.2.1/cassert \
-  /usr/include/c++/15.2.1/cctype \
-  /usr/include/c++/15.2.1/cerrno \
-  /usr/include/c++/15.2.1/cfloat \
-  /usr/include/c++/15.2.1/climits \
-  /usr/include/c++/15.2.1/clocale \
-  /usr/include/c++/15.2.1/cmath \
-  /usr/include/c++/15.2.1/codecvt \
-  /usr/include/c++/15.2.1/compare \
-  /usr/include/c++/15.2.1/concepts \
-  /usr/include/c++/15.2.1/cstddef \
-  /usr/include/c++/15.2.1/cstdint \
-  /usr/include/c++/15.2.1/cstdio \
-  /usr/include/c++/15.2.1/cstdlib \
-  /usr/include/c++/15.2.1/cstring \
-  /usr/include/c++/15.2.1/ctime \
-  /usr/include/c++/15.2.1/cwchar \
-  /usr/include/c++/15.2.1/cwctype \
-  /usr/include/c++/15.2.1/debug/assertions.h \
-  /usr/include/c++/15.2.1/debug/debug.h \
-  /usr/include/c++/15.2.1/deque \
-  /usr/include/c++/15.2.1/exception \
-  /usr/include/c++/15.2.1/ext/aligned_buffer.h \
-  /usr/include/c++/15.2.1/ext/alloc_traits.h \
-  /usr/include/c++/15.2.1/ext/atomicity.h \
-  /usr/include/c++/15.2.1/ext/concurrence.h \
-  /usr/include/c++/15.2.1/ext/numeric_traits.h \
-  /usr/include/c++/15.2.1/ext/string_conversions.h \
-  /usr/include/c++/15.2.1/ext/type_traits.h \
-  /usr/include/c++/15.2.1/filesystem \
-  /usr/include/c++/15.2.1/forward_list \
-  /usr/include/c++/15.2.1/fstream \
-  /usr/include/c++/15.2.1/functional \
-  /usr/include/c++/15.2.1/initializer_list \
-  /usr/include/c++/15.2.1/iomanip \
-  /usr/include/c++/15.2.1/ios \
-  /usr/include/c++/15.2.1/iosfwd \
-  /usr/include/c++/15.2.1/istream \
-  /usr/include/c++/15.2.1/iterator \
-  /usr/include/c++/15.2.1/limits \
-  /usr/include/c++/15.2.1/list \
-  /usr/include/c++/15.2.1/locale \
-  /usr/include/c++/15.2.1/map \
-  /usr/include/c++/15.2.1/math.h \
-  /usr/include/c++/15.2.1/memory \
-  /usr/include/c++/15.2.1/new \
-  /usr/include/c++/15.2.1/numbers \
-  /usr/include/c++/15.2.1/numeric \
-  /usr/include/c++/15.2.1/optional \
-  /usr/include/c++/15.2.1/ostream \
-  /usr/include/c++/15.2.1/pstl/execution_defs.h \
-  /usr/include/c++/15.2.1/pstl/glue_algorithm_defs.h \
-  /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
-  /usr/include/c++/15.2.1/pstl/glue_numeric_defs.h \
-  /usr/include/c++/15.2.1/pstl/pstl_config.h \
-  /usr/include/c++/15.2.1/ranges \
-  /usr/include/c++/15.2.1/ratio \
-  /usr/include/c++/15.2.1/set \
-  /usr/include/c++/15.2.1/span \
-  /usr/include/c++/15.2.1/sstream \
-  /usr/include/c++/15.2.1/stdexcept \
-  /usr/include/c++/15.2.1/stdlib.h \
-  /usr/include/c++/15.2.1/streambuf \
-  /usr/include/c++/15.2.1/string \
-  /usr/include/c++/15.2.1/string_view \
-  /usr/include/c++/15.2.1/system_error \
-  /usr/include/c++/15.2.1/tr1/bessel_function.tcc \
-  /usr/include/c++/15.2.1/tr1/beta_function.tcc \
-  /usr/include/c++/15.2.1/tr1/ell_integral.tcc \
-  /usr/include/c++/15.2.1/tr1/exp_integral.tcc \
-  /usr/include/c++/15.2.1/tr1/gamma.tcc \
-  /usr/include/c++/15.2.1/tr1/hypergeometric.tcc \
-  /usr/include/c++/15.2.1/tr1/legendre_function.tcc \
-  /usr/include/c++/15.2.1/tr1/modified_bessel_func.tcc \
-  /usr/include/c++/15.2.1/tr1/poly_hermite.tcc \
-  /usr/include/c++/15.2.1/tr1/poly_laguerre.tcc \
-  /usr/include/c++/15.2.1/tr1/riemann_zeta.tcc \
-  /usr/include/c++/15.2.1/tr1/special_function_util.h \
-  /usr/include/c++/15.2.1/tuple \
-  /usr/include/c++/15.2.1/type_traits \
-  /usr/include/c++/15.2.1/typeindex \
-  /usr/include/c++/15.2.1/typeinfo \
-  /usr/include/c++/15.2.1/unordered_map \
-  /usr/include/c++/15.2.1/unordered_set \
-  /usr/include/c++/15.2.1/utility \
-  /usr/include/c++/15.2.1/valarray \
-  /usr/include/c++/15.2.1/vector \
-  /usr/include/c++/15.2.1/version \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
-  /usr/include/ctype.h \
-  /usr/include/endian.h \
-  /usr/include/errno.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/gnu/stubs-64.h \
-  /usr/include/gnu/stubs.h \
-  /usr/include/inttypes.h \
-  /usr/include/libintl.h \
-  /usr/include/limits.h \
-  /usr/include/linux/close_range.h \
-  /usr/include/linux/errno.h \
-  /usr/include/linux/limits.h \
-  /usr/include/linux/posix_types.h \
-  /usr/include/linux/sched/types.h \
-  /usr/include/linux/stddef.h \
-  /usr/include/linux/types.h \
-  /usr/include/locale.h \
-  /usr/include/math.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdio.h \
-  /usr/include/stdlib.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/sys/cdefs.h \
-  /usr/include/sys/select.h \
-  /usr/include/sys/single_threaded.h \
-  /usr/include/sys/syscall.h \
-  /usr/include/sys/types.h \
-  /usr/include/syscall.h \
-  /usr/include/time.h \
-  /usr/include/unistd.h \
-  /usr/include/wchar.h \
-  /usr/include/wctype.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/adxintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxavx512intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxbf16intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxcomplexintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxfp16intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxfp8intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxint8intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxmovrsintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxtf32intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxtileintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxtransposeintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2-512bf16intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2-512convertintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2-512mediaintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2-512minmaxintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2-512satcvtintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2bf16intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2convertintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2copyintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2mediaintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2minmaxintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2satcvtintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx2intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bf16intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bf16vlintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bitalgintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bitalgvlintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bwintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512cdintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512dqintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512fintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512fp16intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512fp16vlintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512ifmaintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512ifmavlintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vbmi2intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vbmi2vlintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vbmiintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vbmivlintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vlbwintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vldqintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vlintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vnniintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vnnivlintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vp2intersectintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vp2intersectvlintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vpopcntdqintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vpopcntdqvlintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxifmaintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxneconvertintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxvnniint16intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxvnniint8intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxvnniintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/bmi2intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/bmiintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/cetintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/cldemoteintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/clflushoptintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/clwbintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/clzerointrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/cmpccxaddintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/emmintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/enqcmdintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/f16cintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/float.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/fmaintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/fxsrintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/gfniintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/hresetintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/ia32intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/immintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/keylockerintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/lwpintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/lzcntintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mm_malloc.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mmintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/movdirintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/movrsintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mwaitintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mwaitxintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/pconfigintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/pkuintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/pmmintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/popcntintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/prfchiintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/prfchwintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/raointintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/rdseedintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/rtmintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/serializeintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/sgxintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/sha512intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/shaintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/sm3intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/sm4intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/smmintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/tbmintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/tmmintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/tsxldtrkintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/uintrintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/usermsrintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/vaesintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/vpclmulqdqintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/waitpkgintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/wbnoinvdintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/wmmintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/x86gprintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xmmintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xsavecintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xsaveintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xsaveoptintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xsavesintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xtestintrin.h
-
 editor/CMakeFiles/editor.dir/src/ui/Inspector.cpp.o: /home/rodaqqq/Documents/socka-2dengine/editor/src/ui/Inspector.cpp \
   /home/rodaqqq/Documents/socka-2dengine/editor/src/EditorApp.h \
   /home/rodaqqq/Documents/socka-2dengine/engine/src/core/AssetManager.h \
@@ -4066,139 +1674,7 @@ editor/CMakeFiles/editor.dir/src/ui/Inspector.cpp.o: /home/rodaqqq/Documents/soc
   /home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/systems/ScriptSystem.h \
   /home/rodaqqq/Documents/socka-2dengine/engine/src/scene/Scene.h \
   /home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo/ImGuizmo.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/macro.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/version.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/memory.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_set.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/attribute.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/algorithm.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/any.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/attribute.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/enum.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/family.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/hashed_string.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/ident.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/memory.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/monostate.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/tuple.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_info.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/algorithm.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/any.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/memory.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_info.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_set.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/adjacency_matrix.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/flow.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/delegate.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/sigh.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/component.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/entity.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/group.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/handle.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/helper.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/observer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/organizer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/registry.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/runtime_view.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/snapshot.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/sparse_set.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/storage.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/storage_mixin.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/view.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entt.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/adjacency_matrix.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/dot.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/flow.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/locator/locator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_set.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/any.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/attribute.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/enum.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_info.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/locator/locator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/adl_pointer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/container.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/context.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/factory.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/meta.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/node.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/pointer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/policy.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/range.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/resolve.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/template.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/platform/android-ndk-r17.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/any.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_info.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/poly/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/poly/poly.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/process/process.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/process/scheduler.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/resource/cache.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/resource/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/resource/loader.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/resource/resource.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_info.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/delegate.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/dispatcher.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/emitter.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/sigh.hpp \
+  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/single_include/entt/entt.hpp \
   /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/common.hpp \
   /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_exponential.inl \
   /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_vector_relational.inl \
@@ -5037,2653 +2513,1158 @@ editor/CMakeFiles/editor.dir/src/ui/Inspector.cpp.o: /home/rodaqqq/Documents/soc
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xsavesintrin.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xtestintrin.h
 
-editor/CMakeFiles/editor.dir/src/ui/MainMenu.cpp.o: /home/rodaqqq/Documents/socka-2dengine/editor/src/ui/MainMenu.cpp \
-  /home/rodaqqq/Documents/socka-2dengine/editor/src/BuildSystem.h \
-  /home/rodaqqq/Documents/socka-2dengine/editor/src/EditorApp.h \
-  /home/rodaqqq/Documents/socka-2dengine/engine/src/core/AssetManager.h \
-  /home/rodaqqq/Documents/socka-2dengine/engine/src/core/Camera.h \
-  /home/rodaqqq/Documents/socka-2dengine/engine/src/core/Log.h \
-  /home/rodaqqq/Documents/socka-2dengine/engine/src/core/Project.h \
-  /home/rodaqqq/Documents/socka-2dengine/engine/src/core/ProjectSerializer.h \
-  /home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/Component.h \
-  /home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/Entity.h \
-  /home/rodaqqq/Documents/socka-2dengine/engine/src/scene/Scene.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo/ImGuizmo.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/macro.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/version.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/memory.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_set.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/attribute.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/algorithm.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/any.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/attribute.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/enum.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/family.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/hashed_string.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/ident.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/memory.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/monostate.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/tuple.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_info.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/algorithm.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/any.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/memory.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_info.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_set.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/adjacency_matrix.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/flow.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/delegate.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/sigh.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/component.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/entity.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/group.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/handle.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/helper.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/observer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/organizer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/registry.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/runtime_view.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/snapshot.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/sparse_set.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/storage.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/storage_mixin.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/view.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entt.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/adjacency_matrix.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/dot.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/flow.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/locator/locator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_set.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/any.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/attribute.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/enum.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_info.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/locator/locator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/adl_pointer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/container.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/context.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/factory.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/meta.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/node.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/pointer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/policy.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/range.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/resolve.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/template.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/platform/android-ndk-r17.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/any.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_info.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/poly/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/poly/poly.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/process/process.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/process/scheduler.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/resource/cache.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/resource/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/resource/loader.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/resource/resource.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_info.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/delegate.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/dispatcher.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/emitter.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/sigh.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/common.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_exponential.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_vector_relational.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/exponential.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/vector_relational.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/_fixes.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/compute_common.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_common.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_geometric.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec1.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec1.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/geometric.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x3.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x4.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x2.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x3.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x4.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x2.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x3.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x4.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_matrix.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat2x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat2x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat3x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat3x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat3x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat4x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat4x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat4x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/matrix.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/compute_vector_relational.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/_vectorize.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/compute_vector_decl.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x2.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec2.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec3.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec4.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/scalar_int_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/scalar_uint_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int2_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int3_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int4_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint2_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint3_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint4_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/simd/platform.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/_fixes.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_integer.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_packing.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_trigonometric.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/qualifier.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_half.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_half.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/glm.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/integer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat2x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/packing.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/trigonometric.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/vec2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/vec3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/vec4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/imgui/imconfig.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/imgui/imgui.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/adl_serializer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/byte_container_with_subtype.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/abi_macros.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/conversions/from_json.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/conversions/to_chars.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/conversions/to_json.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/exceptions.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/hash.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/input/binary_reader.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/input/input_adapters.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/input/json_sax.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/input/lexer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/input/parser.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/input/position_t.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/iterators/internal_iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/iterators/iter_impl.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/iterators/iteration_proxy.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/iterators/iterator_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/iterators/primitive_iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/json_custom_base_class.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/json_pointer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/json_ref.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/macro_scope.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/macro_unscope.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/meta/call_std/begin.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/meta/call_std/end.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/meta/cpp_future.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/meta/detected.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/meta/identity_tag.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/meta/is_sax.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/meta/std_fs.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/meta/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/meta/void_t.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/output/binary_writer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/output/output_adapters.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/output/serializer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/string_concat.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/string_escape.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/string_utils.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/value_t.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/json.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/json_fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/ordered_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/thirdparty/hedley/hedley.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/pfd/portable-file-dialogs.h \
-  /usr/include/SDL2/SDL.h \
-  /usr/include/SDL2/SDL_assert.h \
-  /usr/include/SDL2/SDL_atomic.h \
-  /usr/include/SDL2/SDL_audio.h \
-  /usr/include/SDL2/SDL_blendmode.h \
-  /usr/include/SDL2/SDL_clipboard.h \
-  /usr/include/SDL2/SDL_config.h \
-  /usr/include/SDL2/SDL_config_unix.h \
-  /usr/include/SDL2/SDL_cpuinfo.h \
-  /usr/include/SDL2/SDL_endian.h \
-  /usr/include/SDL2/SDL_error.h \
-  /usr/include/SDL2/SDL_events.h \
-  /usr/include/SDL2/SDL_filesystem.h \
-  /usr/include/SDL2/SDL_gamecontroller.h \
-  /usr/include/SDL2/SDL_gesture.h \
-  /usr/include/SDL2/SDL_guid.h \
-  /usr/include/SDL2/SDL_haptic.h \
-  /usr/include/SDL2/SDL_hidapi.h \
-  /usr/include/SDL2/SDL_hints.h \
-  /usr/include/SDL2/SDL_joystick.h \
-  /usr/include/SDL2/SDL_keyboard.h \
-  /usr/include/SDL2/SDL_keycode.h \
-  /usr/include/SDL2/SDL_loadso.h \
-  /usr/include/SDL2/SDL_locale.h \
-  /usr/include/SDL2/SDL_log.h \
-  /usr/include/SDL2/SDL_main.h \
-  /usr/include/SDL2/SDL_messagebox.h \
-  /usr/include/SDL2/SDL_metal.h \
-  /usr/include/SDL2/SDL_misc.h \
-  /usr/include/SDL2/SDL_mouse.h \
-  /usr/include/SDL2/SDL_mutex.h \
-  /usr/include/SDL2/SDL_pixels.h \
-  /usr/include/SDL2/SDL_platform.h \
-  /usr/include/SDL2/SDL_power.h \
-  /usr/include/SDL2/SDL_quit.h \
-  /usr/include/SDL2/SDL_rect.h \
-  /usr/include/SDL2/SDL_render.h \
-  /usr/include/SDL2/SDL_rwops.h \
-  /usr/include/SDL2/SDL_scancode.h \
-  /usr/include/SDL2/SDL_sensor.h \
-  /usr/include/SDL2/SDL_shape.h \
-  /usr/include/SDL2/SDL_stdinc.h \
-  /usr/include/SDL2/SDL_surface.h \
-  /usr/include/SDL2/SDL_system.h \
-  /usr/include/SDL2/SDL_thread.h \
-  /usr/include/SDL2/SDL_timer.h \
-  /usr/include/SDL2/SDL_touch.h \
-  /usr/include/SDL2/SDL_version.h \
-  /usr/include/SDL2/SDL_video.h \
-  /usr/include/SDL2/begin_code.h \
-  /usr/include/SDL2/close_code.h \
-  /usr/include/alloca.h \
-  /usr/include/asm-generic/bitsperlong.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/int-ll64.h \
-  /usr/include/asm-generic/posix_types.h \
-  /usr/include/asm-generic/types.h \
-  /usr/include/asm/bitsperlong.h \
-  /usr/include/asm/errno.h \
-  /usr/include/asm/posix_types.h \
-  /usr/include/asm/posix_types_64.h \
-  /usr/include/asm/types.h \
-  /usr/include/asm/unistd.h \
-  /usr/include/asm/unistd_64.h \
-  /usr/include/assert.h \
-  /usr/include/bits/atomic_wide_counter.h \
-  /usr/include/bits/byteswap.h \
-  /usr/include/bits/confname.h \
-  /usr/include/bits/cpu-set.h \
-  /usr/include/bits/endian.h \
-  /usr/include/bits/endianness.h \
-  /usr/include/bits/environments.h \
-  /usr/include/bits/errno.h \
-  /usr/include/bits/fcntl-linux.h \
-  /usr/include/bits/fcntl.h \
-  /usr/include/bits/floatn-common.h \
-  /usr/include/bits/floatn.h \
-  /usr/include/bits/flt-eval-method.h \
-  /usr/include/bits/fp-fast.h \
-  /usr/include/bits/fp-logb.h \
-  /usr/include/bits/getopt_core.h \
-  /usr/include/bits/getopt_posix.h \
-  /usr/include/bits/iscanonical.h \
-  /usr/include/bits/libc-header-start.h \
-  /usr/include/bits/libm-simd-decl-stubs.h \
-  /usr/include/bits/local_lim.h \
-  /usr/include/bits/locale.h \
-  /usr/include/bits/long-double.h \
-  /usr/include/bits/math-vector.h \
-  /usr/include/bits/mathcalls-helper-functions.h \
-  /usr/include/bits/mathcalls-macros.h \
-  /usr/include/bits/mathcalls-narrow.h \
-  /usr/include/bits/mathcalls.h \
-  /usr/include/bits/posix1_lim.h \
-  /usr/include/bits/posix2_lim.h \
-  /usr/include/bits/posix_opt.h \
-  /usr/include/bits/pthread_stack_min-dynamic.h \
-  /usr/include/bits/pthreadtypes-arch.h \
-  /usr/include/bits/pthreadtypes.h \
-  /usr/include/bits/sched.h \
-  /usr/include/bits/select.h \
-  /usr/include/bits/semaphore.h \
-  /usr/include/bits/setjmp.h \
-  /usr/include/bits/sigaction.h \
-  /usr/include/bits/sigcontext.h \
-  /usr/include/bits/sigevent-consts.h \
-  /usr/include/bits/siginfo-arch.h \
-  /usr/include/bits/siginfo-consts-arch.h \
-  /usr/include/bits/siginfo-consts.h \
-  /usr/include/bits/signal_ext.h \
-  /usr/include/bits/signum-arch.h \
-  /usr/include/bits/signum-generic.h \
-  /usr/include/bits/sigstack.h \
-  /usr/include/bits/sigstksz.h \
-  /usr/include/bits/sigthread.h \
-  /usr/include/bits/ss_flags.h \
-  /usr/include/bits/stat.h \
-  /usr/include/bits/statx-generic.h \
-  /usr/include/bits/statx.h \
-  /usr/include/bits/stdint-intn.h \
-  /usr/include/bits/stdint-least.h \
-  /usr/include/bits/stdint-uintn.h \
-  /usr/include/bits/stdio_lim.h \
-  /usr/include/bits/stdlib-float.h \
-  /usr/include/bits/struct_mutex.h \
-  /usr/include/bits/struct_rwlock.h \
-  /usr/include/bits/struct_stat.h \
-  /usr/include/bits/syscall.h \
-  /usr/include/bits/thread-shared-types.h \
-  /usr/include/bits/time.h \
-  /usr/include/bits/time64.h \
-  /usr/include/bits/timesize.h \
-  /usr/include/bits/timex.h \
-  /usr/include/bits/types.h \
-  /usr/include/bits/types/FILE.h \
-  /usr/include/bits/types/__FILE.h \
-  /usr/include/bits/types/__fpos64_t.h \
-  /usr/include/bits/types/__fpos_t.h \
-  /usr/include/bits/types/__locale_t.h \
-  /usr/include/bits/types/__mbstate_t.h \
-  /usr/include/bits/types/__sigset_t.h \
-  /usr/include/bits/types/__sigval_t.h \
-  /usr/include/bits/types/clock_t.h \
-  /usr/include/bits/types/clockid_t.h \
-  /usr/include/bits/types/cookie_io_functions_t.h \
-  /usr/include/bits/types/error_t.h \
-  /usr/include/bits/types/idtype_t.h \
-  /usr/include/bits/types/locale_t.h \
-  /usr/include/bits/types/mbstate_t.h \
-  /usr/include/bits/types/sig_atomic_t.h \
-  /usr/include/bits/types/sigevent_t.h \
-  /usr/include/bits/types/siginfo_t.h \
-  /usr/include/bits/types/sigset_t.h \
-  /usr/include/bits/types/sigval_t.h \
-  /usr/include/bits/types/stack_t.h \
-  /usr/include/bits/types/struct_FILE.h \
-  /usr/include/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/bits/types/struct_iovec.h \
-  /usr/include/bits/types/struct_itimerspec.h \
-  /usr/include/bits/types/struct_sched_param.h \
-  /usr/include/bits/types/struct_sigstack.h \
-  /usr/include/bits/types/struct_statx.h \
-  /usr/include/bits/types/struct_statx_timestamp.h \
-  /usr/include/bits/types/struct_timespec.h \
-  /usr/include/bits/types/struct_timeval.h \
-  /usr/include/bits/types/struct_tm.h \
-  /usr/include/bits/types/time_t.h \
-  /usr/include/bits/types/timer_t.h \
-  /usr/include/bits/types/wint_t.h \
-  /usr/include/bits/typesizes.h \
-  /usr/include/bits/uintn-identity.h \
-  /usr/include/bits/uio_lim.h \
-  /usr/include/bits/unistd_ext.h \
-  /usr/include/bits/waitflags.h \
-  /usr/include/bits/waitstatus.h \
-  /usr/include/bits/wchar.h \
-  /usr/include/bits/wctype-wchar.h \
-  /usr/include/bits/wordsize.h \
-  /usr/include/bits/xopen_lim.h \
-  /usr/include/c++/15.2.1/algorithm \
-  /usr/include/c++/15.2.1/any \
-  /usr/include/c++/15.2.1/array \
-  /usr/include/c++/15.2.1/atomic \
-  /usr/include/c++/15.2.1/backward/auto_ptr.h \
-  /usr/include/c++/15.2.1/backward/binders.h \
-  /usr/include/c++/15.2.1/bit \
-  /usr/include/c++/15.2.1/bits/algorithmfwd.h \
-  /usr/include/c++/15.2.1/bits/align.h \
-  /usr/include/c++/15.2.1/bits/alloc_traits.h \
-  /usr/include/c++/15.2.1/bits/allocated_ptr.h \
-  /usr/include/c++/15.2.1/bits/allocator.h \
-  /usr/include/c++/15.2.1/bits/atomic_base.h \
-  /usr/include/c++/15.2.1/bits/atomic_futex.h \
-  /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
-  /usr/include/c++/15.2.1/bits/atomic_timed_wait.h \
-  /usr/include/c++/15.2.1/bits/atomic_wait.h \
-  /usr/include/c++/15.2.1/bits/basic_ios.h \
-  /usr/include/c++/15.2.1/bits/basic_ios.tcc \
-  /usr/include/c++/15.2.1/bits/basic_string.h \
-  /usr/include/c++/15.2.1/bits/basic_string.tcc \
-  /usr/include/c++/15.2.1/bits/char_traits.h \
-  /usr/include/c++/15.2.1/bits/charconv.h \
-  /usr/include/c++/15.2.1/bits/chrono.h \
-  /usr/include/c++/15.2.1/bits/chrono_io.h \
-  /usr/include/c++/15.2.1/bits/codecvt.h \
-  /usr/include/c++/15.2.1/bits/concept_check.h \
-  /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
-  /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
-  /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
-  /usr/include/c++/15.2.1/bits/deque.tcc \
-  /usr/include/c++/15.2.1/bits/enable_special_members.h \
-  /usr/include/c++/15.2.1/bits/erase_if.h \
-  /usr/include/c++/15.2.1/bits/exception.h \
-  /usr/include/c++/15.2.1/bits/exception_defines.h \
-  /usr/include/c++/15.2.1/bits/exception_ptr.h \
-  /usr/include/c++/15.2.1/bits/formatfwd.h \
-  /usr/include/c++/15.2.1/bits/forward_list.h \
-  /usr/include/c++/15.2.1/bits/forward_list.tcc \
-  /usr/include/c++/15.2.1/bits/fs_dir.h \
-  /usr/include/c++/15.2.1/bits/fs_fwd.h \
-  /usr/include/c++/15.2.1/bits/fs_ops.h \
-  /usr/include/c++/15.2.1/bits/fs_path.h \
-  /usr/include/c++/15.2.1/bits/fstream.tcc \
-  /usr/include/c++/15.2.1/bits/functexcept.h \
-  /usr/include/c++/15.2.1/bits/functional_hash.h \
-  /usr/include/c++/15.2.1/bits/gslice.h \
-  /usr/include/c++/15.2.1/bits/gslice_array.h \
-  /usr/include/c++/15.2.1/bits/hash_bytes.h \
-  /usr/include/c++/15.2.1/bits/hashtable.h \
-  /usr/include/c++/15.2.1/bits/hashtable_policy.h \
-  /usr/include/c++/15.2.1/bits/indirect_array.h \
-  /usr/include/c++/15.2.1/bits/invoke.h \
-  /usr/include/c++/15.2.1/bits/ios_base.h \
-  /usr/include/c++/15.2.1/bits/istream.tcc \
-  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
-  /usr/include/c++/15.2.1/bits/list.tcc \
-  /usr/include/c++/15.2.1/bits/locale_classes.h \
-  /usr/include/c++/15.2.1/bits/locale_classes.tcc \
-  /usr/include/c++/15.2.1/bits/locale_conv.h \
-  /usr/include/c++/15.2.1/bits/locale_facets.h \
-  /usr/include/c++/15.2.1/bits/locale_facets.tcc \
-  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
-  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
-  /usr/include/c++/15.2.1/bits/localefwd.h \
-  /usr/include/c++/15.2.1/bits/mask_array.h \
-  /usr/include/c++/15.2.1/bits/max_size_type.h \
-  /usr/include/c++/15.2.1/bits/memory_resource.h \
-  /usr/include/c++/15.2.1/bits/memoryfwd.h \
-  /usr/include/c++/15.2.1/bits/monostate.h \
-  /usr/include/c++/15.2.1/bits/move.h \
-  /usr/include/c++/15.2.1/bits/nested_exception.h \
-  /usr/include/c++/15.2.1/bits/new_allocator.h \
-  /usr/include/c++/15.2.1/bits/node_handle.h \
-  /usr/include/c++/15.2.1/bits/ostream.h \
-  /usr/include/c++/15.2.1/bits/ostream.tcc \
-  /usr/include/c++/15.2.1/bits/ostream_insert.h \
-  /usr/include/c++/15.2.1/bits/parse_numbers.h \
-  /usr/include/c++/15.2.1/bits/postypes.h \
-  /usr/include/c++/15.2.1/bits/predefined_ops.h \
-  /usr/include/c++/15.2.1/bits/ptr_traits.h \
-  /usr/include/c++/15.2.1/bits/quoted_string.h \
-  /usr/include/c++/15.2.1/bits/range_access.h \
-  /usr/include/c++/15.2.1/bits/ranges_algo.h \
-  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
-  /usr/include/c++/15.2.1/bits/ranges_base.h \
-  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
-  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
-  /usr/include/c++/15.2.1/bits/ranges_util.h \
-  /usr/include/c++/15.2.1/bits/refwrap.h \
-  /usr/include/c++/15.2.1/bits/regex.h \
-  /usr/include/c++/15.2.1/bits/regex.tcc \
-  /usr/include/c++/15.2.1/bits/regex_automaton.h \
-  /usr/include/c++/15.2.1/bits/regex_automaton.tcc \
-  /usr/include/c++/15.2.1/bits/regex_compiler.h \
-  /usr/include/c++/15.2.1/bits/regex_compiler.tcc \
-  /usr/include/c++/15.2.1/bits/regex_constants.h \
-  /usr/include/c++/15.2.1/bits/regex_error.h \
-  /usr/include/c++/15.2.1/bits/regex_executor.h \
-  /usr/include/c++/15.2.1/bits/regex_executor.tcc \
-  /usr/include/c++/15.2.1/bits/regex_scanner.h \
-  /usr/include/c++/15.2.1/bits/regex_scanner.tcc \
-  /usr/include/c++/15.2.1/bits/requires_hosted.h \
-  /usr/include/c++/15.2.1/bits/semaphore_base.h \
-  /usr/include/c++/15.2.1/bits/shared_ptr.h \
-  /usr/include/c++/15.2.1/bits/shared_ptr_atomic.h \
-  /usr/include/c++/15.2.1/bits/shared_ptr_base.h \
-  /usr/include/c++/15.2.1/bits/slice_array.h \
-  /usr/include/c++/15.2.1/bits/specfun.h \
-  /usr/include/c++/15.2.1/bits/sstream.tcc \
-  /usr/include/c++/15.2.1/bits/std_abs.h \
-  /usr/include/c++/15.2.1/bits/std_function.h \
-  /usr/include/c++/15.2.1/bits/std_mutex.h \
-  /usr/include/c++/15.2.1/bits/std_thread.h \
-  /usr/include/c++/15.2.1/bits/stl_algo.h \
-  /usr/include/c++/15.2.1/bits/stl_algobase.h \
-  /usr/include/c++/15.2.1/bits/stl_bvector.h \
-  /usr/include/c++/15.2.1/bits/stl_construct.h \
-  /usr/include/c++/15.2.1/bits/stl_deque.h \
-  /usr/include/c++/15.2.1/bits/stl_function.h \
-  /usr/include/c++/15.2.1/bits/stl_heap.h \
-  /usr/include/c++/15.2.1/bits/stl_iterator.h \
-  /usr/include/c++/15.2.1/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/15.2.1/bits/stl_iterator_base_types.h \
-  /usr/include/c++/15.2.1/bits/stl_list.h \
-  /usr/include/c++/15.2.1/bits/stl_map.h \
-  /usr/include/c++/15.2.1/bits/stl_multimap.h \
-  /usr/include/c++/15.2.1/bits/stl_multiset.h \
-  /usr/include/c++/15.2.1/bits/stl_numeric.h \
-  /usr/include/c++/15.2.1/bits/stl_pair.h \
-  /usr/include/c++/15.2.1/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/15.2.1/bits/stl_relops.h \
-  /usr/include/c++/15.2.1/bits/stl_set.h \
-  /usr/include/c++/15.2.1/bits/stl_stack.h \
-  /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
-  /usr/include/c++/15.2.1/bits/stl_tree.h \
-  /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
-  /usr/include/c++/15.2.1/bits/stl_vector.h \
-  /usr/include/c++/15.2.1/bits/stream_iterator.h \
-  /usr/include/c++/15.2.1/bits/streambuf.tcc \
-  /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
-  /usr/include/c++/15.2.1/bits/string_view.tcc \
-  /usr/include/c++/15.2.1/bits/stringfwd.h \
-  /usr/include/c++/15.2.1/bits/this_thread_sleep.h \
-  /usr/include/c++/15.2.1/bits/unicode-data.h \
-  /usr/include/c++/15.2.1/bits/unicode.h \
-  /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
-  /usr/include/c++/15.2.1/bits/unique_lock.h \
-  /usr/include/c++/15.2.1/bits/unique_ptr.h \
-  /usr/include/c++/15.2.1/bits/unordered_map.h \
-  /usr/include/c++/15.2.1/bits/unordered_set.h \
-  /usr/include/c++/15.2.1/bits/uses_allocator.h \
-  /usr/include/c++/15.2.1/bits/uses_allocator_args.h \
-  /usr/include/c++/15.2.1/bits/utility.h \
-  /usr/include/c++/15.2.1/bits/valarray_after.h \
-  /usr/include/c++/15.2.1/bits/valarray_array.h \
-  /usr/include/c++/15.2.1/bits/valarray_array.tcc \
-  /usr/include/c++/15.2.1/bits/valarray_before.h \
-  /usr/include/c++/15.2.1/bits/vector.tcc \
-  /usr/include/c++/15.2.1/bits/version.h \
-  /usr/include/c++/15.2.1/bitset \
-  /usr/include/c++/15.2.1/cassert \
-  /usr/include/c++/15.2.1/cctype \
-  /usr/include/c++/15.2.1/cerrno \
-  /usr/include/c++/15.2.1/cfloat \
-  /usr/include/c++/15.2.1/charconv \
-  /usr/include/c++/15.2.1/chrono \
-  /usr/include/c++/15.2.1/climits \
-  /usr/include/c++/15.2.1/clocale \
-  /usr/include/c++/15.2.1/cmath \
-  /usr/include/c++/15.2.1/codecvt \
-  /usr/include/c++/15.2.1/compare \
-  /usr/include/c++/15.2.1/concepts \
-  /usr/include/c++/15.2.1/condition_variable \
-  /usr/include/c++/15.2.1/csignal \
-  /usr/include/c++/15.2.1/cstddef \
-  /usr/include/c++/15.2.1/cstdint \
-  /usr/include/c++/15.2.1/cstdio \
-  /usr/include/c++/15.2.1/cstdlib \
-  /usr/include/c++/15.2.1/cstring \
-  /usr/include/c++/15.2.1/ctime \
-  /usr/include/c++/15.2.1/cwchar \
-  /usr/include/c++/15.2.1/cwctype \
-  /usr/include/c++/15.2.1/debug/assertions.h \
-  /usr/include/c++/15.2.1/debug/debug.h \
-  /usr/include/c++/15.2.1/deque \
-  /usr/include/c++/15.2.1/exception \
-  /usr/include/c++/15.2.1/ext/aligned_buffer.h \
-  /usr/include/c++/15.2.1/ext/alloc_traits.h \
-  /usr/include/c++/15.2.1/ext/atomicity.h \
-  /usr/include/c++/15.2.1/ext/concurrence.h \
-  /usr/include/c++/15.2.1/ext/numeric_traits.h \
-  /usr/include/c++/15.2.1/ext/string_conversions.h \
-  /usr/include/c++/15.2.1/ext/type_traits.h \
-  /usr/include/c++/15.2.1/filesystem \
-  /usr/include/c++/15.2.1/format \
-  /usr/include/c++/15.2.1/forward_list \
-  /usr/include/c++/15.2.1/fstream \
-  /usr/include/c++/15.2.1/functional \
-  /usr/include/c++/15.2.1/future \
-  /usr/include/c++/15.2.1/initializer_list \
-  /usr/include/c++/15.2.1/iomanip \
-  /usr/include/c++/15.2.1/ios \
-  /usr/include/c++/15.2.1/iosfwd \
-  /usr/include/c++/15.2.1/iostream \
-  /usr/include/c++/15.2.1/istream \
-  /usr/include/c++/15.2.1/iterator \
-  /usr/include/c++/15.2.1/limits \
-  /usr/include/c++/15.2.1/list \
-  /usr/include/c++/15.2.1/locale \
-  /usr/include/c++/15.2.1/map \
-  /usr/include/c++/15.2.1/math.h \
-  /usr/include/c++/15.2.1/memory \
-  /usr/include/c++/15.2.1/mutex \
-  /usr/include/c++/15.2.1/new \
-  /usr/include/c++/15.2.1/numbers \
-  /usr/include/c++/15.2.1/numeric \
-  /usr/include/c++/15.2.1/optional \
-  /usr/include/c++/15.2.1/ostream \
-  /usr/include/c++/15.2.1/pstl/execution_defs.h \
-  /usr/include/c++/15.2.1/pstl/glue_algorithm_defs.h \
-  /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
-  /usr/include/c++/15.2.1/pstl/glue_numeric_defs.h \
-  /usr/include/c++/15.2.1/pstl/pstl_config.h \
-  /usr/include/c++/15.2.1/ranges \
-  /usr/include/c++/15.2.1/ratio \
-  /usr/include/c++/15.2.1/regex \
-  /usr/include/c++/15.2.1/semaphore \
-  /usr/include/c++/15.2.1/set \
-  /usr/include/c++/15.2.1/span \
-  /usr/include/c++/15.2.1/sstream \
-  /usr/include/c++/15.2.1/stack \
-  /usr/include/c++/15.2.1/stdexcept \
-  /usr/include/c++/15.2.1/stdlib.h \
-  /usr/include/c++/15.2.1/stop_token \
-  /usr/include/c++/15.2.1/streambuf \
-  /usr/include/c++/15.2.1/string \
-  /usr/include/c++/15.2.1/string_view \
-  /usr/include/c++/15.2.1/system_error \
-  /usr/include/c++/15.2.1/thread \
-  /usr/include/c++/15.2.1/tr1/bessel_function.tcc \
-  /usr/include/c++/15.2.1/tr1/beta_function.tcc \
-  /usr/include/c++/15.2.1/tr1/ell_integral.tcc \
-  /usr/include/c++/15.2.1/tr1/exp_integral.tcc \
-  /usr/include/c++/15.2.1/tr1/gamma.tcc \
-  /usr/include/c++/15.2.1/tr1/hypergeometric.tcc \
-  /usr/include/c++/15.2.1/tr1/legendre_function.tcc \
-  /usr/include/c++/15.2.1/tr1/modified_bessel_func.tcc \
-  /usr/include/c++/15.2.1/tr1/poly_hermite.tcc \
-  /usr/include/c++/15.2.1/tr1/poly_laguerre.tcc \
-  /usr/include/c++/15.2.1/tr1/riemann_zeta.tcc \
-  /usr/include/c++/15.2.1/tr1/special_function_util.h \
-  /usr/include/c++/15.2.1/tuple \
-  /usr/include/c++/15.2.1/type_traits \
-  /usr/include/c++/15.2.1/typeindex \
-  /usr/include/c++/15.2.1/typeinfo \
-  /usr/include/c++/15.2.1/unordered_map \
-  /usr/include/c++/15.2.1/unordered_set \
-  /usr/include/c++/15.2.1/utility \
-  /usr/include/c++/15.2.1/valarray \
-  /usr/include/c++/15.2.1/vector \
-  /usr/include/c++/15.2.1/version \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
-  /usr/include/ctype.h \
-  /usr/include/endian.h \
-  /usr/include/errno.h \
-  /usr/include/fcntl.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/gnu/stubs-64.h \
-  /usr/include/gnu/stubs.h \
-  /usr/include/inttypes.h \
-  /usr/include/libintl.h \
-  /usr/include/limits.h \
-  /usr/include/linux/close_range.h \
-  /usr/include/linux/errno.h \
-  /usr/include/linux/falloc.h \
-  /usr/include/linux/limits.h \
-  /usr/include/linux/posix_types.h \
-  /usr/include/linux/sched/types.h \
-  /usr/include/linux/stat.h \
-  /usr/include/linux/stddef.h \
-  /usr/include/linux/types.h \
-  /usr/include/locale.h \
-  /usr/include/math.h \
-  /usr/include/pthread.h \
-  /usr/include/pwd.h \
-  /usr/include/sched.h \
-  /usr/include/semaphore.h \
-  /usr/include/signal.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdio.h \
-  /usr/include/stdlib.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/sys/cdefs.h \
-  /usr/include/sys/select.h \
-  /usr/include/sys/single_threaded.h \
-  /usr/include/sys/stat.h \
-  /usr/include/sys/syscall.h \
-  /usr/include/sys/time.h \
-  /usr/include/sys/types.h \
-  /usr/include/sys/ucontext.h \
-  /usr/include/sys/wait.h \
-  /usr/include/syscall.h \
-  /usr/include/time.h \
-  /usr/include/unistd.h \
-  /usr/include/wchar.h \
-  /usr/include/wctype.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/adxintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxavx512intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxbf16intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxcomplexintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxfp16intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxfp8intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxint8intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxmovrsintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxtf32intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxtileintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxtransposeintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2-512bf16intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2-512convertintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2-512mediaintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2-512minmaxintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2-512satcvtintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2bf16intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2convertintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2copyintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2mediaintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2minmaxintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2satcvtintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx2intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bf16intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bf16vlintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bitalgintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bitalgvlintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bwintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512cdintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512dqintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512fintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512fp16intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512fp16vlintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512ifmaintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512ifmavlintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vbmi2intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vbmi2vlintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vbmiintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vbmivlintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vlbwintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vldqintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vlintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vnniintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vnnivlintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vp2intersectintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vp2intersectvlintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vpopcntdqintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vpopcntdqvlintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxifmaintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxneconvertintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxvnniint16intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxvnniint8intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxvnniintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/bmi2intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/bmiintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/cetintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/cldemoteintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/clflushoptintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/clwbintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/clzerointrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/cmpccxaddintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/emmintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/enqcmdintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/f16cintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/float.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/fmaintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/fxsrintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/gfniintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/hresetintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/ia32intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/immintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/keylockerintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/lwpintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/lzcntintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mm_malloc.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mmintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/movdirintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/movrsintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mwaitintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mwaitxintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/pconfigintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/pkuintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/pmmintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/popcntintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/prfchiintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/prfchwintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/raointintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/rdseedintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/rtmintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/serializeintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/sgxintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/sha512intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/shaintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/sm3intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/sm4intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/smmintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/tbmintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/tmmintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/tsxldtrkintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/uintrintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/usermsrintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/vaesintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/vpclmulqdqintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/waitpkgintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/wbnoinvdintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/wmmintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/x86gprintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xmmintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xsavecintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xsaveintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xsaveoptintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xsavesintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xtestintrin.h
-
-editor/CMakeFiles/editor.dir/src/ui/ProjectBrowser.cpp.o: /home/rodaqqq/Documents/socka-2dengine/editor/src/ui/ProjectBrowser.cpp \
-  /home/rodaqqq/Documents/socka-2dengine/editor/src/ui/Global.h \
-  /home/rodaqqq/Documents/socka-2dengine/editor/src/ui/ProjectBrowser.h \
-  /home/rodaqqq/Documents/socka-2dengine/engine/src/core/FileSystem.h \
-  /home/rodaqqq/Documents/socka-2dengine/engine/src/core/Log.h \
-  /home/rodaqqq/Documents/socka-2dengine/engine/src/core/Project.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/imgui/imconfig.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/imgui/imgui.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/pfd/portable-file-dialogs.h \
-  /usr/include/alloca.h \
-  /usr/include/asm-generic/bitsperlong.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/int-ll64.h \
-  /usr/include/asm-generic/posix_types.h \
-  /usr/include/asm-generic/types.h \
-  /usr/include/asm/bitsperlong.h \
-  /usr/include/asm/errno.h \
-  /usr/include/asm/posix_types.h \
-  /usr/include/asm/posix_types_64.h \
-  /usr/include/asm/types.h \
-  /usr/include/asm/unistd.h \
-  /usr/include/asm/unistd_64.h \
-  /usr/include/assert.h \
-  /usr/include/bits/atomic_wide_counter.h \
-  /usr/include/bits/byteswap.h \
-  /usr/include/bits/confname.h \
-  /usr/include/bits/cpu-set.h \
-  /usr/include/bits/endian.h \
-  /usr/include/bits/endianness.h \
-  /usr/include/bits/environments.h \
-  /usr/include/bits/errno.h \
-  /usr/include/bits/fcntl-linux.h \
-  /usr/include/bits/fcntl.h \
-  /usr/include/bits/floatn-common.h \
-  /usr/include/bits/floatn.h \
-  /usr/include/bits/getopt_core.h \
-  /usr/include/bits/getopt_posix.h \
-  /usr/include/bits/libc-header-start.h \
-  /usr/include/bits/local_lim.h \
-  /usr/include/bits/locale.h \
-  /usr/include/bits/long-double.h \
-  /usr/include/bits/posix1_lim.h \
-  /usr/include/bits/posix2_lim.h \
-  /usr/include/bits/posix_opt.h \
-  /usr/include/bits/pthread_stack_min-dynamic.h \
-  /usr/include/bits/pthreadtypes-arch.h \
-  /usr/include/bits/pthreadtypes.h \
-  /usr/include/bits/sched.h \
-  /usr/include/bits/select.h \
-  /usr/include/bits/semaphore.h \
-  /usr/include/bits/setjmp.h \
-  /usr/include/bits/sigaction.h \
-  /usr/include/bits/sigcontext.h \
-  /usr/include/bits/sigevent-consts.h \
-  /usr/include/bits/siginfo-arch.h \
-  /usr/include/bits/siginfo-consts-arch.h \
-  /usr/include/bits/siginfo-consts.h \
-  /usr/include/bits/signal_ext.h \
-  /usr/include/bits/signum-arch.h \
-  /usr/include/bits/signum-generic.h \
-  /usr/include/bits/sigstack.h \
-  /usr/include/bits/sigstksz.h \
-  /usr/include/bits/sigthread.h \
-  /usr/include/bits/ss_flags.h \
-  /usr/include/bits/stat.h \
-  /usr/include/bits/statx-generic.h \
-  /usr/include/bits/statx.h \
-  /usr/include/bits/stdint-intn.h \
-  /usr/include/bits/stdint-least.h \
-  /usr/include/bits/stdint-uintn.h \
-  /usr/include/bits/stdio_lim.h \
-  /usr/include/bits/stdlib-float.h \
-  /usr/include/bits/struct_mutex.h \
-  /usr/include/bits/struct_rwlock.h \
-  /usr/include/bits/struct_stat.h \
-  /usr/include/bits/syscall.h \
-  /usr/include/bits/thread-shared-types.h \
-  /usr/include/bits/time.h \
-  /usr/include/bits/time64.h \
-  /usr/include/bits/timesize.h \
-  /usr/include/bits/timex.h \
-  /usr/include/bits/types.h \
-  /usr/include/bits/types/FILE.h \
-  /usr/include/bits/types/__FILE.h \
-  /usr/include/bits/types/__fpos64_t.h \
-  /usr/include/bits/types/__fpos_t.h \
-  /usr/include/bits/types/__locale_t.h \
-  /usr/include/bits/types/__mbstate_t.h \
-  /usr/include/bits/types/__sigset_t.h \
-  /usr/include/bits/types/__sigval_t.h \
-  /usr/include/bits/types/clock_t.h \
-  /usr/include/bits/types/clockid_t.h \
-  /usr/include/bits/types/cookie_io_functions_t.h \
-  /usr/include/bits/types/error_t.h \
-  /usr/include/bits/types/idtype_t.h \
-  /usr/include/bits/types/locale_t.h \
-  /usr/include/bits/types/mbstate_t.h \
-  /usr/include/bits/types/sig_atomic_t.h \
-  /usr/include/bits/types/sigevent_t.h \
-  /usr/include/bits/types/siginfo_t.h \
-  /usr/include/bits/types/sigset_t.h \
-  /usr/include/bits/types/sigval_t.h \
-  /usr/include/bits/types/stack_t.h \
-  /usr/include/bits/types/struct_FILE.h \
-  /usr/include/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/bits/types/struct_iovec.h \
-  /usr/include/bits/types/struct_itimerspec.h \
-  /usr/include/bits/types/struct_sched_param.h \
-  /usr/include/bits/types/struct_sigstack.h \
-  /usr/include/bits/types/struct_statx.h \
-  /usr/include/bits/types/struct_statx_timestamp.h \
-  /usr/include/bits/types/struct_timespec.h \
-  /usr/include/bits/types/struct_timeval.h \
-  /usr/include/bits/types/struct_tm.h \
-  /usr/include/bits/types/time_t.h \
-  /usr/include/bits/types/timer_t.h \
-  /usr/include/bits/types/wint_t.h \
-  /usr/include/bits/typesizes.h \
-  /usr/include/bits/uintn-identity.h \
-  /usr/include/bits/uio_lim.h \
-  /usr/include/bits/unistd_ext.h \
-  /usr/include/bits/waitflags.h \
-  /usr/include/bits/waitstatus.h \
-  /usr/include/bits/wchar.h \
-  /usr/include/bits/wctype-wchar.h \
-  /usr/include/bits/wordsize.h \
-  /usr/include/bits/xopen_lim.h \
-  /usr/include/c++/15.2.1/algorithm \
-  /usr/include/c++/15.2.1/array \
-  /usr/include/c++/15.2.1/atomic \
-  /usr/include/c++/15.2.1/backward/auto_ptr.h \
-  /usr/include/c++/15.2.1/backward/binders.h \
-  /usr/include/c++/15.2.1/bit \
-  /usr/include/c++/15.2.1/bits/algorithmfwd.h \
-  /usr/include/c++/15.2.1/bits/align.h \
-  /usr/include/c++/15.2.1/bits/alloc_traits.h \
-  /usr/include/c++/15.2.1/bits/allocated_ptr.h \
-  /usr/include/c++/15.2.1/bits/allocator.h \
-  /usr/include/c++/15.2.1/bits/atomic_base.h \
-  /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
-  /usr/include/c++/15.2.1/bits/atomic_timed_wait.h \
-  /usr/include/c++/15.2.1/bits/atomic_wait.h \
-  /usr/include/c++/15.2.1/bits/basic_ios.h \
-  /usr/include/c++/15.2.1/bits/basic_ios.tcc \
-  /usr/include/c++/15.2.1/bits/basic_string.h \
-  /usr/include/c++/15.2.1/bits/basic_string.tcc \
-  /usr/include/c++/15.2.1/bits/char_traits.h \
-  /usr/include/c++/15.2.1/bits/charconv.h \
-  /usr/include/c++/15.2.1/bits/chrono.h \
-  /usr/include/c++/15.2.1/bits/chrono_io.h \
-  /usr/include/c++/15.2.1/bits/codecvt.h \
-  /usr/include/c++/15.2.1/bits/concept_check.h \
-  /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
-  /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
-  /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
-  /usr/include/c++/15.2.1/bits/deque.tcc \
-  /usr/include/c++/15.2.1/bits/enable_special_members.h \
-  /usr/include/c++/15.2.1/bits/erase_if.h \
-  /usr/include/c++/15.2.1/bits/exception.h \
-  /usr/include/c++/15.2.1/bits/exception_defines.h \
-  /usr/include/c++/15.2.1/bits/exception_ptr.h \
-  /usr/include/c++/15.2.1/bits/formatfwd.h \
-  /usr/include/c++/15.2.1/bits/fs_dir.h \
-  /usr/include/c++/15.2.1/bits/fs_fwd.h \
-  /usr/include/c++/15.2.1/bits/fs_ops.h \
-  /usr/include/c++/15.2.1/bits/fs_path.h \
-  /usr/include/c++/15.2.1/bits/fstream.tcc \
-  /usr/include/c++/15.2.1/bits/functexcept.h \
-  /usr/include/c++/15.2.1/bits/functional_hash.h \
-  /usr/include/c++/15.2.1/bits/hash_bytes.h \
-  /usr/include/c++/15.2.1/bits/hashtable.h \
-  /usr/include/c++/15.2.1/bits/hashtable_policy.h \
-  /usr/include/c++/15.2.1/bits/invoke.h \
-  /usr/include/c++/15.2.1/bits/ios_base.h \
-  /usr/include/c++/15.2.1/bits/istream.tcc \
-  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
-  /usr/include/c++/15.2.1/bits/locale_classes.h \
-  /usr/include/c++/15.2.1/bits/locale_classes.tcc \
-  /usr/include/c++/15.2.1/bits/locale_conv.h \
-  /usr/include/c++/15.2.1/bits/locale_facets.h \
-  /usr/include/c++/15.2.1/bits/locale_facets.tcc \
-  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
-  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
-  /usr/include/c++/15.2.1/bits/localefwd.h \
-  /usr/include/c++/15.2.1/bits/max_size_type.h \
-  /usr/include/c++/15.2.1/bits/memory_resource.h \
-  /usr/include/c++/15.2.1/bits/memoryfwd.h \
-  /usr/include/c++/15.2.1/bits/monostate.h \
-  /usr/include/c++/15.2.1/bits/move.h \
-  /usr/include/c++/15.2.1/bits/nested_exception.h \
-  /usr/include/c++/15.2.1/bits/new_allocator.h \
-  /usr/include/c++/15.2.1/bits/node_handle.h \
-  /usr/include/c++/15.2.1/bits/ostream.h \
-  /usr/include/c++/15.2.1/bits/ostream.tcc \
-  /usr/include/c++/15.2.1/bits/ostream_insert.h \
-  /usr/include/c++/15.2.1/bits/parse_numbers.h \
-  /usr/include/c++/15.2.1/bits/postypes.h \
-  /usr/include/c++/15.2.1/bits/predefined_ops.h \
-  /usr/include/c++/15.2.1/bits/ptr_traits.h \
-  /usr/include/c++/15.2.1/bits/quoted_string.h \
-  /usr/include/c++/15.2.1/bits/range_access.h \
-  /usr/include/c++/15.2.1/bits/ranges_algo.h \
-  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
-  /usr/include/c++/15.2.1/bits/ranges_base.h \
-  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
-  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
-  /usr/include/c++/15.2.1/bits/ranges_util.h \
-  /usr/include/c++/15.2.1/bits/refwrap.h \
-  /usr/include/c++/15.2.1/bits/regex.h \
-  /usr/include/c++/15.2.1/bits/regex.tcc \
-  /usr/include/c++/15.2.1/bits/regex_automaton.h \
-  /usr/include/c++/15.2.1/bits/regex_automaton.tcc \
-  /usr/include/c++/15.2.1/bits/regex_compiler.h \
-  /usr/include/c++/15.2.1/bits/regex_compiler.tcc \
-  /usr/include/c++/15.2.1/bits/regex_constants.h \
-  /usr/include/c++/15.2.1/bits/regex_error.h \
-  /usr/include/c++/15.2.1/bits/regex_executor.h \
-  /usr/include/c++/15.2.1/bits/regex_executor.tcc \
-  /usr/include/c++/15.2.1/bits/regex_scanner.h \
-  /usr/include/c++/15.2.1/bits/regex_scanner.tcc \
-  /usr/include/c++/15.2.1/bits/requires_hosted.h \
-  /usr/include/c++/15.2.1/bits/semaphore_base.h \
-  /usr/include/c++/15.2.1/bits/shared_ptr.h \
-  /usr/include/c++/15.2.1/bits/shared_ptr_atomic.h \
-  /usr/include/c++/15.2.1/bits/shared_ptr_base.h \
-  /usr/include/c++/15.2.1/bits/sstream.tcc \
-  /usr/include/c++/15.2.1/bits/std_abs.h \
-  /usr/include/c++/15.2.1/bits/std_function.h \
-  /usr/include/c++/15.2.1/bits/std_mutex.h \
-  /usr/include/c++/15.2.1/bits/std_thread.h \
-  /usr/include/c++/15.2.1/bits/stl_algo.h \
-  /usr/include/c++/15.2.1/bits/stl_algobase.h \
-  /usr/include/c++/15.2.1/bits/stl_bvector.h \
-  /usr/include/c++/15.2.1/bits/stl_construct.h \
-  /usr/include/c++/15.2.1/bits/stl_deque.h \
-  /usr/include/c++/15.2.1/bits/stl_function.h \
-  /usr/include/c++/15.2.1/bits/stl_heap.h \
-  /usr/include/c++/15.2.1/bits/stl_iterator.h \
-  /usr/include/c++/15.2.1/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/15.2.1/bits/stl_iterator_base_types.h \
-  /usr/include/c++/15.2.1/bits/stl_map.h \
-  /usr/include/c++/15.2.1/bits/stl_multimap.h \
-  /usr/include/c++/15.2.1/bits/stl_multiset.h \
-  /usr/include/c++/15.2.1/bits/stl_pair.h \
-  /usr/include/c++/15.2.1/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/15.2.1/bits/stl_set.h \
-  /usr/include/c++/15.2.1/bits/stl_stack.h \
-  /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
-  /usr/include/c++/15.2.1/bits/stl_tree.h \
-  /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
-  /usr/include/c++/15.2.1/bits/stl_vector.h \
-  /usr/include/c++/15.2.1/bits/streambuf.tcc \
-  /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
-  /usr/include/c++/15.2.1/bits/string_view.tcc \
-  /usr/include/c++/15.2.1/bits/stringfwd.h \
-  /usr/include/c++/15.2.1/bits/this_thread_sleep.h \
-  /usr/include/c++/15.2.1/bits/unicode-data.h \
-  /usr/include/c++/15.2.1/bits/unicode.h \
-  /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
-  /usr/include/c++/15.2.1/bits/unique_ptr.h \
-  /usr/include/c++/15.2.1/bits/unordered_map.h \
-  /usr/include/c++/15.2.1/bits/uses_allocator.h \
-  /usr/include/c++/15.2.1/bits/uses_allocator_args.h \
-  /usr/include/c++/15.2.1/bits/utility.h \
-  /usr/include/c++/15.2.1/bits/vector.tcc \
-  /usr/include/c++/15.2.1/bits/version.h \
-  /usr/include/c++/15.2.1/bitset \
-  /usr/include/c++/15.2.1/cctype \
-  /usr/include/c++/15.2.1/cerrno \
-  /usr/include/c++/15.2.1/charconv \
-  /usr/include/c++/15.2.1/chrono \
-  /usr/include/c++/15.2.1/climits \
-  /usr/include/c++/15.2.1/clocale \
-  /usr/include/c++/15.2.1/codecvt \
-  /usr/include/c++/15.2.1/compare \
-  /usr/include/c++/15.2.1/concepts \
-  /usr/include/c++/15.2.1/csignal \
-  /usr/include/c++/15.2.1/cstddef \
-  /usr/include/c++/15.2.1/cstdint \
-  /usr/include/c++/15.2.1/cstdio \
-  /usr/include/c++/15.2.1/cstdlib \
-  /usr/include/c++/15.2.1/cstring \
-  /usr/include/c++/15.2.1/ctime \
-  /usr/include/c++/15.2.1/cwchar \
-  /usr/include/c++/15.2.1/cwctype \
-  /usr/include/c++/15.2.1/debug/assertions.h \
-  /usr/include/c++/15.2.1/debug/debug.h \
-  /usr/include/c++/15.2.1/deque \
-  /usr/include/c++/15.2.1/exception \
-  /usr/include/c++/15.2.1/ext/aligned_buffer.h \
-  /usr/include/c++/15.2.1/ext/alloc_traits.h \
-  /usr/include/c++/15.2.1/ext/atomicity.h \
-  /usr/include/c++/15.2.1/ext/concurrence.h \
-  /usr/include/c++/15.2.1/ext/numeric_traits.h \
-  /usr/include/c++/15.2.1/ext/string_conversions.h \
-  /usr/include/c++/15.2.1/ext/type_traits.h \
-  /usr/include/c++/15.2.1/filesystem \
-  /usr/include/c++/15.2.1/format \
-  /usr/include/c++/15.2.1/fstream \
-  /usr/include/c++/15.2.1/functional \
-  /usr/include/c++/15.2.1/initializer_list \
-  /usr/include/c++/15.2.1/iomanip \
-  /usr/include/c++/15.2.1/ios \
-  /usr/include/c++/15.2.1/iosfwd \
-  /usr/include/c++/15.2.1/iostream \
-  /usr/include/c++/15.2.1/istream \
-  /usr/include/c++/15.2.1/limits \
-  /usr/include/c++/15.2.1/locale \
-  /usr/include/c++/15.2.1/map \
-  /usr/include/c++/15.2.1/memory \
-  /usr/include/c++/15.2.1/new \
-  /usr/include/c++/15.2.1/numbers \
-  /usr/include/c++/15.2.1/optional \
-  /usr/include/c++/15.2.1/ostream \
-  /usr/include/c++/15.2.1/pstl/execution_defs.h \
-  /usr/include/c++/15.2.1/pstl/glue_algorithm_defs.h \
-  /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
-  /usr/include/c++/15.2.1/pstl/pstl_config.h \
-  /usr/include/c++/15.2.1/ratio \
-  /usr/include/c++/15.2.1/regex \
-  /usr/include/c++/15.2.1/semaphore \
-  /usr/include/c++/15.2.1/set \
-  /usr/include/c++/15.2.1/span \
-  /usr/include/c++/15.2.1/sstream \
-  /usr/include/c++/15.2.1/stack \
-  /usr/include/c++/15.2.1/stdexcept \
-  /usr/include/c++/15.2.1/stop_token \
-  /usr/include/c++/15.2.1/streambuf \
-  /usr/include/c++/15.2.1/string \
-  /usr/include/c++/15.2.1/string_view \
-  /usr/include/c++/15.2.1/system_error \
-  /usr/include/c++/15.2.1/thread \
-  /usr/include/c++/15.2.1/tuple \
-  /usr/include/c++/15.2.1/type_traits \
-  /usr/include/c++/15.2.1/typeinfo \
-  /usr/include/c++/15.2.1/unordered_map \
-  /usr/include/c++/15.2.1/vector \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
-  /usr/include/ctype.h \
-  /usr/include/endian.h \
-  /usr/include/errno.h \
-  /usr/include/fcntl.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/gnu/stubs-64.h \
-  /usr/include/gnu/stubs.h \
-  /usr/include/libintl.h \
-  /usr/include/limits.h \
-  /usr/include/linux/close_range.h \
-  /usr/include/linux/errno.h \
-  /usr/include/linux/falloc.h \
-  /usr/include/linux/limits.h \
-  /usr/include/linux/posix_types.h \
-  /usr/include/linux/sched/types.h \
-  /usr/include/linux/stat.h \
-  /usr/include/linux/stddef.h \
-  /usr/include/linux/types.h \
-  /usr/include/locale.h \
-  /usr/include/pthread.h \
-  /usr/include/pwd.h \
-  /usr/include/sched.h \
-  /usr/include/semaphore.h \
-  /usr/include/signal.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdio.h \
-  /usr/include/stdlib.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/sys/cdefs.h \
-  /usr/include/sys/select.h \
-  /usr/include/sys/single_threaded.h \
-  /usr/include/sys/stat.h \
-  /usr/include/sys/syscall.h \
-  /usr/include/sys/time.h \
-  /usr/include/sys/types.h \
-  /usr/include/sys/ucontext.h \
-  /usr/include/sys/wait.h \
-  /usr/include/syscall.h \
-  /usr/include/time.h \
-  /usr/include/unistd.h \
-  /usr/include/wchar.h \
-  /usr/include/wctype.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/float.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
-
-editor/CMakeFiles/editor.dir/src/ui/Viewport.cpp.o: /home/rodaqqq/Documents/socka-2dengine/editor/src/ui/Viewport.cpp \
-  /home/rodaqqq/Documents/socka-2dengine/editor/src/EditorApp.h \
-  /home/rodaqqq/Documents/socka-2dengine/editor/src/ui/Gizmos.h \
-  /home/rodaqqq/Documents/socka-2dengine/engine/src/core/AssetManager.h \
-  /home/rodaqqq/Documents/socka-2dengine/engine/src/core/Camera.h \
-  /home/rodaqqq/Documents/socka-2dengine/engine/src/core/Log.h \
-  /home/rodaqqq/Documents/socka-2dengine/engine/src/core/Project.h \
-  /home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/Component.h \
-  /home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/Entity.h \
-  /home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/components/BoxColliderComponent.h \
-  /home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/components/CircleColliderComponent.h \
-  /home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/components/PolygonColliderComponent.h \
-  /home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/components/SpriteComponent.h \
-  /home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/components/TransformComponent.h \
-  /home/rodaqqq/Documents/socka-2dengine/engine/src/scene/Scene.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo/ImGuizmo.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/macro.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/version.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/memory.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_set.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/attribute.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/algorithm.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/any.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/attribute.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/enum.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/family.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/hashed_string.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/ident.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/memory.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/monostate.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/tuple.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_info.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/algorithm.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/any.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/memory.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_info.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_set.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/adjacency_matrix.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/flow.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/delegate.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/sigh.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/component.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/entity.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/group.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/handle.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/helper.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/observer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/organizer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/registry.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/runtime_view.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/snapshot.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/sparse_set.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/storage.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/storage_mixin.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/view.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entt.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/adjacency_matrix.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/dot.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/flow.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/locator/locator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_set.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/any.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/attribute.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/enum.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_info.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/locator/locator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/adl_pointer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/container.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/context.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/factory.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/meta.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/node.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/pointer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/policy.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/range.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/resolve.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/template.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/platform/android-ndk-r17.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/any.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_info.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/poly/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/poly/poly.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/process/process.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/process/scheduler.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/resource/cache.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/resource/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/resource/loader.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/resource/resource.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_info.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/delegate.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/dispatcher.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/emitter.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/sigh.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/common.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_exponential.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_vector_relational.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/exponential.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/vector_relational.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/_fixes.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/compute_common.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_common.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_geometric.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec1.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec1.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/geometric.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x3.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x4.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x2.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x3.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x4.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x2.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x3.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x4.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_matrix.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat2x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat2x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat3x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat3x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat3x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat4x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat4x3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat4x4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/matrix.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/compute_vector_relational.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/_vectorize.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/compute_vector_decl.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x2.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec2.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec3.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec4.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/scalar_int_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/scalar_uint_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float2_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float3_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float4_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int2_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int3_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int4_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint2_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint3_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint4_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/simd/platform.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/_fixes.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_integer.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_packing.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_trigonometric.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/qualifier.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_half.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_half.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_float.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_relational.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_relational.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_geometric.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_geometric.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/scalar_constants.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/scalar_constants.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_common.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_common.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/fwd.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/glm.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_relational.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_relational.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_quat.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_quat.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_double.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_double_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_float.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_float_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_transform.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_transform.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_trigonometric.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_trigonometric.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool1.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool1_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double1.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double1_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float1.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float1_precision.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int1.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int1_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint1.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint1_sized.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_clip_space.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_clip_space.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_projection.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_projection.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_transform.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_transform.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/constants.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/constants.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/matrix_transform.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/matrix_transform.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/epsilon.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/epsilon.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/quaternion.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/quaternion.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/vec1.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/type_ptr.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/type_ptr.inl \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/integer.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat2x2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/packing.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/trigonometric.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/vec2.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/vec3.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/vec4.hpp \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/imgui/imconfig.h \
-  /home/rodaqqq/Documents/socka-2dengine/vendor/imgui/imgui.h \
-  /usr/include/SDL2/SDL.h \
-  /usr/include/SDL2/SDL_assert.h \
-  /usr/include/SDL2/SDL_atomic.h \
-  /usr/include/SDL2/SDL_audio.h \
-  /usr/include/SDL2/SDL_blendmode.h \
-  /usr/include/SDL2/SDL_clipboard.h \
-  /usr/include/SDL2/SDL_config.h \
-  /usr/include/SDL2/SDL_config_unix.h \
-  /usr/include/SDL2/SDL_cpuinfo.h \
-  /usr/include/SDL2/SDL_endian.h \
-  /usr/include/SDL2/SDL_error.h \
-  /usr/include/SDL2/SDL_events.h \
-  /usr/include/SDL2/SDL_filesystem.h \
-  /usr/include/SDL2/SDL_gamecontroller.h \
-  /usr/include/SDL2/SDL_gesture.h \
-  /usr/include/SDL2/SDL_guid.h \
-  /usr/include/SDL2/SDL_haptic.h \
-  /usr/include/SDL2/SDL_hidapi.h \
-  /usr/include/SDL2/SDL_hints.h \
-  /usr/include/SDL2/SDL_joystick.h \
-  /usr/include/SDL2/SDL_keyboard.h \
-  /usr/include/SDL2/SDL_keycode.h \
-  /usr/include/SDL2/SDL_loadso.h \
-  /usr/include/SDL2/SDL_locale.h \
-  /usr/include/SDL2/SDL_log.h \
-  /usr/include/SDL2/SDL_main.h \
-  /usr/include/SDL2/SDL_messagebox.h \
-  /usr/include/SDL2/SDL_metal.h \
-  /usr/include/SDL2/SDL_misc.h \
-  /usr/include/SDL2/SDL_mouse.h \
-  /usr/include/SDL2/SDL_mutex.h \
-  /usr/include/SDL2/SDL_pixels.h \
-  /usr/include/SDL2/SDL_platform.h \
-  /usr/include/SDL2/SDL_power.h \
-  /usr/include/SDL2/SDL_quit.h \
-  /usr/include/SDL2/SDL_rect.h \
-  /usr/include/SDL2/SDL_render.h \
-  /usr/include/SDL2/SDL_rwops.h \
-  /usr/include/SDL2/SDL_scancode.h \
-  /usr/include/SDL2/SDL_sensor.h \
-  /usr/include/SDL2/SDL_shape.h \
-  /usr/include/SDL2/SDL_stdinc.h \
-  /usr/include/SDL2/SDL_surface.h \
-  /usr/include/SDL2/SDL_system.h \
-  /usr/include/SDL2/SDL_thread.h \
-  /usr/include/SDL2/SDL_timer.h \
-  /usr/include/SDL2/SDL_touch.h \
-  /usr/include/SDL2/SDL_version.h \
-  /usr/include/SDL2/SDL_video.h \
-  /usr/include/SDL2/begin_code.h \
-  /usr/include/SDL2/close_code.h \
-  /usr/include/alloca.h \
-  /usr/include/asm-generic/bitsperlong.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/int-ll64.h \
-  /usr/include/asm-generic/posix_types.h \
-  /usr/include/asm-generic/types.h \
-  /usr/include/asm/bitsperlong.h \
-  /usr/include/asm/errno.h \
-  /usr/include/asm/posix_types.h \
-  /usr/include/asm/posix_types_64.h \
-  /usr/include/asm/types.h \
-  /usr/include/asm/unistd.h \
-  /usr/include/asm/unistd_64.h \
-  /usr/include/assert.h \
-  /usr/include/bits/atomic_wide_counter.h \
-  /usr/include/bits/byteswap.h \
-  /usr/include/bits/confname.h \
-  /usr/include/bits/cpu-set.h \
-  /usr/include/bits/endian.h \
-  /usr/include/bits/endianness.h \
-  /usr/include/bits/environments.h \
-  /usr/include/bits/errno.h \
-  /usr/include/bits/floatn-common.h \
-  /usr/include/bits/floatn.h \
-  /usr/include/bits/flt-eval-method.h \
-  /usr/include/bits/fp-fast.h \
-  /usr/include/bits/fp-logb.h \
-  /usr/include/bits/getopt_core.h \
-  /usr/include/bits/getopt_posix.h \
-  /usr/include/bits/iscanonical.h \
-  /usr/include/bits/libc-header-start.h \
-  /usr/include/bits/libm-simd-decl-stubs.h \
-  /usr/include/bits/local_lim.h \
-  /usr/include/bits/locale.h \
-  /usr/include/bits/long-double.h \
-  /usr/include/bits/math-vector.h \
-  /usr/include/bits/mathcalls-helper-functions.h \
-  /usr/include/bits/mathcalls-macros.h \
-  /usr/include/bits/mathcalls-narrow.h \
-  /usr/include/bits/mathcalls.h \
-  /usr/include/bits/posix1_lim.h \
-  /usr/include/bits/posix2_lim.h \
-  /usr/include/bits/posix_opt.h \
-  /usr/include/bits/pthread_stack_min-dynamic.h \
-  /usr/include/bits/pthreadtypes-arch.h \
-  /usr/include/bits/pthreadtypes.h \
-  /usr/include/bits/sched.h \
-  /usr/include/bits/select.h \
-  /usr/include/bits/setjmp.h \
-  /usr/include/bits/stdint-intn.h \
-  /usr/include/bits/stdint-least.h \
-  /usr/include/bits/stdint-uintn.h \
-  /usr/include/bits/stdio_lim.h \
-  /usr/include/bits/stdlib-float.h \
-  /usr/include/bits/struct_mutex.h \
-  /usr/include/bits/struct_rwlock.h \
-  /usr/include/bits/syscall.h \
-  /usr/include/bits/thread-shared-types.h \
-  /usr/include/bits/time.h \
-  /usr/include/bits/time64.h \
-  /usr/include/bits/timesize.h \
-  /usr/include/bits/timex.h \
-  /usr/include/bits/types.h \
-  /usr/include/bits/types/FILE.h \
-  /usr/include/bits/types/__FILE.h \
-  /usr/include/bits/types/__fpos64_t.h \
-  /usr/include/bits/types/__fpos_t.h \
-  /usr/include/bits/types/__locale_t.h \
-  /usr/include/bits/types/__mbstate_t.h \
-  /usr/include/bits/types/__sigset_t.h \
-  /usr/include/bits/types/clock_t.h \
-  /usr/include/bits/types/clockid_t.h \
-  /usr/include/bits/types/cookie_io_functions_t.h \
-  /usr/include/bits/types/error_t.h \
-  /usr/include/bits/types/locale_t.h \
-  /usr/include/bits/types/mbstate_t.h \
-  /usr/include/bits/types/sigset_t.h \
-  /usr/include/bits/types/struct_FILE.h \
-  /usr/include/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/bits/types/struct_itimerspec.h \
-  /usr/include/bits/types/struct_sched_param.h \
-  /usr/include/bits/types/struct_timespec.h \
-  /usr/include/bits/types/struct_timeval.h \
-  /usr/include/bits/types/struct_tm.h \
-  /usr/include/bits/types/time_t.h \
-  /usr/include/bits/types/timer_t.h \
-  /usr/include/bits/types/wint_t.h \
-  /usr/include/bits/typesizes.h \
-  /usr/include/bits/uintn-identity.h \
-  /usr/include/bits/uio_lim.h \
-  /usr/include/bits/unistd_ext.h \
-  /usr/include/bits/waitflags.h \
-  /usr/include/bits/waitstatus.h \
-  /usr/include/bits/wchar.h \
-  /usr/include/bits/wctype-wchar.h \
-  /usr/include/bits/wordsize.h \
-  /usr/include/bits/xopen_lim.h \
-  /usr/include/c++/15.2.1/algorithm \
-  /usr/include/c++/15.2.1/array \
-  /usr/include/c++/15.2.1/backward/auto_ptr.h \
-  /usr/include/c++/15.2.1/backward/binders.h \
-  /usr/include/c++/15.2.1/bit \
-  /usr/include/c++/15.2.1/bits/algorithmfwd.h \
-  /usr/include/c++/15.2.1/bits/align.h \
-  /usr/include/c++/15.2.1/bits/alloc_traits.h \
-  /usr/include/c++/15.2.1/bits/allocated_ptr.h \
-  /usr/include/c++/15.2.1/bits/allocator.h \
-  /usr/include/c++/15.2.1/bits/atomic_base.h \
-  /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
-  /usr/include/c++/15.2.1/bits/atomic_wait.h \
-  /usr/include/c++/15.2.1/bits/basic_ios.h \
-  /usr/include/c++/15.2.1/bits/basic_ios.tcc \
-  /usr/include/c++/15.2.1/bits/basic_string.h \
-  /usr/include/c++/15.2.1/bits/basic_string.tcc \
-  /usr/include/c++/15.2.1/bits/char_traits.h \
-  /usr/include/c++/15.2.1/bits/charconv.h \
-  /usr/include/c++/15.2.1/bits/chrono.h \
-  /usr/include/c++/15.2.1/bits/codecvt.h \
-  /usr/include/c++/15.2.1/bits/concept_check.h \
-  /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
-  /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
-  /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
-  /usr/include/c++/15.2.1/bits/deque.tcc \
-  /usr/include/c++/15.2.1/bits/enable_special_members.h \
-  /usr/include/c++/15.2.1/bits/erase_if.h \
-  /usr/include/c++/15.2.1/bits/exception.h \
-  /usr/include/c++/15.2.1/bits/exception_defines.h \
-  /usr/include/c++/15.2.1/bits/exception_ptr.h \
-  /usr/include/c++/15.2.1/bits/fs_dir.h \
-  /usr/include/c++/15.2.1/bits/fs_fwd.h \
-  /usr/include/c++/15.2.1/bits/fs_ops.h \
-  /usr/include/c++/15.2.1/bits/fs_path.h \
-  /usr/include/c++/15.2.1/bits/functexcept.h \
-  /usr/include/c++/15.2.1/bits/functional_hash.h \
-  /usr/include/c++/15.2.1/bits/hash_bytes.h \
-  /usr/include/c++/15.2.1/bits/hashtable.h \
-  /usr/include/c++/15.2.1/bits/hashtable_policy.h \
-  /usr/include/c++/15.2.1/bits/invoke.h \
-  /usr/include/c++/15.2.1/bits/ios_base.h \
-  /usr/include/c++/15.2.1/bits/istream.tcc \
-  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
-  /usr/include/c++/15.2.1/bits/list.tcc \
-  /usr/include/c++/15.2.1/bits/locale_classes.h \
-  /usr/include/c++/15.2.1/bits/locale_classes.tcc \
-  /usr/include/c++/15.2.1/bits/locale_conv.h \
-  /usr/include/c++/15.2.1/bits/locale_facets.h \
-  /usr/include/c++/15.2.1/bits/locale_facets.tcc \
-  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
-  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
-  /usr/include/c++/15.2.1/bits/localefwd.h \
-  /usr/include/c++/15.2.1/bits/max_size_type.h \
-  /usr/include/c++/15.2.1/bits/memory_resource.h \
-  /usr/include/c++/15.2.1/bits/memoryfwd.h \
-  /usr/include/c++/15.2.1/bits/move.h \
-  /usr/include/c++/15.2.1/bits/nested_exception.h \
-  /usr/include/c++/15.2.1/bits/new_allocator.h \
-  /usr/include/c++/15.2.1/bits/node_handle.h \
-  /usr/include/c++/15.2.1/bits/ostream.h \
-  /usr/include/c++/15.2.1/bits/ostream.tcc \
-  /usr/include/c++/15.2.1/bits/ostream_insert.h \
-  /usr/include/c++/15.2.1/bits/parse_numbers.h \
-  /usr/include/c++/15.2.1/bits/postypes.h \
-  /usr/include/c++/15.2.1/bits/predefined_ops.h \
-  /usr/include/c++/15.2.1/bits/ptr_traits.h \
-  /usr/include/c++/15.2.1/bits/quoted_string.h \
-  /usr/include/c++/15.2.1/bits/range_access.h \
-  /usr/include/c++/15.2.1/bits/ranges_algo.h \
-  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
-  /usr/include/c++/15.2.1/bits/ranges_base.h \
-  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
-  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
-  /usr/include/c++/15.2.1/bits/ranges_util.h \
-  /usr/include/c++/15.2.1/bits/refwrap.h \
-  /usr/include/c++/15.2.1/bits/requires_hosted.h \
-  /usr/include/c++/15.2.1/bits/shared_ptr.h \
-  /usr/include/c++/15.2.1/bits/shared_ptr_atomic.h \
-  /usr/include/c++/15.2.1/bits/shared_ptr_base.h \
-  /usr/include/c++/15.2.1/bits/specfun.h \
-  /usr/include/c++/15.2.1/bits/sstream.tcc \
-  /usr/include/c++/15.2.1/bits/std_abs.h \
-  /usr/include/c++/15.2.1/bits/std_function.h \
-  /usr/include/c++/15.2.1/bits/std_mutex.h \
-  /usr/include/c++/15.2.1/bits/stl_algo.h \
-  /usr/include/c++/15.2.1/bits/stl_algobase.h \
-  /usr/include/c++/15.2.1/bits/stl_bvector.h \
-  /usr/include/c++/15.2.1/bits/stl_construct.h \
-  /usr/include/c++/15.2.1/bits/stl_deque.h \
-  /usr/include/c++/15.2.1/bits/stl_function.h \
-  /usr/include/c++/15.2.1/bits/stl_heap.h \
-  /usr/include/c++/15.2.1/bits/stl_iterator.h \
-  /usr/include/c++/15.2.1/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/15.2.1/bits/stl_iterator_base_types.h \
-  /usr/include/c++/15.2.1/bits/stl_list.h \
-  /usr/include/c++/15.2.1/bits/stl_map.h \
-  /usr/include/c++/15.2.1/bits/stl_multimap.h \
-  /usr/include/c++/15.2.1/bits/stl_multiset.h \
-  /usr/include/c++/15.2.1/bits/stl_pair.h \
-  /usr/include/c++/15.2.1/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/15.2.1/bits/stl_relops.h \
-  /usr/include/c++/15.2.1/bits/stl_set.h \
-  /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
-  /usr/include/c++/15.2.1/bits/stl_tree.h \
-  /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
-  /usr/include/c++/15.2.1/bits/stl_vector.h \
-  /usr/include/c++/15.2.1/bits/stream_iterator.h \
-  /usr/include/c++/15.2.1/bits/streambuf.tcc \
-  /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
-  /usr/include/c++/15.2.1/bits/string_view.tcc \
-  /usr/include/c++/15.2.1/bits/stringfwd.h \
-  /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
-  /usr/include/c++/15.2.1/bits/unique_ptr.h \
-  /usr/include/c++/15.2.1/bits/unordered_map.h \
-  /usr/include/c++/15.2.1/bits/unordered_set.h \
-  /usr/include/c++/15.2.1/bits/uses_allocator.h \
-  /usr/include/c++/15.2.1/bits/uses_allocator_args.h \
-  /usr/include/c++/15.2.1/bits/utility.h \
-  /usr/include/c++/15.2.1/bits/vector.tcc \
-  /usr/include/c++/15.2.1/bits/version.h \
-  /usr/include/c++/15.2.1/cassert \
-  /usr/include/c++/15.2.1/cctype \
-  /usr/include/c++/15.2.1/cerrno \
-  /usr/include/c++/15.2.1/cfloat \
-  /usr/include/c++/15.2.1/climits \
-  /usr/include/c++/15.2.1/clocale \
-  /usr/include/c++/15.2.1/cmath \
-  /usr/include/c++/15.2.1/codecvt \
-  /usr/include/c++/15.2.1/compare \
-  /usr/include/c++/15.2.1/concepts \
-  /usr/include/c++/15.2.1/cstddef \
-  /usr/include/c++/15.2.1/cstdint \
-  /usr/include/c++/15.2.1/cstdio \
-  /usr/include/c++/15.2.1/cstdlib \
-  /usr/include/c++/15.2.1/cstring \
-  /usr/include/c++/15.2.1/ctime \
-  /usr/include/c++/15.2.1/cwchar \
-  /usr/include/c++/15.2.1/cwctype \
-  /usr/include/c++/15.2.1/debug/assertions.h \
-  /usr/include/c++/15.2.1/debug/debug.h \
-  /usr/include/c++/15.2.1/deque \
-  /usr/include/c++/15.2.1/exception \
-  /usr/include/c++/15.2.1/ext/aligned_buffer.h \
-  /usr/include/c++/15.2.1/ext/alloc_traits.h \
-  /usr/include/c++/15.2.1/ext/atomicity.h \
-  /usr/include/c++/15.2.1/ext/concurrence.h \
-  /usr/include/c++/15.2.1/ext/numeric_traits.h \
-  /usr/include/c++/15.2.1/ext/string_conversions.h \
-  /usr/include/c++/15.2.1/ext/type_traits.h \
-  /usr/include/c++/15.2.1/filesystem \
-  /usr/include/c++/15.2.1/functional \
-  /usr/include/c++/15.2.1/initializer_list \
-  /usr/include/c++/15.2.1/iomanip \
-  /usr/include/c++/15.2.1/ios \
-  /usr/include/c++/15.2.1/iosfwd \
-  /usr/include/c++/15.2.1/iostream \
-  /usr/include/c++/15.2.1/istream \
-  /usr/include/c++/15.2.1/iterator \
-  /usr/include/c++/15.2.1/limits \
-  /usr/include/c++/15.2.1/list \
-  /usr/include/c++/15.2.1/locale \
-  /usr/include/c++/15.2.1/map \
-  /usr/include/c++/15.2.1/math.h \
-  /usr/include/c++/15.2.1/memory \
-  /usr/include/c++/15.2.1/new \
-  /usr/include/c++/15.2.1/numbers \
-  /usr/include/c++/15.2.1/ostream \
-  /usr/include/c++/15.2.1/pstl/execution_defs.h \
-  /usr/include/c++/15.2.1/pstl/glue_algorithm_defs.h \
-  /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
-  /usr/include/c++/15.2.1/pstl/pstl_config.h \
-  /usr/include/c++/15.2.1/ratio \
-  /usr/include/c++/15.2.1/set \
-  /usr/include/c++/15.2.1/sstream \
-  /usr/include/c++/15.2.1/stdexcept \
-  /usr/include/c++/15.2.1/stdlib.h \
-  /usr/include/c++/15.2.1/streambuf \
-  /usr/include/c++/15.2.1/string \
-  /usr/include/c++/15.2.1/string_view \
-  /usr/include/c++/15.2.1/system_error \
-  /usr/include/c++/15.2.1/tr1/bessel_function.tcc \
-  /usr/include/c++/15.2.1/tr1/beta_function.tcc \
-  /usr/include/c++/15.2.1/tr1/ell_integral.tcc \
-  /usr/include/c++/15.2.1/tr1/exp_integral.tcc \
-  /usr/include/c++/15.2.1/tr1/gamma.tcc \
-  /usr/include/c++/15.2.1/tr1/hypergeometric.tcc \
-  /usr/include/c++/15.2.1/tr1/legendre_function.tcc \
-  /usr/include/c++/15.2.1/tr1/modified_bessel_func.tcc \
-  /usr/include/c++/15.2.1/tr1/poly_hermite.tcc \
-  /usr/include/c++/15.2.1/tr1/poly_laguerre.tcc \
-  /usr/include/c++/15.2.1/tr1/riemann_zeta.tcc \
-  /usr/include/c++/15.2.1/tr1/special_function_util.h \
-  /usr/include/c++/15.2.1/tuple \
-  /usr/include/c++/15.2.1/type_traits \
-  /usr/include/c++/15.2.1/typeindex \
-  /usr/include/c++/15.2.1/typeinfo \
-  /usr/include/c++/15.2.1/unordered_map \
-  /usr/include/c++/15.2.1/unordered_set \
-  /usr/include/c++/15.2.1/utility \
-  /usr/include/c++/15.2.1/vector \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
-  /usr/include/ctype.h \
-  /usr/include/endian.h \
-  /usr/include/errno.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/gnu/stubs-64.h \
-  /usr/include/gnu/stubs.h \
-  /usr/include/inttypes.h \
-  /usr/include/libintl.h \
-  /usr/include/limits.h \
-  /usr/include/linux/close_range.h \
-  /usr/include/linux/errno.h \
-  /usr/include/linux/limits.h \
-  /usr/include/linux/posix_types.h \
-  /usr/include/linux/sched/types.h \
-  /usr/include/linux/stddef.h \
-  /usr/include/linux/types.h \
-  /usr/include/locale.h \
-  /usr/include/math.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdio.h \
-  /usr/include/stdlib.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/sys/cdefs.h \
-  /usr/include/sys/select.h \
-  /usr/include/sys/single_threaded.h \
-  /usr/include/sys/syscall.h \
-  /usr/include/sys/types.h \
-  /usr/include/syscall.h \
-  /usr/include/time.h \
-  /usr/include/unistd.h \
-  /usr/include/wchar.h \
-  /usr/include/wctype.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/adxintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxavx512intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxbf16intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxcomplexintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxfp16intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxfp8intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxint8intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxmovrsintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxtf32intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxtileintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxtransposeintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2-512bf16intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2-512convertintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2-512mediaintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2-512minmaxintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2-512satcvtintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2bf16intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2convertintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2copyintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2mediaintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2minmaxintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2satcvtintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx2intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bf16intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bf16vlintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bitalgintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bitalgvlintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bwintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512cdintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512dqintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512fintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512fp16intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512fp16vlintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512ifmaintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512ifmavlintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vbmi2intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vbmi2vlintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vbmiintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vbmivlintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vlbwintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vldqintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vlintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vnniintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vnnivlintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vp2intersectintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vp2intersectvlintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vpopcntdqintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vpopcntdqvlintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxifmaintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxneconvertintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxvnniint16intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxvnniint8intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxvnniintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/bmi2intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/bmiintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/cetintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/cldemoteintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/clflushoptintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/clwbintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/clzerointrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/cmpccxaddintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/emmintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/enqcmdintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/f16cintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/float.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/fmaintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/fxsrintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/gfniintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/hresetintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/ia32intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/immintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/keylockerintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/lwpintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/lzcntintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mm_malloc.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mmintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/movdirintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/movrsintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mwaitintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mwaitxintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/pconfigintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/pkuintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/pmmintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/popcntintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/prfchiintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/prfchwintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/raointintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/rdseedintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/rtmintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/serializeintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/sgxintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/sha512intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/shaintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/sm3intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/sm4intrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/smmintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/tbmintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/tmmintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/tsxldtrkintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/uintrintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/usermsrintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/vaesintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/vpclmulqdqintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/waitpkgintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/wbnoinvdintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/wmmintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/x86gprintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xmmintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xsavecintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xsaveintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xsaveoptintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xsavesintrin.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xtestintrin.h
-
-editor/editor: engine/libengine.a \
-  libimgui.a \
-  /usr/lib/Scrt1.o \
-  /usr/lib/crti.o \
-  /usr/lib/crtn.o \
-  /usr/lib/libSDL2.so \
-  /usr/lib/libSDL2_image.so \
-  /usr/lib/libSDL2_mixer.so \
-  /usr/lib/libc.so \
-  /usr/lib/libgcc_s.so \
-  /usr/lib/libgcc_s.so.1 \
-  /usr/lib/liblua.so \
-  /usr/lib/libm.so \
-  /usr/lib/libstdc++.so \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a \
-  /usr/lib/ld-linux-x86-64.so.2 \
-  /usr/lib/libSvtAv1Enc.so.3 \
-  /usr/lib/libaom.so.3 \
-  /usr/lib/libavif.so.16 \
-  /usr/lib/libbrotlicommon.so.1 \
-  /usr/lib/libbrotlidec.so.1 \
-  /usr/lib/libbrotlienc.so.1 \
-  /usr/lib/libc.so.6 \
-  /usr/lib/libc_nonshared.a \
-  /usr/lib/libdav1d.so.7 \
-  /usr/lib/libdeflate.so.0 \
-  /usr/lib/libhwy.so.1 \
-  /usr/lib/libjbig.so.2.1 \
-  /usr/lib/libjpeg.so.8 \
-  /usr/lib/libjxl.so.0.11 \
-  /usr/lib/libjxl_cms.so.0.11 \
-  /usr/lib/liblzma.so.5 \
-  /usr/lib/libm.so.6 \
-  /usr/lib/libmvec.so.1 \
-  /usr/lib/libpng16.so.16 \
-  /usr/lib/librav1e.so.0.8 \
-  /usr/lib/libsharpyuv.so.0 \
-  /usr/lib/libtiff.so.6 \
-  /usr/lib/libwebp.so.7 \
-  /usr/lib/libwebpdemux.so.2 \
-  /usr/lib/libyuv.so \
-  /usr/lib/libz.so.1 \
-  /usr/lib/libzstd.so.1 \
-  /usr/lib32/libbrotlicommon.so.1 \
-  /usr/lib32/libbrotlidec.so.1 \
-  /usr/lib32/libbrotlienc.so.1 \
-  /usr/lib32/liblzma.so.5 \
-  /usr/lib32/libpng16.so.16 \
-  /usr/lib32/libz.so.1 \
-  /usr/lib32/libzstd.so.1 \
-  editor/CMakeFiles/editor.dir/src/EditorApp.cpp.o \
-  editor/CMakeFiles/editor.dir/src/main.cpp.o \
-  editor/CMakeFiles/editor.dir/src/ui/AssetManager.cpp.o \
-  editor/CMakeFiles/editor.dir/src/ui/Console.cpp.o \
-  editor/CMakeFiles/editor.dir/src/ui/Gizmos.cpp.o \
-  editor/CMakeFiles/editor.dir/src/ui/Hierarchy.cpp.o \
-  editor/CMakeFiles/editor.dir/src/ui/Inspector.cpp.o \
-  editor/CMakeFiles/editor.dir/src/ui/MainMenu.cpp.o \
-  editor/CMakeFiles/editor.dir/src/ui/ProjectBrowser.cpp.o \
-  editor/CMakeFiles/editor.dir/src/ui/Viewport.cpp.o \
-  editor/libimgui_backends.a
-
-
-editor/libimgui_backends.a:
-
-editor/CMakeFiles/editor.dir/src/ui/Viewport.cpp.o:
-
-editor/CMakeFiles/editor.dir/src/ui/ProjectBrowser.cpp.o:
-
-editor/CMakeFiles/editor.dir/src/ui/MainMenu.cpp.o:
-
-editor/CMakeFiles/editor.dir/src/ui/Inspector.cpp.o:
-
-editor/CMakeFiles/editor.dir/src/ui/Gizmos.cpp.o:
-
-editor/CMakeFiles/editor.dir/src/ui/AssetManager.cpp.o:
-
-editor/CMakeFiles/editor.dir/src/EditorApp.cpp.o:
-
-/usr/lib32/libzstd.so.1:
-
-/usr/lib32/liblzma.so.5:
-
-/usr/lib/libyuv.so:
-
-/usr/lib/libtiff.so.6:
-
-/usr/lib/librav1e.so.0.8:
-
-/usr/lib/libmvec.so.1:
-
-/usr/lib/libm.so.6:
-
-/usr/lib/liblzma.so.5:
-
-/usr/lib/libjxl_cms.so.0.11:
-
-/usr/lib/libhwy.so.1:
-
-/usr/lib/libdeflate.so.0:
-
-/usr/lib/libc_nonshared.a:
-
-/usr/lib/libc.so.6:
-
-/usr/lib/libbrotlienc.so.1:
-
-/usr/lib/libbrotlidec.so.1:
-
-/usr/lib/libbrotlicommon.so.1:
-
-/usr/lib/libavif.so.16:
-
-/usr/include/c++/15.2.1/bits/stl_raw_storage_iter.h:
-
-/usr/include/SDL2/SDL_keycode.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x2.hpp:
-
-/usr/include/c++/15.2.1/bits/stl_bvector.h:
-
-/usr/include/c++/15.2.1/bits/std_mutex.h:
-
-/usr/include/c++/15.2.1/bits/std_function.h:
-
-/usr/include/c++/15.2.1/bits/sstream.tcc:
-
-/usr/include/c++/15.2.1/bits/streambuf_iterator.h:
-
-/usr/include/c++/15.2.1/bits/shared_ptr.h:
-
-/usr/include/c++/15.2.1/bits/ranges_uninitialized.h:
-
-/usr/include/c++/15.2.1/ext/string_conversions.h:
-
-/usr/include/c++/15.2.1/bits/range_access.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/metatable.hpp:
-
-/usr/include/c++/15.2.1/bits/quoted_string.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/meta/cpp_future.hpp:
-
-/usr/include/ctype.h:
-
-/usr/include/c++/15.2.1/bits/ostream.tcc:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x2_precision.hpp:
-
-/usr/include/c++/15.2.1/bits/new_allocator.h:
-
-/usr/include/bits/siginfo-consts.h:
-
-/usr/include/c++/15.2.1/bits/memory_resource.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/enqcmdintrin.h:
-
-/usr/include/c++/15.2.1/bits/localefwd.h:
-
-/usr/include/c++/15.2.1/bits/std_abs.h:
-
-/usr/include/c++/15.2.1/tr1/special_function_util.h:
-
-/usr/include/c++/15.2.1/bits/ios_base.h:
-
-/usr/include/c++/15.2.1/bits/indirect_array.h:
-
-/usr/include/c++/15.2.1/bits/hashtable_policy.h:
-
-/usr/include/c++/15.2.1/bits/hashtable.h:
-
-/usr/include/c++/15.2.1/bits/gslice_array.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/bmiintrin.h:
-
-/usr/include/c++/15.2.1/bits/functional_hash.h:
-
-/usr/include/c++/15.2.1/bits/fstream.tcc:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2-512mediaintrin.h:
-
-/usr/include/c++/15.2.1/bits/exception_defines.h:
-
-/usr/include/c++/15.2.1/bits/ranges_cmp.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/compute_vector_decl.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool1.hpp:
-
-/usr/include/c++/15.2.1/bits/cpp_type_traits.h:
-
-/usr/include/c++/15.2.1/bits/char_traits.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x4.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float4_precision.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxifmaintrin.h:
-
-/usr/include/c++/15.2.1/bits/basic_string.tcc:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec4.hpp:
-
-/usr/lib/libc.so:
-
-/usr/include/c++/15.2.1/bits/basic_ios.tcc:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double2.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double1_precision.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/type_ptr.hpp:
-
-/usr/include/c++/15.2.1/bits/atomic_timed_wait.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack_check_unqualified.hpp:
-
-/usr/include/c++/15.2.1/bits/allocated_ptr.h:
-
-/usr/include/c++/15.2.1/bits/align.h:
-
-/usr/include/c++/15.2.1/bits/basic_ios.h:
-
-/usr/include/asm/bitsperlong.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/resource/resource.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/unique_usertype_traits.hpp:
-
-/usr/include/c++/15.2.1/bits/algorithmfwd.h:
-
-/usr/include/bits/xopen_lim.h:
-
-/usr/include/c++/15.2.1/ext/numeric_traits.h:
-
-/usr/include/bits/waitflags.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/scalar_constants.inl:
-
-/usr/include/bits/unistd_ext.h:
-
-/usr/include/c++/15.2.1/any:
-
-/usr/include/bits/types/wint_t.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x3.hpp:
-
-/usr/include/bits/types/timer_t.h:
-
-/usr/include/bits/types/struct_tm.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/input/input_adapters.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_quat.hpp:
-
-/usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/delegate.hpp:
-
-/usr/include/SDL2/SDL_haptic.h:
-
-/home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/components/ScriptComponent.h:
-
-/usr/include/c++/15.2.1/bits/fs_path.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/json.hpp:
-
-/usr/include/bits/types/locale_t.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/fwd.hpp:
-
-/usr/include/bits/types/cookie_io_functions_t.h:
-
-/home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/Entity.h:
-
-/usr/include/bits/types/__locale_t.h:
-
-/usr/include/c++/15.2.1/bits/valarray_array.tcc:
-
-/usr/include/bits/types/__fpos64_t.h:
-
-/usr/include/SDL2/SDL_clipboard.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x3.inl:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_transform.inl:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/compatibility/compat-5.3.c.h:
-
-/usr/include/lauxlib.h:
-
-/usr/include/c++/15.2.1/bits/move.h:
-
-/usr/include/bits/timex.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat3x4.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/components/BoxColliderComponent.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/resolve.hpp:
-
-/usr/include/bits/time64.h:
-
-/usr/include/bits/thread-shared-types.h:
-
-/usr/include/bits/syscall.h:
-
-/usr/include/c++/15.2.1/bits/parse_numbers.h:
-
-/usr/include/bits/struct_rwlock.h:
-
-/usr/lib/libzstd.so.1:
-
-/usr/include/bits/sched.h:
-
-/usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_quat.inl:
-
-/usr/include/c++/15.2.1/bits/erase_if.h:
-
-/usr/include/bits/posix_opt.h:
-
-/usr/include/c++/15.2.1/bits/exception.h:
-
-/usr/include/bits/uio_lim.h:
-
-/usr/include/bits/math-vector.h:
-
-/usr/include/bits/mathcalls-macros.h:
-
-/usr/include/bits/fp-logb.h:
-
-/usr/include/linux/stddef.h:
-
-/usr/include/c++/15.2.1/bits/node_handle.h:
-
-/usr/include/bits/flt-eval-method.h:
-
-/usr/include/bits/floatn.h:
-
-/usr/include/bits/endianness.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/observer.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/lwpintrin.h:
-
-/usr/include/bits/endian.h:
-
-/usr/include/SDL2/SDL_surface.h:
-
-/usr/include/bits/types/__fpos_t.h:
-
-/usr/include/lua.h:
-
-/usr/include/asm/unistd_64.h:
-
-/usr/include/asm/posix_types_64.h:
-
-/usr/include/asm-generic/int-ll64.h:
-
-/usr/include/asm-generic/errno.h:
-
-/usr/include/sys/single_threaded.h:
-
-/usr/include/c++/15.2.1/bits/slice_array.h:
-
-/usr/include/c++/15.2.1/bits/cxxabi_forced.h:
-
-/usr/include/c++/15.2.1/bits/stl_heap.h:
-
-/usr/include/asm-generic/bitsperlong.h:
+
+/usr/include/lualib.h:
+
+/usr/include/c++/15.2.1/variant:
+
+/usr/include/c++/15.2.1/bits/monostate.h:
+
+/usr/include/SDL2/SDL_mixer.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/version.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/variadic_results.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/usertype_storage.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/usertype_core.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/unicode.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/tuple.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/tie.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/string_view.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/state_view.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/state_handling.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack_proxy.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack_guard.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack_field.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack_check_qualified.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack_check_get.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack_check.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/sol.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/raii.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/protected_function_result.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/property.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/prologue.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/pointer_like.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/optional_implementation.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/optional.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/object.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/make_reference.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/lua_value.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/load_result.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/inheritance.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/protected_function.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/function_types_stateless.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/function_types_overloaded.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/function_types.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/function_result.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/forward.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/error_handler.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/error.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/environment.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/dump_handler.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/detail/build_version.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/demangle.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/compatibility/compat-5.3.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/bytecode.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/base_traits.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/as_returns.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/as_args.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/constants.inl:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/constants.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_transform.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/function_types_templated.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint1_sized.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int1_sized.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int1.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float1_precision.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float1.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double1.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_trigonometric.inl:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_float_precision.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_double_precision.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_double.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/function.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_common.inl:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_common.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_geometric.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/usertype_container_launch.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_float.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_relational.inl:
+
+/home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/systems/ScriptSystem.h:
+
+/home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/components/VelocityComponent.h:
+
+/usr/include/lua.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/components/PolygonColliderComponent.h:
+
+/home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/components/InputControllerComponent.h:
+
+/home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/components/CameraComponent.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_clip_space.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/components/AnimationComponent.h:
+
+/home/rodaqqq/Documents/socka-2dengine/engine/src/core/FileWatcher.h:
+
+/home/rodaqqq/Documents/socka-2dengine/editor/src/main.cpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xtestintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xsaveoptintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xsaveintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xsavecintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/wmmintrin.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/forward_detail.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/waitpkgintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/vaesintrin.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack_core.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/usermsrintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/uintrintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/tsxldtrkintrin.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/bind_traits.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/tmmintrin.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/thread.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/tbmintrin.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/unsafe_function_result.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/reference.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/serializeintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/rdseedintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/prfchwintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/popcntintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/pconfigintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/movrsintrin.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/userdata.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack/detail/pairs.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/movdirintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mmintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/lzcntintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/keylockerintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/immintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/hresetintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/gfniintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/fxsrintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/float.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/f16cintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/emmintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/cmpccxaddintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/clzerointrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/cldemoteintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/bmi2intrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxintrin.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack_iterator.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vpopcntdqvlintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vpopcntdqintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vp2intersectvlintrin.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_trigonometric.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vp2intersectintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vnnivlintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vldqintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vbmi2intrin.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/table.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/quaternion.inl:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512ifmavlintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/sm4intrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512ifmaintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512fp16intrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512cdintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vbmivlintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bitalgintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bf16vlintrin.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/ebco.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_float.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2minmaxintrin.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/vec1.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2mediaintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2copyintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2convertintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2bf16intrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2-512satcvtintrin.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/abort.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxtransposeintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxtileintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxfp8intrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxfp16intrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/smmintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxbf16intrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxavx512intrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/adxintrin.h:
+
+/usr/include/wchar.h:
+
+/usr/include/time.h:
+
+/usr/include/syscall.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/sys/time.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/epilogue.hpp:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/stdio.h:
+
+/usr/include/sched.h:
+
+/usr/include/pthread.h:
+
+/usr/include/locale.h:
+
+/usr/include/linux/sched/types.h:
+
+/usr/include/linux/posix_types.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/limits.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/variadic_args.hpp:
+
+/usr/include/libintl.h:
+
+/usr/include/inttypes.h:
+
+/usr/include/features.h:
+
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxtf32intrin.h:
+
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h:
+
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/usertype_proxy.hpp:
+
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h:
+
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h:
+
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
+
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++locale.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/clwbintrin.h:
+
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++io.h:
+
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h:
+
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/basic_file.h:
+
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h:
+
+/usr/include/c++/15.2.1/vector:
+
+/usr/include/c++/15.2.1/valarray:
+
+/home/rodaqqq/Documents/socka-2dengine/editor/src/ui/Console.cpp:
+
+/usr/include/c++/15.2.1/utility:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/cetintrin.h:
+
+/usr/include/c++/15.2.1/unordered_set:
+
+/usr/include/c++/15.2.1/type_traits:
+
+/usr/include/c++/15.2.1/tuple:
+
+/usr/include/c++/15.2.1/tr1/poly_hermite.tcc:
+
+/usr/include/c++/15.2.1/tr1/gamma.tcc:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2-512convertintrin.h:
+
+/usr/include/c++/15.2.1/tr1/exp_integral.tcc:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack_pop.hpp:
+
+/usr/include/c++/15.2.1/tr1/ell_integral.tcc:
+
+/usr/include/c++/15.2.1/tr1/beta_function.tcc:
+
+/usr/include/c++/15.2.1/tr1/bessel_function.tcc:
+
+/usr/include/c++/15.2.1/system_error:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vbmiintrin.h:
+
+/usr/include/c++/15.2.1/string_view:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512fintrin.h:
+
+/usr/include/c++/15.2.1/streambuf:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bf16intrin.h:
+
+/usr/include/c++/15.2.1/stop_token:
+
+/usr/include/c++/15.2.1/stdlib.h:
+
+/usr/include/c++/15.2.1/stdexcept:
+
+/usr/include/c++/15.2.1/sstream:
+
+/usr/include/c++/15.2.1/set:
+
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h:
+
+/usr/include/c++/15.2.1/semaphore:
+
+/usr/include/c++/15.2.1/ratio:
+
+/usr/include/c++/15.2.1/pstl/pstl_config.h:
+
+/usr/include/c++/15.2.1/pstl/glue_memory_defs.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack_push.hpp:
+
+/usr/include/c++/15.2.1/optional:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/pairs_iterator.hpp:
+
+/usr/include/c++/15.2.1/numeric:
+
+/usr/include/c++/15.2.1/numbers:
+
+/usr/include/c++/15.2.1/mutex:
+
+/usr/include/c++/15.2.1/math.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vnniintrin.h:
+
+/usr/include/c++/15.2.1/locale:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/matrix.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool4_precision.hpp:
+
+/usr/include/SDL2/SDL_thread.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/pkuintrin.h:
+
+/usr/include/c++/15.2.1/bits/exception_ptr.h:
+
+/usr/include/SDL2/SDL_system.h:
+
+/usr/include/SDL2/SDL_shape.h:
+
+/usr/include/SDL2/SDL_quit.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/function_types_core.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxvnniint16intrin.h:
+
+/usr/include/SDL2/SDL_rwops.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/wbnoinvdintrin.h:
+
+/usr/include/c++/15.2.1/bits/concept_check.h:
 
 /usr/include/bits/byteswap.h:
+
+/usr/include/c++/15.2.1/version:
+
+/usr/include/SDL2/SDL_mouse.h:
+
+/home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/components/RigidBodyComponent.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/x86gprintrin.h:
+
+/usr/include/SDL2/SDL_metal.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_packing.inl:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack_get_unqualified.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x2_precision.hpp:
+
+/usr/include/bits/stdlib-float.h:
+
+/usr/include/SDL2/SDL_messagebox.h:
+
+/usr/include/c++/15.2.1/backward/auto_ptr.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/SDL2/SDL_main.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/table_iterator.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/json_pointer.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/string_concat.hpp:
+
+/usr/include/c++/15.2.1/pstl/execution_defs.h:
+
+/usr/include/SDL2/SDL_filesystem.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/_vectorize.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_relational.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/raointintrin.h:
+
+/usr/include/SDL2/SDL_events.h:
+
+/usr/include/c++/15.2.1/istream:
+
+/usr/include/SDL2/SDL_config_unix.h:
+
+/usr/include/SDL2/SDL_atomic.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_half.inl:
+
+/usr/include/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/SDL2/SDL_assert.h:
+
+/usr/include/SDL2/SDL_config.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/thirdparty/hedley/hedley.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x3.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/state.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_transform.inl:
+
+/usr/include/bits/stdint-uintn.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxmovrsintrin.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/meta/type_traits.hpp:
+
+/usr/include/bits/struct_mutex.h:
+
+/usr/include/c++/15.2.1/bits/istream.tcc:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec2.hpp:
+
+/usr/include/c++/15.2.1/limits:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/meta/std_fs.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/fwd.hpp:
+
+/usr/include/SDL2/begin_code.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int3_sized.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/policies.hpp:
+
+/usr/include/SDL2/SDL_version.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/meta/void_t.hpp:
+
+/usr/include/bits/uintn-identity.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/meta/detected.hpp:
+
+/usr/include/SDL2/SDL_guid.h:
+
+/usr/include/SDL2/SDL_stdinc.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxint8intrin.h:
+
+/usr/include/SDL2/SDL_render.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/macro_scope.hpp:
+
+/usr/include/c++/15.2.1/new:
+
+/usr/include/c++/15.2.1/map:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/json_custom_base_class.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool4.hpp:
+
+/usr/include/c++/15.2.1/bits/unordered_map.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vlbwintrin.h:
+
+/usr/include/semaphore.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/iterators/iterator_traits.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vbmi2vlintrin.h:
+
+/usr/include/bits/libc-header-start.h:
+
+/usr/include/endian.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/output/output_adapters.hpp:
+
+/usr/include/bits/stdio_lim.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/iterators/iteration_proxy.hpp:
+
+/usr/include/SDL2/SDL_misc.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x3.inl:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/overload.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/input/lexer.hpp:
+
+/usr/include/c++/15.2.1/tr1/legendre_function.tcc:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/input/binary_reader.hpp:
+
+/usr/include/c++/15.2.1/bits/stl_algobase.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/exceptions.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/sm3intrin.h:
+
+/usr/include/SDL2/SDL_hidapi.h:
+
+/usr/include/c++/15.2.1/tr1/hypergeometric.tcc:
+
+/usr/include/bits/types/struct_timespec.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/conversions/to_json.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/type_ptr.inl:
+
+/usr/include/sys/syscall.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/abi_macros.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint2.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/adl_serializer.hpp:
+
+/usr/include/SDL2/SDL_keyboard.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/call.hpp:
+
+/usr/include/bits/types/struct_sched_param.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/imgui.h:
+
+/usr/include/bits/fp-fast.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bwintrin.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/imconfig.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/linux/close_range.h:
+
+/usr/include/SDL2/SDL_touch.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends/imgui_impl_sdlrenderer2.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack_probe.hpp:
+
+/usr/include/c++/15.2.1/tr1/riemann_zeta.tcc:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool3_precision.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends/imgui_impl_sdl2.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/in_place.hpp:
+
+/usr/include/asm-generic/posix_types.h:
+
+/usr/include/c++/15.2.1/bits/stl_map.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxcomplexintrin.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/conversions/from_json.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/matrix_transform.hpp:
+
+/usr/include/bits/environments.h:
+
+/usr/include/c++/15.2.1/filesystem:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int2_sized.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/assert.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/epsilon.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/engine/src/core/ProjectSerializer.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/trigonometric.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/packing.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/quaternion.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/engine/src/scene/Scene.h:
+
+/usr/include/c++/15.2.1/bits/stl_set.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat2x2.hpp:
+
+/usr/include/c++/15.2.1/fstream:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_matrix.inl:
+
+/usr/include/luaconf.h:
+
+/usr/include/bits/wordsize.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/integer.hpp:
+
+/usr/include/SDL2/SDL_log.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_projection.inl:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_half.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/qualifier.hpp:
+
+/usr/include/c++/15.2.1/bits/cxxabi_init_exception.h:
+
+/usr/include/c++/15.2.1/ostream:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_trigonometric.inl:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2-512minmaxintrin.h:
+
+/usr/include/c++/15.2.1/bits/ostream.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_integer.inl:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/simd/platform.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint4.hpp:
+
+/usr/include/SDL2/SDL_blendmode.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint3.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/wrapper.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int4_sized.hpp:
+
+/usr/include/c++/15.2.1/ext/aligned_buffer.h:
+
+/usr/include/c++/15.2.1/bits/stl_relops.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x3.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x3.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/matrix_transform.inl:
+
+/home/rodaqqq/Documents/socka-2dengine/engine/src/core/Project.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/iterators/internal_iterator.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x4.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mwaitintrin.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x2_precision.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_projection.hpp:
+
+/usr/include/bits/types/__sigset_t.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/json_fwd.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_transform.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/output/binary_writer.hpp:
+
+/usr/include/c++/15.2.1/bits/postypes.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec3.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/json_ref.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack_check_get_qualified.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x4.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x3.hpp:
+
+/usr/include/c++/15.2.1/bits/uniform_int_dist.h:
+
+/usr/include/c++/15.2.1/cwchar:
+
+/usr/include/c++/15.2.1/tr1/poly_laguerre.tcc:
+
+/usr/include/c++/15.2.1/tr1/modified_bessel_func.tcc:
+
+/usr/include/SDL2/SDL_gesture.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat4x4.hpp:
+
+/usr/include/c++/15.2.1/memory:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x4.inl:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x3_precision.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/vec4.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/scalar_uint_sized.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x2.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2satcvtintrin.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec1.inl:
+
+/usr/include/c++/15.2.1/bits/locale_classes.tcc:
+
+/usr/include/c++/15.2.1/bits/forward_list.h:
+
+/usr/include/c++/15.2.1/bits/shared_ptr_atomic.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/config.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool1_precision.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_geometric.inl:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/output/serializer.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/entt/single_include/entt/entt.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_common.inl:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_vector_relational.inl:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/usertype_container.hpp:
+
+/usr/include/c++/15.2.1/bits/alloc_traits.h:
+
+/usr/include/errno.h:
+
+/usr/include/SDL2/close_code.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/input/position_t.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/trampoline.hpp:
+
+/usr/include/c++/15.2.1/bits/gslice.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/compatibility.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/compute_vector_relational.hpp:
+
+/usr/include/strings.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double4.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x4_precision.hpp:
+
+/usr/include/SDL2/SDL_power.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x3.inl:
+
+/usr/include/SDL2/SDL_loadso.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat3x3.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/string_utils.hpp:
+
+/usr/include/c++/15.2.1/bits/ranges_algo.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/vec2.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint1.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/components/TransformComponent.h:
+
+/usr/include/bits/typesizes.h:
+
+/home/rodaqqq/Documents/socka-2dengine/editor/src/ui/ProjectBrowser.h:
+
+/usr/include/c++/15.2.1/bits/stl_multiset.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/shaintrin.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/glm.hpp:
+
+/usr/include/SDL2/SDL_locale.h:
+
+/usr/include/SDL2/SDL_platform.h:
+
+/home/rodaqqq/Documents/socka-2dengine/engine/src/core/Log.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x2_precision.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/unsafe_function.hpp:
 
 /usr/include/SDL2/SDL_video.h:
 
 /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x4_precision.hpp:
 
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/unsafe_function.hpp:
+/usr/include/alloca.h:
 
-/usr/include/SDL2/SDL_touch.h:
+/usr/include/c++/15.2.1/bits/locale_classes.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/vector_relational.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/protect.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/editor/src/BuildSystem.h:
+
+/usr/include/c++/15.2.1/ranges:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/vec3.hpp:
+
+/usr/include/SDL2/SDL_joystick.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxvnniintrin.h:
+
+/usr/include/assert.h:
+
+/usr/include/c++/15.2.1/bits/atomic_futex.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x4.hpp:
+
+/usr/include/c++/15.2.1/bits/semaphore_base.h:
+
+/usr/include/c++/15.2.1/unordered_map:
+
+/home/rodaqqq/Documents/socka-2dengine/editor/src/EditorApp.cpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_relational.inl:
+
+/home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/Component.h:
+
+/usr/include/c++/15.2.1/bits/stl_multimap.h:
 
 /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int2.hpp:
 
-/usr/include/c++/15.2.1/bits/exception_ptr.h:
+/usr/include/SDL2/SDL_cpuinfo.h:
 
-/usr/include/SDL2/SDL_thread.h:
+/usr/include/c++/15.2.1/bits/ostream_insert.h:
 
-/usr/include/SDL2/SDL_stdinc.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/ia32intrin.h:
 
-/usr/include/c++/15.2.1/bits/stl_function.h:
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x2_precision.hpp:
 
-/usr/include/SDL2/SDL_sensor.h:
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/lua_table.hpp:
 
-/usr/include/bits/pthreadtypes.h:
+/usr/include/c++/15.2.1/initializer_list:
 
-/home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/components/SoundComponent.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512dqintrin.h:
 
-/usr/include/SDL2/SDL_scancode.h:
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x4.hpp:
 
-/usr/include/SDL2/SDL_rwops.h:
+/home/rodaqqq/Documents/socka-2dengine/engine/src/core/Input.h:
 
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/function_types_core.hpp:
+/usr/include/c++/15.2.1/codecvt:
 
-/usr/include/SDL2/SDL_render.h:
+/usr/include/bits/errno.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mm_malloc.h:
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x3_precision.hpp:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxint8intrin.h:
+/usr/include/bits/semaphore.h:
 
-/usr/include/c++/15.2.1/bits/ranges_algobase.h:
+/usr/include/bits/types/struct_FILE.h:
 
-/usr/include/c++/15.2.1/forward_list:
+/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo/ImGuizmo.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vlintrin.h:
+/usr/include/c++/15.2.1/bits/unique_ptr.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_exponential.inl:
+
+/usr/include/bits/types/clockid_t.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/input/json_sax.hpp:
+
+/usr/include/c++/15.2.1/bits/codecvt.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/exponential.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/_fixes.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/meta/identity_tag.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/engine/src/core/AssetManager.h:
+
+/usr/include/SDL2/SDL_mutex.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xmmintrin.h:
+
+/usr/include/stdint.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x4.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/conversions/to_chars.hpp:
+
+/usr/include/c++/15.2.1/bits/unordered_set.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x4_precision.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bitalgvlintrin.h:
+
+/home/rodaqqq/Documents/socka-2dengine/editor/src/ui/Gizmos.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/input/parser.hpp:
+
+/usr/include/bits/long-double.h:
+
+/home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/components/SpriteComponent.h:
+
+/usr/include/c++/15.2.1/bits/stl_pair.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint2_sized.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/usertype_traits.hpp:
+
+/usr/include/stdc-predef.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x4.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x3_precision.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/table_proxy.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float4.hpp:
+
+/usr/include/c++/15.2.1/cfloat:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/macro_unscope.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int3.hpp:
+
+/usr/include/c++/15.2.1/bits/fs_ops.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x2.hpp:
+
+/usr/include/c++/15.2.1/bits/atomic_base.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xsavesintrin.h:
+
+/usr/include/c++/15.2.1/span:
+
+/usr/include/c++/15.2.1/ext/atomicity.h:
+
+/usr/include/c++/15.2.1/bits/allocator.h:
+
+/usr/include/c++/15.2.1/bits/max_size_type.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/sgxintrin.h:
+
+/usr/include/c++/15.2.1/bits/std_thread.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/common.hpp:
+
+/usr/include/c++/15.2.1/bits/stl_deque.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/meta/is_sax.hpp:
+
+/usr/include/bits/atomic_wide_counter.h:
+
+/usr/include/c++/15.2.1/bits/enable_special_members.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double4_precision.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x3.hpp:
+
+/usr/include/c++/15.2.1/bits/ranges_base.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/iterators/iter_impl.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x3.hpp:
+
+/usr/include/asm/errno.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/hash.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/fmaintrin.h:
+
+/usr/include/c++/15.2.1/bits/atomic_wait.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/string_escape.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x4_precision.hpp:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/include/SDL2/SDL_audio.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x4.hpp:
+
+/usr/include/bits/local_lim.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x2.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x2_precision.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/clflushoptintrin.h:
+
+/usr/include/c++/15.2.1/bits/invoke.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/object_base.hpp:
 
 /usr/include/SDL2/SDL_rect.h:
 
@@ -7691,1944 +3672,742 @@ editor/CMakeFiles/editor.dir/src/EditorApp.cpp.o:
 
 /home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/iterators/primitive_iterator.hpp:
 
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/object_base.hpp:
-
-/usr/include/c++/15.2.1/bits/fs_ops.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x2.hpp:
-
-/usr/include/SDL2/SDL_shape.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/handle.hpp:
-
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h:
-
-/usr/include/SDL2/SDL_quit.h:
-
-/usr/include/c++/15.2.1/bits/stl_list.h:
-
-/usr/include/bits/types/struct_sched_param.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/call.hpp:
-
-/usr/include/SDL2/SDL_pixels.h:
-
-/usr/include/c++/15.2.1/iostream:
-
-/usr/include/features-time64.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/types.hpp:
-
-/usr/include/SDL2/SDL_mutex.h:
-
-/usr/include/c++/15.2.1/backward/auto_ptr.h:
-
-/usr/include/SDL2/SDL_messagebox.h:
-
-/usr/include/SDL2/SDL_locale.h:
-
-/usr/include/c++/15.2.1/bits/ranges_algo.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/string_utils.hpp:
-
-/usr/include/SDL2/SDL_loadso.h:
-
-/usr/include/c++/15.2.1/bits/stl_algo.h:
-
-/usr/include/SDL2/SDL_hints.h:
-
-/usr/include/bits/select.h:
-
-/usr/include/c++/15.2.1/tr1/hypergeometric.tcc:
-
-/usr/include/SDL2/SDL_hidapi.h:
-
-/usr/include/c++/15.2.1/tr1/poly_laguerre.tcc:
-
-/usr/include/SDL2/SDL_events.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/raointintrin.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_relational.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/tuple.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/meta/call_std/end.hpp:
-
-editor/CMakeFiles/editor.dir/src/ui/Console.cpp.o:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/pmmintrin.h:
-
-/usr/include/SDL2/SDL_endian.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/sm3intrin.h:
-
-/usr/include/SDL2/SDL_config_unix.h:
-
-/usr/include/SDL2/SDL_blendmode.h:
-
-/usr/include/SDL2/SDL_assert.h:
-
-/usr/lib/libSvtAv1Enc.so.3:
-
-/usr/include/SDL2/SDL.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x3_precision.hpp:
-
-/usr/include/c++/15.2.1/bits/cxxabi_init_exception.h:
-
-/usr/include/bits/types/struct_sigstack.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/ordered_map.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/string_concat.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/output/serializer.hpp:
-
-/usr/include/c++/15.2.1/bits/fs_dir.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/function_types_stateful.hpp:
-
-/usr/include/bits/stdio_lim.h:
-
-/usr/include/endian.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/output/binary_writer.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_transform.hpp:
-
-/usr/include/bits/getopt_core.h:
-
-/usr/include/c++/15.2.1/bits/istream.tcc:
-
-/usr/include/bits/struct_mutex.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/meta/type_traits.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxmovrsintrin.h:
-
-/usr/include/c++/15.2.1/bits/enable_special_members.h:
-
-/usr/include/bits/atomic_wide_counter.h:
-
-/usr/include/signal.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/meta/is_sax.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/meta/detected.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/engine/src/core/Camera.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x3_precision.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x3.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x4.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack_check_get_qualified.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/json_ref.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x4.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512dqintrin.h:
-
-/usr/include/c++/15.2.1/bits/allocator.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2-512bf16intrin.h:
-
-/usr/include/c++/15.2.1/span:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xsavesintrin.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x4_precision.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/rtmintrin.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x3.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/compute_common.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxvnniint8intrin.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x4.inl:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/iterators/json_reverse_iterator.hpp:
-
-/usr/include/c++/15.2.1/climits:
-
-/usr/include/bits/floatn-common.h:
-
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h:
-
-/home/rodaqqq/Documents/socka-2dengine/editor/src/ui/Console.h:
-
-/usr/include/SDL2/SDL_log.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack_check_get_unqualified.hpp:
-
-/usr/include/SDL2/SDL_filesystem.h:
-
-/usr/include/c++/15.2.1/pstl/execution_defs.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/_vectorize.hpp:
-
-/usr/include/c++/15.2.1/bits/mask_array.h:
-
-/usr/include/c++/15.2.1/bits/locale_facets.tcc:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/traits.hpp:
-
-/usr/include/c++/15.2.1/algorithm:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/compatibility/compat-5.4.h:
-
-/usr/lib/libwebpdemux.so.2:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double2_precision.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/poly/poly.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x4.hpp:
-
-/usr/include/c++/15.2.1/bits/semaphore_base.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_geometric.inl:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool1_precision.hpp:
-
-/usr/include/c++/15.2.1/bits/string_view.tcc:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/config.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/_fixes.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/components/InheritanceComponent.h:
-
-/usr/include/SDL2/SDL_guid.h:
-
-/usr/include/bits/getopt_posix.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack_get.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/version.h:
-
-/usr/include/c++/15.2.1/istream:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/resource/cache.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/compressed_pair.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/byte_container_with_subtype.hpp:
-
-/usr/include/math.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mwaitxintrin.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x2.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/exponential.hpp:
-
-/usr/include/c++/15.2.1/bits/codecvt.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/iterators/internal_iterator.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/matrix_transform.inl:
-
-/usr/include/bits/types/clock_t.h:
-
-/usr/include/c++/15.2.1/bits/stl_deque.h:
-
-/usr/include/sys/select.h:
-
-/usr/include/bits/types/__sigval_t.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/common.hpp:
-
-/usr/include/c++/15.2.1/bits/std_thread.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/sgxintrin.h:
-
-/usr/include/bits/types/struct_iovec.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x4_precision.hpp:
-
-/usr/include/SDL2/SDL_joystick.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/poly/fwd.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vpopcntdqintrin.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/utility.hpp:
-
-/usr/include/c++/15.2.1/bits/requires_hosted.h:
-
-/usr/include/c++/15.2.1/bits/shared_ptr_atomic.h:
-
-/usr/include/c++/15.2.1/bits/forward_list.h:
-
-/usr/include/c++/15.2.1/bits/locale_classes.tcc:
-
-/usr/include/bits/statx.h:
-
-/usr/include/c++/15.2.1/bits/stl_multimap.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec1.inl:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2satcvtintrin.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/type_traits.hpp:
-
-/usr/include/bits/posix2_lim.h:
-
-/usr/include/bits/libc-header-start.h:
-
-/usr/include/c++/15.2.1/bits/fs_fwd.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vbmi2vlintrin.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/fwd.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vlbwintrin.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/template.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/f16cintrin.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float2_precision.hpp:
-
-/usr/include/c++/15.2.1/bits/locale_facets_nonio.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack_reference.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float4.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/algorithm.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/policy.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/function_types.hpp:
-
-/usr/lib32/libbrotlicommon.so.1:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_common.inl:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/utility.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/container.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/vpclmulqdqintrin.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/snapshot.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/adl_pointer.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/ImGuizmo/ImGuizmo.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/conversions/from_json.hpp:
-
-/usr/include/bits/types/error_t.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/epsilon.inl:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double3.hpp:
-
-/usr/include/bits/types/clockid_t.h:
-
 /usr/include/bits/stdint-intn.h:
 
 /usr/include/bits/wctype-wchar.h:
 
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_exponential.inl:
+/usr/include/c++/15.2.1/bits/hash_bytes.h:
 
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/glm.hpp:
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x2.inl:
 
-/usr/include/bits/semaphore.h:
+/usr/include/bits/mathcalls-helper-functions.h:
 
-/usr/include/bits/errno.h:
+/usr/include/c++/15.2.1/bits/charconv.h:
 
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/storage.hpp:
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x3.hpp:
 
-/usr/include/c++/15.2.1/bits/forward_list.tcc:
-
-/home/rodaqqq/Documents/socka-2dengine/editor/src/ui/Global.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x3.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/proxy_base.hpp:
-
-/usr/include/bits/types/__FILE.h:
-
-/usr/include/bits/mathcalls-narrow.h:
-
-/usr/include/c++/15.2.1/bits/concept_check.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_map.hpp:
-
-/usr/include/c++/15.2.1/backward/binders.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/enum.hpp:
-
-/usr/lib/Scrt1.o:
-
-/usr/include/c++/15.2.1/atomic:
-
-/usr/include/bits/iscanonical.h:
-
-/usr/include/bits/mathcalls.h:
-
-/usr/include/pwd.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_transform.inl:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/state.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/sparse_set.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float1_precision.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/context.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/editor/src/EditorApp.cpp:
-
-/usr/include/c++/15.2.1/unordered_map:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_traits.hpp:
-
-/usr/include/c++/15.2.1/bits/memoryfwd.h:
+/usr/include/c++/15.2.1/typeindex:
 
 /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x4.inl:
 
 /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float3_precision.hpp:
 
-/usr/include/c++/15.2.1/typeindex:
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float2_precision.hpp:
 
-/home/rodaqqq/Documents/socka-2dengine/engine/src/core/ProjectSerializer.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/epsilon.hpp:
-
-/usr/include/SDL2/SDL_error.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/assert.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/macro_unscope.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/iterator.hpp:
-
-/usr/include/c++/15.2.1/sstream:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxvnniint16intrin.h:
-
-/usr/include/c++/15.2.1/bits/shared_ptr_base.h:
-
-/usr/include/bits/stdint-uintn.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/flow.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/entity.hpp:
-
-/usr/include/c++/15.2.1/bits/basic_string.h:
-
-/usr/include/c++/15.2.1/cstdio:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/policies.hpp:
-
-/usr/include/bits/types/struct_itimerspec.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/factory.hpp:
-
-/usr/include/bits/fp-fast.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/imgui.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/range.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec4.inl:
-
-/usr/include/c++/15.2.1/pstl/glue_numeric_defs.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_relational.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool3.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_clip_space.inl:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/any.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double4_precision.hpp:
-
-/usr/include/c++/15.2.1/bits/ostream_insert.h:
-
-/usr/include/bits/types/sigevent_t.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/pkuintrin.h:
-
-/usr/include/c++/15.2.1/bits/chrono.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_relational.inl:
-
-/usr/include/c++/15.2.1/bits/atomic_futex.h:
-
-/usr/include/c++/15.2.1/bits/regex_error.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec1.hpp:
-
-/usr/include/assert.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxvnniintrin.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/vec3.hpp:
-
-/usr/include/semaphore.h:
-
-/usr/include/c++/15.2.1/ranges:
-
-/usr/lib/libm.so:
-
-/home/rodaqqq/Documents/socka-2dengine/editor/src/BuildSystem.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/protect.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/vector_relational.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/attribute.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/pointer.hpp:
-
-/usr/include/c++/15.2.1/bits/invoke.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/clflushoptintrin.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/memory.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat2x3.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/process/process.hpp:
-
-/usr/include/c++/15.2.1/ext/type_traits.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxneconvertintrin.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/group.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/engine/src/core/Log.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x4_precision.hpp:
-
-libimgui.a:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/scalar_constants.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/container/dense_set.hpp:
-
-/usr/include/c++/15.2.1/bits/atomic_base.h:
-
-/home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/components/TransformComponent.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint1.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/vec2.hpp:
-
-/usr/include/bits/types/__sigset_t.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_projection.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x2_precision.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mwaitintrin.h:
-
-/home/rodaqqq/Documents/socka-2dengine/engine/src/core/Time.h:
-
-/usr/include/SDL2/SDL_system.h:
-
-/usr/include/c++/15.2.1/cstring:
-
-/usr/lib/libjxl.so.0.11:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x4_precision.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/conversions/to_chars.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x4.hpp:
-
-/usr/include/stdint.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xmmintrin.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x4.hpp:
-
-/usr/include/SDL2/SDL_platform.h:
-
-/usr/include/c++/15.2.1/bits/stl_multiset.h:
-
-/usr/include/c++/15.2.1/array:
-
-/home/rodaqqq/Documents/socka-2dengine/editor/src/ui/ProjectBrowser.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o:
-
-/usr/include/bits/typesizes.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/scalar_int_sized.hpp:
-
-/usr/include/string.h:
-
-/usr/include/SDL2/SDL_timer.h:
-
-/usr/include/bits/types.h:
-
-/usr/include/c++/15.2.1/cstdlib:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/iterators/iterator_traits.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/input/position_t.hpp:
-
-/usr/include/SDL2/close_code.h:
-
-/usr/include/errno.h:
-
-/usr/include/c++/15.2.1/bits/ranges_base.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/iterators/iter_impl.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/meta/identity_tag.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/engine/src/core/AssetManager.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float2.hpp:
-
-/usr/lib/libwebp.so.7:
-
-/usr/include/wctype.h:
-
-engine/libengine.a:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/platform/android-ndk-r17.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int3.hpp:
-
-/usr/include/c++/15.2.1/bits/alloc_traits.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/usertype_container.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x3.hpp:
+/usr/include/c++/15.2.1/bits/locale_facets_nonio.h:
 
 /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x4.hpp:
 
-/usr/include/c++/15.2.1/bits/ranges_util.h:
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack_get.hpp:
 
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/helper.hpp:
+/usr/include/bits/getopt_posix.h:
 
-/usr/include/SDL2/SDL_version.h:
+/usr/include/SDL2/SDL_gamecontroller.h:
 
-/usr/include/c++/15.2.1/bits/this_thread_sleep.h:
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x4_precision.hpp:
 
-/usr/include/bits/signum-generic.h:
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x3_precision.hpp:
 
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x3.hpp:
+/usr/include/SDL2/SDL.h:
 
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x3.hpp:
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double3.hpp:
 
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/dispatcher.hpp:
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat2x3.hpp:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h:
+/usr/include/c++/15.2.1/bits/requires_hosted.h:
 
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/family.hpp:
+/usr/include/bits/libm-simd-decl-stubs.h:
 
-/usr/include/c++/15.2.1/bits/stl_map.h:
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack_get_qualified.hpp:
 
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x3.inl:
+/usr/include/unistd.h:
 
-/usr/include/c++/15.2.1/bits/gslice.h:
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int4.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec3.inl:
+
+/usr/include/c++/15.2.1/bits/nested_exception.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/ordered_map.hpp:
+
+/usr/include/c++/15.2.1/compare:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x2.hpp:
+
+/usr/include/c++/15.2.1/cwctype:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x3_precision.hpp:
+
+/usr/include/c++/15.2.1/bits/refwrap.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat2x4.hpp:
+
+/usr/include/SDL2/SDL_scancode.h:
+
+/home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/components/SoundComponent.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/table_core.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat4x2.hpp:
+
+/usr/include/SDL2/SDL_hints.h:
+
+/usr/include/c++/15.2.1/bits/stl_algo.h:
+
+/home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/System.h:
+
+/usr/include/c++/15.2.1/bits/stl_uninitialized.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/iterators/json_reverse_iterator.hpp:
+
+/usr/include/c++/15.2.1/climits:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x4.inl:
+
+/home/rodaqqq/Documents/socka-2dengine/editor/src/ui/Inspector.cpp:
+
+/usr/include/c++/15.2.1/bits/valarray_after.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack_check_get_unqualified.hpp:
+
+/usr/include/c++/15.2.1/pstl/glue_algorithm_defs.h:
+
+/home/rodaqqq/Documents/socka-2dengine/editor/src/ui/Console.h:
+
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h:
+
+/usr/include/bits/floatn-common.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x2.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/engine/src/core/Camera.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/prfchiintrin.h:
+
+/home/rodaqqq/Documents/socka-2dengine/editor/src/EditorApp.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x2.inl:
+
+/usr/include/bits/pthreadtypes-arch.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mwaitxintrin.h:
+
+/usr/include/math.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/byte_container_with_subtype.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x2.hpp:
+
+/usr/include/string.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat4x3.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x3_precision.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/scalar_int_sized.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x2.hpp:
+
+/usr/include/c++/15.2.1/bits/stl_iterator.h:
+
+/usr/include/SDL2/SDL_sensor.h:
+
+/usr/include/sys/select.h:
 
 /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec2.inl:
 
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/trampoline.hpp:
+/usr/include/c++/15.2.1/bits/chrono.h:
 
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/resolve.hpp:
+/usr/include/c++/15.2.1/bits/stl_function.h:
 
-/usr/lib/liblua.so:
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool2.hpp:
+
+/usr/include/SDL2/SDL_endian.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/meta/call_std/end.hpp:
+
+/usr/include/bits/types/time_t.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool2_precision.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_relational.hpp:
+
+/usr/include/c++/15.2.1/pstl/glue_numeric_defs.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec4.inl:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/geometric.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_clip_space.inl:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool3.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/traits.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx2intrin.h:
+
+/usr/include/bits/types/__mbstate_t.h:
+
+/usr/include/c++/15.2.1/bits/mask_array.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double2_precision.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/compatibility/compat-5.4.h:
+
+/usr/include/c++/15.2.1/algorithm:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/function_types_stateful.hpp:
+
+/usr/include/c++/15.2.1/bits/fs_dir.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double3_precision.hpp:
+
+/usr/include/bits/timesize.h:
+
+/usr/include/wctype.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float2.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float3.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/vpclmulqdqintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mm_malloc.h:
+
+/usr/include/asm-generic/bitsperlong.h:
+
+/usr/include/c++/15.2.1/bits/ranges_util.h:
+
+/usr/include/c++/15.2.1/bits/stl_heap.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/usertype.hpp:
+
+/usr/include/c++/15.2.1/exception:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512fp16vlintrin.h:
+
+/usr/include/c++/15.2.1/bits/slice_array.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/sha512intrin.h:
 
 /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x2.inl:
 
 /usr/include/c++/15.2.1/iterator:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/sha512intrin.h:
+/usr/include/sys/single_threaded.h:
 
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float3.hpp:
+/usr/include/asm-generic/errno.h:
 
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/sigh.hpp:
-
-/usr/include/bits/types/struct_FILE.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/state_view.hpp:
-
-/usr/include/asm-generic/posix_types.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/in_place.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/hashed_string.hpp:
-
-/usr/include/bits/pthread_stack_min-dynamic.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/type_info.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/engine/src/core/Input.h:
-
-/usr/include/bits/time.h:
-
-/usr/include/c++/15.2.1/bits/stl_vector.h:
-
-/usr/include/c++/15.2.1/pstl/glue_algorithm_defs.h:
-
-/usr/include/c++/15.2.1/stop_token:
+/usr/include/asm-generic/int-ll64.h:
 
 /usr/include/asm/posix_types.h:
 
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/adjacency_matrix.hpp:
+/usr/include/c++/15.2.1/bits/stl_vector.h:
 
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/config.h:
+/usr/include/bits/time.h:
 
-/usr/include/c++/15.2.1/stdlib.h:
+/home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/components/InheritanceComponent.h:
 
-/usr/include/bits/setjmp.h:
+/usr/include/asm/posix_types_64.h:
 
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/process/scheduler.hpp:
+/usr/include/asm/types.h:
 
-/usr/lib32/libbrotlidec.so.1:
+/usr/include/asm/unistd.h:
 
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint3.hpp:
+/usr/include/asm/unistd_64.h:
 
-/usr/lib/libjpeg.so.8:
+/usr/include/lua.h:
 
 /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint3_sized.hpp:
 
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/fwd.hpp:
+/usr/include/c++/15.2.1/bits/string_view.tcc:
 
-/usr/include/c++/15.2.1/bits/atomic_wait.h:
+/usr/include/bits/types/__fpos_t.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/fmaintrin.h:
+/usr/include/SDL2/SDL_surface.h:
 
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/hash.hpp:
+/usr/include/bits/cpu-set.h:
 
-/usr/include/asm/errno.h:
+/usr/include/c++/15.2.1/bits/streambuf.tcc:
 
-/usr/include/c++/15.2.1/bits/charconv.h:
+/usr/include/bits/endian.h:
 
-/usr/include/bits/mathcalls-helper-functions.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/lwpintrin.h:
 
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x2.inl:
+/usr/include/bits/endianness.h:
 
-/usr/include/c++/15.2.1/bits/hash_bytes.h:
+/usr/include/bits/floatn.h:
 
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/organizer.hpp:
+/usr/include/bits/flt-eval-method.h:
 
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/registry.hpp:
+/usr/include/linux/stddef.h:
 
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_trigonometric.inl:
+/usr/include/bits/fp-logb.h:
 
-/usr/include/c++/15.2.1/ostream:
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec1.hpp:
 
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/runtime_view.hpp:
+/usr/include/bits/getopt_core.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/movdirintrin.h:
+/usr/include/bits/iscanonical.h:
 
-/usr/include/c++/15.2.1/bits/postypes.h:
+/usr/include/bits/math-vector.h:
 
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack/detail/pairs.hpp:
+/usr/include/bits/uio_lim.h:
 
-/usr/include/SDL2/SDL_mouse.h:
+/usr/include/c++/15.2.1/bits/exception.h:
 
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/userdata.hpp:
+/usr/include/bits/mathcalls-macros.h:
 
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/ident.hpp:
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/protected_handler.hpp:
+
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h:
+
+/usr/include/c++/15.2.1/bits/erase_if.h:
+
+/usr/include/bits/mathcalls-narrow.h:
+
+/usr/include/bits/mathcalls.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/types.hpp:
+
+/usr/include/features-time64.h:
+
+/usr/include/SDL2/SDL_pixels.h:
+
+/usr/include/c++/15.2.1/iostream:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_quat.inl:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/posix_opt.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/coroutine.hpp:
+
+/usr/include/bits/pthread_stack_min-dynamic.h:
+
+/usr/include/bits/types/__FILE.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/proxy_base.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x3.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/editor/src/ui/Global.h:
+
+/usr/include/c++/15.2.1/bits/forward_list.tcc:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_geometric.inl:
+
+/usr/include/bits/select.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/deprecate.hpp:
+
+/usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc:
+
+/usr/include/bits/setjmp.h:
+
+/usr/include/bits/stdint-least.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/bits/struct_rwlock.h:
+
+/usr/include/bits/syscall.h:
+
+/usr/include/bits/thread-shared-types.h:
+
+/usr/include/c++/15.2.1/ios:
+
+/usr/include/bits/time64.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/resolve.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/components/BoxColliderComponent.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat3x4.hpp:
+
+/usr/include/bits/timex.h:
+
+/usr/include/c++/15.2.1/ctime:
+
+/usr/include/c++/15.2.1/bitset:
+
+/usr/include/c++/15.2.1/bits/locale_facets.tcc:
+
+/usr/include/bits/types.h:
+
+/usr/include/c++/15.2.1/bits/move.h:
+
+/usr/include/bits/types/FILE.h:
+
+/usr/include/c++/15.2.1/bits/utility.h:
+
+/usr/include/lauxlib.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/compatibility/compat-5.3.c.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_transform.inl:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x3.inl:
+
+/usr/include/SDL2/SDL_clipboard.h:
+
+/usr/include/bits/types/__fpos64_t.h:
+
+/usr/include/SDL2/SDL_error.h:
+
+/usr/include/c++/15.2.1/bits/valarray_array.tcc:
+
+/usr/include/bits/types/__locale_t.h:
+
+/home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/Entity.h:
+
+/usr/include/bits/types/clock_t.h:
+
+/usr/include/bits/types/cookie_io_functions_t.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/epsilon.inl:
+
+/usr/include/bits/types/error_t.h:
+
+/usr/include/bits/types/locale_t.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/json.hpp:
+
+/usr/include/bits/types/mbstate_t.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h:
+
+/usr/include/bits/types/sigset_t.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2-512bf16intrin.h:
+
+/usr/include/c++/15.2.1/bits/list.tcc:
+
+/usr/include/bits/types/struct_itimerspec.h:
+
+/home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/components/ScriptComponent.h:
+
+/usr/include/SDL2/SDL_haptic.h:
+
+/usr/include/c++/15.2.1/bits/predefined_ops.h:
+
+/usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h:
+
+/usr/include/c++/15.2.1/iosfwd:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_quat.hpp:
+
+/usr/include/bits/types/struct_tm.h:
+
+/usr/include/bits/types/timer_t.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x3.hpp:
+
+/usr/include/bits/types/wint_t.h:
+
+/usr/include/c++/15.2.1/any:
+
+/usr/include/bits/unistd_ext.h:
+
+/usr/include/c++/15.2.1/ext/alloc_traits.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/scalar_constants.inl:
+
+/usr/include/bits/waitflags.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vlintrin.h:
+
+/usr/include/c++/15.2.1/bits/ranges_algobase.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp:
+
+/usr/include/c++/15.2.1/forward_list:
+
+/usr/include/c++/15.2.1/ext/numeric_traits.h:
+
+/usr/include/bits/xopen_lim.h:
+
+/usr/include/c++/15.2.1/array:
+
+/usr/include/c++/15.2.1/bits/memoryfwd.h:
+
+/usr/include/c++/15.2.1/bits/algorithmfwd.h:
+
+/usr/include/c++/15.2.1/atomic:
+
+/usr/include/c++/15.2.1/backward/binders.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/unique_usertype_traits.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/scalar_constants.hpp:
+
+/usr/include/c++/15.2.1/bit:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat3x2.hpp:
+
+/usr/include/asm/bitsperlong.h:
+
+/usr/include/c++/15.2.1/bits/basic_ios.h:
+
+/usr/include/c++/15.2.1/bits/valarray_array.h:
+
+/usr/include/c++/15.2.1/bits/align.h:
+
+/usr/include/c++/15.2.1/debug/debug.h:
+
+/usr/include/c++/15.2.1/bits/stream_iterator.h:
+
+/usr/include/c++/15.2.1/bits/allocated_ptr.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack_check_unqualified.hpp:
+
+/usr/include/c++/15.2.1/bits/atomic_timed_wait.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/type_ptr.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double1_precision.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double2.hpp:
+
+/usr/include/c++/15.2.1/bits/basic_ios.tcc:
+
+/usr/include/asm-generic/types.h:
+
+/usr/include/c++/15.2.1/bits/basic_string.h:
+
+/home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/components/CircleColliderComponent.h:
+
+/usr/include/c++/15.2.1/bits/uses_allocator_args.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec4.hpp:
+
+/usr/include/c++/15.2.1/bits/basic_string.tcc:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxifmaintrin.h:
+
+/usr/include/bits/types/struct_timeval.h:
+
+/usr/include/c++/15.2.1/bits/node_handle.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float4_precision.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x4.hpp:
+
+/usr/include/c++/15.2.1/bits/char_traits.h:
+
+/usr/include/c++/15.2.1/bits/cpp_type_traits.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool1.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/input/input_adapters.hpp:
+
+/usr/include/c++/15.2.1/bits/cxxabi_forced.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/compute_vector_decl.hpp:
+
+/usr/include/c++/15.2.1/bits/ranges_cmp.h:
+
+/usr/include/c++/15.2.1/cctype:
+
+/usr/include/c++/15.2.1/ext/concurrence.h:
+
+/usr/include/c++/15.2.1/bits/deque.tcc:
+
+/usr/include/c++/15.2.1/bits/exception_defines.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2-512mediaintrin.h:
+
+/usr/include/c++/15.2.1/bits/fstream.tcc:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/value_t.hpp:
+
+/usr/include/c++/15.2.1/bits/functexcept.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/meta/call_std/begin.hpp:
+
+/usr/include/c++/15.2.1/bits/functional_hash.h:
+
+/usr/include/c++/15.2.1/bits/stl_numeric.h:
+
+/usr/include/c++/15.2.1/bits/gslice_array.h:
+
+/usr/include/c++/15.2.1/bits/fs_fwd.h:
+
+/usr/include/c++/15.2.1/bits/hashtable.h:
+
+/usr/include/c++/15.2.1/bits/hashtable_policy.h:
+
+/usr/include/c++/15.2.1/bits/indirect_array.h:
+
+/usr/include/c++/15.2.1/bits/ios_base.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack_reference.hpp:
+
+/usr/include/c++/15.2.1/bits/iterator_concepts.h:
+
+/usr/include/c++/15.2.1/tr1/special_function_util.h:
+
+/usr/include/c++/15.2.1/bits/std_abs.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/pmmintrin.h:
+
+/usr/include/c++/15.2.1/bits/locale_conv.h:
+
+/usr/include/c++/15.2.1/bits/locale_facets.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/bmiintrin.h:
+
+/usr/include/c++/15.2.1/bits/localefwd.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/enqcmdintrin.h:
+
+/usr/include/c++/15.2.1/bits/memory_resource.h:
+
+/usr/include/c++/15.2.1/bits/new_allocator.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/rtmintrin.h:
+
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x2_precision.hpp:
+
+/usr/include/c++/15.2.1/bits/ostream.tcc:
+
+/usr/include/c++/15.2.1/list:
+
+/usr/include/c++/15.2.1/bits/parse_numbers.h:
+
+/usr/include/ctype.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/meta/cpp_future.hpp:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp:
+
+/usr/include/c++/15.2.1/bits/ptr_traits.h:
+
+/usr/include/c++/15.2.1/bits/quoted_string.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/metatable.hpp:
+
+/usr/include/c++/15.2.1/bits/range_access.h:
+
+/usr/include/c++/15.2.1/bits/shared_ptr.h:
+
+/usr/include/c++/15.2.1/bits/shared_ptr_base.h:
+
+/usr/include/c++/15.2.1/string:
+
+/usr/include/c++/15.2.1/debug/assertions.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/compatibility/lua_version.hpp:
+
+/usr/include/c++/15.2.1/typeinfo:
+
+/usr/include/c++/15.2.1/bits/specfun.h:
+
+/usr/include/c++/15.2.1/bits/std_function.h:
+
+/usr/include/c++/15.2.1/bits/std_mutex.h:
+
+/usr/include/c++/15.2.1/bits/stl_bvector.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x2.hpp:
+
+/usr/include/c++/15.2.1/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/15.2.1/bits/stl_iterator_base_types.h:
+
+/usr/include/SDL2/SDL_keycode.h:
+
+/usr/include/c++/15.2.1/bits/stl_list.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack_proxy_base.hpp:
+
+/usr/include/c++/15.2.1/bits/stl_raw_storage_iter.h:
+
+/usr/include/c++/15.2.1/bits/stl_tempbuf.h:
+
+/usr/include/c++/15.2.1/bits/stl_tree.h:
+
+/usr/include/c++/15.2.1/bits/sstream.tcc:
+
+/usr/include/c++/15.2.1/bits/streambuf_iterator.h:
+
+/usr/include/c++/15.2.1/bits/this_thread_sleep.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxneconvertintrin.h:
+
+/usr/include/c++/15.2.1/ext/type_traits.h:
+
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x2.hpp:
 
 /home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint4_sized.hpp:
 
 /usr/include/c++/15.2.1/bits/unique_lock.h:
 
-/usr/include/linux/types.h:
-
-/usr/include/c++/15.2.1/bits/locale_classes.h:
-
-/usr/include/bits/sigstksz.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x2_precision.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint2_sized.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x3_precision.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/editor/src/ui/AssetManager.cpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x4.hpp:
-
-/usr/include/stdc-predef.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/usertype_traits.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x3.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/editor/src/EditorApp.h:
-
-/usr/include/c++/15.2.1/bits/stl_iterator.h:
-
-/usr/include/c++/15.2.1/bits/refwrap.h:
-
-/home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/Component.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x3_precision.hpp:
-
-/usr/include/bits/stdint-least.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat2x4.hpp:
-
-/usr/include/bits/local_lim.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x4.hpp:
-
-/usr/include/c++/15.2.1/bits/regex_compiler.tcc:
-
-/usr/lib/libdav1d.so.7:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x2.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/editor/src/ui/Hierarchy.cpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x2_precision.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/thirdparty/hedley/hedley.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x3.hpp:
-
-/usr/include/bits/long-double.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/input/parser.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bitalgvlintrin.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat4x2.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/table_core.hpp:
-
-/usr/include/bits/types/struct_timespec.h:
-
-/usr/include/c++/15.2.1/bits/regex_constants.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/compute_vector_relational.hpp:
-
-/usr/include/c++/15.2.1/cstddef:
-
-/usr/include/sys/ucontext.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/compatibility.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x2.inl:
-
-/usr/include/SDL2/SDL_main.h:
-
-/usr/include/gnu/stubs.h:
-
-/usr/include/c++/15.2.1/bits/list.tcc:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec2.hpp:
-
-/usr/include/c++/15.2.1/limits:
-
-/usr/include/c++/15.2.1/bits/predefined_ops.h:
-
-/usr/include/bits/environments.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec3.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/coroutine.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/pfd/portable-file-dialogs.h:
-
-/usr/include/c++/15.2.1/bits/nested_exception.h:
-
-/usr/lib32/libz.so.1:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxcomplexintrin.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_vec3.inl:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int4.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack_get_qualified.hpp:
-
-/usr/include/c++/15.2.1/bits/stl_pair.h:
-
-/home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/components/SpriteComponent.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/json_pointer.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/table_iterator.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool2_precision.hpp:
-
-/usr/include/c++/15.2.1/cwctype:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double2x2.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x2.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x2_precision.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/ia32intrin.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool2.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool4.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/bytecode.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/matrix.hpp:
-
-/usr/include/bits/locale.h:
-
-/usr/include/linux/close_range.h:
-
-/usr/include/bits/uintn-identity.h:
-
-/usr/include/SDL2/begin_code.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/meta/void_t.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int3_sized.hpp:
-
-/usr/include/sys/syscall.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/type_ptr.inl:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint2.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint4.hpp:
-
-/usr/include/c++/15.2.1/bits/specfun.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/simd/platform.h:
-
-/usr/include/bits/sigaction.h:
-
-/usr/include/c++/15.2.1/bits/formatfwd.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_integer.inl:
-
-/usr/include/c++/15.2.1/bits/ostream.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2-512minmaxintrin.h:
-
-/usr/include/bits/stdlib-float.h:
-
-/usr/include/SDL2/SDL_metal.h:
-
-/usr/include/strings.h:
-
-/home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/components/RigidBodyComponent.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack_get_unqualified.hpp:
-
-/usr/include/c++/15.2.1/stack:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/component.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/signal/emitter.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/fxsrintrin.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/qualifier.hpp:
-
-/usr/include/bits/siginfo-arch.h:
-
-/usr/include/c++/15.2.1/bits/locale_conv.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_half.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_projection.inl:
-
-/usr/include/bits/wchar.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float4x4_precision.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/fwd.hpp:
-
-/usr/include/bits/waitstatus.h:
-
-/usr/include/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/SDL2/SDL_atomic.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_half.inl:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/meta/std_fs.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/trigonometric.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/integer.hpp:
-
-/usr/include/bits/posix1_lim.h:
-
-/usr/include/bits/wordsize.h:
-
-/usr/include/luaconf.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_matrix.inl:
-
-/usr/include/c++/15.2.1/bits/deque.tcc:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512fp16vlintrin.h:
-
-/usr/include/c++/15.2.1/fstream:
-
-/usr/include/asm/types.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double4.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat2x2.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/macro_scope.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/engine/src/scene/Scene.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/packing.hpp:
-
-/usr/include/bits/timesize.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends/imgui_impl_sdl2.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool3_precision.hpp:
-
-/usr/include/c++/15.2.1/tr1/riemann_zeta.tcc:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack_probe.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/backends/imgui_impl_sdlrenderer2.h:
-
-/usr/include/sys/stat.h:
-
-/usr/include/bits/confname.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/imgui/imconfig.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bwintrin.h:
-
-/usr/include/SDL2/SDL_keyboard.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/adl_serializer.hpp:
-
-/usr/include/bits/libm-simd-decl-stubs.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/meta.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/conversions/to_json.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int4_sized.hpp:
-
-/usr/include/bits/sigstack.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/exceptions.hpp:
-
-/usr/include/c++/15.2.1/bits/regex_automaton.h:
-
-/usr/include/c++/15.2.1/bits/stl_algobase.h:
-
-/usr/include/linux/falloc.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/input/binary_reader.hpp:
-
-/usr/include/c++/15.2.1/tr1/legendre_function.tcc:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/input/lexer.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int2_sized.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/overload.hpp:
-
-/usr/include/SDL2/SDL_misc.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat3x3.inl:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/iterators/iteration_proxy.hpp:
-
-/usr/include/bits/types/__mbstate_t.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/json_custom_base_class.hpp:
-
-/usr/include/c++/15.2.1/map:
-
-/usr/include/c++/15.2.1/new:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/meta/node.hpp:
-
-/usr/include/limits.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx2intrin.h:
-
-/usr/include/c++/15.2.1/bits/stl_relops.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double3_precision.hpp:
-
-/usr/include/c++/15.2.1/bits/stl_tempbuf.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/fwd.hpp:
-
-/usr/include/c++/15.2.1/bits/stl_tree.h:
-
-/usr/include/c++/15.2.1/bits/stl_uninitialized.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/dot.hpp:
-
-/usr/include/c++/15.2.1/bits/streambuf.tcc:
-
-/usr/include/c++/15.2.1/bits/stringfwd.h:
-
-/usr/include/c++/15.2.1/cmath:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entt.hpp:
-
-/usr/include/bits/stat.h:
-
-/usr/include/c++/15.2.1/bits/unique_ptr.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/table_proxy.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_packing.inl:
-
-/usr/include/c++/15.2.1/bits/unordered_map.h:
-
-/usr/include/c++/15.2.1/bits/unordered_set.h:
-
 /usr/include/c++/15.2.1/bits/uses_allocator.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/deprecate.hpp:
-
-/usr/include/c++/15.2.1/bits/uses_allocator_args.h:
-
-/home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/components/CircleColliderComponent.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/input/json_sax.hpp:
-
-/usr/include/c++/15.2.1/bits/utility.h:
-
-/usr/include/c++/15.2.1/bit:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat4x4.hpp:
-
-/usr/include/c++/15.2.1/bits/valarray_after.h:
-
-/usr/include/bits/signum-arch.h:
-
-/home/rodaqqq/Documents/socka-2dengine/editor/src/ui/Inspector.cpp:
-
-/usr/lib/crti.o:
-
-/usr/include/c++/15.2.1/bits/valarray_array.h:
-
-/usr/include/c++/15.2.1/regex:
-
-/usr/include/c++/15.2.1/bits/valarray_before.h:
-
-/usr/include/c++/15.2.1/condition_variable:
 
 /usr/include/c++/15.2.1/bits/vector.tcc:
 
 /usr/include/c++/15.2.1/bits/version.h:
 
-/usr/include/c++/15.2.1/version:
-
-/usr/include/unistd.h:
-
-/usr/include/c++/15.2.1/cctype:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/func_vector_relational.inl:
+/usr/include/c++/15.2.1/cassert:
 
 /usr/include/c++/15.2.1/cerrno:
 
-/usr/include/c++/15.2.1/cfloat:
-
 /usr/include/c++/15.2.1/clocale:
+
+/usr/include/c++/15.2.1/bits/stringfwd.h:
+
+/usr/include/c++/15.2.1/cmath:
 
 /usr/include/c++/15.2.1/concepts:
 
+/usr/include/c++/15.2.1/bits/valarray_before.h:
+
+/usr/include/c++/15.2.1/condition_variable:
+
+/usr/include/c++/15.2.1/bits/fs_path.h:
+
+/usr/include/c++/15.2.1/cstddef:
+
 /usr/include/c++/15.2.1/cstdint:
 
-/usr/include/c++/15.2.1/string:
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxvnniint8intrin.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a:
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/compute_common.hpp:
 
-/usr/include/c++/15.2.1/debug/debug.h:
+/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x4_precision.hpp:
 
-/usr/include/c++/15.2.1/exception:
+/usr/include/c++/15.2.1/cstdio:
 
-/usr/include/SDL2/SDL_audio.h:
+/usr/include/SDL2/SDL_timer.h:
 
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/usertype.hpp:
+/usr/include/c++/15.2.1/cstdlib:
 
-/usr/include/c++/15.2.1/ext/aligned_buffer.h:
+/home/rodaqqq/Documents/socka-2dengine/engine/src/core/Time.h:
 
-/usr/include/c++/15.2.1/ext/alloc_traits.h:
-
-/usr/lib/libsharpyuv.so.0:
-
-/usr/include/c++/15.2.1/bits/regex_compiler.h:
-
-/usr/include/c++/15.2.1/filesystem:
-
-/usr/include/c++/15.2.1/functional:
-
-/usr/include/c++/15.2.1/initializer_list:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/lua_table.hpp:
-
-/usr/include/c++/15.2.1/ios:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/value_t.hpp:
-
-/usr/lib/libSDL2_mixer.so:
-
-/usr/include/c++/15.2.1/iosfwd:
-
-/usr/lib/libSDL2_image.so:
-
-/usr/include/c++/15.2.1/list:
-
-/usr/include/c++/15.2.1/locale:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vnniintrin.h:
-
-/usr/include/c++/15.2.1/math.h:
-
-/usr/include/c++/15.2.1/mutex:
-
-/usr/include/c++/15.2.1/numbers:
-
-/usr/include/c++/15.2.1/numeric:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/pairs_iterator.hpp:
-
-/usr/include/c++/15.2.1/optional:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack_push.hpp:
-
-/usr/include/c++/15.2.1/pstl/glue_memory_defs.h:
-
-/usr/include/c++/15.2.1/pstl/pstl_config.h:
-
-/home/rodaqqq/Documents/socka-2dengine/engine/src/core/FileSystem.h:
-
-/usr/include/c++/15.2.1/bits/stl_iterator_base_types.h:
-
-/usr/include/c++/15.2.1/ratio:
-
-/usr/include/c++/15.2.1/semaphore:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/prfchiintrin.h:
-
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h:
-
-/usr/lib32/libpng16.so.16:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/matrix_transform.hpp:
-
-/usr/include/c++/15.2.1/set:
-
-/usr/include/c++/15.2.1/stdexcept:
-
-/usr/include/c++/15.2.1/streambuf:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512fintrin.h:
-
-/usr/lib32/libbrotlienc.so.1:
-
-/usr/include/c++/15.2.1/bits/stl_numeric.h:
-
-/usr/include/c++/15.2.1/string_view:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vbmiintrin.h:
-
-/home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/System.h:
-
-/usr/include/c++/15.2.1/system_error:
-
-/usr/include/c++/15.2.1/tr1/bessel_function.tcc:
-
-/usr/include/c++/15.2.1/tr1/beta_function.tcc:
-
-/usr/include/bits/types/struct_statx.h:
-
-/usr/include/c++/15.2.1/bits/uniform_int_dist.h:
-
-/usr/include/c++/15.2.1/tr1/ell_integral.tcc:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack_pop.hpp:
-
-/usr/include/c++/15.2.1/tr1/exp_integral.tcc:
-
-/usr/include/c++/15.2.1/bits/functexcept.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2-512convertintrin.h:
-
-/usr/include/c++/15.2.1/tr1/gamma.tcc:
-
-/usr/include/c++/15.2.1/bits/stl_stack.h:
-
-/usr/include/c++/15.2.1/tuple:
-
-/usr/include/c++/15.2.1/type_traits:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/storage_mixin.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/wrapper.hpp:
-
-/usr/include/c++/15.2.1/unordered_set:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/cetintrin.h:
-
-/usr/include/c++/15.2.1/utility:
-
-/home/rodaqqq/Documents/socka-2dengine/editor/src/ui/Console.cpp:
-
-/usr/include/c++/15.2.1/valarray:
-
-/usr/include/c++/15.2.1/bits/unicode-data.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/quaternion.hpp:
-
-/usr/include/c++/15.2.1/vector:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat3x2.hpp:
-
-/usr/include/c++/15.2.1/bits/max_size_type.h:
-
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h:
-
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/basic_file.h:
-
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h:
-
-/usr/include/bits/struct_stat.h:
-
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++io.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/clwbintrin.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/resource/fwd.hpp:
-
-/usr/include/bits/siginfo-consts-arch.h:
-
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++locale.h:
-
-/usr/lib/libpng16.so.16:
-
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
-
-/usr/lib/libjbig.so.2.1:
-
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h:
-
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/usertype_proxy.hpp:
-
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h:
-
-/usr/include/gnu/stubs-64.h:
-
-/usr/include/c++/15.2.1/format:
-
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h:
-
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h:
-
-/usr/include/features.h:
-
-/usr/include/SDL2/SDL_gamecontroller.h:
-
-/usr/include/c++/15.2.1/chrono:
-
-/usr/include/inttypes.h:
-
-editor/CMakeFiles/editor.dir/src/ui/Hierarchy.cpp.o:
-
-/usr/include/libintl.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/variadic_args.hpp:
-
-/usr/include/linux/errno.h:
-
-/usr/include/linux/limits.h:
-
-/usr/include/asm-generic/types.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat3x3.hpp:
-
-/usr/lib/crtn.o:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat2x2.hpp:
-
-/usr/include/linux/posix_types.h:
-
-/usr/include/linux/sched/types.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/shaintrin.h:
-
-/usr/include/locale.h:
-
-/usr/include/pthread.h:
-
-/home/rodaqqq/Documents/socka-2dengine/editor/src/ui/MainMenu.cpp:
-
-/usr/include/c++/15.2.1/cwchar:
-
-/usr/include/c++/15.2.1/debug/assertions.h:
-
-/usr/include/sched.h:
-
-/usr/include/stdio.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_bool4_precision.hpp:
-
-/usr/include/stdlib.h:
-
-/usr/include/sys/cdefs.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/epilogue.hpp:
-
-/usr/include/sys/time.h:
-
-/usr/include/sys/types.h:
-
-/usr/include/syscall.h:
-
-/usr/include/SDL2/SDL_power.h:
-
-/usr/include/time.h:
-
-/usr/include/wchar.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxavx512intrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxbf16intrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/smmintrin.h:
-
-/usr/include/SDL2/SDL_config.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxfp16intrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxfp8intrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxtileintrin.h:
-
-/usr/include/c++/15.2.1/ext/atomicity.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxtransposeintrin.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/abort.hpp:
-
-editor/CMakeFiles/editor.dir/src/main.cpp.o:
-
-/usr/include/bits/types/time_t.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2-512satcvtintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2bf16intrin.h:
-
-/usr/include/bits/types/mbstate_t.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2convertintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2copyintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2mediaintrin.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/vec1.hpp:
-
-/usr/include/SDL2/SDL_cpuinfo.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2minmaxintrin.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_float.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int1.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/mat4x3.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/vec4.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/ebco.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/geometric.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bf16vlintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bitalgintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vbmivlintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512cdintrin.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/protected_handler.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512fp16intrin.h:
-
-/usr/include/c++/15.2.1/bits/locale_facets.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/fwd.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512ifmaintrin.h:
-
-/usr/lib/libz.so.1:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/sm4intrin.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x2.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512ifmavlintrin.h:
-
-/usr/include/asm/unistd.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/quaternion.inl:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/core/monostate.hpp:
-
-/usr/include/c++/15.2.1/iomanip:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/table.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/setup.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vbmi2intrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vldqintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vnnivlintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vp2intersectintrin.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_trigonometric.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/compatibility/compat-5.3.h:
-
-/usr/include/c++/15.2.1/ext/concurrence.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vp2intersectvlintrin.h:
-
-/usr/include/c++/15.2.1/bits/regex_scanner.tcc:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack_iterator.hpp:
-
-/usr/include/c++/15.2.1/memory:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/json_fwd.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/locator/locator.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/cldemoteintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/clzerointrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vpopcntdqvlintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/cmpccxaddintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/emmintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/float.h:
+/usr/include/c++/15.2.1/cstring:
 
 /usr/include/c++/15.2.1/deque:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/gfniintrin.h:
+/usr/include/linux/types.h:
 
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_geometric.inl:
+/usr/include/c++/15.2.1/bits/ranges_uninitialized.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/hresetintrin.h:
+/usr/include/c++/15.2.1/ext/string_conversions.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/immintrin.h:
-
-/usr/include/sys/wait.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/keylockerintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h:
+/usr/include/c++/15.2.1/functional:
 
 /usr/include/c++/15.2.1/future:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxtf32intrin.h:
+/usr/include/bits/locale.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/lzcntintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mmintrin.h:
-
-/home/rodaqqq/Documents/socka-2dengine/editor/src/ui/Viewport.cpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/movrsintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/pconfigintrin.h:
-
-/usr/include/c++/15.2.1/tr1/poly_hermite.tcc:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/popcntintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/prfchwintrin.h:
-
-/usr/include/bits/types/FILE.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/serializeintrin.h:
-
-/usr/include/bits/cpu-set.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float3x2_precision.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/reference.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/unsafe_function_result.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/tbmintrin.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/thread.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/rdseedintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/tmmintrin.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/bind_traits.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/tsxldtrkintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/uintrintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/usermsrintrin.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/string_escape.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack_core.hpp:
-
-/usr/include/c++/15.2.1/tr1/modified_bessel_func.tcc:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_mat4x4.inl:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/abi_macros.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/vaesintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/waitpkgintrin.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/output/output_adapters.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/forward_detail.hpp:
-
-/usr/include/c++/15.2.1/bits/ptr_traits.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/wmmintrin.h:
-
-/usr/include/c++/15.2.1/bits/regex.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xsavecintrin.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/entity/view.hpp:
-
-/usr/include/c++/15.2.1/compare:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xsaveintrin.h:
-
-/usr/include/SDL2/SDL_gesture.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xsaveoptintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xtestintrin.h:
-
-/home/rodaqqq/Documents/socka-2dengine/editor/src/main.cpp:
-
-/usr/include/bits/fcntl-linux.h:
-
-/usr/include/c++/15.2.1/codecvt:
-
-/usr/include/bits/fcntl.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/make_reference.hpp:
-
-/usr/include/c++/15.2.1/bits/stl_set.h:
-
-/usr/include/bits/sigcontext.h:
-
-/usr/include/bits/sigevent-consts.h:
-
-/usr/include/c++/15.2.1/bitset:
-
-/usr/include/bits/signal_ext.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/config/macro.h:
-
-/usr/include/bits/sigthread.h:
-
-/usr/include/bits/ss_flags.h:
-
-/usr/include/bits/types/idtype_t.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/usertype_storage.hpp:
-
-/usr/include/bits/types/sig_atomic_t.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/function_result.hpp:
-
-/usr/include/bits/types/siginfo_t.h:
-
-/usr/include/c++/15.2.1/ctime:
-
-/usr/include/bits/types/sigval_t.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/as_args.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/json/include/nlohmann/detail/meta/call_std/begin.hpp:
-
-/usr/include/bits/types/stack_t.h:
-
-/usr/include/bits/types/struct_statx_timestamp.h:
-
-/usr/include/c++/15.2.1/bits/monostate.h:
-
-/usr/include/c++/15.2.1/bits/chrono_io.h:
-
-/usr/include/c++/15.2.1/bits/regex.tcc:
-
-/usr/include/c++/15.2.1/bits/regex_automaton.tcc:
-
-/usr/include/c++/15.2.1/bits/regex_executor.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/resource/loader.hpp:
-
-/usr/include/c++/15.2.1/bits/regex_executor.tcc:
-
-/usr/include/c++/15.2.1/bits/unicode.h:
-
-/usr/include/c++/15.2.1/csignal:
-
-/usr/include/bits/statx-generic.h:
-
-/usr/include/fcntl.h:
-
-/usr/include/linux/stat.h:
-
-/home/rodaqqq/Documents/socka-2dengine/engine/src/core/Project.h:
-
-/home/rodaqqq/Documents/socka-2dengine/editor/src/ui/Gizmos.cpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_relational.inl:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/detail/type_float.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/adxintrin.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_geometric.hpp:
-
-/usr/include/c++/15.2.1/bits/regex_scanner.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_common.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_common.inl:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/function.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_double.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_double_precision.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_float_precision.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/compatibility/lua_version.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bf16intrin.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/quaternion_trigonometric.inl:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_double1.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_float1.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_int1_sized.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/vector_uint1_sized.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/function_types_templated.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_clip_space.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/components/AnimationComponent.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_transform.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/constants.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/gtc/constants.inl:
-
-/home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/components/CameraComponent.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack_proxy_base.hpp:
-
-/usr/include/c++/15.2.1/charconv:
-
-/home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/components/InputControllerComponent.h:
-
-/home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/components/PolygonColliderComponent.h:
-
-/usr/include/lua.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/engine/src/core/FileWatcher.h:
-
-/home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/components/VelocityComponent.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/scalar_uint_sized.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/engine/src/ecs/systems/ScriptSystem.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/as_returns.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double3x3_precision.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/entt/src/entt/graph/fwd.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/base_traits.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/demangle.hpp:
-
-/usr/include/bits/types/struct_timeval.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/detail/build_version.hpp:
-
-/usr/include/c++/15.2.1/cassert:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/dump_handler.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/environment.hpp:
-
-/usr/include/c++/15.2.1/thread:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/error.hpp:
-
-/usr/include/c++/15.2.1/bits/stream_iterator.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/error_handler.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/forward.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/function_types_overloaded.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/function_types_stateless.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/protected_function.hpp:
-
-/usr/include/c++/15.2.1/bits/stl_iterator_base_funcs.h:
-
-/home/rodaqqq/Documents/socka-2dengine/editor/src/ui/Gizmos.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/inheritance.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/load_result.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/lua_value.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/object.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/optional.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/optional_implementation.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/pointer_like.hpp:
-
-/usr/include/c++/15.2.1/typeinfo:
-
-/usr/include/asm-generic/errno-base.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/prologue.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/property.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/protected_function_result.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/raii.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/sol.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack_check.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_float2x3_precision.hpp:
-
-/usr/include/alloca.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack_check_get.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack_check_qualified.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack_field.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack_guard.hpp:
-
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/glm/glm/ext/matrix_double4x2.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/stack_proxy.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/state_handling.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/string_view.hpp:
-
-/usr/include/c++/15.2.1/bits/iterator_concepts.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/tie.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/bmi2intrin.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/tuple.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/unicode.hpp:
-
-/usr/include/bits/pthreadtypes-arch.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/usertype_core.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/variadic_results.hpp:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/version.hpp:
-
-/usr/include/SDL2/SDL_mixer.h:
-
-/usr/include/c++/15.2.1/variant:
-
-/usr/include/lualib.h:
-
-/home/rodaqqq/Documents/socka-2dengine/editor/src/ui/ProjectBrowser.cpp:
-
-/usr/lib/libSDL2.so:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/x86gprintrin.h:
-
-/usr/lib/libgcc_s.so:
-
-/usr/lib/libgcc_s.so.1:
-
-/usr/lib/libstdc++.so:
-
-/usr/include/bits/types/sigset_t.h:
-
-/home/rodaqqq/Documents/socka-2dengine/vendor/sol2/include/sol/usertype_container_launch.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/wbnoinvdintrin.h:
-
-/usr/lib/ld-linux-x86-64.so.2:
-
-/usr/lib/libaom.so.3:
+/usr/include/c++/15.2.1/iomanip:

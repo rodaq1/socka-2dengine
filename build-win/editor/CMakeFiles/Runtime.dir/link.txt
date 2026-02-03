@@ -1,3 +1,0 @@
-/usr/sbin/cmake -E rm -f CMakeFiles/Runtime.dir/objects.a
-/usr/sbin/x86_64-w64-mingw32-ar qc CMakeFiles/Runtime.dir/objects.a @CMakeFiles/Runtime.dir/objects1.rsp
-/usr/sbin/x86_64-w64-mingw32-g++ -static-libgcc -static-libstdc++ -mwindows -Wl,--undefined=WinMain -Wl,--whole-archive CMakeFiles/Runtime.dir/objects.a -Wl,--no-whole-archive -o Runtime.exe -Wl,--out-implib,libRuntime.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/Runtime.dir/linkLibs.rsp

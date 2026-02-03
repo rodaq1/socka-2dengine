@@ -1,0 +1,11 @@
+/home/rodaqqq/Documents/socka-2dengine/build-windows/CMakeFiles/imgui.dir
+/home/rodaqqq/Documents/socka-2dengine/build-windows/CMakeFiles/edit_cache.dir
+/home/rodaqqq/Documents/socka-2dengine/build-windows/CMakeFiles/rebuild_cache.dir
+/home/rodaqqq/Documents/socka-2dengine/build-windows/engine/CMakeFiles/engine.dir
+/home/rodaqqq/Documents/socka-2dengine/build-windows/engine/CMakeFiles/edit_cache.dir
+/home/rodaqqq/Documents/socka-2dengine/build-windows/engine/CMakeFiles/rebuild_cache.dir
+/home/rodaqqq/Documents/socka-2dengine/build-windows/editor/CMakeFiles/imgui_backends.dir
+/home/rodaqqq/Documents/socka-2dengine/build-windows/editor/CMakeFiles/editor.dir
+/home/rodaqqq/Documents/socka-2dengine/build-windows/editor/CMakeFiles/Runtime.dir
+/home/rodaqqq/Documents/socka-2dengine/build-windows/editor/CMakeFiles/edit_cache.dir
+/home/rodaqqq/Documents/socka-2dengine/build-windows/editor/CMakeFiles/rebuild_cache.dir

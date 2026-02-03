@@ -2,7 +2,7 @@
     "Project": {
         "AssetDirectory": "assets",
         "Height": 720,
-        "LastModified": 4197,
+        "LastModified": 2224,
         "LastSceneOpened": "scenes/main.json",
         "Name": "NewProject",
         "StartScene": "scenes/main.json",

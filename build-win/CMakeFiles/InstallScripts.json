@@ -1,9 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/rodaqqq/Documents/socka-2dengine/build-win/cmake_install.cmake",
-		"/home/rodaqqq/Documents/socka-2dengine/build-win/engine/cmake_install.cmake",
-		"/home/rodaqqq/Documents/socka-2dengine/build-win/editor/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

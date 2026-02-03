@@ -32,50 +32,55 @@ add_executable(Runtime src/runtime.cpp)
 
 
 foreach(target editor Runtime)
-    if(WIN32)
+
+    if(CMAKE_SYSTEM_NAME STREQUAL "Windows")
         target_link_libraries(${target} PRIVATE
             engine
             imgui_backends
             imgui
-            mingw32        # Must be first for SDL2
-            SDL2main       # Must be before SDL2
-            ${SDL2_LIBS}   # This is your SDL2.dll.a
+            mingw32
+            ${SDL2_MAIN_LIB}
+            ${SDL2_LIBS}
+
             ${SDL2_IMAGE_LIBS}
             ${SDL2_MIXER_LIBS}
-            comdlg32 ole32 shell32 shlwapi # Windows UI systems for pfd
+            comdlg32 ole32 shell32 shlwapi
             /usr/x86_64-w64-mingw32/lib/liblua.dll.a
             m
-            
         )
-        
-        # This fixes the _setjmp error by ensuring we use the correct jump version
-        target_compile_definitions(${target} PRIVATE LUA_USE_APICHECK) 
-        target_compile_definitions(${target} PRIVATE LUA_USE_WINDOWS)
+
+        target_include_directories(${target} PRIVATE
+            ${CMAKE_SOURCE_DIR}/vendor/pfd
+            /usr/x86_64-w64-mingw32/include
+        )
+
+        set_target_properties(${target} PROPERTIES WIN32_EXECUTABLE TRUE)
+
     else()
-        # Your existing Linux link logic
         target_link_libraries(${target} PRIVATE
-            engine imgui_backends imgui ${SDL2_LIBS} 
-            ${SDL2_IMAGE_LIBS} ${SDL2_MIXER_LIBS} ${LUA_LIBRARIES}
+            engine
+            imgui_backends
+            imgui
+            ${SDL2_LIBS}
+            ${SDL2_IMAGE_LIBS}
+            ${SDL2_MIXER_LIBS}
+            ${LUA_LIBRARIES}
         )
     endif()
 
-    target_include_directories(${target} PRIVATE 
+    target_include_directories(${target} PRIVATE
         ${CMAKE_SOURCE_DIR}/engine/src
         ${CMAKE_SOURCE_DIR}/vendor/ImGuizmo
         ${CMAKE_SOURCE_DIR}/vendor/glm
         ${CMAKE_SOURCE_DIR}/vendor/imgui
         ${CMAKE_SOURCE_DIR}/vendor/imgui/backends
-        ${CMAKE_SOURCE_DIR}/vendor/pfd                 # Corrected name
-        ${CMAKE_SOURCE_DIR}/vendor/entt/single_include # Usually where entt.hpp lives
-        ${CMAKE_SOURCE_DIR}/vendor/json/include        # Path for nlohmann/json.hpp
+        ${CMAKE_SOURCE_DIR}/vendor/entt/single_include
+        ${CMAKE_SOURCE_DIR}/vendor/json/include
         ${CMAKE_SOURCE_DIR}/vendor/sol2/include
-        /usr/x86_64-w64-mingw32/include 
+        ${CMAKE_SOURCE_DIR}/vendor/pfd
         ${SDL2_INCLUDE_DIRS}
         ${SDL2_IMAGE_INCLUDE_DIRS}
         ${SDL2_MIXER_INCLUDE_DIRS}
     )
 
-    if(WIN32)
-        set_target_properties(${target} PROPERTIES WIN32_EXECUTABLE TRUE)
-    endif()
 endforeach()
