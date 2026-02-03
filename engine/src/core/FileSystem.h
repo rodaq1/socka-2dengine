@@ -13,7 +13,7 @@ namespace Engine {
         static bool setProjectRoot(const std::filesystem::path& path) {
             if (std::filesystem::exists(path)) {
                 // Root is the directory containing the .eproj file
-                s_ProjectRoot = path.parent_path();
+                s_ProjectRoot = path;
                 Log::info("Project Root set to: " + s_ProjectRoot.string());
                 return true;
             }

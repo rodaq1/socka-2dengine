@@ -33,7 +33,7 @@ add_executable(Runtime src/runtime.cpp)
 
 foreach(target editor Runtime)
 
-    if(CMAKE_SYSTEM_NAME STREQUAL "Windows")
+    if(WIN32) # Standard way to check for Windows/MinGW
         target_link_libraries(${target} PRIVATE
             engine
             imgui_backends
@@ -41,19 +41,20 @@ foreach(target editor Runtime)
             mingw32
             ${SDL2_MAIN_LIB}
             ${SDL2_LIBS}
-
             ${SDL2_IMAGE_LIBS}
             ${SDL2_MIXER_LIBS}
-            comdlg32 ole32 shell32 shlwapi
-            /usr/x86_64-w64-mingw32/lib/liblua.dll.a
-            m
+            comdlg32 ole32 shell32 shlwapi # Required for pfd on Windows
+            ${LUA_LIBS}   # Uses the variable from find_package
+            m             # Math library
         )
 
         target_include_directories(${target} PRIVATE
             ${CMAKE_SOURCE_DIR}/vendor/pfd
-            /usr/x86_64-w64-mingw32/include
+            ${LUA_INCLUDE_DIR} # Uses the variable from find_package
         )
 
+        # This hides the console window on Windows for a cleaner "app" feel.
+        # Remove this line if you want the console to stay visible for debugging.
         set_target_properties(${target} PROPERTIES WIN32_EXECUTABLE TRUE)
 
     else()
@@ -64,10 +65,11 @@ foreach(target editor Runtime)
             ${SDL2_LIBS}
             ${SDL2_IMAGE_LIBS}
             ${SDL2_MIXER_LIBS}
-            ${LUA_LIBRARIES}
+            ${LUA_LIBS}
         )
     endif()
 
+    # Common includes for all platforms
     target_include_directories(${target} PRIVATE
         ${CMAKE_SOURCE_DIR}/engine/src
         ${CMAKE_SOURCE_DIR}/vendor/ImGuizmo

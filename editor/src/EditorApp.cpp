@@ -34,14 +34,16 @@ EditorApp::EditorApp()
       m_ShowInspector(true), m_Window(nullptr), m_Renderer(nullptr),
       m_GameRenderTarget(nullptr),
       m_AssetManager(std::make_unique<Engine::AssetManager>()),
-      m_AppState(AppState::BROWSER) {
+      m_AppState(AppState::BROWSER)
+{
 
   setupBaseWindow();
 }
 
 EditorApp::~EditorApp() { shutdown(); }
 
-void InitBrowserFonts() {
+void InitBrowserFonts()
+{
   ImGuiIO &io = ImGui::GetIO();
 
   g_FontDefault = io.Fonts->AddFontDefault();
@@ -64,8 +66,10 @@ void InitBrowserFonts() {
   io.Fonts->Build();
 }
 
-void EditorApp::setupBaseWindow() {
-  if (SDL_Init(SDL_INIT_VIDEO | SDL_INIT_TIMER | SDL_INIT_AUDIO) != 0) {
+void EditorApp::setupBaseWindow()
+{
+  if (SDL_Init(SDL_INIT_VIDEO | SDL_INIT_TIMER | SDL_INIT_AUDIO) != 0)
+  {
     throw std::runtime_error("Failed to initialize SDL");
   }
 
@@ -92,7 +96,8 @@ void EditorApp::setupBaseWindow() {
 
   Engine::Input::init();
   g_ProjectBrowser.refreshProjectList("./projects");
-  Engine::Log::SetCallback([](std::string_view msg, Engine::Log::Level level) {
+  Engine::Log::SetCallback([](std::string_view msg, Engine::Log::Level level)
+                           {
         ImVec4 color;
         switch (level) {
             case Engine::Log::Level::Error:
@@ -108,27 +113,30 @@ void EditorApp::setupBaseWindow() {
         }
         
         // Route the engine message to our UI Console
-        Console::addLog(msg, color);
-    });
+        Console::addLog(msg, color); });
 }
 
-void EditorApp::setActiveScene(const std::string &scenePath) {
-  Engine::Log::info(scenePath);
+void EditorApp::setActiveScene(const std::string &scenePath)
+{
   activeScenePath = scenePath;
 
-  if (m_currentProject) {
+  if (m_currentProject)
+  {
     auto &config = m_currentProject->getConfig();
 
-    std::filesystem::path relativePath =
-        std::filesystem::relative(scenePath, m_currentProject->getPath());
-    config.lastActiveScene = relativePath.string();
+    std::filesystem::path p(scenePath);
+    config.lastActiveScene = p.filename().string();
+    Engine::Log::info("yo " + m_currentProject->getProjectFilePath());
+
     Engine::ProjectSerializer::saveProjectFile(
         m_currentProject, m_currentProject->getProjectFilePath());
   }
 }
 
-void EditorApp::initialize() {
-  if (!m_currentProject) {
+void EditorApp::initialize()
+{
+  if (!m_currentProject)
+  {
     Engine::Log::error("EditorApp::initialize failed: No project loaded.");
     return;
   }
@@ -145,28 +153,30 @@ void EditorApp::initialize() {
   Engine::ProjectConfig config = m_currentProject->getConfig();
 
   std::string sceneToLoad = config.lastActiveScene.empty()
-                                ? config.startScenePath
-                                : config.lastActiveScene;
-  std::filesystem::path scenePath(sceneToLoad);
+                                 ? config.startScenePath
+                                 : config.lastActiveScene;
 
   std::filesystem::path fullScenePath;
 
-  if (scenePath.is_absolute()) {
-    fullScenePath = scenePath;
-  } else if (sceneToLoad.find("scenes") == std::string::npos) {
-    fullScenePath = m_currentProject->getPath() / "scenes" / scenePath;
-  } else {
-    fullScenePath = m_currentProject->getPath() / scenePath;
+  if (std::filesystem::path(sceneToLoad).is_absolute())
+  {
+    fullScenePath = sceneToLoad;
+  }
+  else
+  {
+    fullScenePath = std::filesystem::path(m_currentProject->getPath()) / "scenes" / sceneToLoad;
   }
 
-  Engine::Log::info("Project: " + config.name);
+  Engine::Log::info("Project Root: " + m_currentProject->getPath().string());
   Engine::Log::info("Attempting to load scene: " + fullScenePath.string());
 
-  if (!sceneToLoad.empty() && std::filesystem::exists(fullScenePath)) {
+  if (!sceneToLoad.empty() && std::filesystem::exists(fullScenePath))
+  {
     Engine::ProjectSerializer::loadScene(currentScene, m_Renderer,
                                          fullScenePath.string(), m_AssetManager.get());
 
-    if (currentScene) {
+    if (currentScene)
+    {
       currentScene->setRenderer(m_Renderer);
 
       config.lastActiveScene = fullScenePath.filename().string();
@@ -174,7 +184,9 @@ void EditorApp::initialize() {
 
       setActiveScene(fullScenePath.string());
     }
-  } else {
+  }
+  else
+  {
     Engine::Log::warn(
         "Target scene not found. Creating a blank default scene.");
 
@@ -194,14 +206,17 @@ void EditorApp::initialize() {
   Engine::Log::info("Project systems and scene initialized successfully.");
 }
 
-void EditorApp::run() {
-  while (m_isRunning) {
+void EditorApp::run()
+{
+  while (m_isRunning)
+  {
     Engine::Time::update();
     Engine::Input::update();
 
     processEvents();
 
-    if (m_AppState == AppState::BROWSER) {
+    if (m_AppState == AppState::BROWSER)
+    {
       SDL_SetRenderDrawColor(m_Renderer, 30, 30, 30, 255);
       SDL_RenderClear(m_Renderer);
 
@@ -209,7 +224,8 @@ void EditorApp::run() {
       ImGui_ImplSDL2_NewFrame();
       ImGui::NewFrame();
       m_currentProject = g_ProjectBrowser.render();
-      if (m_currentProject) {
+      if (m_currentProject)
+      {
         initialize();
         loadProjectAssets();
         m_AppState = AppState::EDITOR;
@@ -218,13 +234,17 @@ void EditorApp::run() {
       ImGui::Render();
       ImGui_ImplSDLRenderer2_RenderDrawData(ImGui::GetDrawData(), m_Renderer);
 
-      if (ImGui::GetIO().ConfigFlags & ImGuiConfigFlags_ViewportsEnable) {
+      if (ImGui::GetIO().ConfigFlags & ImGuiConfigFlags_ViewportsEnable)
+      {
         ImGui::UpdatePlatformWindows();
         ImGui::RenderPlatformWindowsDefault();
       }
       SDL_RenderPresent(m_Renderer);
-    } else if (m_AppState == AppState::EDITOR) {
-      if (m_EntityToDelete) {
+    }
+    else if (m_AppState == AppState::EDITOR)
+    {
+      if (m_EntityToDelete)
+      {
         if (m_SelectedEntity == m_EntityToDelete)
           m_SelectedEntity = nullptr;
       }
@@ -233,7 +253,8 @@ void EditorApp::run() {
 
       render();
 
-      if (m_EntityToDelete && currentScene) {
+      if (m_EntityToDelete && currentScene)
+      {
         currentScene->destroyEntity(m_EntityToDelete);
         m_EntityToDelete = nullptr;
       }
@@ -241,18 +262,23 @@ void EditorApp::run() {
   }
 }
 
-void EditorApp::processEvents() {
+void EditorApp::processEvents()
+{
   SDL_Event event;
-  while (SDL_PollEvent(&event)) {
+  while (SDL_PollEvent(&event))
+  {
     ImGui_ImplSDL2_ProcessEvent(&event);
 
     if (event.type == SDL_QUIT)
       m_isRunning = false;
 
-    if (m_AppState == AppState::EDITOR) {
+    if (m_AppState == AppState::EDITOR)
+    {
 
-      if (event.type == SDL_KEYDOWN) {
-        switch (event.key.keysym.scancode) {
+      if (event.type == SDL_KEYDOWN)
+      {
+        switch (event.key.keysym.scancode)
+        {
         case SDL_SCANCODE_T:
           currentOperation = GizmoOperation::TRANSLATE;
           break;
@@ -268,7 +294,8 @@ void EditorApp::processEvents() {
       }
       // Mouse Picking
       if (event.type == SDL_MOUSEBUTTONDOWN &&
-          event.button.button == SDL_BUTTON_LEFT) {
+          event.button.button == SDL_BUTTON_LEFT)
+      {
         if (ImGuizmo::IsOver() || ImGui::GetIO().WantCaptureMouse)
           continue;
 
@@ -276,7 +303,8 @@ void EditorApp::processEvents() {
         if (mousePos.x >= viewportPos.x &&
             mousePos.x <= viewportPos.x + viewportSize.x &&
             mousePos.y >= viewportPos.y &&
-            mousePos.y <= viewportPos.y + viewportSize.y) {
+            mousePos.y <= viewportPos.y + viewportSize.y)
+        {
 
           // Conversion to local viewport space
           float worldMouseX = mousePos.x - viewportPos.x;
@@ -284,14 +312,16 @@ void EditorApp::processEvents() {
 
           m_SelectedEntity = nullptr;
           auto entities = currentScene->getEntityRawPointers();
-          for (int i = (int)entities.size() - 1; i >= 0; i--) {
+          for (int i = (int)entities.size() - 1; i >= 0; i--)
+          {
             auto *entity = entities[i];
             if (!entity->hasComponent<Engine::TransformComponent>())
               continue;
 
             auto tr = entity->getComponent<Engine::TransformComponent>();
             glm::vec2 size = {32, 32}; // Default if no sprite
-            if (entity->hasComponent<Engine::SpriteComponent>()) {
+            if (entity->hasComponent<Engine::SpriteComponent>())
+            {
               auto sp = entity->getComponent<Engine::SpriteComponent>();
               size = {(float)sp->sourceRect.w * tr->scale.x,
                       (float)sp->sourceRect.h * tr->scale.y};
@@ -300,7 +330,8 @@ void EditorApp::processEvents() {
             if (worldMouseX >= tr->position.x &&
                 worldMouseX <= tr->position.x + size.x &&
                 worldMouseY >= tr->position.y &&
-                worldMouseY <= tr->position.y + size.y) {
+                worldMouseY <= tr->position.y + size.y)
+            {
               m_SelectedEntity = entity;
               break;
             }
@@ -311,13 +342,16 @@ void EditorApp::processEvents() {
   }
 }
 
-void EditorApp::update() {
-  if (currentScene && m_SceneState == SceneState::PLAY) {
+void EditorApp::update()
+{
+  if (currentScene && m_SceneState == SceneState::PLAY)
+  {
     currentScene->update(Engine::Time::getDeltaTime());
   }
 }
 
-void EditorApp::render() {
+void EditorApp::render()
+{
   ImGui_ImplSDLRenderer2_NewFrame();
   ImGui_ImplSDL2_NewFrame();
   ImGui::NewFrame();
@@ -346,7 +380,8 @@ void EditorApp::render() {
   ImGui::Render();
   ImGui_ImplSDLRenderer2_RenderDrawData(ImGui::GetDrawData(), m_Renderer);
 
-  if (ImGui::GetIO().ConfigFlags & ImGuiConfigFlags_ViewportsEnable) {
+  if (ImGui::GetIO().ConfigFlags & ImGuiConfigFlags_ViewportsEnable)
+  {
     ImGui::UpdatePlatformWindows();
     ImGui::RenderPlatformWindowsDefault();
   }
@@ -354,7 +389,8 @@ void EditorApp::render() {
   SDL_RenderPresent(m_Renderer);
 }
 
-void EditorApp::shutdown() {
+void EditorApp::shutdown()
+{
   if (currentScene)
     currentScene->shutdown();
   ImGui_ImplSDLRenderer2_Shutdown();
@@ -371,7 +407,8 @@ void EditorApp::shutdown() {
 #include "BuildSystem.h"
 #include <filesystem>
 
-void EditorApp::onBuildButtonClicked(bool forWindows) {
+void EditorApp::onBuildButtonClicked(bool forWindows)
+{
   BuildSystem::Target target =
       forWindows ? BuildSystem::Target::Windows : BuildSystem::Target::Linux;
 
@@ -379,9 +416,12 @@ void EditorApp::onBuildButtonClicked(bool forWindows) {
   fs::path projectRoot = m_currentProject->getPath();
   fs::path engineRoot = "/path/to/engine";
 
-  if (BuildSystem::Build(projectName, projectRoot, engineRoot, target)) {
+  if (BuildSystem::Build(projectName, projectRoot, engineRoot, target))
+  {
     Engine::Log::info("Build success!");
-  } else {
+  }
+  else
+  {
     Engine::Log::error("Build failed. Check console output.");
   }
 }

@@ -26,14 +26,14 @@ namespace Engine {
         Project() = default;
 
         std::string getProjectName() const {return config.name;}
-        std::filesystem::path getAssetPath() const {return projectPath.parent_path() / config.assetDirectory;}
-        std::filesystem::path getPath() const {return projectPath.parent_path();}
+        std::filesystem::path getAssetPath() const {return projectPath / config.assetDirectory;}
+        std::filesystem::path getPath() const {return projectPath;}
         std::string getProjectFileName() const {
             return config.name + ".eproj";
         }
 
         std::string getProjectFilePath() const {
-            std::filesystem::path fullPath = projectPath.parent_path() / getProjectFileName();
+            std::filesystem::path fullPath = projectPath / getProjectFileName();
             return fullPath.string();
         }
         ProjectConfig& getConfig() { return config; }

@@ -4,20 +4,17 @@ project(socka-2dengine)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-if(CMAKE_SYSTEM_NAME STREQUAL "Windows")
+if(WIN32) # Works for both cross-compiling and native Windows
     message(STATUS "Using Windows/MinGW dependency resolution")
 
     find_package(SDL2 REQUIRED)
     find_package(SDL2_image REQUIRED)
     find_package(SDL2_mixer REQUIRED)
-
-    set(LUA_INCLUDE_DIR "/usr/x86_64-w64-mingw32/include")
-    set(LUA_LIBRARIES "/usr/x86_64-w64-mingw32/lib/liblua.dll.a")
+    
+    # Let CMake find Lua instead of hardcoding /usr/
+    find_package(Lua REQUIRED)
 
     set(SDL2_INCLUDE_DIRS ${SDL2_INCLUDE_DIR})
-    set(SDL2_IMAGE_INCLUDE_DIRS ${SDL2_IMAGE_INCLUDE_DIR})
-    set(SDL2_MIXER_INCLUDE_DIRS ${SDL2_MIXER_INCLUDE_DIR})
-
     set(SDL2_LIBS SDL2::SDL2)
     set(SDL2_MAIN_LIB SDL2::SDL2main)
     set(SDL2_IMAGE_LIBS SDL2_image::SDL2_image)
