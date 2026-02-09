@@ -145,7 +145,7 @@ void EditorApp::renderViewport() {
       float newSize = s_EditorCamera.getOrthographicSize() -
                       (ImGui::GetIO().MouseWheel *
                        s_EditorCamera.getOrthographicSize() * 0.1f);
-      s_EditorCamera.setOrthographicSize(std::max(newSize, 0.1f));
+      s_EditorCamera.setOrthographicSize(std::max(newSize, 1.0f));
     }
   }
 
@@ -167,6 +167,45 @@ void EditorApp::renderViewport() {
       if (renderCamera)
         currentScene->render(m_Renderer, *renderCamera, renderW, renderH);
     }
+
+    if (m_SceneState == SceneState::EDIT && currentScene) {
+            Engine::Camera* gameCamera = currentScene->getSceneCamera();
+            if (gameCamera) {
+                glm::mat4 viewProj = s_EditorCamera.getProjectionMatrix() * s_EditorCamera.getViewMatrix();
+                
+                float orthoSize = gameCamera->getOrthographicSize();
+                float aspect = gameCamera->getAspectRatio();
+                
+                float halfHeight = orthoSize;
+                float halfWidth = orthoSize * aspect;
+                glm::vec2 camPos = gameCamera->getPosition();
+
+                glm::vec4 corners[4] = {
+                    { camPos.x - halfWidth, camPos.y - halfHeight, 0.0f, 1.0f },
+                    { camPos.x + halfWidth, camPos.y - halfHeight, 0.0f, 1.0f },
+                    { camPos.x + halfWidth, camPos.y + halfHeight, 0.0f, 1.0f },
+                    { camPos.x - halfWidth, camPos.y + halfHeight, 0.0f, 1.0f }
+                };
+
+                SDL_FPoint screenPoints[5];
+                for (int i = 0; i < 4; i++) {
+                    glm::vec4 projected = viewProj * corners[i];
+                    if (projected.w != 0.0f) {
+                        glm::vec3 ndc = glm::vec3(projected.x / projected.w, projected.y / projected.w, projected.z / projected.w);
+                        screenPoints[i] = {
+                            (ndc.x + 1.0f) * 0.5f * renderW,
+                            (1.0f - ndc.y) * 0.5f * renderH
+                        };
+                    }
+                }
+                screenPoints[4] = screenPoints[0]; 
+
+                SDL_SetRenderDrawColor(m_Renderer, 255, 255, 255, 100);
+                SDL_RenderDrawLinesF(m_Renderer, screenPoints, 5);
+
+            }
+        }
+
 
     if (m_SceneState == SceneState::EDIT && m_SelectedEntity) {
       glm::mat4 viewMatrix = s_EditorCamera.getViewMatrix();

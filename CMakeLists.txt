@@ -20,6 +20,7 @@ if(WIN32) # Works for both cross-compiling and native Windows
     set(SDL2_IMAGE_LIBS SDL2_image::SDL2_image)
     set(SDL2_MIXER_LIBS SDL2_mixer::SDL2_mixer)
     set(LUA_LIBS ${LUA_LIBRARIES})
+    set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -static-libgcc -static-libstdc++ -Wl,-Bstatic -lstdc++ -lpthread -Wl,-Bdynamic")
 
 else()
     message(STATUS "Using Linux PkgConfig resolution")

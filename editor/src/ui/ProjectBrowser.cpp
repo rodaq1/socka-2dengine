@@ -79,11 +79,9 @@ void ProjectBrowser::refreshProjectList(const std::string& currentSearchPath) {
         if (!fs::exists(root)) continue;
         Engine::Log::info("Scanning root: " + root.string());
 
-        // Use a simple directory_iterator (NOT recursive) to avoid the "Invalid Argument" crash
         std::error_code root_ec;
         for (const auto& entry : fs::directory_iterator(root, fs::directory_options::skip_permission_denied, root_ec)) {
             
-            // 1. Check if the project file is directly in the root (e.g., Documents/test.eproj)
             if (entry.is_regular_file()) {
                 std::string ext = entry.path().extension().string();
                 std::transform(ext.begin(), ext.end(), ext.begin(), ::tolower);
@@ -96,7 +94,6 @@ void ProjectBrowser::refreshProjectList(const std::string& currentSearchPath) {
                 }
             }
 
-            // 2. If it's a directory, look exactly ONE level deep (e.g., Documents/MyGame/MyGame.eproj)
             if (entry.is_directory()) {
                 std::error_code sub_ec;
                 for (const auto& subEntry : fs::directory_iterator(entry.path(), fs::directory_options::skip_permission_denied, sub_ec)) {
@@ -116,7 +113,6 @@ void ProjectBrowser::refreshProjectList(const std::string& currentSearchPath) {
         if (root_ec) Engine::Log::warn("Scan warning in " + root.string() + ": " + root_ec.message());
     }
 
-    // Sort and unique
     std::sort(m_FoundProjects.begin(), m_FoundProjects.end(), [](const Engine::Project& a, const Engine::Project& b) {
         return a.getProjectName() < b.getProjectName();
     });
@@ -141,12 +137,9 @@ Engine::Project *ProjectBrowser::render() {
   Engine::Project *projectOpened = nullptr;
   static int projectToModifyIndex = -1;
 
-  // Use a local static initialized once per session, but check for context
   static bool styleInitialized = false;
   
-  // Initialize style only once when window is first created
   if (!styleInitialized) {
-    // Only initialize if we have a valid ImGui context
     if (ImGui::GetCurrentContext() != nullptr) {
       ImGuiStyle &style = ImGui::GetStyle();
       style.WindowPadding = ImVec2(20, 20);
@@ -201,18 +194,15 @@ Engine::Project *ProjectBrowser::render() {
   ImGui::SetNextWindowPos(viewport->GetCenter(), ImGuiCond_Appearing, ImVec2(0.5f, 0.5f));
   ImGui::SetNextWindowSize(ImVec2(1200, 750), ImGuiCond_Appearing);
 
-  // Push a unique ID for this window to prevent ID conflicts
   ImGui::PushID("ProjectBrowserMainWindow");
 
   if (g_FontDefault)
     ImGui::PushFont(g_FontDefault);
 
-  // Use a unique window name with ### to ensure stable ID
   bool windowOpen = true;
   ImGui::Begin("Project Browser###ProjectBrowserMain", &windowOpen,
                ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoScrollbar);
   
-  // Header area
   {
     ImGui::Spacing();
     ImGui::Spacing();
@@ -242,19 +232,15 @@ Engine::Project *ProjectBrowser::render() {
     ImGui::Spacing();
   }
   
-  // Calculate available space for main content
   float availableHeight = ImGui::GetContentRegionAvail().y - 10;
   
-  // Main content area using columns for better layout control
   ImGui::PushID("MainContentArea");
   ImGui::BeginChild("MainContentChild", ImVec2(0, availableHeight), false);
   
-  // Two-column layout
   ImGui::Columns(2, "MainColumns", false);
   float firstColumnWidth = 350.0f;
   ImGui::SetColumnWidth(0, firstColumnWidth);
   
-  // LEFT COLUMN - Projects List
   {
     ImGui::PushID("LeftColumn");
     ImGui::BeginChild("LeftColumnChild", ImVec2(0, 0), true);
@@ -268,8 +254,7 @@ Engine::Project *ProjectBrowser::render() {
     ImGui::Separator();
     ImGui::Spacing();
     
-    // Projects list area
-    float listHeight = ImGui::GetContentRegionAvail().y - 60; // Reserve space for button
+    float listHeight = ImGui::GetContentRegionAvail().y - 60;
     
     ImGui::BeginChild("ProjectsListChild", ImVec2(0, listHeight), false, 
                      ImGuiWindowFlags_NoScrollbar);
@@ -313,7 +298,7 @@ Engine::Project *ProjectBrowser::render() {
                              ImVec2(cardWidth, 72))) {
           m_SelectedIndex = i;
           if (ImGui::IsMouseDoubleClicked(0)) {
-            Engine::FileSystem::setProjectRoot(m_FoundProjects[i].getPath() / m_NewProjectName);
+            Engine::FileSystem::setProjectRoot(m_FoundProjects[i].getPath());
             projectOpened = &m_FoundProjects[i];
           }
         }
@@ -361,7 +346,7 @@ Engine::Project *ProjectBrowser::render() {
         if (ImGui::BeginPopupContextItem(contextMenuID.c_str())) {
           projectToModifyIndex = i;
           if (ImGui::MenuItem("Open Project", "Enter")) {
-            Engine::FileSystem::setProjectRoot(m_FoundProjects[i].getPath() / m_NewProjectName);
+            Engine::FileSystem::setProjectRoot(m_FoundProjects[i].getPath());
             projectOpened = &m_FoundProjects[i];
           }
           if (ImGui::MenuItem("Show in Explorer", "Ctrl+E")) {
@@ -488,7 +473,7 @@ Engine::Project *ProjectBrowser::render() {
       ImGui::PushStyleColor(ImGuiCol_ButtonActive, ImVec4(0.18f, 0.35f, 0.65f, 1.00f));
       ImGui::PushID("OpenProjectButton");
       if (ImGui::Button("OPEN PROJECT", ImVec2(-FLT_MIN, buttonHeight))) {
-        Engine::FileSystem::setProjectRoot(proj->getPath() / m_NewProjectName);
+        Engine::FileSystem::setProjectRoot(proj->getPath());
         projectOpened = proj;
       }
       ImGui::PopID();

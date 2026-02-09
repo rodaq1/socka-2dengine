@@ -60,6 +60,7 @@ public:
 
     // Getters
     const std::string& getName() const { return name; }
+    void setName(std::string newName) {name = newName;}
     static void setRenderer(SDL_Renderer* renderer);
     static SDL_Renderer* getRenderer() { return m_Renderer; }
     

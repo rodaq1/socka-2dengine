@@ -11,7 +11,7 @@ namespace Engine {
         std::string assetDirectory = "assets";
         std::string startScenePath = "scenes/main.json";
         std::string engineVersion = "1.0.0";
-        std::string lastActiveScene = "main.json";
+        std::string lastActiveScene;
         int width = 1280;
         int height = 720;
     };

@@ -50,8 +50,6 @@ build CMakeFiles/imgui.dir/vendor/imgui/imgui.cpp.obj: CXX_COMPILER__imgui_unsca
   INCLUDES = -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui
   OBJECT_DIR = CMakeFiles\imgui.dir
   OBJECT_FILE_DIR = CMakeFiles\imgui.dir\vendor\imgui
-  TARGET_COMPILE_PDB = CMakeFiles\imgui.dir\imgui.pdb
-  TARGET_PDB = libimgui.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\imgui.dir
 
 build CMakeFiles/imgui.dir/vendor/imgui/imgui_draw.cpp.obj: CXX_COMPILER__imgui_unscanned_ C$:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui/imgui_draw.cpp || cmake_object_order_depends_target_imgui
@@ -60,8 +58,6 @@ build CMakeFiles/imgui.dir/vendor/imgui/imgui_draw.cpp.obj: CXX_COMPILER__imgui_
   INCLUDES = -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui
   OBJECT_DIR = CMakeFiles\imgui.dir
   OBJECT_FILE_DIR = CMakeFiles\imgui.dir\vendor\imgui
-  TARGET_COMPILE_PDB = CMakeFiles\imgui.dir\imgui.pdb
-  TARGET_PDB = libimgui.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\imgui.dir
 
 build CMakeFiles/imgui.dir/vendor/imgui/imgui_widgets.cpp.obj: CXX_COMPILER__imgui_unscanned_ C$:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui/imgui_widgets.cpp || cmake_object_order_depends_target_imgui
@@ -70,8 +66,6 @@ build CMakeFiles/imgui.dir/vendor/imgui/imgui_widgets.cpp.obj: CXX_COMPILER__img
   INCLUDES = -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui
   OBJECT_DIR = CMakeFiles\imgui.dir
   OBJECT_FILE_DIR = CMakeFiles\imgui.dir\vendor\imgui
-  TARGET_COMPILE_PDB = CMakeFiles\imgui.dir\imgui.pdb
-  TARGET_PDB = libimgui.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\imgui.dir
 
 build CMakeFiles/imgui.dir/vendor/imgui/imgui_tables.cpp.obj: CXX_COMPILER__imgui_unscanned_ C$:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui/imgui_tables.cpp || cmake_object_order_depends_target_imgui
@@ -80,8 +74,6 @@ build CMakeFiles/imgui.dir/vendor/imgui/imgui_tables.cpp.obj: CXX_COMPILER__imgu
   INCLUDES = -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui
   OBJECT_DIR = CMakeFiles\imgui.dir
   OBJECT_FILE_DIR = CMakeFiles\imgui.dir\vendor\imgui
-  TARGET_COMPILE_PDB = CMakeFiles\imgui.dir\imgui.pdb
-  TARGET_PDB = libimgui.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\imgui.dir
 
 build CMakeFiles/imgui.dir/vendor/imgui/imgui_demo.cpp.obj: CXX_COMPILER__imgui_unscanned_ C$:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui/imgui_demo.cpp || cmake_object_order_depends_target_imgui
@@ -90,8 +82,6 @@ build CMakeFiles/imgui.dir/vendor/imgui/imgui_demo.cpp.obj: CXX_COMPILER__imgui_
   INCLUDES = -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui
   OBJECT_DIR = CMakeFiles\imgui.dir
   OBJECT_FILE_DIR = CMakeFiles\imgui.dir\vendor\imgui
-  TARGET_COMPILE_PDB = CMakeFiles\imgui.dir\imgui.pdb
-  TARGET_PDB = libimgui.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\imgui.dir
 
 
@@ -106,9 +96,8 @@ build libimgui.a: CXX_STATIC_LIBRARY_LINKER__imgui_ CMakeFiles/imgui.dir/vendor/
   OBJECT_DIR = CMakeFiles\imgui.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\imgui.dir\imgui.pdb
   TARGET_FILE = libimgui.a
-  TARGET_PDB = libimgui.pdb
+  TARGET_PDB = imgui.a.dbg
   TARGET_SUPPORT_DIR = CMakeFiles\imgui.dir
 
 
@@ -154,8 +143,6 @@ build engine/CMakeFiles/engine.dir/src/core/Application.cpp.obj: CXX_COMPILER__e
   INCLUDES = -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/sol2/include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/glm -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/entt/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/json/include -IC:/Users/opl90/Documents/socka/socka-2dengine/engine/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui/backends -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/ImGuizmo -isystem C:/msys64/mingw64/include/SDL2
   OBJECT_DIR = engine\CMakeFiles\engine.dir
   OBJECT_FILE_DIR = engine\CMakeFiles\engine.dir\src\core
-  TARGET_COMPILE_PDB = engine\CMakeFiles\engine.dir\engine.pdb
-  TARGET_PDB = engine\libengine.pdb
   TARGET_SUPPORT_DIR = engine\CMakeFiles\engine.dir
 
 build engine/CMakeFiles/engine.dir/src/core/Log.cpp.obj: CXX_COMPILER__engine_unscanned_ C$:/Users/opl90/Documents/socka/socka-2dengine/engine/src/core/Log.cpp || cmake_object_order_depends_target_engine
@@ -164,8 +151,6 @@ build engine/CMakeFiles/engine.dir/src/core/Log.cpp.obj: CXX_COMPILER__engine_un
   INCLUDES = -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/sol2/include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/glm -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/entt/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/json/include -IC:/Users/opl90/Documents/socka/socka-2dengine/engine/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui/backends -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/ImGuizmo -isystem C:/msys64/mingw64/include/SDL2
   OBJECT_DIR = engine\CMakeFiles\engine.dir
   OBJECT_FILE_DIR = engine\CMakeFiles\engine.dir\src\core
-  TARGET_COMPILE_PDB = engine\CMakeFiles\engine.dir\engine.pdb
-  TARGET_PDB = engine\libengine.pdb
   TARGET_SUPPORT_DIR = engine\CMakeFiles\engine.dir
 
 build engine/CMakeFiles/engine.dir/src/core/Time.cpp.obj: CXX_COMPILER__engine_unscanned_ C$:/Users/opl90/Documents/socka/socka-2dengine/engine/src/core/Time.cpp || cmake_object_order_depends_target_engine
@@ -174,8 +159,6 @@ build engine/CMakeFiles/engine.dir/src/core/Time.cpp.obj: CXX_COMPILER__engine_u
   INCLUDES = -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/sol2/include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/glm -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/entt/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/json/include -IC:/Users/opl90/Documents/socka/socka-2dengine/engine/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui/backends -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/ImGuizmo -isystem C:/msys64/mingw64/include/SDL2
   OBJECT_DIR = engine\CMakeFiles\engine.dir
   OBJECT_FILE_DIR = engine\CMakeFiles\engine.dir\src\core
-  TARGET_COMPILE_PDB = engine\CMakeFiles\engine.dir\engine.pdb
-  TARGET_PDB = engine\libengine.pdb
   TARGET_SUPPORT_DIR = engine\CMakeFiles\engine.dir
 
 build engine/CMakeFiles/engine.dir/src/core/Input.cpp.obj: CXX_COMPILER__engine_unscanned_ C$:/Users/opl90/Documents/socka/socka-2dengine/engine/src/core/Input.cpp || cmake_object_order_depends_target_engine
@@ -184,8 +167,6 @@ build engine/CMakeFiles/engine.dir/src/core/Input.cpp.obj: CXX_COMPILER__engine_
   INCLUDES = -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/sol2/include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/glm -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/entt/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/json/include -IC:/Users/opl90/Documents/socka/socka-2dengine/engine/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui/backends -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/ImGuizmo -isystem C:/msys64/mingw64/include/SDL2
   OBJECT_DIR = engine\CMakeFiles\engine.dir
   OBJECT_FILE_DIR = engine\CMakeFiles\engine.dir\src\core
-  TARGET_COMPILE_PDB = engine\CMakeFiles\engine.dir\engine.pdb
-  TARGET_PDB = engine\libengine.pdb
   TARGET_SUPPORT_DIR = engine\CMakeFiles\engine.dir
 
 build engine/CMakeFiles/engine.dir/src/ecs/Entity.cpp.obj: CXX_COMPILER__engine_unscanned_ C$:/Users/opl90/Documents/socka/socka-2dengine/engine/src/ecs/Entity.cpp || cmake_object_order_depends_target_engine
@@ -194,8 +175,6 @@ build engine/CMakeFiles/engine.dir/src/ecs/Entity.cpp.obj: CXX_COMPILER__engine_
   INCLUDES = -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/sol2/include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/glm -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/entt/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/json/include -IC:/Users/opl90/Documents/socka/socka-2dengine/engine/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui/backends -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/ImGuizmo -isystem C:/msys64/mingw64/include/SDL2
   OBJECT_DIR = engine\CMakeFiles\engine.dir
   OBJECT_FILE_DIR = engine\CMakeFiles\engine.dir\src\ecs
-  TARGET_COMPILE_PDB = engine\CMakeFiles\engine.dir\engine.pdb
-  TARGET_PDB = engine\libengine.pdb
   TARGET_SUPPORT_DIR = engine\CMakeFiles\engine.dir
 
 build engine/CMakeFiles/engine.dir/src/scene/Scene.cpp.obj: CXX_COMPILER__engine_unscanned_ C$:/Users/opl90/Documents/socka/socka-2dengine/engine/src/scene/Scene.cpp || cmake_object_order_depends_target_engine
@@ -204,8 +183,6 @@ build engine/CMakeFiles/engine.dir/src/scene/Scene.cpp.obj: CXX_COMPILER__engine
   INCLUDES = -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/sol2/include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/glm -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/entt/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/json/include -IC:/Users/opl90/Documents/socka/socka-2dengine/engine/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui/backends -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/ImGuizmo -isystem C:/msys64/mingw64/include/SDL2
   OBJECT_DIR = engine\CMakeFiles\engine.dir
   OBJECT_FILE_DIR = engine\CMakeFiles\engine.dir\src\scene
-  TARGET_COMPILE_PDB = engine\CMakeFiles\engine.dir\engine.pdb
-  TARGET_PDB = engine\libengine.pdb
   TARGET_SUPPORT_DIR = engine\CMakeFiles\engine.dir
 
 build engine/CMakeFiles/engine.dir/src/core/AssetManager.cpp.obj: CXX_COMPILER__engine_unscanned_ C$:/Users/opl90/Documents/socka/socka-2dengine/engine/src/core/AssetManager.cpp || cmake_object_order_depends_target_engine
@@ -214,8 +191,6 @@ build engine/CMakeFiles/engine.dir/src/core/AssetManager.cpp.obj: CXX_COMPILER__
   INCLUDES = -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/sol2/include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/glm -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/entt/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/json/include -IC:/Users/opl90/Documents/socka/socka-2dengine/engine/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui/backends -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/ImGuizmo -isystem C:/msys64/mingw64/include/SDL2
   OBJECT_DIR = engine\CMakeFiles\engine.dir
   OBJECT_FILE_DIR = engine\CMakeFiles\engine.dir\src\core
-  TARGET_COMPILE_PDB = engine\CMakeFiles\engine.dir\engine.pdb
-  TARGET_PDB = engine\libengine.pdb
   TARGET_SUPPORT_DIR = engine\CMakeFiles\engine.dir
 
 build engine/CMakeFiles/engine.dir/src/ecs/systems/RendererSystem.cpp.obj: CXX_COMPILER__engine_unscanned_ C$:/Users/opl90/Documents/socka/socka-2dengine/engine/src/ecs/systems/RendererSystem.cpp || cmake_object_order_depends_target_engine
@@ -224,8 +199,6 @@ build engine/CMakeFiles/engine.dir/src/ecs/systems/RendererSystem.cpp.obj: CXX_C
   INCLUDES = -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/sol2/include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/glm -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/entt/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/json/include -IC:/Users/opl90/Documents/socka/socka-2dengine/engine/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui/backends -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/ImGuizmo -isystem C:/msys64/mingw64/include/SDL2
   OBJECT_DIR = engine\CMakeFiles\engine.dir
   OBJECT_FILE_DIR = engine\CMakeFiles\engine.dir\src\ecs\systems
-  TARGET_COMPILE_PDB = engine\CMakeFiles\engine.dir\engine.pdb
-  TARGET_PDB = engine\libengine.pdb
   TARGET_SUPPORT_DIR = engine\CMakeFiles\engine.dir
 
 build engine/CMakeFiles/engine.dir/src/ecs/System.cpp.obj: CXX_COMPILER__engine_unscanned_ C$:/Users/opl90/Documents/socka/socka-2dengine/engine/src/ecs/System.cpp || cmake_object_order_depends_target_engine
@@ -234,8 +207,6 @@ build engine/CMakeFiles/engine.dir/src/ecs/System.cpp.obj: CXX_COMPILER__engine_
   INCLUDES = -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/sol2/include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/glm -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/entt/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/json/include -IC:/Users/opl90/Documents/socka/socka-2dengine/engine/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui/backends -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/ImGuizmo -isystem C:/msys64/mingw64/include/SDL2
   OBJECT_DIR = engine\CMakeFiles\engine.dir
   OBJECT_FILE_DIR = engine\CMakeFiles\engine.dir\src\ecs
-  TARGET_COMPILE_PDB = engine\CMakeFiles\engine.dir\engine.pdb
-  TARGET_PDB = engine\libengine.pdb
   TARGET_SUPPORT_DIR = engine\CMakeFiles\engine.dir
 
 build engine/CMakeFiles/engine.dir/src/ecs/systems/MovementSystem.cpp.obj: CXX_COMPILER__engine_unscanned_ C$:/Users/opl90/Documents/socka/socka-2dengine/engine/src/ecs/systems/MovementSystem.cpp || cmake_object_order_depends_target_engine
@@ -244,8 +215,6 @@ build engine/CMakeFiles/engine.dir/src/ecs/systems/MovementSystem.cpp.obj: CXX_C
   INCLUDES = -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/sol2/include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/glm -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/entt/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/json/include -IC:/Users/opl90/Documents/socka/socka-2dengine/engine/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui/backends -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/ImGuizmo -isystem C:/msys64/mingw64/include/SDL2
   OBJECT_DIR = engine\CMakeFiles\engine.dir
   OBJECT_FILE_DIR = engine\CMakeFiles\engine.dir\src\ecs\systems
-  TARGET_COMPILE_PDB = engine\CMakeFiles\engine.dir\engine.pdb
-  TARGET_PDB = engine\libengine.pdb
   TARGET_SUPPORT_DIR = engine\CMakeFiles\engine.dir
 
 build engine/CMakeFiles/engine.dir/src/ecs/systems/InputSystem.cpp.obj: CXX_COMPILER__engine_unscanned_ C$:/Users/opl90/Documents/socka/socka-2dengine/engine/src/ecs/systems/InputSystem.cpp || cmake_object_order_depends_target_engine
@@ -254,8 +223,6 @@ build engine/CMakeFiles/engine.dir/src/ecs/systems/InputSystem.cpp.obj: CXX_COMP
   INCLUDES = -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/sol2/include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/glm -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/entt/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/json/include -IC:/Users/opl90/Documents/socka/socka-2dengine/engine/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui/backends -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/ImGuizmo -isystem C:/msys64/mingw64/include/SDL2
   OBJECT_DIR = engine\CMakeFiles\engine.dir
   OBJECT_FILE_DIR = engine\CMakeFiles\engine.dir\src\ecs\systems
-  TARGET_COMPILE_PDB = engine\CMakeFiles\engine.dir\engine.pdb
-  TARGET_PDB = engine\libengine.pdb
   TARGET_SUPPORT_DIR = engine\CMakeFiles\engine.dir
 
 build engine/CMakeFiles/engine.dir/src/ecs/systems/CollisionSystem.cpp.obj: CXX_COMPILER__engine_unscanned_ C$:/Users/opl90/Documents/socka/socka-2dengine/engine/src/ecs/systems/CollisionSystem.cpp || cmake_object_order_depends_target_engine
@@ -264,8 +231,6 @@ build engine/CMakeFiles/engine.dir/src/ecs/systems/CollisionSystem.cpp.obj: CXX_
   INCLUDES = -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/sol2/include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/glm -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/entt/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/json/include -IC:/Users/opl90/Documents/socka/socka-2dengine/engine/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui/backends -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/ImGuizmo -isystem C:/msys64/mingw64/include/SDL2
   OBJECT_DIR = engine\CMakeFiles\engine.dir
   OBJECT_FILE_DIR = engine\CMakeFiles\engine.dir\src\ecs\systems
-  TARGET_COMPILE_PDB = engine\CMakeFiles\engine.dir\engine.pdb
-  TARGET_PDB = engine\libengine.pdb
   TARGET_SUPPORT_DIR = engine\CMakeFiles\engine.dir
 
 build engine/CMakeFiles/engine.dir/src/ecs/systems/PhysicsSystem.cpp.obj: CXX_COMPILER__engine_unscanned_ C$:/Users/opl90/Documents/socka/socka-2dengine/engine/src/ecs/systems/PhysicsSystem.cpp || cmake_object_order_depends_target_engine
@@ -274,8 +239,6 @@ build engine/CMakeFiles/engine.dir/src/ecs/systems/PhysicsSystem.cpp.obj: CXX_CO
   INCLUDES = -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/sol2/include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/glm -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/entt/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/json/include -IC:/Users/opl90/Documents/socka/socka-2dengine/engine/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui/backends -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/ImGuizmo -isystem C:/msys64/mingw64/include/SDL2
   OBJECT_DIR = engine\CMakeFiles\engine.dir
   OBJECT_FILE_DIR = engine\CMakeFiles\engine.dir\src\ecs\systems
-  TARGET_COMPILE_PDB = engine\CMakeFiles\engine.dir\engine.pdb
-  TARGET_PDB = engine\libengine.pdb
   TARGET_SUPPORT_DIR = engine\CMakeFiles\engine.dir
 
 build engine/CMakeFiles/engine.dir/src/ecs/systems/CameraSystem.cpp.obj: CXX_COMPILER__engine_unscanned_ C$:/Users/opl90/Documents/socka/socka-2dengine/engine/src/ecs/systems/CameraSystem.cpp || cmake_object_order_depends_target_engine
@@ -284,8 +247,6 @@ build engine/CMakeFiles/engine.dir/src/ecs/systems/CameraSystem.cpp.obj: CXX_COM
   INCLUDES = -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/sol2/include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/glm -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/entt/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/json/include -IC:/Users/opl90/Documents/socka/socka-2dengine/engine/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui/backends -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/ImGuizmo -isystem C:/msys64/mingw64/include/SDL2
   OBJECT_DIR = engine\CMakeFiles\engine.dir
   OBJECT_FILE_DIR = engine\CMakeFiles\engine.dir\src\ecs\systems
-  TARGET_COMPILE_PDB = engine\CMakeFiles\engine.dir\engine.pdb
-  TARGET_PDB = engine\libengine.pdb
   TARGET_SUPPORT_DIR = engine\CMakeFiles\engine.dir
 
 build engine/CMakeFiles/engine.dir/src/ecs/systems/ScriptSystem.cpp.obj: CXX_COMPILER__engine_unscanned_ C$:/Users/opl90/Documents/socka/socka-2dengine/engine/src/ecs/systems/ScriptSystem.cpp || cmake_object_order_depends_target_engine
@@ -294,8 +255,6 @@ build engine/CMakeFiles/engine.dir/src/ecs/systems/ScriptSystem.cpp.obj: CXX_COM
   INCLUDES = -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/sol2/include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/glm -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/entt/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/json/include -IC:/Users/opl90/Documents/socka/socka-2dengine/engine/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui/backends -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/ImGuizmo -isystem C:/msys64/mingw64/include/SDL2
   OBJECT_DIR = engine\CMakeFiles\engine.dir
   OBJECT_FILE_DIR = engine\CMakeFiles\engine.dir\src\ecs\systems
-  TARGET_COMPILE_PDB = engine\CMakeFiles\engine.dir\engine.pdb
-  TARGET_PDB = engine\libengine.pdb
   TARGET_SUPPORT_DIR = engine\CMakeFiles\engine.dir
 
 build engine/CMakeFiles/engine.dir/src/core/FileWatcher.cpp.obj: CXX_COMPILER__engine_unscanned_ C$:/Users/opl90/Documents/socka/socka-2dengine/engine/src/core/FileWatcher.cpp || cmake_object_order_depends_target_engine
@@ -304,8 +263,6 @@ build engine/CMakeFiles/engine.dir/src/core/FileWatcher.cpp.obj: CXX_COMPILER__e
   INCLUDES = -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/sol2/include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/glm -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/entt/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/json/include -IC:/Users/opl90/Documents/socka/socka-2dengine/engine/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui/backends -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/ImGuizmo -isystem C:/msys64/mingw64/include/SDL2
   OBJECT_DIR = engine\CMakeFiles\engine.dir
   OBJECT_FILE_DIR = engine\CMakeFiles\engine.dir\src\core
-  TARGET_COMPILE_PDB = engine\CMakeFiles\engine.dir\engine.pdb
-  TARGET_PDB = engine\libengine.pdb
   TARGET_SUPPORT_DIR = engine\CMakeFiles\engine.dir
 
 build engine/CMakeFiles/engine.dir/src/core/ProjectSerializer.cpp.obj: CXX_COMPILER__engine_unscanned_ C$:/Users/opl90/Documents/socka/socka-2dengine/engine/src/core/ProjectSerializer.cpp || cmake_object_order_depends_target_engine
@@ -314,8 +271,6 @@ build engine/CMakeFiles/engine.dir/src/core/ProjectSerializer.cpp.obj: CXX_COMPI
   INCLUDES = -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/sol2/include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/glm -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/entt/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/json/include -IC:/Users/opl90/Documents/socka/socka-2dengine/engine/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui/backends -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/ImGuizmo -isystem C:/msys64/mingw64/include/SDL2
   OBJECT_DIR = engine\CMakeFiles\engine.dir
   OBJECT_FILE_DIR = engine\CMakeFiles\engine.dir\src\core
-  TARGET_COMPILE_PDB = engine\CMakeFiles\engine.dir\engine.pdb
-  TARGET_PDB = engine\libengine.pdb
   TARGET_SUPPORT_DIR = engine\CMakeFiles\engine.dir
 
 build engine/CMakeFiles/engine.dir/src/ecs/components/InheritanceComponent.cpp.obj: CXX_COMPILER__engine_unscanned_ C$:/Users/opl90/Documents/socka/socka-2dengine/engine/src/ecs/components/InheritanceComponent.cpp || cmake_object_order_depends_target_engine
@@ -324,8 +279,6 @@ build engine/CMakeFiles/engine.dir/src/ecs/components/InheritanceComponent.cpp.o
   INCLUDES = -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/sol2/include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/glm -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/entt/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/json/include -IC:/Users/opl90/Documents/socka/socka-2dengine/engine/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui/backends -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/ImGuizmo -isystem C:/msys64/mingw64/include/SDL2
   OBJECT_DIR = engine\CMakeFiles\engine.dir
   OBJECT_FILE_DIR = engine\CMakeFiles\engine.dir\src\ecs\components
-  TARGET_COMPILE_PDB = engine\CMakeFiles\engine.dir\engine.pdb
-  TARGET_PDB = engine\libengine.pdb
   TARGET_SUPPORT_DIR = engine\CMakeFiles\engine.dir
 
 build engine/CMakeFiles/engine.dir/src/ecs/systems/SoundSystem.cpp.obj: CXX_COMPILER__engine_unscanned_ C$:/Users/opl90/Documents/socka/socka-2dengine/engine/src/ecs/systems/SoundSystem.cpp || cmake_object_order_depends_target_engine
@@ -334,8 +287,6 @@ build engine/CMakeFiles/engine.dir/src/ecs/systems/SoundSystem.cpp.obj: CXX_COMP
   INCLUDES = -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/sol2/include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/glm -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/entt/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/json/include -IC:/Users/opl90/Documents/socka/socka-2dengine/engine/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui/backends -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/ImGuizmo -isystem C:/msys64/mingw64/include/SDL2
   OBJECT_DIR = engine\CMakeFiles\engine.dir
   OBJECT_FILE_DIR = engine\CMakeFiles\engine.dir\src\ecs\systems
-  TARGET_COMPILE_PDB = engine\CMakeFiles\engine.dir\engine.pdb
-  TARGET_PDB = engine\libengine.pdb
   TARGET_SUPPORT_DIR = engine\CMakeFiles\engine.dir
 
 build engine/CMakeFiles/engine.dir/src/core/Camera.cpp.obj: CXX_COMPILER__engine_unscanned_ C$:/Users/opl90/Documents/socka/socka-2dengine/engine/src/core/Camera.cpp || cmake_object_order_depends_target_engine
@@ -344,8 +295,6 @@ build engine/CMakeFiles/engine.dir/src/core/Camera.cpp.obj: CXX_COMPILER__engine
   INCLUDES = -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/sol2/include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/glm -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/entt/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/json/include -IC:/Users/opl90/Documents/socka/socka-2dengine/engine/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui/backends -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/ImGuizmo -isystem C:/msys64/mingw64/include/SDL2
   OBJECT_DIR = engine\CMakeFiles\engine.dir
   OBJECT_FILE_DIR = engine\CMakeFiles\engine.dir\src\core
-  TARGET_COMPILE_PDB = engine\CMakeFiles\engine.dir\engine.pdb
-  TARGET_PDB = engine\libengine.pdb
   TARGET_SUPPORT_DIR = engine\CMakeFiles\engine.dir
 
 
@@ -360,9 +309,8 @@ build engine/libengine.a: CXX_STATIC_LIBRARY_LINKER__engine_ engine/CMakeFiles/e
   OBJECT_DIR = engine\CMakeFiles\engine.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = engine\CMakeFiles\engine.dir\engine.pdb
   TARGET_FILE = engine\libengine.a
-  TARGET_PDB = engine\libengine.pdb
+  TARGET_PDB = engine.a.dbg
   TARGET_SUPPORT_DIR = engine\CMakeFiles\engine.dir
 
 
@@ -408,8 +356,6 @@ build editor/CMakeFiles/imgui_backends.dir/__/vendor/imgui/backends/imgui_impl_s
   INCLUDES = -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui/backends -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/ImGuizmo -isystem C:/msys64/mingw64/include/SDL2
   OBJECT_DIR = editor\CMakeFiles\imgui_backends.dir
   OBJECT_FILE_DIR = editor\CMakeFiles\imgui_backends.dir\__\vendor\imgui\backends
-  TARGET_COMPILE_PDB = editor\CMakeFiles\imgui_backends.dir\imgui_backends.pdb
-  TARGET_PDB = editor\libimgui_backends.pdb
   TARGET_SUPPORT_DIR = editor\CMakeFiles\imgui_backends.dir
 
 build editor/CMakeFiles/imgui_backends.dir/__/vendor/imgui/backends/imgui_impl_sdlrenderer2.cpp.obj: CXX_COMPILER__imgui_backends_unscanned_ C$:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui/backends/imgui_impl_sdlrenderer2.cpp || cmake_object_order_depends_target_imgui_backends
@@ -418,8 +364,6 @@ build editor/CMakeFiles/imgui_backends.dir/__/vendor/imgui/backends/imgui_impl_s
   INCLUDES = -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui/backends -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/ImGuizmo -isystem C:/msys64/mingw64/include/SDL2
   OBJECT_DIR = editor\CMakeFiles\imgui_backends.dir
   OBJECT_FILE_DIR = editor\CMakeFiles\imgui_backends.dir\__\vendor\imgui\backends
-  TARGET_COMPILE_PDB = editor\CMakeFiles\imgui_backends.dir\imgui_backends.pdb
-  TARGET_PDB = editor\libimgui_backends.pdb
   TARGET_SUPPORT_DIR = editor\CMakeFiles\imgui_backends.dir
 
 build editor/CMakeFiles/imgui_backends.dir/__/vendor/ImGuizmo/ImGuizmo.cpp.obj: CXX_COMPILER__imgui_backends_unscanned_ C$:/Users/opl90/Documents/socka/socka-2dengine/vendor/ImGuizmo/ImGuizmo.cpp || cmake_object_order_depends_target_imgui_backends
@@ -428,8 +372,6 @@ build editor/CMakeFiles/imgui_backends.dir/__/vendor/ImGuizmo/ImGuizmo.cpp.obj: 
   INCLUDES = -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui/backends -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/ImGuizmo -isystem C:/msys64/mingw64/include/SDL2
   OBJECT_DIR = editor\CMakeFiles\imgui_backends.dir
   OBJECT_FILE_DIR = editor\CMakeFiles\imgui_backends.dir\__\vendor\ImGuizmo
-  TARGET_COMPILE_PDB = editor\CMakeFiles\imgui_backends.dir\imgui_backends.pdb
-  TARGET_PDB = editor\libimgui_backends.pdb
   TARGET_SUPPORT_DIR = editor\CMakeFiles\imgui_backends.dir
 
 
@@ -444,9 +386,8 @@ build editor/libimgui_backends.a: CXX_STATIC_LIBRARY_LINKER__imgui_backends_ edi
   OBJECT_DIR = editor\CMakeFiles\imgui_backends.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = editor\CMakeFiles\imgui_backends.dir\imgui_backends.pdb
   TARGET_FILE = editor\libimgui_backends.a
-  TARGET_PDB = editor\libimgui_backends.pdb
+  TARGET_PDB = imgui_backends.a.dbg
   TARGET_SUPPORT_DIR = editor\CMakeFiles\imgui_backends.dir
 
 # =============================================================================
@@ -464,8 +405,6 @@ build editor/CMakeFiles/editor.dir/src/EditorApp.cpp.obj: CXX_COMPILER__editor_u
   INCLUDES = -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/pfd -IC:/Users/opl90/Documents/socka/socka-2dengine/engine/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/ImGuizmo -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/glm -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui/backends -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/entt/single_include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/json/include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/sol2/include -isystem C:/msys64/mingw64/include/SDL2
   OBJECT_DIR = editor\CMakeFiles\editor.dir
   OBJECT_FILE_DIR = editor\CMakeFiles\editor.dir\src
-  TARGET_COMPILE_PDB = editor\CMakeFiles\editor.dir\
-  TARGET_PDB = editor\editor.pdb
   TARGET_SUPPORT_DIR = editor\CMakeFiles\editor.dir
 
 build editor/CMakeFiles/editor.dir/src/main.cpp.obj: CXX_COMPILER__editor_unscanned_ C$:/Users/opl90/Documents/socka/socka-2dengine/editor/src/main.cpp || cmake_object_order_depends_target_editor
@@ -474,8 +413,6 @@ build editor/CMakeFiles/editor.dir/src/main.cpp.obj: CXX_COMPILER__editor_unscan
   INCLUDES = -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/pfd -IC:/Users/opl90/Documents/socka/socka-2dengine/engine/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/ImGuizmo -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/glm -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui/backends -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/entt/single_include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/json/include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/sol2/include -isystem C:/msys64/mingw64/include/SDL2
   OBJECT_DIR = editor\CMakeFiles\editor.dir
   OBJECT_FILE_DIR = editor\CMakeFiles\editor.dir\src
-  TARGET_COMPILE_PDB = editor\CMakeFiles\editor.dir\
-  TARGET_PDB = editor\editor.pdb
   TARGET_SUPPORT_DIR = editor\CMakeFiles\editor.dir
 
 build editor/CMakeFiles/editor.dir/src/ui/Console.cpp.obj: CXX_COMPILER__editor_unscanned_ C$:/Users/opl90/Documents/socka/socka-2dengine/editor/src/ui/Console.cpp || cmake_object_order_depends_target_editor
@@ -484,8 +421,6 @@ build editor/CMakeFiles/editor.dir/src/ui/Console.cpp.obj: CXX_COMPILER__editor_
   INCLUDES = -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/pfd -IC:/Users/opl90/Documents/socka/socka-2dengine/engine/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/ImGuizmo -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/glm -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui/backends -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/entt/single_include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/json/include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/sol2/include -isystem C:/msys64/mingw64/include/SDL2
   OBJECT_DIR = editor\CMakeFiles\editor.dir
   OBJECT_FILE_DIR = editor\CMakeFiles\editor.dir\src\ui
-  TARGET_COMPILE_PDB = editor\CMakeFiles\editor.dir\
-  TARGET_PDB = editor\editor.pdb
   TARGET_SUPPORT_DIR = editor\CMakeFiles\editor.dir
 
 build editor/CMakeFiles/editor.dir/src/ui/Inspector.cpp.obj: CXX_COMPILER__editor_unscanned_ C$:/Users/opl90/Documents/socka/socka-2dengine/editor/src/ui/Inspector.cpp || cmake_object_order_depends_target_editor
@@ -494,8 +429,6 @@ build editor/CMakeFiles/editor.dir/src/ui/Inspector.cpp.obj: CXX_COMPILER__edito
   INCLUDES = -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/pfd -IC:/Users/opl90/Documents/socka/socka-2dengine/engine/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/ImGuizmo -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/glm -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui/backends -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/entt/single_include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/json/include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/sol2/include -isystem C:/msys64/mingw64/include/SDL2
   OBJECT_DIR = editor\CMakeFiles\editor.dir
   OBJECT_FILE_DIR = editor\CMakeFiles\editor.dir\src\ui
-  TARGET_COMPILE_PDB = editor\CMakeFiles\editor.dir\
-  TARGET_PDB = editor\editor.pdb
   TARGET_SUPPORT_DIR = editor\CMakeFiles\editor.dir
 
 build editor/CMakeFiles/editor.dir/src/ui/AssetManager.cpp.obj: CXX_COMPILER__editor_unscanned_ C$:/Users/opl90/Documents/socka/socka-2dengine/editor/src/ui/AssetManager.cpp || cmake_object_order_depends_target_editor
@@ -504,8 +437,6 @@ build editor/CMakeFiles/editor.dir/src/ui/AssetManager.cpp.obj: CXX_COMPILER__ed
   INCLUDES = -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/pfd -IC:/Users/opl90/Documents/socka/socka-2dengine/engine/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/ImGuizmo -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/glm -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui/backends -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/entt/single_include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/json/include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/sol2/include -isystem C:/msys64/mingw64/include/SDL2
   OBJECT_DIR = editor\CMakeFiles\editor.dir
   OBJECT_FILE_DIR = editor\CMakeFiles\editor.dir\src\ui
-  TARGET_COMPILE_PDB = editor\CMakeFiles\editor.dir\
-  TARGET_PDB = editor\editor.pdb
   TARGET_SUPPORT_DIR = editor\CMakeFiles\editor.dir
 
 build editor/CMakeFiles/editor.dir/src/ui/Hierarchy.cpp.obj: CXX_COMPILER__editor_unscanned_ C$:/Users/opl90/Documents/socka/socka-2dengine/editor/src/ui/Hierarchy.cpp || cmake_object_order_depends_target_editor
@@ -514,8 +445,6 @@ build editor/CMakeFiles/editor.dir/src/ui/Hierarchy.cpp.obj: CXX_COMPILER__edito
   INCLUDES = -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/pfd -IC:/Users/opl90/Documents/socka/socka-2dengine/engine/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/ImGuizmo -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/glm -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui/backends -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/entt/single_include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/json/include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/sol2/include -isystem C:/msys64/mingw64/include/SDL2
   OBJECT_DIR = editor\CMakeFiles\editor.dir
   OBJECT_FILE_DIR = editor\CMakeFiles\editor.dir\src\ui
-  TARGET_COMPILE_PDB = editor\CMakeFiles\editor.dir\
-  TARGET_PDB = editor\editor.pdb
   TARGET_SUPPORT_DIR = editor\CMakeFiles\editor.dir
 
 build editor/CMakeFiles/editor.dir/src/ui/MainMenu.cpp.obj: CXX_COMPILER__editor_unscanned_ C$:/Users/opl90/Documents/socka/socka-2dengine/editor/src/ui/MainMenu.cpp || cmake_object_order_depends_target_editor
@@ -524,8 +453,6 @@ build editor/CMakeFiles/editor.dir/src/ui/MainMenu.cpp.obj: CXX_COMPILER__editor
   INCLUDES = -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/pfd -IC:/Users/opl90/Documents/socka/socka-2dengine/engine/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/ImGuizmo -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/glm -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui/backends -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/entt/single_include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/json/include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/sol2/include -isystem C:/msys64/mingw64/include/SDL2
   OBJECT_DIR = editor\CMakeFiles\editor.dir
   OBJECT_FILE_DIR = editor\CMakeFiles\editor.dir\src\ui
-  TARGET_COMPILE_PDB = editor\CMakeFiles\editor.dir\
-  TARGET_PDB = editor\editor.pdb
   TARGET_SUPPORT_DIR = editor\CMakeFiles\editor.dir
 
 build editor/CMakeFiles/editor.dir/src/ui/Viewport.cpp.obj: CXX_COMPILER__editor_unscanned_ C$:/Users/opl90/Documents/socka/socka-2dengine/editor/src/ui/Viewport.cpp || cmake_object_order_depends_target_editor
@@ -534,8 +461,6 @@ build editor/CMakeFiles/editor.dir/src/ui/Viewport.cpp.obj: CXX_COMPILER__editor
   INCLUDES = -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/pfd -IC:/Users/opl90/Documents/socka/socka-2dengine/engine/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/ImGuizmo -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/glm -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui/backends -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/entt/single_include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/json/include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/sol2/include -isystem C:/msys64/mingw64/include/SDL2
   OBJECT_DIR = editor\CMakeFiles\editor.dir
   OBJECT_FILE_DIR = editor\CMakeFiles\editor.dir\src\ui
-  TARGET_COMPILE_PDB = editor\CMakeFiles\editor.dir\
-  TARGET_PDB = editor\editor.pdb
   TARGET_SUPPORT_DIR = editor\CMakeFiles\editor.dir
 
 build editor/CMakeFiles/editor.dir/src/ui/ProjectBrowser.cpp.obj: CXX_COMPILER__editor_unscanned_ C$:/Users/opl90/Documents/socka/socka-2dengine/editor/src/ui/ProjectBrowser.cpp || cmake_object_order_depends_target_editor
@@ -544,8 +469,6 @@ build editor/CMakeFiles/editor.dir/src/ui/ProjectBrowser.cpp.obj: CXX_COMPILER__
   INCLUDES = -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/pfd -IC:/Users/opl90/Documents/socka/socka-2dengine/engine/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/ImGuizmo -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/glm -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui/backends -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/entt/single_include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/json/include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/sol2/include -isystem C:/msys64/mingw64/include/SDL2
   OBJECT_DIR = editor\CMakeFiles\editor.dir
   OBJECT_FILE_DIR = editor\CMakeFiles\editor.dir\src\ui
-  TARGET_COMPILE_PDB = editor\CMakeFiles\editor.dir\
-  TARGET_PDB = editor\editor.pdb
   TARGET_SUPPORT_DIR = editor\CMakeFiles\editor.dir
 
 build editor/CMakeFiles/editor.dir/src/ui/Gizmos.cpp.obj: CXX_COMPILER__editor_unscanned_ C$:/Users/opl90/Documents/socka/socka-2dengine/editor/src/ui/Gizmos.cpp || cmake_object_order_depends_target_editor
@@ -554,8 +477,6 @@ build editor/CMakeFiles/editor.dir/src/ui/Gizmos.cpp.obj: CXX_COMPILER__editor_u
   INCLUDES = -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/pfd -IC:/Users/opl90/Documents/socka/socka-2dengine/engine/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/ImGuizmo -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/glm -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui/backends -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/entt/single_include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/json/include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/sol2/include -isystem C:/msys64/mingw64/include/SDL2
   OBJECT_DIR = editor\CMakeFiles\editor.dir
   OBJECT_FILE_DIR = editor\CMakeFiles\editor.dir\src\ui
-  TARGET_COMPILE_PDB = editor\CMakeFiles\editor.dir\
-  TARGET_PDB = editor\editor.pdb
   TARGET_SUPPORT_DIR = editor\CMakeFiles\editor.dir
 
 
@@ -567,15 +488,14 @@ build editor/CMakeFiles/editor.dir/src/ui/Gizmos.cpp.obj: CXX_COMPILER__editor_u
 # Link the executable editor\editor.exe
 
 build editor/editor.exe: CXX_EXECUTABLE_LINKER__editor_ editor/CMakeFiles/editor.dir/src/EditorApp.cpp.obj editor/CMakeFiles/editor.dir/src/main.cpp.obj editor/CMakeFiles/editor.dir/src/ui/Console.cpp.obj editor/CMakeFiles/editor.dir/src/ui/Inspector.cpp.obj editor/CMakeFiles/editor.dir/src/ui/AssetManager.cpp.obj editor/CMakeFiles/editor.dir/src/ui/Hierarchy.cpp.obj editor/CMakeFiles/editor.dir/src/ui/MainMenu.cpp.obj editor/CMakeFiles/editor.dir/src/ui/Viewport.cpp.obj editor/CMakeFiles/editor.dir/src/ui/ProjectBrowser.cpp.obj editor/CMakeFiles/editor.dir/src/ui/Gizmos.cpp.obj | engine/libengine.a editor/libimgui_backends.a libimgui.a C$:/msys64/mingw64/lib/libSDL2main.a C$:/msys64/mingw64/lib/libSDL2.dll.a C$:/msys64/mingw64/lib/libSDL2_image.dll.a C$:/msys64/mingw64/lib/libSDL2_mixer.dll.a C$:/msys64/mingw64/lib/liblua.dll.a || editor/libimgui_backends.a engine/libengine.a libimgui.a
-  LINK_FLAGS = -mwindows
+  LINK_FLAGS = -static-libgcc -static-libstdc++ -Wl,-Bstatic -lstdc++ -lpthread -Wl,-Bdynamic -mwindows
   LINK_LIBRARIES = engine/libengine.a  editor/libimgui_backends.a  libimgui.a  -lmingw32  C:/msys64/mingw64/lib/libSDL2main.a  C:/msys64/mingw64/lib/libSDL2.dll.a  C:/msys64/mingw64/lib/libSDL2_image.dll.a  C:/msys64/mingw64/lib/libSDL2_mixer.dll.a  -lcomdlg32  -lole32  -lshell32  -lshlwapi  C:/msys64/mingw64/lib/liblua.dll.a  -lm  -Wl,--undefined=WinMain  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = editor\CMakeFiles\editor.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = editor\CMakeFiles\editor.dir\
   TARGET_FILE = editor\editor.exe
   TARGET_IMPLIB = editor\libeditor.dll.a
-  TARGET_PDB = editor\editor.pdb
+  TARGET_PDB = editor.exe.dbg
   TARGET_SUPPORT_DIR = editor\CMakeFiles\editor.dir
 
 # =============================================================================
@@ -593,8 +513,6 @@ build editor/CMakeFiles/Runtime.dir/src/runtime.cpp.obj: CXX_COMPILER__Runtime_u
   INCLUDES = -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/pfd -IC:/Users/opl90/Documents/socka/socka-2dengine/engine/src -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/ImGuizmo -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/glm -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui/backends -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/entt/single_include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/json/include -IC:/Users/opl90/Documents/socka/socka-2dengine/vendor/sol2/include -isystem C:/msys64/mingw64/include/SDL2
   OBJECT_DIR = editor\CMakeFiles\Runtime.dir
   OBJECT_FILE_DIR = editor\CMakeFiles\Runtime.dir\src
-  TARGET_COMPILE_PDB = editor\CMakeFiles\Runtime.dir\
-  TARGET_PDB = editor\Runtime.pdb
   TARGET_SUPPORT_DIR = editor\CMakeFiles\Runtime.dir
 
 
@@ -606,15 +524,14 @@ build editor/CMakeFiles/Runtime.dir/src/runtime.cpp.obj: CXX_COMPILER__Runtime_u
 # Link the executable editor\Runtime.exe
 
 build editor/Runtime.exe: CXX_EXECUTABLE_LINKER__Runtime_ editor/CMakeFiles/Runtime.dir/src/runtime.cpp.obj | engine/libengine.a editor/libimgui_backends.a libimgui.a C$:/msys64/mingw64/lib/libSDL2main.a C$:/msys64/mingw64/lib/libSDL2.dll.a C$:/msys64/mingw64/lib/libSDL2_image.dll.a C$:/msys64/mingw64/lib/libSDL2_mixer.dll.a C$:/msys64/mingw64/lib/liblua.dll.a || editor/libimgui_backends.a engine/libengine.a libimgui.a
-  LINK_FLAGS = -mwindows
+  LINK_FLAGS = -static-libgcc -static-libstdc++ -Wl,-Bstatic -lstdc++ -lpthread -Wl,-Bdynamic -mwindows
   LINK_LIBRARIES = engine/libengine.a  editor/libimgui_backends.a  libimgui.a  -lmingw32  C:/msys64/mingw64/lib/libSDL2main.a  C:/msys64/mingw64/lib/libSDL2.dll.a  C:/msys64/mingw64/lib/libSDL2_image.dll.a  C:/msys64/mingw64/lib/libSDL2_mixer.dll.a  -lcomdlg32  -lole32  -lshell32  -lshlwapi  C:/msys64/mingw64/lib/liblua.dll.a  -lm  -Wl,--undefined=WinMain  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = editor\CMakeFiles\Runtime.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = editor\CMakeFiles\Runtime.dir\
   TARGET_FILE = editor\Runtime.exe
   TARGET_IMPLIB = editor\libRuntime.dll.a
-  TARGET_PDB = editor\Runtime.pdb
+  TARGET_PDB = Runtime.exe.dbg
   TARGET_SUPPORT_DIR = editor\CMakeFiles\Runtime.dir
 
 
@@ -692,14 +609,14 @@ build engine/all: phony engine/libengine.a
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja C$:/Users/opl90/Documents/socka/socka-2dengine/build-windows/cmake_install.cmake C$:/Users/opl90/Documents/socka/socka-2dengine/build-windows/engine/cmake_install.cmake C$:/Users/opl90/Documents/socka/socka-2dengine/build-windows/editor/cmake_install.cmake: RERUN_CMAKE | C$:/Users/opl90/Documents/socka/socka-2dengine/CMakeLists.txt C$:/Users/opl90/Documents/socka/socka-2dengine/editor/CMakeLists.txt C$:/Users/opl90/Documents/socka/socka-2dengine/engine/CMakeLists.txt C$:/msys64/mingw64/lib/cmake/SDL2/SDL2Config.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2ConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2Targets-release.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2Targets.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2mainTargets-release.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2mainTargets.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2staticTargets-release.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2staticTargets.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2testTargets-release.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2testTargets.cmake C$:/msys64/mingw64/lib/cmake/SDL2/sdlfind.cmake C$:/msys64/mingw64/lib/cmake/SDL2_image/Findlibjxl.cmake C$:/msys64/mingw64/lib/cmake/SDL2_image/Findwebp.cmake C$:/msys64/mingw64/lib/cmake/SDL2_image/sdl2_image-config-version.cmake C$:/msys64/mingw64/lib/cmake/SDL2_image/sdl2_image-config.cmake C$:/msys64/mingw64/lib/cmake/SDL2_mixer/FindFLAC.cmake C$:/msys64/mingw64/lib/cmake/SDL2_mixer/FindOpusFile.cmake C$:/msys64/mingw64/lib/cmake/SDL2_mixer/FindVorbis.cmake C$:/msys64/mingw64/lib/cmake/SDL2_mixer/Findlibxmp.cmake C$:/msys64/mingw64/lib/cmake/SDL2_mixer/Findmpg123.cmake C$:/msys64/mingw64/lib/cmake/SDL2_mixer/Findwavpack.cmake C$:/msys64/mingw64/lib/cmake/SDL2_mixer/PkgConfigHelper.cmake C$:/msys64/mingw64/lib/cmake/SDL2_mixer/sdl2_mixer-config-version.cmake C$:/msys64/mingw64/lib/cmake/SDL2_mixer/sdl2_mixer-config.cmake C$:/msys64/mingw64/lib/cmake/libavif/libavif-config-release.cmake C$:/msys64/mingw64/lib/cmake/libavif/libavif-config-version.cmake C$:/msys64/mingw64/lib/cmake/libavif/libavif-config.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeCCompilerABI.c C$:/msys64/mingw64/share/cmake/Modules/CMakeCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCompilerIdDetection.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineRCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeFindBinUtils.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeFindDependencyMacro.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeNinjaFindMake.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeRCCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystem.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCXXCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCompilerCommon.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestRCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Diab-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX-CXXImportStd.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Renesas-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/FeatureSummary.cmake C$:/msys64/mingw64/share/cmake/Modules/FindJPEG.cmake C$:/msys64/mingw64/share/cmake/Modules/FindLua.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPNG.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPackageHandleStandardArgs.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPackageMessage.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPkgConfig.cmake C$:/msys64/mingw64/share/cmake/Modules/FindTIFF.cmake C$:/msys64/mingw64/share/cmake/Modules/FindZLIB.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeInspectCLinker.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/FeatureTesting.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Determine-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake C$:/msys64/mingw64/share/cmake/Modules/SelectLibraryConfigurations.cmake CMakeCache.txt CMakeFiles/4.2.1/CMakeCCompiler.cmake CMakeFiles/4.2.1/CMakeCXXCompiler.cmake CMakeFiles/4.2.1/CMakeRCCompiler.cmake CMakeFiles/4.2.1/CMakeSystem.cmake
+build build.ninja C$:/Users/opl90/Documents/socka/socka-2dengine/build-windows/cmake_install.cmake C$:/Users/opl90/Documents/socka/socka-2dengine/build-windows/engine/cmake_install.cmake C$:/Users/opl90/Documents/socka/socka-2dengine/build-windows/editor/cmake_install.cmake: RERUN_CMAKE | C$:/Users/opl90/Documents/socka/socka-2dengine/CMakeLists.txt C$:/Users/opl90/Documents/socka/socka-2dengine/editor/CMakeLists.txt C$:/Users/opl90/Documents/socka/socka-2dengine/engine/CMakeLists.txt C$:/msys64/mingw64/lib/cmake/SDL2/SDL2Config.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2ConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2Targets-release.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2Targets.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2mainTargets-release.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2mainTargets.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2staticTargets-release.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2staticTargets.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2testTargets-release.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2testTargets.cmake C$:/msys64/mingw64/lib/cmake/SDL2/sdlfind.cmake C$:/msys64/mingw64/lib/cmake/SDL2_image/Findlibjxl.cmake C$:/msys64/mingw64/lib/cmake/SDL2_image/Findwebp.cmake C$:/msys64/mingw64/lib/cmake/SDL2_image/sdl2_image-config-version.cmake C$:/msys64/mingw64/lib/cmake/SDL2_image/sdl2_image-config.cmake C$:/msys64/mingw64/lib/cmake/SDL2_mixer/FindFLAC.cmake C$:/msys64/mingw64/lib/cmake/SDL2_mixer/FindOpusFile.cmake C$:/msys64/mingw64/lib/cmake/SDL2_mixer/FindVorbis.cmake C$:/msys64/mingw64/lib/cmake/SDL2_mixer/Findlibxmp.cmake C$:/msys64/mingw64/lib/cmake/SDL2_mixer/Findmpg123.cmake C$:/msys64/mingw64/lib/cmake/SDL2_mixer/Findwavpack.cmake C$:/msys64/mingw64/lib/cmake/SDL2_mixer/PkgConfigHelper.cmake C$:/msys64/mingw64/lib/cmake/SDL2_mixer/sdl2_mixer-config-version.cmake C$:/msys64/mingw64/lib/cmake/SDL2_mixer/sdl2_mixer-config.cmake C$:/msys64/mingw64/lib/cmake/libavif/libavif-config-release.cmake C$:/msys64/mingw64/lib/cmake/libavif/libavif-config-version.cmake C$:/msys64/mingw64/lib/cmake/libavif/libavif-config.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeFindDependencyMacro.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/FeatureSummary.cmake C$:/msys64/mingw64/share/cmake/Modules/FindJPEG.cmake C$:/msys64/mingw64/share/cmake/Modules/FindLua.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPNG.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPackageHandleStandardArgs.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPackageMessage.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPkgConfig.cmake C$:/msys64/mingw64/share/cmake/Modules/FindTIFF.cmake C$:/msys64/mingw64/share/cmake/Modules/FindZLIB.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake C$:/msys64/mingw64/share/cmake/Modules/SelectLibraryConfigurations.cmake CMakeCache.txt CMakeFiles/4.2.1/CMakeCCompiler.cmake CMakeFiles/4.2.1/CMakeCXXCompiler.cmake CMakeFiles/4.2.1/CMakeRCCompiler.cmake CMakeFiles/4.2.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/opl90/Documents/socka/socka-2dengine/CMakeLists.txt C$:/Users/opl90/Documents/socka/socka-2dengine/editor/CMakeLists.txt C$:/Users/opl90/Documents/socka/socka-2dengine/engine/CMakeLists.txt C$:/msys64/mingw64/lib/cmake/SDL2/SDL2Config.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2ConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2Targets-release.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2Targets.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2mainTargets-release.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2mainTargets.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2staticTargets-release.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2staticTargets.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2testTargets-release.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2testTargets.cmake C$:/msys64/mingw64/lib/cmake/SDL2/sdlfind.cmake C$:/msys64/mingw64/lib/cmake/SDL2_image/Findlibjxl.cmake C$:/msys64/mingw64/lib/cmake/SDL2_image/Findwebp.cmake C$:/msys64/mingw64/lib/cmake/SDL2_image/sdl2_image-config-version.cmake C$:/msys64/mingw64/lib/cmake/SDL2_image/sdl2_image-config.cmake C$:/msys64/mingw64/lib/cmake/SDL2_mixer/FindFLAC.cmake C$:/msys64/mingw64/lib/cmake/SDL2_mixer/FindOpusFile.cmake C$:/msys64/mingw64/lib/cmake/SDL2_mixer/FindVorbis.cmake C$:/msys64/mingw64/lib/cmake/SDL2_mixer/Findlibxmp.cmake C$:/msys64/mingw64/lib/cmake/SDL2_mixer/Findmpg123.cmake C$:/msys64/mingw64/lib/cmake/SDL2_mixer/Findwavpack.cmake C$:/msys64/mingw64/lib/cmake/SDL2_mixer/PkgConfigHelper.cmake C$:/msys64/mingw64/lib/cmake/SDL2_mixer/sdl2_mixer-config-version.cmake C$:/msys64/mingw64/lib/cmake/SDL2_mixer/sdl2_mixer-config.cmake C$:/msys64/mingw64/lib/cmake/libavif/libavif-config-release.cmake C$:/msys64/mingw64/lib/cmake/libavif/libavif-config-version.cmake C$:/msys64/mingw64/lib/cmake/libavif/libavif-config.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeCCompilerABI.c C$:/msys64/mingw64/share/cmake/Modules/CMakeCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCompilerIdDetection.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineRCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeFindBinUtils.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeFindDependencyMacro.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeNinjaFindMake.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeRCCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystem.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCXXCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCompilerCommon.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestRCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Diab-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX-CXXImportStd.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Renesas-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/FeatureSummary.cmake C$:/msys64/mingw64/share/cmake/Modules/FindJPEG.cmake C$:/msys64/mingw64/share/cmake/Modules/FindLua.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPNG.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPackageHandleStandardArgs.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPackageMessage.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPkgConfig.cmake C$:/msys64/mingw64/share/cmake/Modules/FindTIFF.cmake C$:/msys64/mingw64/share/cmake/Modules/FindZLIB.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeInspectCLinker.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/FeatureTesting.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Determine-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake C$:/msys64/mingw64/share/cmake/Modules/SelectLibraryConfigurations.cmake CMakeCache.txt CMakeFiles/4.2.1/CMakeCCompiler.cmake CMakeFiles/4.2.1/CMakeCXXCompiler.cmake CMakeFiles/4.2.1/CMakeRCCompiler.cmake CMakeFiles/4.2.1/CMakeSystem.cmake: phony
+build C$:/Users/opl90/Documents/socka/socka-2dengine/CMakeLists.txt C$:/Users/opl90/Documents/socka/socka-2dengine/editor/CMakeLists.txt C$:/Users/opl90/Documents/socka/socka-2dengine/engine/CMakeLists.txt C$:/msys64/mingw64/lib/cmake/SDL2/SDL2Config.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2ConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2Targets-release.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2Targets.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2mainTargets-release.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2mainTargets.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2staticTargets-release.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2staticTargets.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2testTargets-release.cmake C$:/msys64/mingw64/lib/cmake/SDL2/SDL2testTargets.cmake C$:/msys64/mingw64/lib/cmake/SDL2/sdlfind.cmake C$:/msys64/mingw64/lib/cmake/SDL2_image/Findlibjxl.cmake C$:/msys64/mingw64/lib/cmake/SDL2_image/Findwebp.cmake C$:/msys64/mingw64/lib/cmake/SDL2_image/sdl2_image-config-version.cmake C$:/msys64/mingw64/lib/cmake/SDL2_image/sdl2_image-config.cmake C$:/msys64/mingw64/lib/cmake/SDL2_mixer/FindFLAC.cmake C$:/msys64/mingw64/lib/cmake/SDL2_mixer/FindOpusFile.cmake C$:/msys64/mingw64/lib/cmake/SDL2_mixer/FindVorbis.cmake C$:/msys64/mingw64/lib/cmake/SDL2_mixer/Findlibxmp.cmake C$:/msys64/mingw64/lib/cmake/SDL2_mixer/Findmpg123.cmake C$:/msys64/mingw64/lib/cmake/SDL2_mixer/Findwavpack.cmake C$:/msys64/mingw64/lib/cmake/SDL2_mixer/PkgConfigHelper.cmake C$:/msys64/mingw64/lib/cmake/SDL2_mixer/sdl2_mixer-config-version.cmake C$:/msys64/mingw64/lib/cmake/SDL2_mixer/sdl2_mixer-config.cmake C$:/msys64/mingw64/lib/cmake/libavif/libavif-config-release.cmake C$:/msys64/mingw64/lib/cmake/libavif/libavif-config-version.cmake C$:/msys64/mingw64/lib/cmake/libavif/libavif-config.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeFindDependencyMacro.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/FeatureSummary.cmake C$:/msys64/mingw64/share/cmake/Modules/FindJPEG.cmake C$:/msys64/mingw64/share/cmake/Modules/FindLua.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPNG.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPackageHandleStandardArgs.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPackageMessage.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPkgConfig.cmake C$:/msys64/mingw64/share/cmake/Modules/FindTIFF.cmake C$:/msys64/mingw64/share/cmake/Modules/FindZLIB.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake C$:/msys64/mingw64/share/cmake/Modules/SelectLibraryConfigurations.cmake CMakeCache.txt CMakeFiles/4.2.1/CMakeCCompiler.cmake CMakeFiles/4.2.1/CMakeCXXCompiler.cmake CMakeFiles/4.2.1/CMakeRCCompiler.cmake CMakeFiles/4.2.1/CMakeSystem.cmake: phony
 
 
 #############################################

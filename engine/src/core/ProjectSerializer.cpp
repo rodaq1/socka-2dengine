@@ -52,14 +52,11 @@ namespace Engine
     Log::info("[ProjectSerializer] Saved project file: " + filePath.string());
   }
 
-  bool ProjectSerializer::loadProjectFile(Project *project,
-                                          const fs::path &filepath)
+  bool ProjectSerializer::loadProjectFile(Project *project, const fs::path &filepath)
   {
     std::ifstream stream(filepath);
     if (!stream.is_open())
-    {
       return false;
-    }
 
     nlohmann::json data;
     try
@@ -72,7 +69,6 @@ namespace Engine
       return false;
     }
 
-    // Ensure we are reading from the "Project" sub-object used in saveProjectFile
     if (!data.contains("Project"))
     {
       Log::error("Project file is missing 'Project' root object.");
@@ -80,22 +76,25 @@ namespace Engine
     }
 
     auto &pData = data["Project"];
+    // Get the reference to the actual config object in the project
     auto &config = project->getConfig();
 
-    // Use .value() to provide safe defaults if fields are missing in older files
     config.name = pData.value("Name", "Untitled Project");
     config.engineVersion = pData.value("Version", "1.0.0");
-    config.startScenePath = pData.value("StartScene", "scenes/main.json");
     config.assetDirectory = pData.value("AssetDirectory", "assets");
-    config.lastActiveScene = pData.value("LastSceneOpened", "main.json");
-
-    // LOAD WIDTH AND HEIGHT HERE
     config.width = pData.value("Width", 1280);
     config.height = pData.value("Height", 720);
 
-    Log::info("Loaded project: " + config.name + " (" +
-              std::to_string(config.width) + "x" + std::to_string(config.height) +
-              ")");
+    if (pData.contains("LastSceneOpened"))
+    {
+      config.lastActiveScene = pData.value("LastSceneOpened", "");
+    }
+    else if (pData.contains("StartScene"))
+    {
+      config.lastActiveScene = pData.value("StartScene", "");
+    }
+
+    Log::info("Loaded project: " + config.name + " (Scene: " + config.lastActiveScene + ")");
     return true;
   }
 
@@ -116,6 +115,8 @@ namespace Engine
     if (auto *camera = scene->getSceneCamera())
     {
       sceneJson["SceneCamera"] = {
+          {"Position", {camera->getPosition().x, camera->getPosition().y}},
+          {"Rotation", camera->getRotation()},
           {"OrthographicSize", camera->getOrthographicSize()},
           {"AspectRatio", camera->getAspectRatio()},
           {"NearClip", camera->getNearClip()},
@@ -258,7 +259,7 @@ namespace Engine
 
   bool ProjectSerializer::loadScene(std::unique_ptr<Scene> &scenePtr,
                                     SDL_Renderer *renderer,
-                                    const fs::path& filepath,
+                                    const fs::path &filepath,
                                     AssetManager *assetManager)
   {
     std::ifstream in(filepath);
@@ -272,26 +273,29 @@ namespace Engine
           std::make_unique<Scene>(sceneJson.value("SceneName", "Untitled"));
       scenePtr->setRenderer(renderer);
 
-      if (sceneJson.contains("Background")) {
-            auto& bgJson = sceneJson["Background"];
-            BackgroundSettings bg;
-            
-            bg.type = (BackgroundType)bgJson.value("Type", 0);
-            
-            if (bgJson.contains("Color1")) {
-                bg.color1 = { bgJson["Color1"][0], bgJson["Color1"][1], 
-                             bgJson["Color1"][2], bgJson["Color1"][3] };
-            }
-            if (bgJson.contains("Color2")) {
-                bg.color2 = { bgJson["Color2"][0], bgJson["Color2"][1], 
-                             bgJson["Color2"][2], bgJson["Color2"][3] };
-            }
-            
-            bg.assetId = bgJson.value("AssetId", "");
-            bg.stretch = bgJson.value("Stretch", true);
-            
-            scenePtr->setBackground(bg);
+      if (sceneJson.contains("Background"))
+      {
+        auto &bgJson = sceneJson["Background"];
+        BackgroundSettings bg;
+
+        bg.type = (BackgroundType)bgJson.value("Type", 0);
+
+        if (bgJson.contains("Color1"))
+        {
+          bg.color1 = {bgJson["Color1"][0], bgJson["Color1"][1],
+                       bgJson["Color1"][2], bgJson["Color1"][3]};
         }
+        if (bgJson.contains("Color2"))
+        {
+          bg.color2 = {bgJson["Color2"][0], bgJson["Color2"][1],
+                       bgJson["Color2"][2], bgJson["Color2"][3]};
+        }
+
+        bg.assetId = bgJson.value("AssetId", "");
+        bg.stretch = bgJson.value("Stretch", true);
+
+        scenePtr->setBackground(bg);
+      }
 
       // Deserialize Scene Camera
       if (sceneJson.contains("SceneCamera"))
@@ -299,6 +303,20 @@ namespace Engine
         auto &camVal = sceneJson["SceneCamera"];
         if (auto *camera = scenePtr->getSceneCamera())
         {
+          // Handle Position [x, y]
+          if (camVal.contains("Position") && camVal["Position"].is_array())
+          {
+            float x = camVal["Position"][0].get<float>();
+            float y = camVal["Position"][1].get<float>();
+            camera->setPosition({x, y});
+          }
+          else
+          {
+            camera->setPosition({0.0f, 0.0f});
+          }
+
+          camera->setRotation(camVal.value("Rotation", 0.0f));
+
           camera->setOrthographicSize(camVal.value("OrthographicSize", 10.0f));
           camera->setAspectRatio(camVal.value("AspectRatio", 1.778f));
           camera->setNearClip(camVal.value("NearClip", -1.0f));
@@ -327,22 +345,28 @@ namespace Engine
 
   namespace fs = std::filesystem;
 
- std::string Engine::ProjectSerializer::findAssetPath(const fs::path &root,
-                                                     const std::string &fileName,
-                                                     int depth,
-                                                     int maxDepth) {
-    if (depth > maxDepth) return "";
+  std::string Engine::ProjectSerializer::findAssetPath(const fs::path &root,
+                                                       const std::string &fileName,
+                                                       int depth,
+                                                       int maxDepth)
+  {
+    if (depth > maxDepth)
+      return "";
     fs::path candidate = root / fileName;
-    if (fs::exists(candidate)) return candidate.string();
+    if (fs::exists(candidate))
+      return candidate.string();
 
-    for (auto& entry : fs::directory_iterator(root)) {
-        if (entry.is_directory()) {
-            std::string found = findAssetPath(entry.path(), fileName, depth + 1, maxDepth);
-            if (!found.empty()) return found;
-        }
+    for (auto &entry : fs::directory_iterator(root))
+    {
+      if (entry.is_directory())
+      {
+        std::string found = findAssetPath(entry.path(), fileName, depth + 1, maxDepth);
+        if (!found.empty())
+          return found;
+      }
     }
     return "";
-}
+  }
 
   void ProjectSerializer::deserializeEntity(Scene *scene, const json &j,
                                             AssetManager *assetManager)

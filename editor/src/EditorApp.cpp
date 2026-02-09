@@ -51,17 +51,17 @@ void InitBrowserFonts()
   float baseSize = 18.0f;
 
   g_FontTitle = io.Fonts->AddFontFromFileTTF(
-      "../editor/src/ui/fonts/Roboto-Bold.ttf", 32.0f);
+      "../fonts/Roboto-Bold.ttf", 32.0f);
   if (!g_FontTitle)
     g_FontTitle = g_FontDefault;
 
   g_FontHeading = io.Fonts->AddFontFromFileTTF(
-      "../editor/src/ui/fonts/Roboto-Medium.ttf", 22.0f);
+      "../fonts/Roboto-Medium.ttf", 22.0f);
   if (!g_FontHeading)
     g_FontHeading = g_FontDefault;
 
   g_FontDefault = io.Fonts->AddFontFromFileTTF(
-      "../editor/src/ui/fonts/Roboto-Regular.ttf", 14.0f);
+      "../fonts/Roboto-Regular.ttf", 14.0f);
 
   io.Fonts->Build();
 }
@@ -126,12 +126,13 @@ void EditorApp::setActiveScene(const std::string &scenePath)
 
     std::filesystem::path p(scenePath);
     config.lastActiveScene = p.filename().string();
-    Engine::Log::info("yo " + m_currentProject->getProjectFilePath());
 
     Engine::ProjectSerializer::saveProjectFile(
         m_currentProject, m_currentProject->getProjectFilePath());
   }
 }
+
+// ... inside EditorApp::initialize() ...
 
 void EditorApp::initialize()
 {
@@ -141,23 +142,23 @@ void EditorApp::initialize()
     return;
   }
 
+  Engine::ProjectConfig& config = m_currentProject->getConfig();
+
   m_GameRenderTarget = SDL_CreateTexture(m_Renderer, SDL_PIXELFORMAT_RGBA8888,
                                          SDL_TEXTUREACCESS_TARGET, 1280, 720);
 
   m_AssetManager->init(m_Renderer);
   m_AssetManager->clearInstanceAssets();
 
-  std::filesystem::path projectRoot = m_currentProject->getPath();
-  std::filesystem::path assetsRoot = projectRoot / "assets";
-
-  Engine::ProjectConfig config = m_currentProject->getConfig();
-
   std::string sceneToLoad = config.lastActiveScene.empty()
-                                 ? config.startScenePath
-                                 : config.lastActiveScene;
+                               ? config.startScenePath
+                               : config.lastActiveScene;
+
+  if (sceneToLoad.empty()) {
+      sceneToLoad = "main.json";
+  }
 
   std::filesystem::path fullScenePath;
-
   if (std::filesystem::path(sceneToLoad).is_absolute())
   {
     fullScenePath = sceneToLoad;
@@ -167,43 +168,33 @@ void EditorApp::initialize()
     fullScenePath = std::filesystem::path(m_currentProject->getPath()) / "scenes" / sceneToLoad;
   }
 
-  Engine::Log::info("Project Root: " + m_currentProject->getPath().string());
   Engine::Log::info("Attempting to load scene: " + fullScenePath.string());
 
-  if (!sceneToLoad.empty() && std::filesystem::exists(fullScenePath))
+  bool loadSuccess = false;
+  if (std::filesystem::exists(fullScenePath))
   {
-    Engine::ProjectSerializer::loadScene(currentScene, m_Renderer,
-                                         fullScenePath.string(), m_AssetManager.get());
+    loadSuccess = Engine::ProjectSerializer::loadScene(currentScene, m_Renderer,
+                                                       fullScenePath.string(), m_AssetManager.get());
+  }
 
-    if (currentScene)
-    {
-      currentScene->setRenderer(m_Renderer);
-
-      config.lastActiveScene = fullScenePath.filename().string();
-      m_currentProject->setConfig(config);
-
-      setActiveScene(fullScenePath.string());
-    }
+  if (loadSuccess && currentScene)
+  {
+    currentScene->setRenderer(m_Renderer);
+    setActiveScene(fullScenePath.string());
+    Engine::Log::info("Scene loaded successfully: " + sceneToLoad);
   }
   else
   {
-    Engine::Log::warn(
-        "Target scene not found. Creating a blank default scene.");
+    Engine::Log::warn("Scene file not found or invalid: " + fullScenePath.string() + ". Creating virtual blank scene.");
 
-    currentScene = std::make_unique<Engine::Scene>("main");
+    currentScene = std::make_unique<Engine::Scene>(std::filesystem::path(sceneToLoad).stem().string());
     currentScene->setRenderer(m_Renderer);
     currentScene->init();
 
-    std::filesystem::path defaultPath =
-        m_currentProject->getPath() / "scenes" / "main.json";
-
-    config.lastActiveScene = defaultPath.filename().string();
-    m_currentProject->setConfig(config);
-
-    setActiveScene(defaultPath.string());
+    setActiveScene(fullScenePath.string());
   }
 
-  Engine::Log::info("Project systems and scene initialized successfully.");
+  Engine::Log::info("Project systems initialized.");
 }
 
 void EditorApp::run()
