@@ -12,6 +12,7 @@
 #include "ecs/systems/PhysicsSystem.h"
 #include "ecs/systems/ScriptSystem.h"
 #include "ecs/systems/SoundSystem.h"
+#include "ecs/systems/TextSystem.h"
 
 namespace Engine {
 
@@ -26,8 +27,8 @@ Scene::Scene(const std::string& name)
     addSystem<CollisionSystem>();
     addSystem<PhysicsSystem>();
     addSystem<CameraSystem>();
-    addSystem<ScriptSystem>();
     addSystem<SoundSystem>();
+    addSystem<TextSystem>();
 }
 
 Scene::~Scene() {
@@ -119,25 +120,25 @@ void Scene::init() {
 }
 
 void Scene::update(float dt) {
-    // Update the main scene camera based on its entity's transform
     if (auto* camSystem = getSystem<CameraSystem>()) {
         camSystem->updateCamera(&m_SceneCamera);
     }
 
-    // Update all other systems
     for (auto const& [type, system] : m_Systems) {
         system->onUpdate(dt);
     }
     
-    // Update all entities (and their components)
     for (auto const& [handle, entity] : m_EntityWrappers) {
         entity->update(dt);
     }
 }
 
-void Scene::render(SDL_Renderer* renderer, Camera& camera, float renderW, float renderH) {
+void Scene::render(SDL_Renderer* renderer, Camera& camera, float renderW, float renderH, Project* project, float dt) {
     if (auto* renderSys = getSystem<RendererSystem>()) {
-        renderSys->update(renderer, camera, renderW, renderH);
+        renderSys->update(renderer, camera, renderW, renderH, dt);
+    }
+    if (auto* textSys = getSystem<TextSystem>()) {
+        textSys->update(renderer, camera, renderW, renderH, project);
     }
 }
 

@@ -2,6 +2,7 @@
 
 #include "../Component.h"
 #include "glm/ext/vector_float2.hpp"
+#include <memory>
 #include <glm/glm.hpp>
 
 namespace Engine {
@@ -16,5 +17,9 @@ namespace Engine {
 
         TransformComponent(glm::vec2 pos = {0.0f, 0.0f}, float rot = 0.0f, glm::vec2 scl = {1.0f, 1.0f}) 
             : position(pos), rotation(rot), scale(scl) {}
+            std::unique_ptr<Component> clone() const override
+        {
+            return std::make_unique<TransformComponent>(*this);
+        }
     };
 }

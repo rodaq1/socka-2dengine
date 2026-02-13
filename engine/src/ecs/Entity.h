@@ -40,6 +40,9 @@ namespace Engine {
         void setParent(Entity* newParent);
         Entity* getParent() const;
         const std::vector<Entity*>& getChildren() const;
+        void copyAllComponentsFrom(Entity* other);
+        
+
 
         // Lifecycle
         void init();

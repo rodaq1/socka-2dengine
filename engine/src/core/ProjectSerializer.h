@@ -20,11 +20,11 @@ public:
     // Save/load scenes relative to project root
     static void saveScene(Scene* scene, const fs::path& filePath);
     static bool loadScene(std::unique_ptr<Scene>& scenePtr, SDL_Renderer* renderer,
-                          const fs::path& filePath, AssetManager* assetManager);
+                          const fs::path& filePath, AssetManager* assetManager, Project* project);
 
 private:
     static json serializeEntity(Entity* entity);
-    static void deserializeEntity(Scene* scene, const json& j, AssetManager* assetManager);
+    static void deserializeEntity(Scene* scene, const json& j, AssetManager* assetManager, Project* project);
 
     // Helper to find assets inside project root
         static std::string findAssetPath(const fs::path &root,

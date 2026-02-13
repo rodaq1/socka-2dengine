@@ -25,7 +25,7 @@ namespace Engine {
         RendererSystem();
         ~RendererSystem() override = default;
 
-        void update(SDL_Renderer* renderer, const Camera& camera, float targetWidth, float targetHeight);
+        void update(SDL_Renderer* renderer, const Camera& camera, float targetWidth, float targetHeight, float dt);
 
 
     private:

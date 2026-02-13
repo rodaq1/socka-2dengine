@@ -43,18 +43,17 @@ foreach(target editor Runtime)
             ${SDL2_LIBS}
             ${SDL2_IMAGE_LIBS}
             ${SDL2_MIXER_LIBS}
-            comdlg32 ole32 shell32 shlwapi # Required for pfd on Windows
-            ${LUA_LIBS}   # Uses the variable from find_package
-            m             # Math library
+            ${SDL2_TTF_LIBS}
+            comdlg32 ole32 shell32 shlwapi 
+            ${LUA_LIBS}   
+            m   
         )
 
         target_include_directories(${target} PRIVATE
             ${CMAKE_SOURCE_DIR}/vendor/pfd
-            ${LUA_INCLUDE_DIR} # Uses the variable from find_package
+            ${LUA_INCLUDE_DIR} 
         )
 
-        # This hides the console window on Windows for a cleaner "app" feel.
-        # Remove this line if you want the console to stay visible for debugging.
         set_target_properties(${target} PROPERTIES WIN32_EXECUTABLE TRUE)
 
     else()
@@ -65,6 +64,7 @@ foreach(target editor Runtime)
             ${SDL2_LIBS}
             ${SDL2_IMAGE_LIBS}
             ${SDL2_MIXER_LIBS}
+            ${SDL2_TTF_LIBS}
             ${LUA_LIBS}
         )
     endif()
@@ -83,6 +83,8 @@ foreach(target editor Runtime)
         ${SDL2_INCLUDE_DIRS}
         ${SDL2_IMAGE_INCLUDE_DIRS}
         ${SDL2_MIXER_INCLUDE_DIRS}
+        ${SDL2_TTF_INCLUDE_DIRS}
+        ${SDL2_TTF_INCLUDE_DIR}
     )
 
 endforeach()

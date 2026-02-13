@@ -1,3 +1,4 @@
+#define SDL_MAIN_HANDLED
 #include "SDL.h"
 #include "core/AssetManager.h"
 #include "core/Input.h"
@@ -10,18 +11,13 @@
 #include <iostream>
 #include <memory>
 #include <string>
+#include "ecs/systems/ScriptSystem.h"
 
 namespace fs = std::filesystem;
 
-/**
- * GameApp: The Standalone Player
- * This class is the entry point for the exported game. It lacks all Editor UI
- * and focuses entirely on project loading and scene execution.
- */
 class GameApp {
 public:
   GameApp(const std::string &cmdLinePath) : m_isRunning(true) {
-    // 1. Initialize SDL Core
     if (SDL_Init(SDL_INIT_VIDEO | SDL_INIT_TIMER | SDL_INIT_AUDIO |
                  SDL_INIT_GAMECONTROLLER) != 0) {
       showFatalError("SDL Init Failed", SDL_GetError());
@@ -141,6 +137,12 @@ public:
     loadStartScene();
 
     while (m_isRunning) {
+      
+      if (m_Project->m_SceneLoadRequested) {
+        std::filesystem::path sceneToLoadPath = m_Project->getPath() / "scenes" / (m_Project->m_PendingSceneName + ".json");
+        Engine::ProjectSerializer::loadScene(m_CurrentScene, m_Renderer, m_Project->m_PendingSceneName, m_AssetManager.get(), m_Project.get());
+        m_Project->m_SceneLoadRequested = false;
+      }
       Engine::Time::update();
       Engine::Input::update();
       processEvents();
@@ -150,6 +152,9 @@ public:
       SDL_RenderClear(m_Renderer);
 
       if (m_CurrentScene) {
+        if (!m_CurrentScene->hasSystem<Engine::ScriptSystem>()) {
+          m_CurrentScene->addSystem<Engine::ScriptSystem>(m_Project.get());
+        }
         int w, h;
         SDL_GetWindowSize(m_Window, &w, &h);
 
@@ -159,10 +164,10 @@ public:
 
         auto camera = m_CurrentScene->getSceneCamera();
         if (camera) {
-          m_CurrentScene->render(m_Renderer, *camera, w, h);
+          m_CurrentScene->render(m_Renderer, *camera, w, h, m_Project.get(), Engine::Time::getDeltaTime());
         } else {
           static bool warned = false;
-          m_CurrentScene->render(m_Renderer, *camera, w, h);
+          m_CurrentScene->render(m_Renderer, *camera, w, h, m_Project.get(), Engine::Time::getDeltaTime());
 
           if (!warned) {
             Engine::Log::warn("No Camera found in active scene.");
@@ -201,12 +206,8 @@ private:
       if (event.type == SDL_QUIT)
         m_isRunning = false;
 
-      // Allow Alt+Enter for fullscreen or ESC to exit if specified in game
-      // logic
       if (event.type == SDL_KEYDOWN) {
         if (event.key.keysym.sym == SDLK_ESCAPE) {
-          // In a production runtime, you might want to show a menu instead
-          // m_isRunning = false;
         }
       }
     }
@@ -221,7 +222,7 @@ private:
 
     bool success = Engine::ProjectSerializer::loadScene(
         m_CurrentScene, m_Renderer, config.startScenePath,
-        m_AssetManager.get());
+        m_AssetManager.get(), m_Project.get());
 
     if (success && m_CurrentScene) {
       m_CurrentScene->setRenderer(m_Renderer);

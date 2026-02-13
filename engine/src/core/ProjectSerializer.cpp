@@ -20,6 +20,8 @@
 #include "ecs/components/ScriptComponent.h"
 #include "ecs/components/SpriteComponent.h"
 #include "ecs/components/TransformComponent.h"
+#include "ecs/components/TextComponent.h"
+#include "ecs/components/VelocityComponent.h"
 
 using json = nlohmann::json;
 
@@ -30,17 +32,27 @@ namespace Engine
     if (!project)
       return;
 
-    nlohmann::json j;
-    const auto &config = project->getConfig();
+    if (!project->isLoaded)
+    {
+      Log::warn("[ProjectSerializer] Refusing to save project before it is loaded: " + filePath.string());
+      return;
+    }
+
+    json j;
+
+    // ---- Persistent config ----
     j["Project"] = {
-        {"Name", config.name},
-        {"Version", config.engineVersion},
-        {"StartScene", config.startScenePath},
-        {"AssetDirectory", config.assetDirectory},
-        {"LastModified", SDL_GetTicks()},
-        {"LastSceneOpened", config.lastActiveScene},
-        {"Width", config.width},
-        {"Height", config.height}};
+        {"Name", project->config.name},
+        {"Version", project->config.engineVersion},
+        {"StartScene", project->config.startScenePath},
+        {"AssetDirectory", project->config.assetDirectory},
+        {"Width", project->config.width},
+        {"Height", project->config.height}};
+
+    // ---- Runtime-only state ----
+    j["Runtime"] = {
+        {"LastSceneOpened", project->runtime.lastActiveScene},
+        {"LastModified", SDL_GetTicks()}};
 
     std::ofstream out(filePath);
     if (!out.is_open())
@@ -48,6 +60,7 @@ namespace Engine
       Log::error("[ProjectSerializer] Failed to open " + filePath.string());
       return;
     }
+
     out << j.dump(4);
     Log::info("[ProjectSerializer] Saved project file: " + filePath.string());
   }
@@ -58,12 +71,12 @@ namespace Engine
     if (!stream.is_open())
       return false;
 
-    nlohmann::json data;
+    json data;
     try
     {
       stream >> data;
     }
-    catch (nlohmann::json::parse_error &e)
+    catch (const json::parse_error &e)
     {
       Log::error("Failed to parse project file: " + std::string(e.what()));
       return false;
@@ -71,33 +84,39 @@ namespace Engine
 
     if (!data.contains("Project"))
     {
-      Log::error("Project file is missing 'Project' root object.");
+      Log::error("Project file missing 'Project' section.");
       return false;
     }
 
-    auto &pData = data["Project"];
-    // Get the reference to the actual config object in the project
-    auto &config = project->getConfig();
+    // ---- Load config ----
+    const auto &p = data["Project"];
+    auto &config = project->config;
 
-    config.name = pData.value("Name", "Untitled Project");
-    config.engineVersion = pData.value("Version", "1.0.0");
-    config.assetDirectory = pData.value("AssetDirectory", "assets");
-    config.width = pData.value("Width", 1280);
-    config.height = pData.value("Height", 720);
+    config.name = p.value("Name", "Untitled Project");
+    config.engineVersion = p.value("Version", "1.0.0");
+    config.startScenePath = p.value("StartScene", "");
+    config.assetDirectory = p.value("AssetDirectory", "assets");
+    config.width = p.value("Width", 1280);
+    config.height = p.value("Height", 720);
 
-    if (pData.contains("LastSceneOpened"))
+    // ---- Load runtime (optional!) ----
+    if (data.contains("Runtime"))
     {
-      config.lastActiveScene = pData.value("LastSceneOpened", "");
+      const auto &r = data["Runtime"];
+      project->runtime.lastActiveScene =
+          r.value("LastSceneOpened", config.startScenePath);
     }
-    else if (pData.contains("StartScene"))
+    else
     {
-      config.lastActiveScene = pData.value("StartScene", "");
+      project->runtime.lastActiveScene = config.startScenePath;
     }
 
-    Log::info("Loaded project: " + config.name + " (Scene: " + config.lastActiveScene + ")");
+    project->isLoaded = true;
+
+    Log::info("Loaded project: " + config.name +
+              " (Scene: " + project->runtime.lastActiveScene + ")");
     return true;
   }
-
   void ProjectSerializer::saveScene(Scene *scene, const fs::path &filePath)
   {
     json sceneJson;
@@ -162,6 +181,25 @@ namespace Engine
           {"SourceRect",
            {c->sourceRect.x, c->sourceRect.y, c->sourceRect.w, c->sourceRect.h}},
           {"Color", {c->color.r, c->color.g, c->color.b, c->color.a}}};
+    }
+
+    if (entity->hasComponent<VelocityComponent>())
+    {
+      auto *c = entity->getComponent<VelocityComponent>();
+      j["Components"]["Velocity"] = {
+          {"Velocity", {c->velocity.x, c->velocity.y}}};
+    }
+
+    if (entity->hasComponent<Engine::TextComponent>())
+    {
+      auto *c = entity->getComponent<Engine::TextComponent>();
+      j["Components"]["TextComponent"] = {
+          {"Text", c->text},
+          {"FontPath", c->fontPath},
+          {"FontSize", c->fontSize},
+          {"Color", {c->color.r, c->color.g, c->color.b, c->color.a}},
+          {"IsFixed", c->isFixed},
+          {"ZIndex", c->zIndex}};
     }
 
     // 3. Animation
@@ -260,7 +298,7 @@ namespace Engine
   bool ProjectSerializer::loadScene(std::unique_ptr<Scene> &scenePtr,
                                     SDL_Renderer *renderer,
                                     const fs::path &filepath,
-                                    AssetManager *assetManager)
+                                    AssetManager *assetManager, Project *project)
   {
     std::ifstream in(filepath);
     if (!in.is_open())
@@ -268,6 +306,7 @@ namespace Engine
 
     try
     {
+      Log::info("starting the load of a scene");
       json sceneJson = json::parse(in);
       scenePtr =
           std::make_unique<Scene>(sceneJson.value("SceneName", "Untitled"));
@@ -331,7 +370,7 @@ namespace Engine
       {
         for (const auto &entityData : sceneJson["Entities"])
         {
-          deserializeEntity(scenePtr.get(), entityData, assetManager);
+          deserializeEntity(scenePtr.get(), entityData, assetManager, project);
         }
       }
     }
@@ -345,31 +384,75 @@ namespace Engine
 
   namespace fs = std::filesystem;
 
-  std::string Engine::ProjectSerializer::findAssetPath(const fs::path &root,
-                                                       const std::string &fileName,
-                                                       int depth,
-                                                       int maxDepth)
+  std::string ProjectSerializer::findAssetPath(const fs::path &root, const std::string &fileName, int depth, int maxDepth)
   {
+    // 1. Initial State & Guard Logging
+    if (depth == 0)
+    {
+      Log::info("[AssetSearch] Starting search for: " + fileName + " in root: " + root.string());
+    }
+
     if (depth > maxDepth)
+    {
+      Log::warn("[AssetSearch] Max depth reached (" + std::to_string(maxDepth) + ") at: " + root.string());
       return "";
+    }
+
+    if (!fs::exists(root))
+    {
+      Log::error("[AssetSearch] Root path does not exist: " + root.string());
+      return "";
+    }
+
+    if (!fs::is_directory(root))
+    {
+      Log::warn("[AssetSearch] Path is not a directory: " + root.string());
+      return "";
+    }
+
+    // 2. Check current directory
     fs::path candidate = root / fileName;
     if (fs::exists(candidate))
-      return candidate.string();
-
-    for (auto &entry : fs::directory_iterator(root))
     {
-      if (entry.is_directory())
+      std::string foundPath = candidate.string();
+      Log::info("[AssetSearch] Success! Found " + fileName + " at: " + foundPath);
+      return foundPath;
+    }
+
+    // 3. Recursive step
+    try
+    {
+      for (const auto &entry : fs::directory_iterator(root))
       {
-        std::string found = findAssetPath(entry.path(), fileName, depth + 1, maxDepth);
-        if (!found.empty())
-          return found;
+        if (entry.is_directory())
+        {
+          // Log the branch we are about to enter
+          Log::info("[AssetSearch] Stepping into sub-directory: " + entry.path().filename().string() + " (Depth: " + std::to_string(depth + 1) + ")");
+
+          std::string found = findAssetPath(entry.path(), fileName, depth + 1, maxDepth);
+          if (!found.empty())
+          {
+            return found;
+          }
+        }
       }
     }
+    catch (const fs::filesystem_error &e)
+    {
+      Log::error("[AssetSearch] Filesystem iterator error at " + root.string() + ": " + e.what());
+    }
+
+    // 4. Failure logging (only for the initial call to avoid log spam)
+    if (depth == 0)
+    {
+      Log::error("[AssetSearch] Failed to find " + fileName + " after recursive search.");
+    }
+
     return "";
   }
 
   void ProjectSerializer::deserializeEntity(Scene *scene, const json &j,
-                                            AssetManager *assetManager)
+                                            AssetManager *assetManager, Project *project)
   {
     Entity *entity = scene->createEntity(j.value("Name", "Entity"));
     const auto &comps = j["Components"];
@@ -393,64 +476,59 @@ namespace Engine
     if (comps.contains("Sprite"))
     {
       const auto &val = comps["Sprite"];
-
       std::string assetId = val.value("AssetId", "");
 
       if (!assetId.empty())
       {
-        fs::path assetsBase = "assets";
+        std::vector<fs::path> searchRoots = {project->getAssetPath()};
+        std::string actualPath = "";
 
-        std::string actualPath = findAssetPath(assetsBase, assetId, 0, 5);
-
-        if (actualPath.empty())
+        for (const auto &root : searchRoots)
         {
-          std::cerr << "[ERROR] AssetManager: PHYSICAL FILE MISSING after "
-                       "recursive search: "
-                    << assetId << std::endl;
-          return;
+          actualPath = findAssetPath(root, assetId, 0, 5);
+          if (!actualPath.empty())
+            break;
         }
 
-        // Asset Loading using the discovered path
         SDL_Texture *tex = nullptr;
-        if (assetManager)
+
+        if (!actualPath.empty() && assetManager)
         {
           assetManager->loadTextureIfMissing(assetId, actualPath);
           tex = assetManager->getTexture(assetId);
         }
+        else
+        {
+          Log::error("Sprite asset not found: " + assetId);
+        }
 
         auto *cPtr = entity->addComponent<SpriteComponent>(assetId, tex);
-
         if (cPtr)
         {
-          auto &c = *cPtr;
+          cPtr->zIndex = val.value("ZIndex", 0);
+          cPtr->visible = val.value("Visible", true);
+          cPtr->isFixed = val.value("IsFixed", false);
+          cPtr->flipH = val.value("FlipH", false);
+          cPtr->flipV = val.value("FlipV", false);
 
-          // Basic property assignment
-          c.zIndex = val.value("ZIndex", 0);
-          c.visible = val.value("Visible", true);
-          c.isFixed = val.value("IsFixed", false);
-          c.flipH = val.value("FlipH", false);
-          c.flipV = val.value("FlipV", false);
-
-          // Array-based property assignment: SourceRect [x, y, w, h]
-          if (val.contains("SourceRect") && val["SourceRect"].is_array())
+          if (val.contains("SourceRect") && val["SourceRect"].is_array() && val["SourceRect"].size() == 4)
           {
-            c.sourceRect = {
-                val["SourceRect"][0].get<int>(), val["SourceRect"][1].get<int>(),
-                val["SourceRect"][2].get<int>(), val["SourceRect"][3].get<int>()};
+            cPtr->sourceRect.x = val["SourceRect"][0];
+            cPtr->sourceRect.y = val["SourceRect"][1];
+            cPtr->sourceRect.w = val["SourceRect"][2];
+            cPtr->sourceRect.h = val["SourceRect"][3];
           }
 
-          // Array-based property assignment: Color [r, g, b, a]
-          if (val.contains("Color") && val["Color"].is_array())
+          if (val.contains("Color") && val["Color"].is_array() && val["Color"].size() == 4)
           {
-            c.color = {(uint8_t)val["Color"][0].get<int>(),
-                       (uint8_t)val["Color"][1].get<int>(),
-                       (uint8_t)val["Color"][2].get<int>(),
-                       (uint8_t)val["Color"][3].get<int>()};
+            cPtr->color.r = val["Color"][0];
+            cPtr->color.g = val["Color"][1];
+            cPtr->color.b = val["Color"][2];
+            cPtr->color.a = val["Color"][3];
           }
         }
       }
     }
-
     // 3. Animation
     if (comps.contains("Animation"))
     {
@@ -470,6 +548,15 @@ namespace Engine
         if (val["IsPlaying"])
           c.play(c.currentAnimationName);
       }
+    }
+
+    if (comps.contains("Velocity"))
+    {
+      auto val = comps["Velocity"];
+      glm::vec2 v = {val["Velocity"][0], val["Velocity"][1]};
+
+      auto *cPtr = entity->addComponent<VelocityComponent>(v);
+      (void)cPtr;
     }
 
     // 4. Box Collider
@@ -522,13 +609,14 @@ namespace Engine
     if (comps.contains("RigidBody"))
     {
       auto val = comps["RigidBody"];
-      auto *cPtr =
-          entity->addComponent<RigidBodyComponent>((BodyType)val["BodyType"]);
+      BodyType type = static_cast<BodyType>(val.value("BodyType", 0));
+
+      auto *cPtr = entity->addComponent<RigidBodyComponent>(type);
       if (cPtr)
       {
-        cPtr->mass = val["Mass"];
-        cPtr->gravityScale = val["GravityScale"];
-        cPtr->linearDrag = val["LinearDrag"];
+        cPtr->mass = val.value("Mass", 1.0f);
+        cPtr->gravityScale = val.value("GravityScale", 1.0f);
+        cPtr->linearDrag = val.value("LinearDrag", 0.0f);
       }
     }
 

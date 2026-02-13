@@ -65,6 +65,23 @@ void EditorApp::renderAssetManager()
 
     if (ImGui::BeginPopupContextWindow("GridContext", ImGuiPopupFlags_MouseButtonRight | ImGuiPopupFlags_NoOpenOverItems))
     {
+        if (ImGui::MenuItem("New Folder"))
+        {
+            std::string folderName = "New Folder";
+            fs::path folderPath = currentDirectoryPath / folderName;
+            int counter = 1;
+            while (fs::exists(folderPath))
+            {
+                folderName = "New Folder " + std::to_string(counter++);
+                folderPath = currentDirectoryPath / folderName;
+            }
+            try {
+                fs::create_directory(folderPath);
+                Log::info("Created folder: " + folderName);
+            } catch (const std::exception& e) {
+                Log::error("Failed to create folder: " + std::string(e.what()));
+            }
+        }
         if (ImGui::MenuItem("Import Texture..."))
         {
             auto selection = pfd::open_file("Select Texture", ".", {"Images", "*.png *.jpg *.jpeg *.tga"}).result();
@@ -104,7 +121,6 @@ void EditorApp::renderAssetManager()
             std::string filename = "NewScript.lua";
             fs::path scriptPath = currentDirectoryPath / filename;
 
-            // Ensure we don't overwrite existing scripts
             int counter = 1;
             while (fs::exists(scriptPath))
             {
@@ -112,7 +128,6 @@ void EditorApp::renderAssetManager()
                 scriptPath = currentDirectoryPath / filename;
             }
 
-            // Write boilerplate Lua code
             std::ofstream outfile(scriptPath);
             outfile << "-- " << filename << "\n\n"
                     << "function OnUpdate(dt)\n"
@@ -122,7 +137,30 @@ void EditorApp::renderAssetManager()
 
             Log::info("Created script: " + filename);
         }
-        // Generate a unique name like "NewScript.lua"
+        if (ImGui::MenuItem("Import Font..."))
+        {
+            auto selection = pfd::open_file("Select Font", ".", {"Font Files", "*.ttf"}).result();
+            if (!selection.empty())
+            {
+                fs::path sourcePath(selection[0]);
+                fs::path destinationPath = currentDirectoryPath / sourcePath.filename();
+                try
+                {
+                    fs::copy_file(sourcePath, destinationPath, fs::copy_options::overwrite_existing);
+
+                    // Register font in your AssetManager
+                    std::string assetId = (currentRelativePath / sourcePath.filename()).string();
+                    m_AssetManager->loadFontIfMissing(assetId, destinationPath.string(), 16, m_currentProject);
+
+                    Log::info("Imported font: " + assetId);
+                }
+                catch (const std::exception &e)
+                {
+                    Log::error("Failed to import font: " + std::string(e.what()));
+                }
+            }
+        }
+
         ImGui::EndPopup();
     }
 
@@ -185,10 +223,10 @@ void EditorApp::renderAssetManager()
                     if (hovered && ImGui::IsMouseDoubleClicked(0))
                     {
 #ifdef _WIN32
-                        std::string cmd = "start " + path.string();
+                        std::string cmd = "start \"\" \"" + path.string() + "\"";
                         system(cmd.c_str());
 #else
-                        std::string cmd = "open " + path.string();
+                        std::string cmd = "open \"" + path.string() + "\"";
                         system(cmd.c_str());
 #endif
                     }
@@ -201,6 +239,33 @@ void EditorApp::renderAssetManager()
                     drawList->AddRectFilled(ImVec2(center.x - 18, center.y - 5), ImVec2(center.x - 10, center.y + 5), IM_COL32(100, 200, 255, 255));
                     drawList->AddCircle(center, 12.0f, IM_COL32(100, 200, 255, 150), 0, 1.5f);
                 }
+
+                else if (ext == ".ttf")
+                {
+                    ImVec2 center = ImVec2(pos.x + thumbnailSize * 0.5f, pos.y + thumbnailSize * 0.5f);
+                    drawList->AddRect(ImVec2(center.x - 20, center.y - 20), ImVec2(center.x + 20, center.y + 20), IM_COL32(255, 200, 0, 255), 4.0f);
+                    drawList->AddText(ImVec2(center.x - 10, center.y - 8), IM_COL32(255, 200, 0, 255), "F");
+
+                    if (hovered && ImGui::IsMouseDoubleClicked(0))
+                    {
+#ifdef _WIN32
+                        std::string cmd = "start " + path.string();
+                        system(cmd.c_str());
+#else
+                        std::string cmd = "open " + path.string();
+                        system(cmd.c_str());
+#endif
+                    }
+
+                    if (ImGui::BeginDragDropSource())
+                    {
+                        std::string assetId = (currentRelativePath / filename).string();
+                        ImGui::SetDragDropPayload("FONT_ASSET_ID", assetId.c_str(), assetId.size() + 1);
+                        ImGui::Text("Dragging: %s", filename.c_str());
+                        ImGui::EndDragDropSource();
+                    }
+                }
+
                 else
                 {
                     SDL_Texture *tex = m_AssetManager->getTexture(assetId);
@@ -224,34 +289,51 @@ void EditorApp::renderAssetManager()
 
             if (itemToRename == path)
             {
-                ImGui::SetNextItemWidth(thumbnailSize);
+                std::string stem = path.stem().string();
+                std::string ext = path.extension().string();
+
                 if (focusRenameInput)
                 {
+                    strncpy(renameBuffer, stem.c_str(), sizeof(renameBuffer));
+                    renameBuffer[sizeof(renameBuffer) - 1] = '\0';
                     ImGui::SetKeyboardFocusHere();
                     focusRenameInput = false;
                 }
 
-                if (ImGui::InputText("##RenameInput", renameBuffer, sizeof(renameBuffer), ImGuiInputTextFlags_EnterReturnsTrue))
+                ImGui::SetNextItemWidth(120.0f);
+                bool renameDone = ImGui::InputText("##RenameInput", renameBuffer, sizeof(renameBuffer), ImGuiInputTextFlags_EnterReturnsTrue);
+                ImGui::SameLine();
+                ImGui::TextDisabled("%s", ext.c_str());
+
+                if (renameDone)
                 {
-                    fs::path newPath = path.parent_path() / renameBuffer;
+                    fs::path newPath = path.parent_path() / (std::string(renameBuffer) + ext);
 
                     if (!fs::exists(newPath))
                     {
                         try
                         {
                             fs::rename(path, newPath);
+                            Log::info("Renamed: " + path.string() + " -> " + newPath.string());
+
+                            std::string oldAssetId = fs::relative(path, m_currentProject->getPath() / "assets").string();
+                            std::string newAssetId = fs::relative(newPath, m_currentProject->getPath() / "assets").string();
+
+                            std::string extension = newPath.extension().string();
+                            std::transform(extension.begin(), extension.end(), extension.begin(), ::tolower);
+
+                            if (extension == ".png" || extension == ".jpg" || extension == ".jpeg" || extension == ".tga" || extension == ".bmp")
+                            {
+                                m_AssetManager->removeTexture(oldAssetId);
+                                m_AssetManager->loadTextureIfMissing(newAssetId, newPath.string());
+                            }
                         }
                         catch (const std::exception &e)
                         {
                             Log::error("Rename failed: " + std::string(e.what()));
                         }
                     }
-                    itemToRename = ""; 
-                }
-
-                if (!ImGui::IsItemHovered() && ImGui::IsMouseClicked(0) && !focusRenameInput)
-                {
-                    itemToRename = ""; 
+                    itemToRename = "";
                 }
             }
             else
@@ -331,6 +413,14 @@ void EditorApp::loadProjectAssets()
         }
         else if (extension == ".wav" || extension == ".mp3" || extension == ".ogg")
         {
+        }
+        else if (extension == ".ttf")
+        {
+            if (!m_AssetManager->getFont(assetId))
+            {
+                m_AssetManager->loadFontIfMissing(assetId, fullPath.string(), 16, m_currentProject);
+                Log::info("Loaded font: " + assetId);
+            }
         }
     }
 

@@ -3,6 +3,7 @@
 #include "ImGuizmo.h"
 #include "SDL_render.h"
 #include "core/Camera.h"
+#include "core/Time.h"
 #include "ecs/Entity.h"
 #include "ecs/components/BoxColliderComponent.h"
 #include "ecs/components/CircleColliderComponent.h"
@@ -14,8 +15,10 @@
 #include "scene/Scene.h"
 #include <imgui.h>
 #include <vector>
+#include "core/ProjectSerializer.h"
 
-glm::mat4 GetWorldMatrix(Engine::Entity *e) {
+glm::mat4 GetWorldMatrix(Engine::Entity *e)
+{
   if (!e)
     return glm::mat4(1.0f);
   auto tr = e->getComponent<Engine::TransformComponent>();
@@ -27,59 +30,84 @@ glm::mat4 GetWorldMatrix(Engine::Entity *e) {
   local = glm::rotate(local, glm::radians(tr->rotation), glm::vec3(0, 0, 1));
   local = glm::scale(local, glm::vec3(tr->scale.x, tr->scale.y, 1.0f));
 
-  if (e->getParent()) {
+  if (e->getParent())
+  {
     return GetWorldMatrix(e->getParent()) * local;
   }
   return local;
 }
 
 void DrawSceneBackground(SDL_Renderer *renderer, Engine::Scene *scene,
-                         Engine::AssetManager *assetManager, float w, float h) {
+                         Engine::AssetManager *assetManager, float w, float h)
+{
   if (!scene)
     return;
   auto &bg = scene->getBackground();
 
-  if (bg.type == Engine::BackgroundType::Solid) {
+  if (bg.type == Engine::BackgroundType::Solid)
+  {
     SDL_SetRenderDrawColor(renderer, (Uint8)(bg.color1.r * 255),
                            (Uint8)(bg.color1.g * 255),
                            (Uint8)(bg.color1.b * 255), 255);
     SDL_RenderClear(renderer);
-  } else if (bg.type == Engine::BackgroundType::Gradient) {
-    // Simple vertical gradient pass
-    for (int i = 0; i < (int)h; i++) {
+  }
+  else if (bg.type == Engine::BackgroundType::Gradient)
+  {
+    for (int i = 0; i < (int)h; i++)
+    {
       float t = (float)i / (float)h;
       glm::vec4 c = glm::mix(bg.color1, bg.color2, t);
       SDL_SetRenderDrawColor(renderer, (Uint8)(c.r * 255), (Uint8)(c.g * 255),
                              (Uint8)(c.b * 255), 255);
       SDL_RenderDrawLine(renderer, 0, i, (int)w, i);
     }
-  } else if (bg.type == Engine::BackgroundType::Image) {
+  }
+  else if (bg.type == Engine::BackgroundType::Image)
+  {
     SDL_Texture *tex = assetManager->getTexture(bg.assetId);
-    if (tex) {
-      SDL_Rect dest = {0, 0, (int)w, (int)h};
-      if (!bg.stretch) {
+    if (tex)
+    {
+      if (bg.stretch)
+      {
+        SDL_Rect dest = {0, 0, (int)w, (int)h};
+        SDL_RenderCopy(renderer, tex, NULL, &dest);
+      }
+      else
+      {
         int tw, th;
         SDL_QueryTexture(tex, NULL, NULL, &tw, &th);
-        float screenAspect = w / h;
-        float texAspect = (float)tw / th;
-        if (screenAspect > texAspect) {
-          dest.w = (int)(h * texAspect);
-          dest.x = (int)((w - dest.w) / 2);
-        } else {
-          dest.h = (int)(w / texAspect);
-          dest.y = (int)((h - dest.h) / 2);
+
+        if (tw > 0 && th > 0)
+        {
+          for (int x = 0; x < (int)w; x += tw)
+          {
+            for (int y = 0; y < (int)h; y += th)
+            {
+              SDL_Rect dest = {x, y, tw, th};
+
+              if (x + tw > (int)w)
+                dest.w = (int)w - x;
+              if (y + th > (int)h)
+                dest.h = (int)h - y;
+
+              SDL_Rect src = {0, 0, dest.w, dest.h};
+
+              SDL_RenderCopy(renderer, tex, &src, &dest);
+            }
+          }
         }
       }
-      SDL_RenderCopy(renderer, tex, NULL, &dest);
-    } else {
-      // Fallback clear
+    }
+    else
+    {
       SDL_SetRenderDrawColor(renderer, 30, 30, 45, 255);
       SDL_RenderClear(renderer);
     }
   }
 }
 
-void EditorApp::renderViewport() {
+void EditorApp::renderViewport()
+{
   static Engine::Camera s_EditorCamera;
   static int s_DraggingVertexIndex = -1;
 
@@ -90,9 +118,12 @@ void EditorApp::renderViewport() {
   float aspectRatio = 16.0f / 9.0f;
   ImVec2 newViewportSize = availableSize;
 
-  if (newViewportSize.x / newViewportSize.y > aspectRatio) {
+  if (newViewportSize.x / newViewportSize.y > aspectRatio)
+  {
     newViewportSize.x = newViewportSize.y * aspectRatio;
-  } else {
+  }
+  else
+  {
     newViewportSize.y = newViewportSize.x / aspectRatio;
   }
   ImVec2 mousePos = ImGui::GetIO().MousePos;
@@ -107,29 +138,34 @@ void EditorApp::renderViewport() {
   viewportPos = ImGui::GetCursorScreenPos();
   ImVec2 currentViewportSize = newViewportSize;
 
-  if (currentViewportSize.x <= 1 || currentViewportSize.y <= 1) {
+  if (currentViewportSize.x <= 1 || currentViewportSize.y <= 1)
+  {
     ImGui::End();
     ImGui::PopStyleVar();
     return;
   }
 
   if (currentViewportSize.x != viewportSize.x ||
-      currentViewportSize.y != viewportSize.y) {
+      currentViewportSize.y != viewportSize.y)
+  {
     viewportSize = currentViewportSize;
     if (m_GameRenderTarget)
       SDL_DestroyTexture(m_GameRenderTarget);
+
     m_GameRenderTarget = SDL_CreateTexture(
         m_Renderer, SDL_PIXELFORMAT_RGBA8888, SDL_TEXTUREACCESS_TARGET,
         (int)viewportSize.x, (int)viewportSize.y);
   }
 
-  float renderW = (float)(int)viewportSize.x;
-  float renderH = (float)(int)viewportSize.y;
+  float renderW = viewportSize.x;
+  float renderH = viewportSize.y;
   s_EditorCamera.setAspectRatio(renderW / renderH);
 
   // Navigation logic handled here...
-  if (m_SceneState == SceneState::EDIT && ImGui::IsWindowHovered()) {
-    if (ImGui::IsMouseDragging(ImGuiMouseButton_Right)) {
+  if (m_SceneState == SceneState::EDIT && ImGui::IsWindowHovered())
+  {
+    if (ImGui::IsMouseDragging(ImGuiMouseButton_Right))
+    {
       ImVec2 delta = ImGui::GetIO().MouseDelta;
       float unitsPerPixelX = (s_EditorCamera.getOrthographicSize() *
                               s_EditorCamera.getAspectRatio()) /
@@ -141,7 +177,8 @@ void EditorApp::renderViewport() {
       pos.y += delta.y * unitsPerPixelY;
       s_EditorCamera.setPosition(pos);
     }
-    if (ImGui::GetIO().MouseWheel != 0) {
+    if (ImGui::GetIO().MouseWheel != 0)
+    {
       float newSize = s_EditorCamera.getOrthographicSize() -
                       (ImGui::GetIO().MouseWheel *
                        s_EditorCamera.getOrthographicSize() * 0.1f);
@@ -149,65 +186,73 @@ void EditorApp::renderViewport() {
     }
   }
 
-  if (m_GameRenderTarget) {
+  if (m_GameRenderTarget)
+  {
     SDL_SetRenderTarget(m_Renderer, m_GameRenderTarget);
-    
-    if (currentScene) {
+    SDL_Rect fullRect = {0, 0, (int)renderW, (int)renderH};
+    SDL_RenderSetViewport(m_Renderer, &fullRect);
+    SDL_RenderSetClipRect(m_Renderer, &fullRect);
+    if (currentScene)
+    {
       DrawSceneBackground(m_Renderer, currentScene.get(), m_AssetManager.get(),
                           renderW, renderH);
-    } else {
+    }
+    else
+    {
       SDL_SetRenderDrawColor(m_Renderer, 20, 20, 20, 255);
       SDL_RenderClear(m_Renderer);
     }
 
-    if (currentScene) {
+    if (currentScene)
+    {
       Engine::Camera *renderCamera = (m_SceneState == SceneState::EDIT)
                                          ? &s_EditorCamera
                                          : currentScene->getSceneCamera();
       if (renderCamera)
-        currentScene->render(m_Renderer, *renderCamera, renderW, renderH);
+        currentScene->render(m_Renderer, *renderCamera, renderW, renderH, m_currentProject, Engine::Time::getDeltaTime());
     }
 
-    if (m_SceneState == SceneState::EDIT && currentScene) {
-            Engine::Camera* gameCamera = currentScene->getSceneCamera();
-            if (gameCamera) {
-                glm::mat4 viewProj = s_EditorCamera.getProjectionMatrix() * s_EditorCamera.getViewMatrix();
-                
-                float orthoSize = gameCamera->getOrthographicSize();
-                float aspect = gameCamera->getAspectRatio();
-                
-                float halfHeight = orthoSize;
-                float halfWidth = orthoSize * aspect;
-                glm::vec2 camPos = gameCamera->getPosition();
+    if (m_SceneState == SceneState::EDIT && currentScene)
+    {
+      Engine::Camera *gameCamera = currentScene->getSceneCamera();
+      if (gameCamera)
+      {
+        glm::mat4 viewProj = s_EditorCamera.getProjectionMatrix() * s_EditorCamera.getViewMatrix();
 
-                glm::vec4 corners[4] = {
-                    { camPos.x - halfWidth, camPos.y - halfHeight, 0.0f, 1.0f },
-                    { camPos.x + halfWidth, camPos.y - halfHeight, 0.0f, 1.0f },
-                    { camPos.x + halfWidth, camPos.y + halfHeight, 0.0f, 1.0f },
-                    { camPos.x - halfWidth, camPos.y + halfHeight, 0.0f, 1.0f }
-                };
+        float orthoSize = gameCamera->getOrthographicSize();
+        float aspect = gameCamera->getAspectRatio();
 
-                SDL_FPoint screenPoints[5];
-                for (int i = 0; i < 4; i++) {
-                    glm::vec4 projected = viewProj * corners[i];
-                    if (projected.w != 0.0f) {
-                        glm::vec3 ndc = glm::vec3(projected.x / projected.w, projected.y / projected.w, projected.z / projected.w);
-                        screenPoints[i] = {
-                            (ndc.x + 1.0f) * 0.5f * renderW,
-                            (1.0f - ndc.y) * 0.5f * renderH
-                        };
-                    }
-                }
-                screenPoints[4] = screenPoints[0]; 
+        float halfHeight = orthoSize * 0.5f;
+        float halfWidth = (orthoSize * 0.5f) * aspect;
+        glm::vec2 camPos = gameCamera->getPosition();
 
-                SDL_SetRenderDrawColor(m_Renderer, 255, 255, 255, 100);
-                SDL_RenderDrawLinesF(m_Renderer, screenPoints, 5);
+        glm::vec4 corners[4] = {
+            {camPos.x - halfWidth, camPos.y - halfHeight, 0.0f, 1.0f},
+            {camPos.x + halfWidth, camPos.y - halfHeight, 0.0f, 1.0f},
+            {camPos.x + halfWidth, camPos.y + halfHeight, 0.0f, 1.0f},
+            {camPos.x - halfWidth, camPos.y + halfHeight, 0.0f, 1.0f}};
 
-            }
+        SDL_FPoint screenPoints[5];
+        for (int i = 0; i < 4; i++)
+        {
+          glm::vec4 projected = viewProj * corners[i];
+          if (projected.w != 0.0f)
+          {
+            glm::vec3 ndc = glm::vec3(projected.x / projected.w, projected.y / projected.w, projected.z / projected.w);
+            screenPoints[i] = {
+                (ndc.x + 1.0f) * 0.5f * renderW,
+                (1.0f - ndc.y) * 0.5f * renderH};
+          }
         }
+        screenPoints[4] = screenPoints[0];
 
+        SDL_SetRenderDrawColor(m_Renderer, 255, 255, 255, 100);
+        SDL_RenderDrawLinesF(m_Renderer, screenPoints, 5);
+      }
+    }
 
-    if (m_SceneState == SceneState::EDIT && m_SelectedEntity) {
+    if (m_SceneState == SceneState::EDIT && m_SelectedEntity)
+    {
       glm::mat4 viewMatrix = s_EditorCamera.getViewMatrix();
       glm::mat4 projectionMatrix = s_EditorCamera.getProjectionMatrix();
       glm::mat4 modelMatrix = GetWorldMatrix(m_SelectedEntity);
@@ -215,7 +260,8 @@ void EditorApp::renderViewport() {
 
       // --- 1. Sprite/Selection Outline (Yellow) ---
       glm::vec2 entitySize = {32.0f, 32.0f};
-      if (m_SelectedEntity->hasComponent<Engine::SpriteComponent>()) {
+      if (m_SelectedEntity->hasComponent<Engine::SpriteComponent>())
+      {
         auto sp = m_SelectedEntity->getComponent<Engine::SpriteComponent>();
         entitySize = {(float)sp->sourceRect.w, (float)sp->sourceRect.h};
       }
@@ -226,7 +272,8 @@ void EditorApp::renderViewport() {
                                    {half.x, -half.y, 0, 1},
                                    {half.x, half.y, 0, 1},
                                    {-half.x, half.y, 0, 1}};
-      for (int i = 0; i < 4; i++) {
+      for (int i = 0; i < 4; i++)
+      {
         glm::vec4 cp = mvp * localCorners[i];
         glm::vec3 ndc = glm::vec3(cp.x / cp.w, cp.y / cp.w, cp.z / cp.w);
         screenOutline[i] = {(ndc.x + 1.0f) * 0.5f * renderW,
@@ -238,7 +285,8 @@ void EditorApp::renderViewport() {
 
       SDL_SetRenderDrawColor(m_Renderer, 0, 255, 0, 255);
 
-      if (m_SelectedEntity->hasComponent<Engine::BoxColliderComponent>()) {
+      if (m_SelectedEntity->hasComponent<Engine::BoxColliderComponent>())
+      {
         auto col =
             m_SelectedEntity->getComponent<Engine::BoxColliderComponent>();
         glm::vec2 half = col->size * 0.5f;
@@ -257,10 +305,12 @@ void EditorApp::renderViewport() {
             projectionMatrix * viewMatrix * modelMatrix * colLocalTransform;
 
         SDL_FPoint sCol[5];
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < 4; i++)
+        {
           glm::vec4 cp = fullColliderMVP * localCorners[i];
 
-          if (cp.w != 0.0f) {
+          if (cp.w != 0.0f)
+          {
             glm::vec3 ndc = glm::vec3(cp.x / cp.w, cp.y / cp.w, cp.z / cp.w);
             sCol[i] = {(ndc.x + 1.0f) * 0.5f * renderW,
                        (1.0f - ndc.y) * 0.5f * renderH};
@@ -270,12 +320,14 @@ void EditorApp::renderViewport() {
         SDL_RenderDrawLinesF(m_Renderer, sCol, 5);
       }
 
-      if (m_SelectedEntity->hasComponent<Engine::CircleColliderComponent>()) {
+      if (m_SelectedEntity->hasComponent<Engine::CircleColliderComponent>())
+      {
         auto col =
             m_SelectedEntity->getComponent<Engine::CircleColliderComponent>();
         const int segments = 32;
         SDL_FPoint sCol[segments + 1];
-        for (int i = 0; i <= segments; i++) {
+        for (int i = 0; i <= segments; i++)
+        {
           float theta = (2.0f * 3.14159f * (float)i) / (float)segments;
           glm::vec4 localPos = {col->offset.x + cosf(theta) * col->radius,
                                 col->offset.y + sinf(theta) * col->radius,
@@ -288,12 +340,15 @@ void EditorApp::renderViewport() {
         SDL_RenderDrawLinesF(m_Renderer, sCol, segments + 1);
       }
 
-      if (m_SelectedEntity->hasComponent<Engine::PolygonColliderComponent>()) {
+      if (m_SelectedEntity->hasComponent<Engine::PolygonColliderComponent>())
+      {
         auto col =
             m_SelectedEntity->getComponent<Engine::PolygonColliderComponent>();
-        if (!col->vertices.empty()) {
+        if (!col->vertices.empty())
+        {
           std::vector<SDL_FPoint> sCol;
-          for (const auto &v : col->vertices) {
+          for (const auto &v : col->vertices)
+          {
             glm::vec4 localPos = {v.x + col->offset.x, v.y + col->offset.y,
                                   0.01f, 1.0f};
             glm::vec4 cp = mvp * localPos;
@@ -312,7 +367,72 @@ void EditorApp::renderViewport() {
 
   ImGui::Image((ImTextureID)m_GameRenderTarget, viewportSize);
 
-  if (m_SceneState == SceneState::EDIT && m_SelectedEntity) {
+  if (m_SceneState == SceneState::EDIT && currentScene && ImGui::IsWindowHovered())
+  {
+    if (ImGui::IsMouseClicked(ImGuiMouseButton_Left) && !ImGuizmo::IsUsing())
+    {
+      ImVec2 mouse = ImGui::GetIO().MousePos;
+
+      if (mouse.x >= viewportPos.x && mouse.x <= viewportPos.x + viewportSize.x &&
+          mouse.y >= viewportPos.y && mouse.y <= viewportPos.y + viewportSize.y)
+      {
+        float ndcX = ((mouse.x - viewportPos.x) / viewportSize.x) * 2.0f - 1.0f;
+        float ndcY = 1.0f - ((mouse.y - viewportPos.y) / viewportSize.y) * 2.0f;
+
+        glm::vec4 clipPos = {ndcX, ndcY, 0.0f, 1.0f};
+
+        glm::mat4 invViewProj =
+            glm::inverse(s_EditorCamera.getProjectionMatrix() *
+                         s_EditorCamera.getViewMatrix());
+
+        glm::vec4 worldPos4 = invViewProj * clipPos;
+        if (worldPos4.w != 0.0f)
+          worldPos4 /= worldPos4.w;
+
+        glm::vec2 worldPoint = {worldPos4.x, worldPos4.y};
+
+        Engine::Entity *clickedEntity = nullptr;
+        int highestZ = -999999;
+
+        for (auto *entity : currentScene->getEntityRawPointers())
+        {
+          if (!entity->hasComponent<Engine::TransformComponent>())
+            continue;
+
+          if (!entity->hasComponent<Engine::SpriteComponent>())
+            continue;
+
+          auto *tr = entity->getComponent<Engine::TransformComponent>();
+          auto *sp = entity->getComponent<Engine::SpriteComponent>();
+
+          if (!sp->visible)
+            continue;
+
+          float halfW = sp->sourceRect.w * 0.5f * tr->scale.x;
+          float halfH = sp->sourceRect.h * 0.5f * tr->scale.y;
+
+          glm::vec2 pos = tr->position;
+
+          bool inside =
+              worldPoint.x >= pos.x - halfW &&
+              worldPoint.x <= pos.x + halfW &&
+              worldPoint.y >= pos.y - halfH &&
+              worldPoint.y <= pos.y + halfH;
+
+          if (inside && sp->zIndex >= highestZ)
+          {
+            highestZ = sp->zIndex;
+            clickedEntity = entity;
+          }
+        }
+
+        m_SelectedEntity = clickedEntity;
+      }
+    }
+  }
+
+  if (m_SceneState == SceneState::EDIT && m_SelectedEntity)
+  {
     ImGuizmo::SetOrthographic(true);
     ImGuizmo::SetDrawlist();
     ImGuizmo::SetRect(viewportPos.x, viewportPos.y, viewportSize.x,
@@ -323,14 +443,17 @@ void EditorApp::renderViewport() {
     glm::mat4 entityWorld = GetWorldMatrix(m_SelectedEntity);
     glm::mat4 mvp = projectionMatrix * viewMatrix * entityWorld;
 
-    if (g_EditColliderMode) {
+    if (g_EditColliderMode)
+    {
       if (g_EditColliderMode &&
-          m_SelectedEntity->hasComponent<Engine::PolygonColliderComponent>()) {
+          m_SelectedEntity->hasComponent<Engine::PolygonColliderComponent>())
+      {
         auto col =
             m_SelectedEntity->getComponent<Engine::PolygonColliderComponent>();
         ImDrawList *drawList = ImGui::GetWindowDrawList();
 
-        for (int i = 0; i < (int)col->vertices.size(); i++) {
+        for (int i = 0; i < (int)col->vertices.size(); i++)
+        {
           // 1. Calculate Screen Position for rendering handles
           glm::vec4 localPos =
               glm::vec4(col->vertices[i].x + col->offset.x,
@@ -354,13 +477,16 @@ void EditorApp::renderViewport() {
           bool isHovered = distSq < (handleRadius * handleRadius * 4.0f);
 
           if (isHovered && ImGui::IsMouseDown(0) &&
-              s_DraggingVertexIndex == -1) {
+              s_DraggingVertexIndex == -1)
+          {
             s_DraggingVertexIndex = i;
           }
 
           // 2. 1-to-1 Dragging Logic
-          if (s_DraggingVertexIndex == i) {
-            if (ImGui::IsMouseDown(0)) {
+          if (s_DraggingVertexIndex == i)
+          {
+            if (ImGui::IsMouseDown(0))
+            {
               // Convert Current Mouse Position to NDC (-1 to 1)
               float mouseNDC_X =
                   ((mousePos.x - viewportPos.x) / viewportSize.x) * 2.0f - 1.0f;
@@ -371,7 +497,8 @@ void EditorApp::renderViewport() {
               glm::vec4 mouseLocalPos =
                   glm::inverse(mvp) *
                   glm::vec4(mouseNDC_X, mouseNDC_Y, ndc.z, 1.0f);
-              if (mouseLocalPos.w != 0.0f) {
+              if (mouseLocalPos.w != 0.0f)
+              {
                 mouseLocalPos /= mouseLocalPos.w;
 
                 // Update vertex position (subtracting offset if component uses
@@ -381,7 +508,8 @@ void EditorApp::renderViewport() {
               }
             }
 
-            if (ImGui::IsMouseReleased(0)) {
+            if (ImGui::IsMouseReleased(0))
+            {
               s_DraggingVertexIndex = -1;
             }
           }
@@ -396,7 +524,8 @@ void EditorApp::renderViewport() {
                               IM_COL32(0, 0, 0, 255));
         }
       }
-      if (m_SelectedEntity->hasComponent<Engine::BoxColliderComponent>()) {
+      if (m_SelectedEntity->hasComponent<Engine::BoxColliderComponent>())
+      {
         auto col =
             m_SelectedEntity->getComponent<Engine::BoxColliderComponent>();
         glm::mat4 colMatrix =
@@ -408,7 +537,8 @@ void EditorApp::renderViewport() {
         if (ImGuizmo::Manipulate(glm::value_ptr(viewMatrix),
                                  glm::value_ptr(projectionMatrix),
                                  ImGuizmo::UNIVERSAL, ImGuizmo::LOCAL,
-                                 glm::value_ptr(colMatrix))) {
+                                 glm::value_ptr(colMatrix)))
+        {
           glm::mat4 rel = glm::inverse(entityWorld) * colMatrix;
           float t[3], r[3], s[3];
           ImGuizmo::DecomposeMatrixToComponents(glm::value_ptr(rel), t, r, s);
@@ -419,7 +549,8 @@ void EditorApp::renderViewport() {
       }
       // 2. Circle Collider (Universal Gizmo)
       else if (m_SelectedEntity
-                   ->hasComponent<Engine::CircleColliderComponent>()) {
+                   ->hasComponent<Engine::CircleColliderComponent>())
+      {
         auto col =
             m_SelectedEntity->getComponent<Engine::CircleColliderComponent>();
         glm::mat4 colMatrix =
@@ -430,7 +561,8 @@ void EditorApp::renderViewport() {
         if (ImGuizmo::Manipulate(glm::value_ptr(viewMatrix),
                                  glm::value_ptr(projectionMatrix),
                                  ImGuizmo::UNIVERSAL, ImGuizmo::LOCAL,
-                                 glm::value_ptr(colMatrix))) {
+                                 glm::value_ptr(colMatrix)))
+        {
           glm::mat4 rel = glm::inverse(entityWorld) * colMatrix;
           float t[3], r[3], s[3];
           ImGuizmo::DecomposeMatrixToComponents(glm::value_ptr(rel), t, r, s);
@@ -438,8 +570,9 @@ void EditorApp::renderViewport() {
           col->radius = (s[0] + s[1]) * 0.5f;
         }
       }
-
-    } else {
+    }
+    else
+    {
       // --- STANDARD TRANSFORM MODE ---
       ImGuizmo::OPERATION op = (currentOperation == GizmoOperation::ROTATE)
                                    ? ImGuizmo::ROTATE
@@ -448,7 +581,8 @@ void EditorApp::renderViewport() {
                                           : ImGuizmo::TRANSLATE);
       if (ImGuizmo::Manipulate(glm::value_ptr(viewMatrix),
                                glm::value_ptr(projectionMatrix), op,
-                               ImGuizmo::WORLD, glm::value_ptr(entityWorld))) {
+                               ImGuizmo::WORLD, glm::value_ptr(entityWorld)))
+      {
         auto tr = m_SelectedEntity->getComponent<Engine::TransformComponent>();
         glm::mat4 localMatrix =
             m_SelectedEntity->getParent()
@@ -466,14 +600,50 @@ void EditorApp::renderViewport() {
   }
 
   ImGui::SetCursorScreenPos(ImVec2(viewportPos.x + 10, viewportPos.y + 10));
-  if (m_SceneState == SceneState::EDIT) {
-    if (ImGui::Button(" ▶ Play "))
-      m_SceneState = SceneState::PLAY;
-  } else {
-    if (ImGui::Button(" ■ Stop "))
-      m_SceneState = SceneState::EDIT;
-  }
+  std::filesystem::path tempPath = m_currentProject->getPath() / "scenes" / "temp_runtime_snapshot.json";
+  std::filesystem::path tempPath2 = m_currentProject->getPath() / "scenes" / currentScene.get()->getName();
 
+  if (m_SceneState == SceneState::EDIT)
+  {
+    if (ImGui::Button(" ▶ Play "))
+    {
+      if (currentScene)
+      {
+        Engine::ProjectSerializer::saveScene(currentScene.get(), tempPath);
+        Engine::ProjectSerializer::saveScene(currentScene.get(), tempPath2);
+
+        m_SelectedEntity = nullptr;
+
+        m_SceneState = SceneState::PLAY;
+        Engine::Log::info("Runtime Started: Snapshot saved.");
+      }
+    }
+  }
+  else
+  {
+    if (ImGui::Button(" ■ Stop "))
+    {
+      bool success = Engine::ProjectSerializer::loadScene(
+          currentScene,
+          m_Renderer,
+          tempPath,
+          m_AssetManager.get(),
+          m_currentProject);
+
+      if (success)
+      {
+        std::filesystem::remove(tempPath);
+
+        m_SelectedEntity = nullptr;
+        m_SceneState = SceneState::EDIT;
+        Engine::Log::info("Runtime Stopped: Snapshot restored.");
+      }
+      else
+      {
+        Engine::Log::error("Failed to restore scene snapshot!");
+      }
+    }
+  }
   ImGui::End();
   ImGui::PopStyleVar();
 }

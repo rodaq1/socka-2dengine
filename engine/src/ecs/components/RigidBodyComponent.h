@@ -2,6 +2,7 @@
 
 #include "../Component.h"
 #include <glm/glm.hpp>
+#include <memory>
 
 namespace Engine {
     enum class BodyType { Static, Dynamic, Kinematic };
@@ -24,6 +25,10 @@ namespace Engine {
             if (bodyType == BodyType::Dynamic && mass > 0.0f) {
                 acceleration += force / mass;
             }
+        }
+        std::unique_ptr<Component> clone() const override
+        {
+            return std::make_unique<RigidBodyComponent>(*this);
         }
     };
 }

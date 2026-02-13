@@ -9,9 +9,11 @@
 
 namespace Engine{
 
+    class Project;
+
     class ScriptSystem : public System {
     public:
-        ScriptSystem();
+        ScriptSystem(Project* project);
         ~ScriptSystem();
 
         void onInit() override;

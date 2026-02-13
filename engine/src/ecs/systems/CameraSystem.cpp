@@ -17,7 +17,6 @@ void CameraSystem::updateCamera(Camera* mainCamera) {
     }
 
     for (auto entity : getSystemEntities()) {
-        // Find the primary camera entity
         auto cameraComp = entity->getComponent<CameraComponent>();
         if (cameraComp && cameraComp->isPrimary) {
             auto transform = entity->getComponent<TransformComponent>();
@@ -25,7 +24,7 @@ void CameraSystem::updateCamera(Camera* mainCamera) {
                 mainCamera->setPosition(transform->position);
                 mainCamera->setRotation(transform->rotation);
             }
-            break; // Assume only one primary camera
+            break; 
         }
     }
 }

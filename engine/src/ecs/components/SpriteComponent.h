@@ -6,6 +6,7 @@
 #include "SDL_render.h"
 #include "core/Log.h"
 #include <SDL2/SDL.h>
+#include <memory>
 #include <cmath>
 #include <string>
 
@@ -48,6 +49,10 @@ namespace Engine {
             }
             std::string debugMsg = "Sprite Created - ID: " + id + " zIndex: " + std::to_string(z);
             Log::info(debugMsg);
+        }
+        std::unique_ptr<Component> clone() const override
+        {
+            return std::make_unique<SpriteComponent>(*this);
         }
     };
 }

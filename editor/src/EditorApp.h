@@ -1,5 +1,5 @@
 #pragma once
-
+#define SDL_MAIN_HANDLED
 #include "imgui.h"
 #include <ImGuizmo.h>
 #include "core/AssetManager.h"
@@ -51,6 +51,7 @@ private:
   void renderConsole();
   void renderAssetManager();
   void renderBuildPopup();
+  void renderProjectSettingsPopup();
 
   void loadProjectAssets();
 
@@ -96,6 +97,7 @@ private:
   bool g_EditColliderMode = false;
   Engine::Project* m_currentProject = nullptr;
   ImGuizmo::OPERATION op;
+  bool m_RequestCloseProject = false;
 
   std::string activeScenePath = "";
 

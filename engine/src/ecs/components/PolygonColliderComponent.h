@@ -5,6 +5,7 @@
 #include "glm/ext/vector_float2.hpp"
 #include <cstdint>
 #include <functional>
+#include <memory>
 #include <vector>
 namespace Engine {
     class PolygonColliderComponent : public Component {
@@ -26,6 +27,10 @@ namespace Engine {
             vertices = {
                 {0.0f, -16.0f}, {16.0f, 16.0f}, {-16.0f, 16.0f}
             };
+        }
+        std::unique_ptr<Component> clone() const override
+        {
+            return std::make_unique<PolygonColliderComponent>(*this);
         }
 
         PolygonColliderComponent(const std::vector<glm::vec2>& vertices, glm::vec2 offset = {0.0f, 0.0f}, bool isTrigger = false)

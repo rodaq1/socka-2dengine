@@ -150,6 +150,24 @@
   "output": "engine/CMakeFiles/engine.dir/src/core/Camera.cpp.obj"
 },
 {
+  "directory": "C:/Users/opl90/Documents/socka/socka-2dengine/build/engine",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/engine.dir/includes_CXX.rsp -g -std=gnu++20 -Wa,-mbig-obj -o CMakeFiles\\engine.dir\\src\\core\\Font.cpp.obj -c C:\\Users\\opl90\\Documents\\socka\\socka-2dengine\\engine\\src\\core\\Font.cpp",
+  "file": "C:/Users/opl90/Documents/socka/socka-2dengine/engine/src/core/Font.cpp",
+  "output": "engine/CMakeFiles/engine.dir/src/core/Font.cpp.obj"
+},
+{
+  "directory": "C:/Users/opl90/Documents/socka/socka-2dengine/build/engine",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/engine.dir/includes_CXX.rsp -g -std=gnu++20 -Wa,-mbig-obj -o CMakeFiles\\engine.dir\\src\\core\\FontManager.cpp.obj -c C:\\Users\\opl90\\Documents\\socka\\socka-2dengine\\engine\\src\\core\\FontManager.cpp",
+  "file": "C:/Users/opl90/Documents/socka/socka-2dengine/engine/src/core/FontManager.cpp",
+  "output": "engine/CMakeFiles/engine.dir/src/core/FontManager.cpp.obj"
+},
+{
+  "directory": "C:/Users/opl90/Documents/socka/socka-2dengine/build/engine",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/engine.dir/includes_CXX.rsp -g -std=gnu++20 -Wa,-mbig-obj -o CMakeFiles\\engine.dir\\src\\ecs\\systems\\TextSystem.cpp.obj -c C:\\Users\\opl90\\Documents\\socka\\socka-2dengine\\engine\\src\\ecs\\systems\\TextSystem.cpp",
+  "file": "C:/Users/opl90/Documents/socka/socka-2dengine/engine/src/ecs/systems/TextSystem.cpp",
+  "output": "engine/CMakeFiles/engine.dir/src/ecs/systems/TextSystem.cpp.obj"
+},
+{
   "directory": "C:/Users/opl90/Documents/socka/socka-2dengine/build/editor",
   "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/imgui_backends.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\imgui_backends.dir\\__\\vendor\\imgui\\backends\\imgui_impl_sdl2.cpp.obj -c C:\\Users\\opl90\\Documents\\socka\\socka-2dengine\\vendor\\imgui\\backends\\imgui_impl_sdl2.cpp",
   "file": "C:/Users/opl90/Documents/socka/socka-2dengine/vendor/imgui/backends/imgui_impl_sdl2.cpp",

@@ -3,6 +3,7 @@
 #include "../Component.h"
 #include <string>
 #include <sol/sol.hpp>
+#include <memory>
 
 namespace Engine {
 
@@ -14,5 +15,9 @@ namespace Engine {
         sol::environment env;
 
         ScriptComponent(const std::string& path = "") : scriptPath(path) {}
+        std::unique_ptr<Component> clone() const override
+        {
+            return std::make_unique<ScriptComponent>(*this);
+        }
     };
 }

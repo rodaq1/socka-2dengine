@@ -8,6 +8,7 @@
 #include "SDL_render.h"
 #include "entt/entt.hpp"
 #include "core/Camera.h"
+#include "core/Project.h"
 
 namespace Engine {
 
@@ -49,7 +50,7 @@ public:
 
     void init();
     void update(float dt);
-    void render(SDL_Renderer* renderer, Camera& camera, float renderW, float renderH);
+    void render(SDL_Renderer* renderer, Camera& camera, float renderW, float renderH, Project* project, float dt);
     void shutdown();
 
     Entity* createEntity(const std::string& name = "New entity");
@@ -81,15 +82,19 @@ public:
         return ptrs;
     }
 
-    template <typename TSystem> 
-    TSystem* addSystem() {
+    template <typename TSystem, typename... TArgs>
+    TSystem* addSystem(TArgs&&... args) {
         if (hasSystem<TSystem>()) {
             return getSystem<TSystem>();
         }
-        auto newSystem = std::make_unique<TSystem>();
+
+        auto newSystem = std::make_unique<TSystem>(std::forward<TArgs>(args)...);
+        
         TSystem* rawPtr = newSystem.get();
         m_Systems[std::type_index(typeid(TSystem))] = std::move(newSystem);
+        
         checkAllEntitySubscriptions(rawPtr);
+        
         return rawPtr;
     }
 

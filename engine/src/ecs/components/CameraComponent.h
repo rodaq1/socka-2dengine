@@ -1,4 +1,5 @@
 #pragma once
+#include <memory>
 
 #include "../Component.h"
 
@@ -13,8 +14,11 @@ namespace Engine {
     public:
         CameraComponent() = default;
 
-        // If true, this will be considered the main camera for the scene.
-        bool isPrimary = true;
+        bool isPrimary = false;
+        std::unique_ptr<Component> clone() const override
+        {
+            return std::make_unique<CameraComponent>(*this);
+        }
     };
 
-} // namespace Engine
+} 

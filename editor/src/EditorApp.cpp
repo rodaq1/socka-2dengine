@@ -1,6 +1,7 @@
 #include "EditorApp.h"
 #include "SDL_events.h"
 #include "SDL_render.h"
+#include <SDL2/SDL_ttf.h>
 #include "core/Input.h"
 #include "core/Log.h"
 #include "core/ProjectSerializer.h"
@@ -8,6 +9,7 @@
 #include "ecs/Entity.h"
 #include "ecs/components/SpriteComponent.h"
 #include "ecs/components/TransformComponent.h"
+#include "ecs/systems/ScriptSystem.h"
 #include "scene/Scene.h"
 #include "ui/Console.h"
 #include "ui/Global.h"
@@ -19,6 +21,7 @@
 #include <filesystem>
 #include <future>
 #include <imgui.h>
+#include <imgui_internal.h>
 #include <imgui_impl_sdl2.h>
 #include <imgui_impl_sdlrenderer2.h>
 #include <stdexcept>
@@ -72,9 +75,13 @@ void EditorApp::setupBaseWindow()
   {
     throw std::runtime_error("Failed to initialize SDL");
   }
+  if (TTF_Init() == -1)
+  {
+    throw std::runtime_error(std::string("Failed to initialize SDL_ttf: ") + TTF_GetError());
+  }
 
   m_Window = SDL_CreateWindow("Solidarity Engine", SDL_WINDOWPOS_CENTERED,
-                              SDL_WINDOWPOS_CENTERED, 1920, 1080,
+                              SDL_WINDOWPOS_CENTERED, 1280, 920,
                               SDL_WINDOW_RESIZABLE | SDL_WINDOW_ALLOW_HIGHDPI);
 
   m_Renderer =
@@ -112,7 +119,6 @@ void EditorApp::setupBaseWindow()
                 break;
         }
         
-        // Route the engine message to our UI Console
         Console::addLog(msg, color); });
 }
 
@@ -125,14 +131,11 @@ void EditorApp::setActiveScene(const std::string &scenePath)
     auto &config = m_currentProject->getConfig();
 
     std::filesystem::path p(scenePath);
-    config.lastActiveScene = p.filename().string();
-
+    m_currentProject->getRuntime().lastActiveScene = p.filename().string();
     Engine::ProjectSerializer::saveProjectFile(
         m_currentProject, m_currentProject->getProjectFilePath());
   }
 }
-
-// ... inside EditorApp::initialize() ...
 
 void EditorApp::initialize()
 {
@@ -142,7 +145,7 @@ void EditorApp::initialize()
     return;
   }
 
-  Engine::ProjectConfig& config = m_currentProject->getConfig();
+  Engine::ProjectConfig &config = m_currentProject->getConfig();
 
   m_GameRenderTarget = SDL_CreateTexture(m_Renderer, SDL_PIXELFORMAT_RGBA8888,
                                          SDL_TEXTUREACCESS_TARGET, 1280, 720);
@@ -150,12 +153,13 @@ void EditorApp::initialize()
   m_AssetManager->init(m_Renderer);
   m_AssetManager->clearInstanceAssets();
 
-  std::string sceneToLoad = config.lastActiveScene.empty()
-                               ? config.startScenePath
-                               : config.lastActiveScene;
+  std::string sceneToLoad = m_currentProject->getRuntime().lastActiveScene.empty()
+                                ? config.startScenePath
+                                : m_currentProject->getRuntime().lastActiveScene;
 
-  if (sceneToLoad.empty()) {
-      sceneToLoad = "main.json";
+  if (sceneToLoad.empty())
+  {
+    sceneToLoad = "main.json";
   }
 
   std::filesystem::path fullScenePath;
@@ -174,7 +178,7 @@ void EditorApp::initialize()
   if (std::filesystem::exists(fullScenePath))
   {
     loadSuccess = Engine::ProjectSerializer::loadScene(currentScene, m_Renderer,
-                                                       fullScenePath.string(), m_AssetManager.get());
+                                                       fullScenePath.string(), m_AssetManager.get(), m_currentProject);
   }
 
   if (loadSuccess && currentScene)
@@ -234,6 +238,10 @@ void EditorApp::run()
     }
     else if (m_AppState == AppState::EDITOR)
     {
+      if (!currentScene->hasSystem<Engine::ScriptSystem>())
+      {
+        currentScene->addSystem<Engine::ScriptSystem>(m_currentProject);
+      }
       if (m_EntityToDelete)
       {
         if (m_SelectedEntity == m_EntityToDelete)
@@ -248,6 +256,28 @@ void EditorApp::run()
       {
         currentScene->destroyEntity(m_EntityToDelete);
         m_EntityToDelete = nullptr;
+      }
+      if (m_RequestCloseProject)
+      {
+        m_RequestCloseProject = false;
+
+        m_SelectedEntity = nullptr;
+
+        if (currentScene)
+        {
+          currentScene->shutdown();
+          currentScene.reset();
+        }
+
+        m_AppState = AppState::BROWSER;
+
+        Engine::Log::info("Returned to Project Browser.");
+      }
+      if (m_currentProject->m_SceneLoadRequested)
+      {
+        std::filesystem::path sceneToLoadPath = m_currentProject->getPath() / "scenes" / (m_currentProject->m_PendingSceneName + ".json");
+        Engine::ProjectSerializer::loadScene(currentScene, m_Renderer, m_currentProject->m_PendingSceneName, m_AssetManager.get(), m_currentProject);
+        m_currentProject->m_SceneLoadRequested = false;
       }
     }
   }
@@ -349,7 +379,34 @@ void EditorApp::render()
   ImGuizmo::BeginFrame();
 
   ImGuiViewport *viewport = ImGui::GetMainViewport();
-  ImGui::DockSpaceOverViewport(viewport->ID);
+  ImGuiID dockspace_id = viewport->ID;
+
+  static bool first_time = true;
+  if (first_time)
+  {
+    if (ImGui::DockBuilderGetNode(dockspace_id) == NULL)
+    {
+      ImGui::DockBuilderRemoveNode(dockspace_id);
+      ImGui::DockBuilderAddNode(dockspace_id, ImGuiDockNodeFlags_DockSpace);
+      ImGui::DockBuilderSetNodeSize(dockspace_id, viewport->Size);
+
+      ImGuiID dock_main_id = dockspace_id;
+      ImGuiID dock_id_left = ImGui::DockBuilderSplitNode(dock_main_id, ImGuiDir_Left, 0.2f, nullptr, &dock_main_id);
+      ImGuiID dock_id_right = ImGui::DockBuilderSplitNode(dock_main_id, ImGuiDir_Right, 0.25f, nullptr, &dock_main_id);
+      ImGuiID dock_id_down = ImGui::DockBuilderSplitNode(dock_main_id, ImGuiDir_Down, 0.3f, nullptr, &dock_main_id);
+
+      ImGui::DockBuilderDockWindow("Hierarchy", dock_id_left);
+      ImGui::DockBuilderDockWindow("Inspector", dock_id_right);
+      ImGui::DockBuilderDockWindow("Console", dock_id_down);
+      ImGui::DockBuilderDockWindow("Asset Manager", dock_id_down);
+      ImGui::DockBuilderDockWindow("Viewport", dock_main_id);
+
+      ImGui::DockBuilderFinish(dockspace_id);
+    }
+    first_time = false;
+  }
+
+  ImGui::DockSpaceOverViewport(dockspace_id);
 
   renderMenuBar();
 

@@ -4,16 +4,21 @@
 #include <vector>
 #include <filesystem>
 
-
 namespace Engine {
+
+    class Scene; 
+    
     struct ProjectConfig {
         std::string name = "New Project";
         std::string assetDirectory = "assets";
-        std::string startScenePath = "scenes/main.json";
+        std::string startScenePath;
         std::string engineVersion = "1.0.0";
-        std::string lastActiveScene;
         int width = 1280;
         int height = 720;
+    };
+
+    struct ProjectRuntimeState {
+        std::string lastActiveScene;
     };
 
     class Project {
@@ -21,43 +26,61 @@ namespace Engine {
         static const std::string Extension;
 
         ProjectConfig config;
+        ProjectRuntimeState runtime;
         std::filesystem::path projectPath;
+
+        std::string m_PendingSceneName;
+        bool m_SceneLoadRequested = false;
+
+        Scene* activeScene;
+        
+        bool isLoaded = false; 
 
         Project() = default;
 
-        std::string getProjectName() const {return config.name;}
-        std::filesystem::path getAssetPath() const {return projectPath / config.assetDirectory;}
-        std::filesystem::path getPath() const {return projectPath;}
+        std::string getProjectName() const { return config.name; }
+        std::filesystem::path getAssetPath() const { return projectPath / config.assetDirectory; }
+        std::filesystem::path getPath() const { return projectPath; }
+
+        Scene* getActiveScene() {
+            return activeScene;
+        }
+        void setActiveScene(Scene* scene) {
+            activeScene = scene;
+        }
+
+        void requestSceneLoad(const std::string& name) {
+            m_PendingSceneName = name;
+            m_SceneLoadRequested = true;
+        }
+
         std::string getProjectFileName() const {
             return config.name + ".eproj";
         }
 
         std::string getProjectFilePath() const {
-            std::filesystem::path fullPath = projectPath / getProjectFileName();
-            return fullPath.string();
+            return (projectPath / getProjectFileName()).string();
         }
-        ProjectConfig& getConfig() { return config; }
 
+        ProjectConfig& getConfig() { return config; }
+        ProjectRuntimeState& getRuntime() { return runtime; }
+
+        /**
+         * @brief Updates the config. 
+         * IMPORTANT: Only call this from the Serializer after successfully reading from disk.
+         */
+        void setConfig(const ProjectConfig& conf) {
+            config = conf;
+            isLoaded = true; // Mark as valid/hydrated
+        }
 
         void setName(const std::string& name) {
             config.name = name;
         }
 
-        void setConfig(ProjectConfig conf) {
-            conf = config;
-        }
-
-        /**
-         * @brief Sets the absolute file path to the project file (.eproj).
-         * @param path The filesystem path as a string.
-         */
         void setPath(const std::string& path) {
             projectPath = path;
         }
-
-
-
-
     };
 
     inline const std::string Project::Extension = ".eproj";

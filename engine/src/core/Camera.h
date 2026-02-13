@@ -36,10 +36,9 @@ private:
 private:
     // Transform
     glm::vec2 m_Position = { 0.0f, 0.0f };
-    float m_Rotation = 0.0f; // In degrees
+    float m_Rotation = 0.0f; 
 
-    // Orthographic projection properties
-    float m_OrthographicSize = 10.0f; // Corresponds to vertical size in world units
+    float m_OrthographicSize = 100.0f; 
     float m_AspectRatio = 1.778f;
     float m_NearClip = -1.0f;
     float m_FarClip = 1.0f;

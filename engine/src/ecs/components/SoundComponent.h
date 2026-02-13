@@ -3,6 +3,7 @@
 #include "ecs/Component.h"
 #include <string>
 #include <SDL_mixer.h>
+#include <memory>
 
 namespace Engine {
     class SoundComponent : public Component {
@@ -26,6 +27,10 @@ namespace Engine {
                 channel = -1;
                 isPlaying = false;
             }
+        }
+        std::unique_ptr<Component> clone() const override
+        {
+            return std::make_unique<SoundComponent>(*this);
         }
     };
 }

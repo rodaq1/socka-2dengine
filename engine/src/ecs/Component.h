@@ -1,6 +1,6 @@
 #pragma once
 //toto je iba definicia componentu, implementacia funkcii bude robena v derived classach.
-
+#include <memory>
 
 namespace Engine {
 
@@ -18,6 +18,8 @@ namespace Engine {
         virtual void onUpdate(float dt) {};
         virtual void onRender() {};
         virtual void onShutdown() {};
+
+        virtual std::unique_ptr<Component> clone() const = 0;
 
         //link back to the owner entity
         Entity* owner = nullptr;

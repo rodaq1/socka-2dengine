@@ -30,14 +30,14 @@ void InputSystem::onUpdate(float dt) {
         for (const auto &binding : controller->mappings) {
           if (Input::isKeyDown(binding.scancode)) {
             if (binding.actionName == "MoveUp") {
-              velocity->velocity.y = -speed;
-            } else if (binding.actionName == "MoveDown") {
               velocity->velocity.y = speed;
+            } else if (binding.actionName == "MoveDown") {
+              velocity->velocity.y = -speed;
             } else if (binding.actionName == "MoveLeft") {
               velocity->velocity.x = -speed;
             } else if (binding.actionName == "MoveRight") {
               velocity->velocity.x = speed;
-            } // precoded values. adding different ones through scripts
+            } 
           }
         }
 
@@ -53,14 +53,14 @@ void InputSystem::onUpdate(float dt) {
         for (const auto &binding : controller->mappings) {
           if (Input::isKeyDown(binding.scancode)) {
             if (binding.actionName == "MoveUp") {
-              dir.y -= 1.0f;
-            } else if (binding.actionName == "MoveDown") {
               dir.y += 1.0f;
+            } else if (binding.actionName == "MoveDown") {
+              dir.y -= 1.0f;
             } else if (binding.actionName == "MoveLeft") {
               dir.x -= 1.0f;
             } else if (binding.actionName == "MoveRight") {
               dir.x += 1.0f;
-            } // precoded values. adding different ones through scripts
+            } 
           }
         }
         float force = 50000.0f;

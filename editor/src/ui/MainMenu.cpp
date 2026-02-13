@@ -9,6 +9,8 @@
 #include <portable-file-dialogs.h>
 
 static bool showBuildPopupRequest = false;
+static bool showProjectSettingsRequest = false;
+
 void EditorApp::renderBuildPopup()
 {
   static char buildPath[512] = "";
@@ -98,7 +100,109 @@ void EditorApp::renderBuildPopup()
     ImGui::EndPopup();
   }
 }
+void EditorApp::renderProjectSettingsPopup()
+{
+  if (showProjectSettingsRequest)
+  {
+    ImGui::OpenPopup("Project Settings");
+    showProjectSettingsRequest = false;
+  }
 
+  ImVec2 center = ImGui::GetMainViewport()->GetCenter();
+  ImGui::SetNextWindowPos(center, ImGuiCond_Appearing, ImVec2(0.5f, 0.5f));
+
+  if (ImGui::BeginPopupModal("Project Settings", NULL, ImGuiWindowFlags_AlwaysAutoResize))
+  {
+    if (!m_currentProject)
+    {
+      ImGui::TextColored(ImVec4(1, 0, 0, 1), "No project currently loaded.");
+      if (ImGui::Button("Close"))
+        ImGui::CloseCurrentPopup();
+      ImGui::EndPopup();
+      return;
+    }
+
+    auto &config = m_currentProject->getConfig();
+    fs::path projectRoot = m_currentProject->getPath();
+
+    ImGui::Text("General Configuration");
+    ImGui::Separator();
+
+    // Project Name
+    char nameBuf[128];
+    strncpy(nameBuf, config.name.c_str(), sizeof(nameBuf));
+    if (ImGui::InputText("Project Name", nameBuf, sizeof(nameBuf)))
+    {
+      config.name = nameBuf;
+    }
+
+    ImGui::Spacing();
+    ImGui::Text("Startup Scene Selection");
+    ImGui::Separator();
+
+    // Scene Selection Logic
+    fs::path sceneDir = projectRoot / "scenes";
+    if (!fs::exists(sceneDir))
+      fs::create_directories(sceneDir);
+
+    if (ImGui::BeginChild("SceneSelector", ImVec2(400, 150), true))
+    {
+      for (auto &entry : fs::directory_iterator(sceneDir))
+      {
+        if (entry.path().extension() == ".json")
+        {
+          std::string relativePath = fs::relative(entry.path(), projectRoot).string();
+          std::string fileName = entry.path().filename().string();
+
+          bool isSelected = (config.startScenePath == relativePath);
+
+          if (isSelected)
+            ImGui::PushStyleColor(ImGuiCol_Text, ImVec4(0.4f, 1.0f, 0.4f, 1.0f));
+
+          if (ImGui::Selectable(fileName.c_str(), isSelected))
+          {
+            config.startScenePath = relativePath;
+          }
+
+          if (isSelected)
+            ImGui::PopStyleColor();
+
+          if (ImGui::IsItemHovered())
+          {
+            ImGui::SetTooltip("Path: %s", relativePath.c_str());
+          }
+        }
+      }
+      ImGui::EndChild();
+    }
+    ImGui::TextDisabled("Selected: %s", config.startScenePath.c_str());
+
+    ImGui::Spacing();
+    ImGui::Text("Window Resolution");
+    ImGui::Separator();
+    ImGui::DragInt("Width", &config.width, 1.0f, 640, 7680);
+    ImGui::DragInt("Height", &config.height, 1.0f, 360, 4320);
+
+    ImGui::Spacing();
+    ImGui::Separator();
+    ImGui::Spacing();
+
+    if (ImGui::Button("Save & Close", ImVec2(140, 0)))
+    {
+      Engine::ProjectSerializer::saveProjectFile(m_currentProject, m_currentProject->getProjectFilePath());
+      ImGui::CloseCurrentPopup();
+    }
+
+    ImGui::SameLine();
+
+    if (ImGui::Button("Cancel", ImVec2(140, 0)))
+    {
+      ImGui::CloseCurrentPopup();
+    }
+
+    ImGui::EndPopup();
+  }
+}
 void EditorApp::renderMenuBar()
 {
   if (ImGui::BeginMainMenuBar())
@@ -112,15 +216,6 @@ void EditorApp::renderMenuBar()
       }
 
       ImGui::Separator();
-
-      if (ImGui::MenuItem("New Scene", "Ctrl+N"))
-      {
-        currentScene = std::make_unique<Engine::Scene>("New Scene");
-        currentScene->setRenderer(m_Renderer);
-        currentScene->init();
-        m_SelectedEntity = nullptr;
-        Engine::Log::info("Created new scene.");
-      }
 
       if (ImGui::MenuItem("Open Scene...", "Ctrl+O"))
       {
@@ -143,7 +238,7 @@ void EditorApp::renderMenuBar()
         {
           m_SelectedEntity = nullptr;
           Engine::ProjectSerializer::loadScene(currentScene, m_Renderer,
-                                               selection[0], m_AssetManager.get());
+                                               selection[0], m_AssetManager.get(), m_currentProject);
           setActiveScene(selection[0]);
           activeScenePath = selection[0];
           Engine::Log::info("Scene loaded from: " + selection[0]);
@@ -151,7 +246,7 @@ void EditorApp::renderMenuBar()
           if (m_currentProject)
           {
             auto &config = m_currentProject->getConfig();
-            config.lastActiveScene =
+            m_currentProject->getRuntime().lastActiveScene =
                 std::filesystem::relative(selection[0],
                                           m_currentProject->getPath())
                     .string();
@@ -190,7 +285,7 @@ void EditorApp::renderMenuBar()
             Engine::ProjectSerializer::saveScene(currentScene.get(), activeScenePath);
 
             auto &config = m_currentProject->getConfig();
-            config.lastActiveScene = fs::relative(destination, m_currentProject->getPath()).string();
+            m_currentProject->getRuntime().lastActiveScene = fs::relative(destination, m_currentProject->getPath()).string();
 
             Engine::ProjectSerializer::saveProjectFile(m_currentProject, m_currentProject->getProjectFilePath());
 
@@ -211,11 +306,7 @@ void EditorApp::renderMenuBar()
 
       if (ImGui::MenuItem("Close Project"))
       {
-        m_AppState = AppState::BROWSER;
-        m_SelectedEntity = nullptr;
-        if (currentScene)
-          currentScene->shutdown();
-        Engine::Log::info("Returned to Project Browser.");
+        m_RequestCloseProject = true;
       }
 
       if (ImGui::MenuItem("Exit", "Alt+F4"))
@@ -228,11 +319,10 @@ void EditorApp::renderMenuBar()
 
     if (ImGui::BeginMenu("Edit"))
     {
-      if (ImGui::MenuItem("Undo", "Ctrl+Z", false, false))
+
+      if (ImGui::MenuItem("Project Settings...", nullptr, false, m_currentProject != nullptr))
       {
-      }
-      if (ImGui::MenuItem("Redo", "Ctrl+Y", false, false))
-      {
+        showProjectSettingsRequest = true;
       }
       ImGui::Separator();
       if (ImGui::MenuItem("Delete Entity", "Del", false,
@@ -264,4 +354,5 @@ void EditorApp::renderMenuBar()
     ImGui::EndMainMenuBar();
   }
   renderBuildPopup();
+  renderProjectSettingsPopup();
 }

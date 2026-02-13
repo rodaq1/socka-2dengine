@@ -11,7 +11,7 @@
 
 namespace Engine {
 
-    ScriptSystem::ScriptSystem() {
+    ScriptSystem::ScriptSystem(Project* project) {
         requireComponent<ScriptComponent>();
 
         m_Lua.open_libraries(
@@ -21,18 +21,15 @@ namespace Engine {
             sol::lib::string
         );
 
-        LuaBridge::Register(m_Lua);
+        LuaBridge::Register(m_Lua, project);
 
-        // FIX: Use a relative path that works in both development and export
-        std::string scriptPath = "assets/scripts";
 
-        // Only initialize the watcher if the directory actually exists
-        if (std::filesystem::exists(scriptPath)) {
-            m_ScriptWatcher = std::make_unique<FileWatcher>(scriptPath);
+        if (std::filesystem::exists(project->getAssetPath())) {
+            m_ScriptWatcher = std::make_unique<FileWatcher>((project->getAssetPath()).string());
             m_ScriptWatcher->init();
-            Log::info("Script watcher initialized for: " + scriptPath);
+            Log::info("Script watcher initialized for: " + (project->getAssetPath()).string());
         } else {
-            Log::warn("Script directory not found for watching: " + scriptPath + ". Hot-reloading disabled.");
+            Log::warn("Script directory not found for watching: " + (project->getAssetPath()).string() + ". Hot-reloading disabled.");
             m_ScriptWatcher = nullptr;
         }
     }
@@ -87,7 +84,6 @@ namespace Engine {
     }
 
     void ScriptSystem::onUpdate(float dt) {
-        // Only update watcher if it was successfully created (prevents crash in export)
         if (m_ScriptWatcher) {
             m_ScriptWatcher->update([this](std::string path, FileWatcher::FileStatus status) {
                 if (status == FileWatcher::FileStatus::MODIFIED) {

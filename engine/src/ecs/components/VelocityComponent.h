@@ -2,6 +2,7 @@
 
 #include "../Component.h"
 #include "glm/ext/vector_float2.hpp"
+#include <memory>
 #include <glm/glm.hpp>
 
 namespace Engine {
@@ -14,5 +15,9 @@ namespace Engine {
 
         VelocityComponent(glm::vec2 vel = {0.0f, 0.0f})
             : velocity(vel) {}
+            std::unique_ptr<Component> clone() const override
+        {
+            return std::make_unique<VelocityComponent>(*this);
+        }
     };
 }

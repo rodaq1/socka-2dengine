@@ -2,6 +2,8 @@
 #include "SDL_image.h"
 #include "core/Log.h"
 #include "FileSystem.h"
+#include "FontManager.h"
+#include "Project.h"
 
 namespace Engine {
 
@@ -22,12 +24,34 @@ void AssetManager::init(SDL_Renderer* renderer) {
 
 void AssetManager::loadTextureIfMissing(const std::string& assetId, const std::string& relativePath) {
     if (m_Textures.find(assetId) != m_Textures.end()) {
-        return; // Already loaded, skip to save performance
+        return; 
     }
     
-    // If the assetId is the same as the path, we use it for both
     std::string path = relativePath.empty() ? assetId : relativePath;
     loadTexture(assetId, path);
+}
+
+std::shared_ptr<Engine::Font> AssetManager::loadFontIfMissing(const std::string& assetId, const std::string& path, const int size, Project* project)
+{
+    auto it = m_Fonts.find(assetId);
+    if (it != m_Fonts.end())
+        return it->second;
+
+
+    auto font = FontManager::LoadFont(path, size, project);
+    
+    if (!font)
+    {
+        std::string sdlError = TTF_GetError();
+        
+        if (sdlError.empty()) {
+        }
+
+        return nullptr;
+    }
+
+    m_Fonts[assetId] = font;
+    return font;
 }
 
 void AssetManager::loadTexture(const std::string& assetId, const std::string& relativePath) {
@@ -36,11 +60,9 @@ void AssetManager::loadTexture(const std::string& assetId, const std::string& re
         return;
     }
 
-    // Resolve the project-relative path
     std::filesystem::path resolvedPath = FileSystem::getAbsolutePath(relativePath);
     std::string fullPath = resolvedPath.string();
 
-    // DIAGNOSTIC: Check if file physically exists before SDL touches it
     if (!std::filesystem::exists(resolvedPath)) {
         Log::error("AssetManager: PHYSICAL FILE MISSING at: " + fullPath);
         return;

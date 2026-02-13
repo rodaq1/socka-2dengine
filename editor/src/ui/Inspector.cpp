@@ -22,22 +22,67 @@
 #include "../EditorApp.h"
 #include "ecs/components/TransformComponent.h"
 #include "ecs/components/InheritanceComponent.h"
+#include "ecs/components/TextComponent.h"
 #include "imgui.h"
+#include "core/FontManager.h"
+
+#include <unordered_map>
+#include <vector>
+#include <string>
+#include <memory>
+#include <filesystem>
+#include <algorithm>
 
 void EditorApp::renderInspector()
 {
   ImGui::Begin("Inspector", &m_ShowInspector);
+  ImGui::SameLine(ImGui::GetWindowWidth() - 30.0f);
+
+  if (ImGui::SmallButton("?##InspectorInfo"))
+  {
+    ImGui::OpenPopup("InspectorInfoPopup");
+  }
+
+  ImGui::SetNextWindowSize(ImVec2(320.0f, 0.0f), ImGuiCond_Always);
+
+  if (ImGui::BeginPopup("InspectorInfoPopup"))
+  {
+    ImGui::PushTextWrapPos(ImGui::GetCursorPos().x + 300.0f);
+
+    ImGui::Text("Inspector Overview");
+    ImGui::Separator();
+    ImGui::Spacing();
+
+    ImGui::TextWrapped(
+        "The Inspector lets you edit the currently selected "
+        "entity or scene in real-time.");
+
+    ImGui::Spacing();
+    ImGui::BulletText("Modify components");
+    ImGui::BulletText("Adjust transforms");
+    ImGui::BulletText("Configure physics & rendering");
+    ImGui::BulletText("Manage scripts & input");
+
+    ImGui::Spacing();
+    ImGui::TextWrapped("All changes are applied immediately.");
+
+    ImGui::PopTextWrapPos();
+    ImGui::EndPopup();
+  }
   auto EndInspector = []()
   {
     ImGui::End();
   };
+
+  if (m_AppState != AppState::EDITOR || !m_currentProject || !currentScene)
+    return;
 
   if (m_SceneSelected && currentScene)
   {
     ImGui::TextColored(ImVec4(0.4f, 1.0f, 0.4f, 1.0f), "Scene Settings: %s", currentScene->getName().c_str());
     ImGui::Separator();
 
-    if (ImGui::CollapsingHeader("Background", ImGuiTreeNodeFlags_DefaultOpen))
+    if (ImGui::CollapsingHeader("Background"))
     {
       auto &bg = currentScene->getBackground();
 
@@ -80,13 +125,12 @@ void EditorApp::renderInspector()
       }
     }
 
-    // 2. MAIN CAMERA SETTINGS
-    if (ImGui::CollapsingHeader("Active Camera", ImGuiTreeNodeFlags_DefaultOpen))
+    if (ImGui::CollapsingHeader("Active Camera"))
     {
       auto *camera = currentScene->getSceneCamera();
       if (camera)
       {
-        // Position
+        // --- POSITION ---
         glm::vec2 camPos = camera->getPosition();
         if (ImGui::DragFloat2("Position", &camPos.x, 0.5f))
         {
@@ -95,21 +139,69 @@ void EditorApp::renderInspector()
 
         ImGui::Separator();
 
-        // Orthographic Size
+        // --- ORTHO SIZE (ZOOM) ---
         float size = camera->getOrthographicSize();
+
+        // Add a dropdown for common zoom levels
+        const char *sizeLabels[] = {"Custom", "Close (5.0)", "Standard (10.0)", "Wide (20.0)", "Massive (50.0)"};
+        float sizeValues[] = {size, 5.0f, 10.0f, 20.0f, 50.0f};
+        static int currentSizeIdx = 0; // Note: In a real app, logic to match current 'size' to an index is better
+
+        if (ImGui::Combo("Size Presets", &currentSizeIdx, sizeLabels, IM_ARRAYSIZE(sizeLabels)))
+        {
+          if (currentSizeIdx > 0)
+          {
+            size = sizeValues[currentSizeIdx];
+            camera->setOrthographicSize(size);
+          }
+        }
+
         if (ImGui::DragFloat("Ortho Size", &size, 0.1f, 0.1f, 2000.0f))
         {
           camera->setOrthographicSize(size);
+          currentSizeIdx = 0; // Set to 'Custom' if dragged manually
         }
 
-        // Aspect Ratio
+        ImGui::Separator();
+
+        // --- ASPECT RATIO ---
         float aspect = camera->getAspectRatio();
+
+        struct AspectPreset
+        {
+          const char *Name;
+          float Ratio;
+        };
+        static AspectPreset aspectPresets[] = {
+            {"Custom", 0.0f},
+            {"16:9 (Widescreen)", 16.0f / 9.0f},
+            {"21:9 (Ultrawide)", 21.0f / 9.0f},
+            {"4:3 (Classic)", 4.0f / 3.0f},
+            {"1:1 (Square)", 1.0f / 1.0f},
+            {"9:16 (Portrait)", 9.0f / 16.0f}};
+        static int currentAspectIdx = 0;
+
+        if (ImGui::Combo("Aspect Presets", &currentAspectIdx, [](void *data, int idx, const char **out_text)
+                         {
+            *out_text = aspectPresets[idx].Name;
+            return true; }, nullptr, IM_ARRAYSIZE(aspectPresets)))
+        {
+          if (currentAspectIdx > 0)
+          {
+            aspect = aspectPresets[currentAspectIdx].Ratio;
+            camera->setAspectRatio(aspect);
+          }
+        }
+
         if (ImGui::DragFloat("Aspect Ratio", &aspect, 0.01f, 0.1f, 10.0f))
         {
           camera->setAspectRatio(aspect);
+          currentAspectIdx = 0; // Set to 'Custom'
         }
 
-        // Clipping Planes
+        ImGui::Separator();
+
+        // --- CLIPPING PLANES ---
         float nearClip = camera->getNearClip();
         float farClip = camera->getFarClip();
 
@@ -122,12 +214,14 @@ void EditorApp::renderInspector()
           camera->setFarClip(farClip);
         }
 
-        // Quick Reset Button
-        if (ImGui::Button("Reset Camera"))
+        if (ImGui::Button("Reset Camera", ImVec2(ImGui::GetContentRegionAvail().x, 0)))
         {
           camera->setPosition({0.0f, 0.0f});
           camera->setRotation(0.0f);
           camera->setOrthographicSize(10.0f);
+          camera->setAspectRatio(16.0f / 9.0f);
+          currentSizeIdx = 2;   // Standard
+          currentAspectIdx = 1; // 16:9
         }
       }
       else
@@ -136,17 +230,16 @@ void EditorApp::renderInspector()
       }
     }
 
-    EndInspector(); // Properly close the window
+    EndInspector();
     return;
   }
 
   if (!m_SelectedEntity)
   {
     ImGui::TextDisabled("No entity or scene selected.");
-    EndInspector(); // Properly close the window
+    EndInspector();
     return;
   }
-  // Entity Name Editing
   char nameBuffer[256];
   strncpy(nameBuffer, m_SelectedEntity->getName().c_str(), sizeof(nameBuffer));
   if (ImGui::InputText("##EntityName", nameBuffer, sizeof(nameBuffer)))
@@ -154,7 +247,6 @@ void EditorApp::renderInspector()
     m_SelectedEntity->setName(nameBuffer);
   }
 
-  // Display Parent Info
   if (auto *parent = m_SelectedEntity->getParent())
   {
     ImGui::SameLine();
@@ -165,11 +257,11 @@ void EditorApp::renderInspector()
 
   if (m_SelectedEntity->hasComponent<Engine::TransformComponent>())
   {
-    if (ImGui::CollapsingHeader("Transform", ImGuiTreeNodeFlags_DefaultOpen))
+    if (ImGui::CollapsingHeader("Transform"))
     {
+      ImGui::PushID("Transform");
       auto tr = m_SelectedEntity->getComponent<Engine::TransformComponent>();
 
-      // If there's a parent, the values in the component are LOCAL
       const char *posLabel = m_SelectedEntity->getParent() ? "Local Position" : "Position";
       const char *rotLabel = m_SelectedEntity->getParent() ? "Local Rotation" : "Rotation";
       const char *scaleLabel = m_SelectedEntity->getParent() ? "Local Scale" : "Scale";
@@ -192,6 +284,7 @@ void EditorApp::renderInspector()
         ImGui::DragFloat2("World Position (Read-Only)", &worldPos.x);
         ImGui::EndDisabled();
       }
+      ImGui::PopID();
     }
   }
 
@@ -199,8 +292,9 @@ void EditorApp::renderInspector()
   {
     auto sprite = m_SelectedEntity->getComponent<Engine::SpriteComponent>();
 
-    if (ImGui::CollapsingHeader("Sprite", ImGuiTreeNodeFlags_DefaultOpen))
+    if (ImGui::CollapsingHeader("Sprite"))
     {
+      ImGui::PushID("Sprite");
       if (ImGui::BeginPopupContextItem("SpriteContext"))
       {
         if (ImGui::MenuItem("Remove Sprite Component"))
@@ -326,14 +420,16 @@ void EditorApp::renderInspector()
       {
         m_SelectedEntity->removeComponent<Engine::SpriteComponent>();
       }
+      ImGui::PopID();
     }
   }
 
   if (m_SelectedEntity->hasComponent<Engine::AnimationComponent>())
   {
     auto anim = m_SelectedEntity->getComponent<Engine::AnimationComponent>();
-    if (ImGui::CollapsingHeader("Animation", ImGuiTreeNodeFlags_DefaultOpen))
+    if (ImGui::CollapsingHeader("Animation"))
     {
+      ImGui::PushID("Animation");
       if (ImGui::BeginPopupContextItem("AnimationContext"))
       {
         if (ImGui::MenuItem("Remove Animation Component"))
@@ -448,14 +544,16 @@ void EditorApp::renderInspector()
       {
         m_SelectedEntity->removeComponent<Engine::AnimationComponent>();
       }
+      ImGui::PopID();
     }
   }
 
   if (m_SelectedEntity->hasComponent<Engine::ScriptComponent>())
   {
     auto script = m_SelectedEntity->getComponent<Engine::ScriptComponent>();
-    if (ImGui::CollapsingHeader("Script", ImGuiTreeNodeFlags_DefaultOpen))
+    if (ImGui::CollapsingHeader("Script"))
     {
+      ImGui::PushID("Script");
       if (ImGui::BeginPopupContextItem("ScriptContext"))
       {
         if (ImGui::MenuItem("Remove Script Component"))
@@ -465,17 +563,40 @@ void EditorApp::renderInspector()
         ImGui::EndPopup();
       }
 
-      ImGui::Text("Script Path:");
+      ImGui::Text("Script:");
+      std::string filename = std::filesystem::path(script->scriptPath).filename().string();
       char pathBuf[512];
-      strncpy(pathBuf, script->scriptPath.c_str(), sizeof(pathBuf));
+      strncpy(pathBuf, filename.c_str(), sizeof(pathBuf));
+      pathBuf[sizeof(pathBuf) - 1] = '\0';
 
       ImGui::PushItemWidth(-1);
-      if (ImGui::InputText("##ScriptPath", pathBuf, sizeof(pathBuf)))
+      if (ImGui::InputText("##ScriptName", pathBuf, sizeof(pathBuf)))
       {
-        script->scriptPath = pathBuf;
+        std::filesystem::path fullPath(script->scriptPath);
+        fullPath = fullPath.parent_path() / pathBuf;
+        script->scriptPath = fullPath.string();
         script->isInitialized = false;
       }
       ImGui::PopItemWidth();
+
+      if (ImGui::BeginDragDropTarget())
+      {
+        if (const ImGuiPayload *payload = ImGui::AcceptDragDropPayload("ASSET_ID"))
+        {
+          const char *assetPath = (const char *)payload->Data;
+          std::string droppedPath(assetPath);
+
+          // Only accept Lua scripts
+          if (std::filesystem::path(droppedPath).extension() == ".lua")
+          {
+            script->isInitialized = false;
+            script->scriptPath = (m_currentProject->getAssetPath() / droppedPath).string();
+            currentScene->getSystem<Engine::ScriptSystem>()
+                ->reloadScript(script->scriptPath);
+          }
+        }
+        ImGui::EndDragDropTarget();
+      }
 
       ImGui::Text("Status: ");
       ImGui::SameLine();
@@ -500,15 +621,16 @@ void EditorApp::renderInspector()
       {
         m_SelectedEntity->removeComponent<Engine::ScriptComponent>();
       }
+      ImGui::PopID();
     }
   }
 
   if (m_SelectedEntity->hasComponent<Engine::SoundComponent>())
   {
     auto *audio = m_SelectedEntity->getComponent<Engine::SoundComponent>();
-    if (ImGui::CollapsingHeader("Audio Source", ImGuiTreeNodeFlags_DefaultOpen))
+    if (ImGui::CollapsingHeader("Audio Source"))
     {
-
+      ImGui::PushID("Sound");
       if (ImGui::BeginPopupContextItem("AudioContext"))
       {
         if (ImGui::MenuItem("Remove Audio Component"))
@@ -620,13 +742,125 @@ void EditorApp::renderInspector()
       {
         m_SelectedEntity->removeComponent<Engine::SoundComponent>();
       }
+      ImGui::PopID();
     }
   }
+  if (m_SelectedEntity->hasComponent<Engine::TextComponent>())
+  {
+    auto textComp = m_SelectedEntity->getComponent<Engine::TextComponent>();
 
+    if (ImGui::CollapsingHeader("Text Component"))
+    {
+      ImGui::PushID("Text");
+      // --- Text Content ---
+      char textBuffer[512];
+      strncpy(textBuffer, textComp->text.c_str(), sizeof(textBuffer));
+      if (ImGui::InputTextMultiline("Text", textBuffer, sizeof(textBuffer)))
+      {
+        textComp->text = textBuffer;
+        textComp->dirty = true;
+      }
+
+      // --- Font Path / Font Combo ---
+      std::vector<std::string> fontList = m_AssetManager->getAllFontAssetIds();
+      int currentFontIndex = -1;
+      for (int i = 0; i < fontList.size(); ++i)
+        if (fontList[i] == textComp->fontPath)
+          currentFontIndex = i;
+
+      const char *comboLabel = (currentFontIndex >= 0) ? fontList[currentFontIndex].c_str() : "None";
+      if (ImGui::BeginCombo("Font", comboLabel))
+      {
+        if (ImGui::Selectable("None", currentFontIndex == -1))
+        {
+          textComp->fontPath.clear();
+          textComp->font = nullptr;
+          textComp->dirty = true;
+          currentFontIndex = -1;
+        }
+
+        for (int i = 0; i < fontList.size(); ++i)
+        {
+          bool isSelected = (currentFontIndex == i);
+          if (ImGui::Selectable(fontList[i].c_str(), isSelected))
+          {
+            textComp->fontPath = fontList[i];
+            textComp->font = m_AssetManager->getFont(fontList[i]);
+            textComp->dirty = true;
+            currentFontIndex = i;
+          }
+          if (isSelected)
+            ImGui::SetItemDefaultFocus();
+        }
+        ImGui::EndCombo();
+      }
+
+      int fontSize = textComp->fontSize;
+      if (ImGui::DragInt("Font Size", &fontSize, 1, 1, 512))
+      {
+        if (fontSize != textComp->fontSize)
+        {
+          textComp->fontSize = fontSize;
+
+          if (!textComp->fontPath.empty())
+          {
+            m_AssetManager->removeFont(textComp->fontPath);
+            auto newFont = m_AssetManager->loadFontIfMissing(textComp->fontPath, textComp->fontPath, textComp->fontSize, m_currentProject);
+            if (newFont)
+            {
+              textComp->font = newFont;
+              textComp->dirty = true;
+            }
+            else
+            {
+              Engine::Log::error(("TextInspector: Failed to load font '" + textComp->fontPath +
+                                  "' with size " + std::to_string(textComp->fontSize)));
+            }
+          }
+        }
+      }
+
+      float color[4] = {
+          textComp->color.r / 255.0f,
+          textComp->color.g / 255.0f,
+          textComp->color.b / 255.0f,
+          textComp->color.a / 255.0f};
+      if (ImGui::ColorEdit4("Color", color))
+      {
+        Uint8 r = static_cast<Uint8>(color[0] * 255);
+        Uint8 g = static_cast<Uint8>(color[1] * 255);
+        Uint8 b = static_cast<Uint8>(color[2] * 255);
+        Uint8 a = static_cast<Uint8>(color[3] * 255);
+
+        if (r != textComp->color.r || g != textComp->color.g || b != textComp->color.b || a != textComp->color.a)
+        {
+          textComp->color = {r, g, b, a};
+          textComp->dirty = true;
+        }
+      }
+      // --- Fixed Position ---
+      if (ImGui::Checkbox("Fixed On Screen", &textComp->isFixed))
+        textComp->dirty = true;
+
+      // --- Z Index ---
+      if (ImGui::DragInt("Z Index", &textComp->zIndex, 1))
+        textComp->dirty = true;
+
+      // --- Remove Component ---
+      if (ImGui::Button("Remove Text Component", ImVec2(-1, 0)))
+      {
+        m_SelectedEntity->removeComponent<Engine::TextComponent>();
+      }
+
+      ImGui::Separator();
+      ImGui::PopID();
+    }
+  }
   if (m_SelectedEntity->hasComponent<Engine::CameraComponent>())
   {
-    bool open = ImGui::CollapsingHeader("Camera", ImGuiTreeNodeFlags_DefaultOpen);
+    bool open = ImGui::CollapsingHeader("Camera");
 
+    ImGui::PushID("Camera");
     if (ImGui::BeginPopupContextItem("CameraContext"))
     {
       if (ImGui::MenuItem("Remove Camera Component"))
@@ -640,7 +874,7 @@ void EditorApp::renderInspector()
     {
       auto *cameraComponent = m_SelectedEntity->getComponent<Engine::CameraComponent>();
 
-      ImGui::Checkbox("Is Primary Camera", &cameraComponent->isPrimary);
+      ImGui::Checkbox("Active", &cameraComponent->isPrimary);
 
       ImGui::Separator();
 
@@ -681,13 +915,192 @@ void EditorApp::renderInspector()
         m_SelectedEntity->removeComponent<Engine::CameraComponent>();
       }
     }
+    ImGui::PopID();
+  }
+
+  if (m_SelectedEntity->hasComponent<Engine::InputControllerComponent>())
+  {
+    auto inputComp = m_SelectedEntity->getComponent<Engine::InputControllerComponent>();
+
+    if (ImGui::CollapsingHeader("Input Controller"))
+    {
+      ImGui::PushID("InputController");
+      if (ImGui::BeginPopupContextItem("InputControllerContext"))
+      {
+        if (ImGui::MenuItem("Remove Input Controller Component"))
+        {
+          m_SelectedEntity->removeComponent<Engine::InputControllerComponent>();
+        }
+        ImGui::EndPopup();
+      }
+
+      // --- Parameters ---
+      ImGui::Text("Parameters");
+      ImGui::Separator();
+
+      // Optional: sort parameters alphabetically
+      std::vector<std::pair<std::string, float *>> sortedParams;
+      for (auto &[name, value] : inputComp->parameters)
+      {
+        sortedParams.emplace_back(name, &value);
+      }
+      std::sort(sortedParams.begin(), sortedParams.end(),
+                [](auto &a, auto &b)
+                { return a.first < b.first; });
+
+      // Table layout
+      if (ImGui::BeginTable("ParamsTable", 3, ImGuiTableFlags_RowBg | ImGuiTableFlags_BordersInnerV))
+      {
+        ImGui::TableSetupColumn("Name");
+        ImGui::TableSetupColumn("Value");
+        ImGui::TableSetupColumn("##Actions", ImGuiTableColumnFlags_WidthFixed, 60.0f);
+        ImGui::TableHeadersRow();
+
+        for (auto &[paramName, valuePtr] : sortedParams)
+        {
+          ImGui::TableNextRow();
+
+          ImGui::TableSetColumnIndex(0);
+          ImGui::Text("%s", paramName.c_str());
+
+          ImGui::TableSetColumnIndex(1);
+          ImGui::PushID(paramName.c_str());
+          ImGui::DragFloat("##Value", valuePtr, 0.1f);
+          ImGui::PopID();
+
+          ImGui::TableSetColumnIndex(2);
+          ImGui::PushID((paramName + "_del").c_str());
+          if (ImGui::Button("X"))
+          {
+            inputComp->parameters.erase(paramName);
+            ImGui::PopID();
+            break;
+          }
+          ImGui::PopID();
+        }
+
+        ImGui::EndTable();
+      }
+
+      ImGui::Spacing();
+      ImGui::Separator();
+      ImGui::Text("Add Parameter");
+
+      // Add new parameter section
+      static char newParamName[64] = "";
+      static float newParamValue = 0.0f;
+
+      ImGui::PushItemWidth(150);
+      ImGui::InputTextWithHint("##NewParamName", "Parameter Name", newParamName, sizeof(newParamName));
+      ImGui::SameLine();
+      ImGui::DragFloat("##NewParamValue", &newParamValue, 0.1f);
+      ImGui::SameLine();
+
+      bool canAdd = strlen(newParamName) > 0;
+
+      ImGui::BeginDisabled(!canAdd);
+      if (ImGui::Button("Add") || (canAdd && ImGui::IsKeyPressed(ImGuiKey_Enter)))
+      {
+        inputComp->addParameter(newParamName, newParamValue);
+        newParamName[0] = '\0';
+        newParamValue = 0.0f;
+        ImGui::SetKeyboardFocusHere(-1);
+      }
+      ImGui::EndDisabled();
+
+      ImGui::PopItemWidth();
+      ImGui::Separator();
+
+      // --- Action Mappings ---
+      ImGui::Text("Key Mappings:");
+      for (size_t i = 0; i < inputComp->mappings.size(); ++i)
+      {
+        auto &mapping = inputComp->mappings[i];
+
+        char buf[64];
+        strncpy(buf, mapping.actionName.c_str(), sizeof(buf));
+        if (ImGui::InputText(("Action##" + std::to_string(i)).c_str(), buf, sizeof(buf)))
+        {
+          mapping.actionName = buf;
+        }
+
+        const char *keyName = SDL_GetScancodeName(mapping.scancode);
+        if (strlen(keyName) == 0)
+          keyName = "Unknown";
+
+        if (ImGui::BeginCombo(("Key##" + std::to_string(i)).c_str(), keyName))
+        {
+          for (int k = 0; k < SDL_NUM_SCANCODES; k++)
+          {
+            const char *name = SDL_GetScancodeName((SDL_Scancode)k);
+            if (name && strlen(name) > 0)
+            {
+              if (ImGui::Selectable(name, mapping.scancode == (SDL_Scancode)k))
+                mapping.scancode = (SDL_Scancode)k;
+            }
+          }
+          ImGui::EndCombo();
+        }
+
+        ImGui::SameLine();
+        if (ImGui::Button(("X##" + std::to_string(i)).c_str()))
+        {
+          inputComp->mappings.erase(inputComp->mappings.begin() + i);
+          --i; // Adjust index after erase
+        }
+      }
+
+      // Add new mapping
+      static char newAction[64] = "";
+      static int newKey = SDL_SCANCODE_UNKNOWN;
+      ImGui::InputText("New Action", newAction, sizeof(newAction));
+
+      const char *newKeyName = SDL_GetScancodeName((SDL_Scancode)newKey);
+      if (strlen(newKeyName) == 0)
+        newKeyName = "Select Key";
+
+      if (ImGui::BeginCombo("New Key", newKeyName))
+      {
+        for (int k = 0; k < SDL_NUM_SCANCODES; k++)
+        {
+          const char *name = SDL_GetScancodeName((SDL_Scancode)k);
+          if (name && strlen(name) > 0)
+          {
+            if (ImGui::Selectable(name, newKey == k))
+              newKey = k;
+          }
+        }
+        ImGui::EndCombo();
+      }
+
+      if (ImGui::Button("Add Mapping"))
+      {
+        if (strlen(newAction) > 0 && newKey != SDL_SCANCODE_UNKNOWN)
+        {
+          inputComp->addMapping(newAction, static_cast<SDL_Scancode>(newKey));
+          newAction[0] = '\0';
+          newKey = SDL_SCANCODE_UNKNOWN;
+        }
+      }
+
+      ImGui::Separator();
+
+      ImGui::Checkbox("Override Default Settings", &inputComp->overrideDefaultSettings);
+
+      if (ImGui::Button("Remove Input Controller Component", ImVec2(-1, 0)))
+      {
+        m_SelectedEntity->removeComponent<Engine::InputControllerComponent>();
+      }
+      ImGui::PopID();
+    }
   }
 
   if (m_SelectedEntity->hasComponent<Engine::RigidBodyComponent>())
   {
     bool open =
-        ImGui::CollapsingHeader("Rigid Body", ImGuiTreeNodeFlags_DefaultOpen);
+        ImGui::CollapsingHeader("Rigid Body");
 
+    ImGui::PushID("RigidBody");
     if (ImGui::BeginPopupContextItem("RigidBodyContext"))
     {
       if (ImGui::MenuItem("Remove RigidBody Component"))
@@ -728,13 +1141,49 @@ void EditorApp::renderInspector()
         }
       }
     }
+    ImGui::PopID();
+  }
+
+  if (m_SelectedEntity->hasComponent<Engine::VelocityComponent>())
+  {
+    bool open = ImGui::CollapsingHeader("Velocity");
+
+    ImGui::PushID("Velocity");
+    if (ImGui::BeginPopupContextItem("VelocityContext"))
+    {
+      if (ImGui::MenuItem("Remove Velocity Component"))
+      {
+        m_SelectedEntity->removeComponent<Engine::VelocityComponent>();
+      }
+      ImGui::EndPopup();
+    }
+
+    if (open)
+    {
+      auto *vc = m_SelectedEntity->getComponent<Engine::VelocityComponent>();
+      if (vc)
+      {
+        ImGui::DragFloat2("Velocity", &vc->velocity.x, 0.1f);
+
+        if (ImGui::Button("Reset Velocity##Velocity", ImVec2(-1, 0)))
+          vc->velocity = {0.0f, 0.0f};
+
+        ImGui::Separator();
+        if (ImGui::Button("Remove Velocity Component##Velocity", ImVec2(-1, 0)))
+        {
+          m_SelectedEntity->removeComponent<Engine::VelocityComponent>();
+        }
+      }
+    }
+    ImGui::PopID();
   }
 
   if (m_SelectedEntity->hasComponent<Engine::BoxColliderComponent>())
   {
     bool open =
-        ImGui::CollapsingHeader("Box Collider", ImGuiTreeNodeFlags_DefaultOpen);
+        ImGui::CollapsingHeader("Box Collider");
 
+    ImGui::PushID("BoxCollider");
     if (ImGui::BeginPopupContextItem("BoxColliderContext"))
     {
       if (ImGui::MenuItem("Remove BoxCollider Component"))
@@ -805,12 +1254,13 @@ void EditorApp::renderInspector()
         }
       }
     }
+    ImGui::PopID();
   }
   if (m_SelectedEntity->hasComponent<Engine::CircleColliderComponent>())
   {
-    bool open = ImGui::CollapsingHeader("Circle Collider",
-                                        ImGuiTreeNodeFlags_DefaultOpen);
+    bool open = ImGui::CollapsingHeader("Circle Collider");
 
+    ImGui::PushID("CircleCollider");
     if (ImGui::BeginPopupContextItem("CircleColliderContext"))
     {
       if (ImGui::MenuItem("Remove CircleCollider Component"))
@@ -881,13 +1331,14 @@ void EditorApp::renderInspector()
         }
       }
     }
+    ImGui::PopID();
   }
 
   if (m_SelectedEntity->hasComponent<Engine::PolygonColliderComponent>())
   {
-    bool open = ImGui::CollapsingHeader("Polygon Collider",
-                                        ImGuiTreeNodeFlags_DefaultOpen);
+    bool open = ImGui::CollapsingHeader("Polygon Collider");
 
+    ImGui::PushID("PolygonCollider");
     if (ImGui::BeginPopupContextItem("PolygonColliderContext"))
     {
       if (ImGui::MenuItem("Remove PolygonCollider Component"))
@@ -981,6 +1432,7 @@ void EditorApp::renderInspector()
         }
       }
     }
+    ImGui::PopID();
   }
 
   ImGui::Spacing();
@@ -1037,6 +1489,12 @@ void EditorApp::renderInspector()
     if (ImGui::MenuItem("Sound"))
     {
       m_SelectedEntity->addComponent<Engine::SoundComponent>();
+    }
+    if (ImGui::MenuItem("Text"))
+    {
+      auto comp = m_SelectedEntity->addComponent<Engine::TextComponent>();
+      comp->dirty = true;
+      comp->fontPath = "assets/fonts/Default.ttf";
     }
     ImGui::EndPopup();
   }

@@ -4,6 +4,7 @@
 #include "glm/ext/vector_float2.hpp"
 #include <cstdint>
 #include <glm/glm.hpp>
+#include <memory>
 #include <sys/types.h>
 
 namespace Engine {
@@ -27,6 +28,11 @@ namespace Engine {
      */
     class BoxColliderComponent : public Component {
     public:
+
+        std::unique_ptr<Component> clone() const override
+        {
+            return std::make_unique<BoxColliderComponent>(*this);
+        }
         glm::vec2 size;
         glm::vec2 offset;
         float rotation;

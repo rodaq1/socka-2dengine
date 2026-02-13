@@ -7,6 +7,7 @@
 #include <cstdint>
 #include <functional>
 #include "BoxColliderComponent.h"
+#include <memory>
 
 namespace Engine {
 
@@ -40,7 +41,10 @@ namespace Engine {
 
         void setLayer(CollisionLayer l) { layer = l; }
         void setMask(uint32_t m) { mask = m; } 
-
+        std::unique_ptr<Component> clone() const override
+        {
+            return std::make_unique<CircleColliderComponent>(*this);
+        }
     };
 
 } // namespace Engine
